@@ -388,6 +388,19 @@ export default function OriginsPage() {
         </div>
       </section>
 
+      {/* ==================== I SEE YOU ==================== */}
+      <section className="py-28 px-6 bg-white">
+        <div className="max-w-xl mx-auto text-center">
+          <p className="text-5xl md:text-7xl font-light text-slate-800 tracking-wide mb-8">
+            "I see you."
+          </p>
+          <p className="text-slate-400 text-base leading-relaxed">
+            Two words. Rarely meant. Almost never fully delivered.<br />
+            That is what ReLoHu exists to offer.
+          </p>
+        </div>
+      </section>
+
       {/* ==================== CTA ==================== */}
       <section className="py-20 px-6 bg-slate-50">
         <div className="max-w-2xl mx-auto text-center">

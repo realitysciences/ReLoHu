@@ -839,6 +839,10 @@ function LandingContent() {
               <blockquote className="text-lg text-slate-600 italic">
                 {t('creator.quote')}
               </blockquote>
+
+              <p className="text-3xl font-light text-teal-600 mt-8 tracking-wide">
+                "I see you."
+              </p>
             </div>
           </div>
         </div>

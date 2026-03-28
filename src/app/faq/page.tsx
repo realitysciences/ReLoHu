@@ -40,6 +40,10 @@ const faqGroups = [
         a: 'Nothing. You don\'t need to prepare a summary of yourself, answer questions in advance, or know what you want to get out of it. The session works precisely because it doesn\'t ask you to come in pre-packaged. Just show up.',
       },
       {
+        q: 'Do I have to share everything?',
+        a: 'No. You share what feels right. The session has no agenda beyond listening to you — there are no right answers, no wrong topics, and no pressure to go anywhere you don\'t want to go. The map is built from what you bring. If something feels too private or too raw, you don\'t have to go there. Many people find that what they were hesitant to share ends up coming naturally — but that\'s always your call.',
+      },
+      {
         q: 'How long does it take to receive my Terrain Map after the session?',
         a: 'Terrain Map delivery is typically within 30 minutes of the session ending, in a dedicated delivery conversation.',
       },

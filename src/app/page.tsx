@@ -477,48 +477,6 @@ function LandingContent() {
         </div>
       </section>
 
-      {/* ==================== CREATOR SECTION ==================== */}
-      <section className="py-24 px-6 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Photo */}
-            <div className="flex justify-center md:justify-end">
-              <img
-                src="/david-photo.png"
-                alt="Dr. Gedalia - Creator of ReLoHu"
-                className="w-64 md:w-72 object-cover rounded-2xl"
-                style={{ aspectRatio: '4/5' }}
-              />
-            </div>
-
-            {/* Text */}
-            <div>
-              <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-                {t('creator.title')}
-              </Badge>
-              <h2 className="text-2xl md:text-3xl font-medium mb-2 text-slate-800">
-                {t('creator.headline')}
-              </h2>
-              <p className="text-teal-600 text-lg mb-6 font-medium">
-                {t('creator.subtitle')}
-              </p>
-
-              <div className="space-y-4 text-slate-600 leading-relaxed">
-                <p>{t('creator.text1')}</p>
-                <p>{t('creator.text2')}</p>
-                <p>{t('creator.text3')}</p>
-              </div>
-
-              <Separator className="my-6 bg-slate-100" />
-
-              <blockquote className="text-lg text-slate-600 italic">
-                {t('creator.quote')}
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ==================== PROCESS SECTION ==================== */}
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">
@@ -840,6 +798,48 @@ function LandingContent() {
             <div className="w-8 h-px bg-teal-300" />
             <p className="text-sm text-slate-500 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
+          </div>
+        </div>
+      </section>
+
+      {/* ==================== CREATOR SECTION ==================== */}
+      <section className="py-24 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Photo */}
+            <div className="flex justify-center md:justify-end">
+              <img
+                src="/david-photo.png"
+                alt="Dr. Gedalia - Creator of ReLoHu"
+                className="w-64 md:w-72 object-cover rounded-2xl"
+                style={{ aspectRatio: '4/5' }}
+              />
+            </div>
+
+            {/* Text */}
+            <div>
+              <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
+                {t('creator.title')}
+              </Badge>
+              <h2 className="text-2xl md:text-3xl font-medium mb-2 text-slate-800">
+                {t('creator.headline')}
+              </h2>
+              <p className="text-teal-600 text-lg mb-6 font-medium">
+                {t('creator.subtitle')}
+              </p>
+
+              <div className="space-y-4 text-slate-600 leading-relaxed">
+                <p>{t('creator.text1')}</p>
+                <p>{t('creator.text2')}</p>
+                <p>{t('creator.text3')}</p>
+              </div>
+
+              <Separator className="my-6 bg-slate-100" />
+
+              <blockquote className="text-lg text-slate-600 italic">
+                {t('creator.quote')}
+              </blockquote>
+            </div>
           </div>
         </div>
       </section>

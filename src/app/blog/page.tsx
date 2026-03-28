@@ -4,6 +4,14 @@ import Link from 'next/link'
 
 const posts = [
   {
+    slug: 'the-diagnosis-problem',
+    title: 'The Dentist Who Wanted to Separate the Diagnosis from the Drill',
+    excerpt: 'When the person who evaluates you also profits from what they find, the evaluation is compromised — whether they mean it to be or not. I believed this about dentistry for years. I eventually realized I believed it about nearly everything.',
+    tag: 'Human Systems',
+    date: 'March 2026',
+    readTime: '9 min read',
+  },
+  {
     slug: 'the-vipeholm-study',
     title: 'What Tooth Decay Taught a Dentist About the Human Interior',
     excerpt: 'The Vipeholm study revealed that damage accumulates invisibly, below the surface, long before anyone notices. The human interior works exactly the same way — and most psychological support never looks beneath the surface.',

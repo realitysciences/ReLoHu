@@ -4,6 +4,14 @@ import Link from 'next/link'
 
 const posts = [
   {
+    slug: 'the-vipeholm-study',
+    title: 'What Tooth Decay Taught a Dentist About the Human Interior',
+    excerpt: 'The Vipeholm study revealed that damage accumulates invisibly, below the surface, long before anyone notices. The human interior works exactly the same way — and most psychological support never looks beneath the surface.',
+    tag: 'Psychology',
+    date: 'March 2026',
+    readTime: '8 min read',
+  },
+  {
     slug: 'why-therapy-stalls',
     title: 'Why Therapy Stalls — And What Nobody Is Saying About It',
     excerpt: 'Most therapy failures are not failures of technique or commitment. They are failures of information. The practitioner is working with an incomplete picture of who you are.',

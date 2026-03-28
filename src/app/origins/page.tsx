@@ -37,7 +37,7 @@ export default function OriginsPage() {
             <img
               src="/david-photo.png"
               alt="Dr. Gedalia — Founder of ReLoHu"
-              className="w-48 md:w-56 object-cover rounded-2xl shadow-lg mb-6"
+              className="w-48 md:w-56 object-cover object-top rounded-2xl shadow-lg mb-6"
               style={{ aspectRatio: '4/5' }}
             />
             <Badge variant="outline" className="mb-3 px-4 py-1 border-slate-200 text-slate-500 text-xs tracking-widest bg-slate-50">

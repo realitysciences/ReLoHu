@@ -811,7 +811,7 @@ function LandingContent() {
               <img
                 src="/david-photo.png"
                 alt="Dr. Gedalia - Creator of ReLoHu"
-                className="w-64 md:w-72 object-cover rounded-2xl"
+                className="w-64 md:w-72 object-cover object-top rounded-2xl"
                 style={{ aspectRatio: '4/5' }}
               />
             </div>
@@ -874,7 +874,7 @@ function LandingContent() {
                 <img
                   src="/david-photo.png"
                   alt="Dr. Gedalia"
-                  className="w-12 h-12 rounded-full object-cover"
+                  className="w-12 h-12 rounded-full object-cover object-top"
                 />
                 <div>
                   <p className="font-medium text-slate-800">Dr. Gedalia</p>

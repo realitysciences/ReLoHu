@@ -1,0 +1,285 @@
+import SiteNav from '@/components/SiteNav'
+import SiteFooter from '@/components/SiteFooter'
+import Link from 'next/link'
+import { Calendar, FileText, Phone, CheckCircle, Users } from 'lucide-react'
+
+export const metadata = {
+  title: 'First Public Clients | ReLoHu',
+  description: 'After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. Ten spots, with a 30-day follow-up call included.',
+}
+
+export default function FoundingCohortPage() {
+  return (
+    <main className="min-h-screen bg-white text-slate-800">
+      <SiteNav />
+
+      {/* ── Hero ── */}
+      <section className="pt-32 pb-20 px-6 border-b border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">ReLoHu · First Public Clients</p>
+          <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 tracking-tight text-slate-800">
+            Ten spots.<br />One complete map.
+          </h1>
+          <p className="text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
+            After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. I'm keeping this initial group small — ten spots — to stay close to the work during this phase. Everyone in this group receives a 30-minute follow-up call, 30 days after their session, that won't be part of the offer once this group closes.
+          </p>
+          <a
+            href="https://calendly.com/relohu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all hover:shadow-lg hover:shadow-teal-100"
+          >
+            <Calendar className="w-4 h-4" />
+            Claim Your Spot — $997
+          </a>
+          <p className="text-slate-400 text-sm mt-4">10 spots · Follow-up call included · No countdown timers</p>
+        </div>
+      </section>
+
+      {/* ── What's included ── */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">What's Included</p>
+
+          <div className="space-y-8">
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
+                <Phone className="w-5 h-5 text-teal-600" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-800 mb-1">Intake session — 1 to 2 hours</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. The session is recorded and transcribed. After the call, the transcript is analyzed using ReLoHu's proprietary methodology.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
+                <CheckCircle className="w-5 h-5 text-teal-600" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-800 mb-1">Verbal readback during the session</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  Before the call ends, Dr. Gedalia shares initial findings directly with you. The first time you hear certain things about yourself described precisely is part of the process.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
+                <FileText className="w-5 h-5 text-teal-600" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-800 mb-1">Terrain Map — delivered as a file you keep</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  A structured report organized around your psychological patterns, relational architecture, upstream behavioral drivers, and character comparisons — people from history or fiction whose psychology resembles yours in specific ways. It is not a diagnosis. It is a map.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center shrink-0 mt-0.5">
+                <Calendar className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-800 mb-1">
+                  30-day follow-up call
+                  <span className="ml-2 text-[10px] font-mono tracking-wider text-teal-600 bg-teal-50 border border-teal-100 rounded-full px-2 py-0.5 align-middle">First Public Group Only</span>
+                </h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  Scheduled 30 days after your session. A lot changes in a month. The map tends to land differently once you've lived with it. The follow-up call exists to close that loop. This call will not be included once this initial group closes.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="mt-14 p-8 bg-slate-50 border border-slate-200 rounded-2xl">
+            <div className="flex items-baseline justify-between mb-1">
+              <p className="text-3xl font-medium text-slate-800">$997</p>
+              <p className="text-sm text-slate-400 font-mono">10 spots</p>
+            </div>
+            <p className="text-slate-500 text-sm mb-6">All four components above. One price. No upsells during the session.</p>
+            <a
+              href="https://calendly.com/relohu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full inline-flex items-center justify-center gap-2.5 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
+            >
+              <Calendar className="w-4 h-4" />
+              Book Your Orientation Call
+            </a>
+            <p className="text-center text-slate-400 text-xs mt-3">Starts with a free 15-min orientation call · No commitment</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Why founding cohort ── */}
+      <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">About the Cohort</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-6 leading-snug">
+            This is not a soft launch.<br />It is a considered opening.
+          </h2>
+          <div className="space-y-5 text-slate-600 leading-relaxed">
+            <p>
+              ReLoHu has been in development for two years. In that time, over a dozen sessions were conducted privately — with people who came through word of mouth, who understood what they were part of, and whose experiences shaped what the methodology became.
+            </p>
+            <p>
+              This group is different. These are the first public clients — people who find their way here through the site, who read what ReLoHu is and decide it's for them. Ten is the number that lets Dr. Gedalia stay close to the work: to track what lands, what the map produces, and how people use it during the first phase of public availability.
+            </p>
+            <p>
+              The follow-up call is part of this group's offer because their experience continues to matter to how ReLoHu develops. That's not a marketing reason. It's the actual reason.
+            </p>
+          </div>
+          <div className="mt-10 flex items-center gap-3">
+            <Users className="w-4 h-4 text-teal-500 shrink-0" />
+            <p className="text-sm text-slate-500">
+              Want to see what the output looks like? <Link href="/sample-report" className="text-teal-600 hover:underline">View Sample Report #1</Link> or <Link href="/sample-report-2" className="text-teal-600 hover:underline">Sample Report #2</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ── */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">Questions</p>
+
+          <div className="space-y-10">
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">What actually happens in the intake?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                A 1–2 hour conversation — not a questionnaire, not a structured interview with a script. Dr. Gedalia asks questions and listens carefully to what you say and how you say it. The conversation is recorded and transcribed. After the session, the transcript is analyzed using ReLoHu's proprietary methodology to produce your Terrain Map.
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">What is the Terrain Map?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                A structured report organized around your psychological patterns, relational architecture, upstream behavioral drivers, and character comparisons — people from history or fiction whose psychology resembles yours in specific ways. It is not a diagnosis. It is a map. You keep it.
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">How is this different from therapy?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                Therapy works at the narrator level — the story you tell about yourself and what's happening in your life. ReLoHu works upstream from that, mapping the drivers that produce the story in the first place. It's not treatment. It's cartography.
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">How is this different from personality frameworks like Myers-Briggs or Human Design?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                Those frameworks categorize. ReLoHu maps. The difference is that a category tells you what type you are; a map shows you how your specific terrain is configured and why you keep arriving at the same places.
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">Why only 10 spots?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                ReLoHu has been in active development for two years, with a private cohort of sessions before this public opening. Ten spots is a number that lets Dr. Gedalia stay close to the work — to track what lands, what the map produces, and how clients use it — during this first phase of public availability. It's a real constraint, not a device. When those spots are filled, the follow-up call is no longer part of the offer.
+              </p>
+            </div>
+
+            <div className="w-full h-px bg-slate-100" />
+
+            <div>
+              <h3 className="font-medium text-slate-800 mb-2">What happens after this group closes?</h3>
+              <p className="text-slate-500 text-sm leading-relaxed">
+                The intake and Terrain Map remain available. The follow-up call does not. This first group of public clients are the only people who receive both components at the $997 price point.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ── What comes next ── */}
+      <section className="py-16 px-6 bg-slate-50 border-y border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-6">After Your Terrain Map</p>
+          <h2 className="text-xl font-medium text-slate-700 mb-3">What comes next — for those who want to go further.</h2>
+          <p className="text-slate-500 text-sm leading-relaxed mb-8">
+            Because Dr. Gedalia already knows your terrain, returning sessions move faster and go further than the first one. Three paths exist for returning clients — none are required, all are available.
+          </p>
+          <div className="space-y-4">
+            {[
+              {
+                name: 'Lens Report',
+                price: '$347',
+                desc: 'No new session. A new analytical pass on your existing transcript through a different framework — archetypes, character comparisons, a specific psychological lens. A meaningful addition to your existing map.',
+              },
+              {
+                name: 'Depth Session',
+                price: '$697',
+                desc: 'A new intake that goes deeper into something your first map surfaced. Picks up exactly where the Terrain Map left off and produces a more targeted report. Shorter than the original — you are not starting from scratch.',
+              },
+              {
+                name: 'Fresh Session',
+                price: '$847',
+                desc: 'A new intake on a different area of life — relationships, work, a specific pattern. Similar scope to the original session, but without the orientation overhead. The existing relationship means you go deeper sooner.',
+              },
+            ].map(({ name, price, desc }) => (
+              <div key={name} className="flex gap-5 items-start bg-white border border-slate-200 rounded-xl p-5">
+                <div className="shrink-0 text-right min-w-[52px]">
+                  <p className="text-sm font-medium text-teal-600">{price}</p>
+                </div>
+                <div className="w-px self-stretch bg-slate-100 shrink-0" />
+                <div>
+                  <p className="font-medium text-slate-800 text-sm mb-1">{name}</p>
+                  <p className="text-slate-500 text-xs leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-slate-400 text-xs mt-6 leading-relaxed">
+            These sessions are available to anyone who has completed a Terrain Map session. <a href="/returning-clients" className="text-teal-500 hover:underline">Learn more →</a>
+          </p>
+        </div>
+      </section>
+
+      {/* ── Final CTA ── */}
+      <section className="py-20 px-6 bg-teal-700">
+        <div className="max-w-2xl mx-auto text-center">
+          <p className="text-teal-200 text-[10px] font-mono tracking-[0.35em] uppercase mb-6">10 Spots · $997 · Follow-up Call Included</p>
+          <h2 className="text-3xl md:text-4xl font-medium text-white mb-4 leading-snug">
+            Ready to see your map?
+          </h2>
+          <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
+            Start with a free 15-minute orientation call with Dr. Gedalia. No commitment — just a conversation to see if ReLoHu is right for you right now.
+          </p>
+          <a
+            href="https://calendly.com/relohu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 bg-white hover:bg-teal-50 text-teal-700 font-medium rounded-full px-10 py-4 text-base transition-all"
+          >
+            <Calendar className="w-4 h-4" />
+            Book Your Orientation Call
+          </a>
+          <p className="text-teal-300 text-xs mt-4">Confidential · No commitment · 15 minutes</p>
+        </div>
+      </section>
+
+      <SiteFooter />
+    </main>
+  )
+}

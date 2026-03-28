@@ -11,6 +11,10 @@ const faqGroups = [
     label: 'What ReLoHu Is',
     items: [
       {
+        q: 'How do you pronounce ReLoHu?',
+        a: 'reh·loh·hoo — three syllables, each one even. Re (like "red" without the d), Lo (like "low"), Hu (like "who"). The name is an acronym encoding the three values Dr. Gedalia found most absent in every space he sought genuine support: Respect, Love, and Humility.',
+      },
+      {
         q: 'Is this therapy?',
         a: 'No — and that\'s actually the point. Therapy is about healing. ReLoHu is about knowing. It sits upstream of therapy, coaching, and consulting: it\'s the work you do before those things, or alongside them. It does not diagnose, treat, or provide ongoing clinical care. What it does is give you — and any professional you work with — a clear, high-resolution map of who you are, before the real work begins.',
       },

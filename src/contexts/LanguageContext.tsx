@@ -78,13 +78,13 @@ const translations: Record<Language, Record<string, string>> = {
     'process.step1.duration': '15-20 min',
     'process.step1.text': 'A conversation to understand where you are and explain the process. No commitment. No pressure.',
     'process.step2.title': 'Intake Session',
-    'process.step2.duration': '90 min',
-    'process.step2.text': 'An unscripted conversation — questions emerge from what you say, not a fixed protocol. No judgment. No advice. No homework. Just you being heard, completely. The presence of a genuine witness activates a different mode of self-expression. Most people leave feeling more settled than they expected.',
+    'process.step2.duration': 'Up to 2 hours',
+    'process.step2.text': 'An unscripted conversation — questions emerge from what you say, not a fixed protocol. No judgment. No advice. No homework. Just you being heard, completely. Sessions are scheduled with up to two hours of space. Some conversations find their natural end at 90 minutes. Others need the full time. Either way, nothing is cut short. The presence of a genuine witness activates a different mode of self-expression. Most people leave feeling more settled than they expected.',
     'process.step3.title': 'Terrain Map Delivery',
     'process.step3.duration': '30 min',
     'process.step3.text': 'A structured document with your complete emotional landscape: patterns, access points, resistance zones, and priority areas.',
     'process.step4.title': 'What Comes Next',
-    'process.step4.text': 'The Terrain Map stands on its own as a powerful act of self-knowledge. It also becomes the clearest possible starting point for any professional — therapist, coach, or advisor — you choose to work with downstream.',
+    'process.step4.text': 'The Terrain Map stands on its own as a powerful act of self-knowledge. It also solves a problem most people have never named: every time you see a new therapist or practitioner, you spend the first several sessions just explaining yourself. The Terrain Map ends that. Hand it to any professional and you skip the intake entirely — arriving already known, already understood, ready to do real work from session one.',
 
     // For Who Section
     'forwho.title': 'IS THIS FOR YOU?',
@@ -211,13 +211,13 @@ const translations: Record<Language, Record<string, string>> = {
     'process.step1.duration': '15-20 min',
     'process.step1.text': 'Una conversación para entender dónde estás y explicar el proceso. Sin compromiso. Sin presión.',
     'process.step2.title': 'Sesión de Intake',
-    'process.step2.duration': '90 min',
-    'process.step2.text': 'Una conversación sin guión — las preguntas emergen de lo que dices, no de un protocolo fijo. La presencia de un testigo genuino activa un modo diferente de autoexpresión. Vas más profundo de lo que irías solo.',
+    'process.step2.duration': 'Hasta 2 horas',
+    'process.step2.text': 'Una conversación sin guión — las preguntas emergen de lo que dices, no de un protocolo fijo. Sin juicio. Sin consejos. Las sesiones se programan con hasta dos horas de espacio. Algunas conversaciones terminan naturalmente a los 90 minutos. Otras necesitan el tiempo completo. De cualquier manera, nada se interrumpe.',
     'process.step3.title': 'Entrega del Terrain Map',
     'process.step3.duration': '30 min',
     'process.step3.text': 'Un documento estructurado con tu paisaje emocional completo: patrones, puntos de acceso, zonas de resistencia y áreas prioritarias.',
     'process.step4.title': 'Lo Que Sigue',
-    'process.step4.text': 'El Terrain Map tiene valor por sí solo como un poderoso acto de autoconocimiento. También se convierte en el punto de partida más claro para cualquier profesional — terapeuta, coach o asesor — con quien elijas trabajar después.',
+    'process.step4.text': 'El Terrain Map tiene valor por sí solo como un poderoso acto de autoconocimiento. También resuelve un problema que la mayoría nunca ha nombrado: cada vez que ves a un nuevo terapeuta, pasas las primeras sesiones simplemente explicándote. El Terrain Map termina con eso. Entrégalo a cualquier profesional y te saltas el intake por completo — llegando ya conocido, ya comprendido, listo para hacer trabajo real desde la primera sesión.',
 
     // For Who Section
     'forwho.title': '¿ES PARA TI?',

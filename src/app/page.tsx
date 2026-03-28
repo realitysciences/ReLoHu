@@ -266,6 +266,10 @@ function LandingContent() {
             <span className="block mt-2 text-teal-600 font-semibold">{t('hero.headline4')}</span>
           </h1>
 
+          <p className="text-[11px] font-mono tracking-widest text-slate-400 uppercase mb-4">
+            reh · loh · hoo
+          </p>
+
           <p className="text-lg md:text-xl text-slate-500 max-w-3xl mx-auto mb-12 leading-relaxed">
             {t('hero.subheadline')}
           </p>

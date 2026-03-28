@@ -12,11 +12,27 @@ import { useState } from 'react'
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    setSending(true)
+    setError('')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error('Failed to send')
+      setSubmitted(true)
+    } catch {
+      setError('Something went wrong. Please try again or email directly.')
+    } finally {
+      setSending(false)
+    }
   }
 
   return (
@@ -129,12 +145,16 @@ export default function ContactPage() {
                       />
                     </div>
 
+                    {error && (
+                      <p className="text-red-500 text-sm text-center">{error}</p>
+                    )}
                     <Button
                       type="submit"
-                      className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full py-6 text-base"
+                      disabled={sending}
+                      className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full py-6 text-base disabled:opacity-60"
                     >
                       <MessageCircle className="w-4 h-4 mr-2" />
-                      Send Message
+                      {sending ? 'Sending…' : 'Send Message'}
                     </Button>
                   </form>
                 </CardContent>
@@ -187,10 +207,10 @@ export default function ContactPage() {
                   Prefer to write directly? Every message goes to Dr. Gedalia personally.
                 </p>
                 <a
-                  href="mailto:hello@relohu.com"
+                  href="mailto:respectlovehumility@gmail.com"
                   className="text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors"
                 >
-                  hello@relohu.com
+                  respectlovehumility@gmail.com
                 </a>
               </CardContent>
             </Card>

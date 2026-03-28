@@ -20,7 +20,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.headline3': 'So why do you still feel',
     'hero.headline4': 'unseen?',
     'hero.tagline': "Most people have never been this clearly seen.",
-    'hero.subheadline': "ReLoHu sits upstream of therapy, coaching, and consulting — gathering who you actually are before any professional work begins. One session. One map. Everything that follows starts from a truer place.",
+    'hero.subheadline': "ReLoHu sits upstream of therapy, coaching, and consulting — gathering who you actually are before any professional work begins. One session. No ongoing commitment. You leave with something real.",
     'hero.cta': 'Book Your Orientation Call',
     'hero.secondary': 'Learn the Method',
 
@@ -32,8 +32,8 @@ const translations: Record<Language, Record<string, string>> = {
     'pain.card1.text': "You can predict what a therapist will say before they say it. Your observer mind stays active, watching the session from outside instead of being present in it.",
     'pain.card2.title': 'Surface-level compassion',
     'pain.card2.text': "You've experienced people offering attunement that feels well-intentioned but hollow. You can sense the gap between what they offer and what you actually need.",
-    'pain.card3.title': 'No one has your full picture',
-    'pain.card3.text': "Even skilled, caring practitioners can only work with what they're given. Without a high-resolution map of who you actually are, support — however well-intentioned — is finding its way in the dark.",
+    'pain.card3.title': 'You leave without anything to hold',
+    'pain.card3.text': "After a good session, you might feel seen in the room. But you walk out empty-handed. No record of what surfaced. No portrait to return to. What you felt in the hour rarely survives the week.",
     'pain.card4.title': 'Too sophisticated for your own good',
     'pain.card4.text': 'You need someone operating at or above your psychological sophistication. Not to impress you—because anything less keeps your defenses fully armed.',
 
@@ -153,7 +153,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.headline3': '¿Por qué sigues sintiéndote',
     'hero.headline4': 'invisible?',
     'hero.tagline': 'La mayoría de las personas nunca han sido vistas con tanta claridad.',
-    'hero.subheadline': 'ReLoHu está antes de la terapia, el coaching y la consultoría — reuniendo quién eres realmente antes de que comience cualquier trabajo profesional. Una sesión. Un mapa. Todo lo que sigue comienza desde un lugar más verdadero.',
+    'hero.subheadline': 'ReLoHu está antes de la terapia, el coaching y la consultoría — reuniendo quién eres realmente antes de que comience cualquier trabajo profesional. Una sesión. Sin compromiso continuo. Te vas con algo real.',
     'hero.cta': 'Agenda tu Llamada de Orientación',
     'hero.secondary': 'Conoce el Método',
 
@@ -165,8 +165,8 @@ const translations: Record<Language, Record<string, string>> = {
     'pain.card1.text': 'Puedes predecir lo que dirá un terapeuta antes de que lo diga. Tu mente observadora permanece activa, viendo la sesión desde fuera en lugar de estar presente en ella.',
     'pain.card2.title': 'Compasión superficial',
     'pain.card2.text': 'Has experimentado personas ofreciendo sintonía que se siente bienintencionada pero vacía. Puedes percibir la distancia entre lo que ofrecen y lo que realmente necesitas.',
-    'pain.card3.title': 'Nadie tiene tu imagen completa',
-    'pain.card3.text': 'Incluso los profesionales más hábiles y cariñosos solo pueden trabajar con lo que se les da. Sin un mapa de alta resolución de quién eres realmente, el apoyo — por bien intencionado que sea — trabaja en la oscuridad.',
+    'pain.card3.title': 'Sales sin nada que retener',
+    'pain.card3.text': 'Después de una buena sesión, puede que te hayas sentido visto en la sala. Pero sales con las manos vacías. Sin registro de lo que surgió. Sin un retrato al que volver. Lo que sentiste en esa hora rara vez sobrevive a la semana.',
     'pain.card4.title': 'Demasiado sofisticado para tu propio bien',
     'pain.card4.text': 'Necesitas alguien operando a tu nivel de sofisticación psicológica. No para impresionarte—porque cualquier cosa menos mantiene tus defensas completamente armadas.',
 

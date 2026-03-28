@@ -395,7 +395,7 @@ export default function OriginsPage() {
             "I see you."
           </p>
           <p className="text-slate-400 text-base leading-relaxed">
-            Two words. Rarely meant. Almost never fully delivered.<br />
+            Three words. Rarely meant. Almost never fully delivered.<br />
             That is what ReLoHu exists to offer.
           </p>
         </div>

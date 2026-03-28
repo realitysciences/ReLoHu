@@ -21,8 +21,8 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex flex-col items-start">
-          <img src="/relohu-logo.png" alt="ReLoHu" className="h-10 w-auto object-contain" />
-          <span className="text-[9px] tracking-[0.3em] text-slate-400 font-mono uppercase mt-0.5 pl-0.5">Psychological Mapping</span>
+          <img src="/relohu-logo.png" alt="ReLoHu" className="h-10 w-auto object-contain" style={{filter: 'brightness(0) saturate(100%) invert(18%) sepia(60%) saturate(600%) hue-rotate(200deg) brightness(90%)'}} />
+          <span className="text-[9px] tracking-[0.3em] font-mono uppercase mt-0.5 pl-0.5" style={{color: '#1e3a6e'}}>Psychological Mapping</span>
         </Link>
 
         {/* Desktop nav */}

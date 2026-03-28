@@ -142,7 +142,11 @@ const faqGroups = [
     items: [
       {
         q: 'Who is ReLoHu designed for?',
-        a: 'ReLoHu is especially well-suited for people who are psychologically sophisticated, have tried conventional support and found it didn\'t reach them, have a strong observer mind that tends to watch rather than participate in their own process, want to be genuinely known — not just understood or advised — and are looking for a clear, high-resolution starting point for any professional work.',
+        a: 'ReLoHu is for any person who wants to know themselves more clearly. You do not need to have problems, be in crisis, or have tried therapy. Some people come because something isn\'t working. Others come out of pure curiosity — they want to understand their patterns, their depth, what makes them who they are. Both are equally welcome. The session is the same. The map is the same. The experience of being genuinely seen is the same.',
+      },
+      {
+        q: 'Do I need to have problems or be struggling to benefit from ReLoHu?',
+        a: 'Not at all. ReLoHu is not a service for broken people — it\'s a service for any human being who wants to be known. Many people who come are doing well by every external measure. They\'re curious, self-directed, and simply want a clearer picture of who they are. Self-knowledge is not a remedy. It\'s a gift. You don\'t need a reason beyond wanting it.',
       },
       {
         q: 'Do I need to have tried therapy first?',

@@ -393,6 +393,27 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== FOR EVERYONE SECTION ==================== */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-3xl mx-auto">
+          <div className="border border-teal-100 rounded-2xl p-10 bg-teal-50/30 text-center">
+            <p className="text-[10px] font-mono tracking-widest text-teal-600 uppercase mb-5">This is for everyone</p>
+            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-5 leading-snug">
+              You don't have to be struggling<br className="hidden md:block" /> to deserve to be known.
+            </h2>
+            <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
+              Some people come to ReLoHu because something isn't working. Others come simply because they're curious — about their patterns, their depth, what makes them who they are. Both are equally welcome.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
+              The session is the same. The map is the same. The experience of being genuinely seen is the same.
+            </p>
+            <p className="text-slate-700 font-medium max-w-xl mx-auto">
+              Self-knowledge is not a remedy. It's a gift. You don't need a reason beyond wanting it.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== SOLUTION SECTION (PAS - Solution) ==================== */}
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">

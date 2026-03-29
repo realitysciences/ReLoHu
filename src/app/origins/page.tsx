@@ -2,11 +2,7 @@
 
 import SiteNav from '@/components/SiteNav'
 import SiteFooter from '@/components/SiteFooter'
-import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Separator } from '@/components/ui/separator'
-import { Quote, Star, BookOpen, Microscope, Heart, GraduationCap, Award, MapPin, Stethoscope } from 'lucide-react'
-import Link from 'next/link'
 
 export default function OriginsPage() {
   return (
@@ -74,6 +70,9 @@ export default function OriginsPage() {
             <p className="font-medium text-slate-700">
               That search, and that inheritance, is the origin of ReLoHu.
             </p>
+            <p className="text-slate-500 italic mt-2">
+              "I built a methodology for giving other people the experience of being met because it's the thing I most need and least reliably receive."
+            </p>
           </div>
         </div>
       </section>
@@ -86,76 +85,6 @@ export default function OriginsPage() {
             "I believe every person is carrying something entirely their own, a particular texture, a particular way of being in the world. And I believe that if you go deep enough into any one of those worlds, you stop feeling alone. The most specific truths turn out to be the most shared ones."
           </blockquote>
           <p className="mt-6 text-sm text-slate-400 font-medium not-italic">Dr. Gedalia, Founder of ReLoHu</p>
-        </div>
-      </section>
-
-      {/* ==================== THE ORIGINAL DREAM ==================== */}
-      <section className="py-20 px-6 bg-white border-t border-slate-100">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">Before ReLoHu</p>
-          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-8 leading-snug">
-            The dream was always the same.<br />The application changed.
-          </h2>
-          <div className="space-y-5 text-slate-600 leading-relaxed">
-            <p>
-              Before dentistry, before the decade of self-inquiry, there was a different dream. Dr. Gedalia studied Computer Information Systems at Arizona State University's W.P. Carey School of Business because he believed computers could do something for human beings that human beings couldn't do for themselves. At the time, he imagined it as a massive database: a system capable of analyzing patterns and helping to understand a disease like HIV that had resisted every conventional approach.
-            </p>
-            <p>
-              The specific application changed. The underlying conviction never did.
-            </p>
-            <p>
-              What he always wanted was to use computational power in direct service of human beings: to take something complex and interior and make it legible. ReLoHu is what that conviction looks like when it finally found the right problem: not a virus, but a person. Not a cure, but a map.
-            </p>
-            <p className="text-slate-500">
-              The AI methodology at the center of ReLoHu is not a feature added to a psychological practice. It is the original dream, finally realized. Decades later, on different terrain, with tools that have finally caught up to the vision.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== THE DECADE ==================== */}
-      <section className="py-20 px-6 bg-slate-50">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-slate-200 text-slate-500 text-xs tracking-widest bg-white">
-              THE DECADE
-            </Badge>
-            <h2 className="text-3xl md:text-4xl font-medium text-slate-800">
-              A decade of structured self-inquiry
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              {
-                icon: BookOpen,
-                title: 'Formal rigor',
-                body: 'A Doctor of Dental Surgery from the University of Maryland School of Dentistry, the world\'s first dental school, followed by an AEGD Residency at NYU Langone Health, and a Certificate in Lifestyle and Wellness Coaching from Harvard Medical School. That same capacity for rigorous long-form study was applied, in the second chapter of his life, to an entirely different subject.',
-              },
-              {
-                icon: Microscope,
-                title: 'Reality Scientist™',
-                body: 'He describes himself as a Reality Scientist™, someone who applies genuine rigor and curiosity to the inner world the way a scientist applies it to the external one. More importantly, he has tried to live it: as a practitioner, as a patient, and as a persistent student of what it means to be human.',
-              },
-              {
-                icon: Heart,
-                title: 'Direct experience',
-                body: 'His personal exploration has been methodical and wide-ranging: EMDR, transcranial magnetic stimulation (TMS), neuroimaging through Amen Clinic SPECT scans, sustained journaling, plant medicine ceremonies with indigenous communities in Venezuela, Peru, Brazil, and Colombia, time in Buddhist temples in Thailand and Japan, and a formative period living on a Native American reservation in North Dakota. He didn\'t observe these traditions from the outside. He lived inside them.',
-              },
-            ].map((item, i) => (
-              <Card key={i} className="bg-white border-slate-100 shadow-sm hover:border-teal-200 hover:shadow-lg transition-all duration-300 group">
-                <CardContent className="p-6">
-                  <div className="w-12 h-12 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center mb-4 transition-colors">
-                    <item.icon className="w-6 h-6 text-teal-600" />
-                  </div>
-                  <h3 className="text-lg font-medium text-slate-800 mb-3 group-hover:text-teal-600 transition-colors">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-500 leading-relaxed text-sm">{item.body}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -189,87 +118,6 @@ export default function OriginsPage() {
           </div>
           <p className="text-center text-slate-400 text-sm mt-8 max-w-xl mx-auto leading-relaxed">
             He did not study these traditions from the outside. He went.
-          </p>
-        </div>
-      </section>
-
-      {/* ==================== CREDENTIALS ==================== */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-              CREDENTIALS &amp; TRAINING
-            </Badge>
-            <h2 className="text-3xl md:text-4xl font-medium text-slate-800">
-              The formation behind the practice.
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-5">
-            {[
-              {
-                icon: GraduationCap,
-                institution: 'University of Maryland School of Dentistry',
-                note: 'The first dental school in the world',
-                credential: 'Doctor of Dental Surgery (DDS)',
-                year: '2013',
-              },
-              {
-                icon: Stethoscope,
-                institution: 'NYU Langone Health',
-                note: 'San Jose, CA',
-                credential: 'Advanced Education in General Dentistry (AEGD) Residency',
-                year: '2016',
-              },
-              {
-                icon: Award,
-                institution: 'Harvard Medical School',
-                note: 'Continuing Education',
-                credential: 'Certificate in Lifestyle and Wellness Coaching',
-                year: '2025',
-              },
-              {
-                icon: BookOpen,
-                institution: 'Arizona State University',
-                note: 'W.P. Carey School of Business · Barrett Honors College · The foundation of ReLoHu\'s AI methodology',
-                credential: 'Bachelor of Science, Computer Information Systems',
-                year: '2007',
-              },
-              {
-                icon: MapPin,
-                institution: 'Chulalongkorn University · Bangkok, Thailand',
-                note: 'The most prestigious university in Thailand',
-                credential: 'International Dental Clinical Externship',
-                year: '2012',
-              },
-              {
-                icon: Star,
-                institution: 'Licensed to Practice Dentistry',
-                note: 'Active & inactive state licenses',
-                credential: 'New York · Arizona · Colorado · California',
-                year: '4 States',
-              },
-            ].map((item, i) => (
-              <Card key={i} className="bg-white border-slate-100 shadow-sm hover:border-teal-200 hover:shadow-md transition-all duration-300 group">
-                <CardContent className="p-6 flex items-start gap-5">
-                  <div className="w-12 h-12 rounded-xl bg-teal-50 group-hover:bg-teal-100 flex items-center justify-center flex-shrink-0 transition-colors">
-                    <item.icon className="w-5 h-5 text-teal-600" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-start justify-between gap-2 flex-wrap">
-                      <p className="text-sm font-semibold text-slate-800 leading-snug">{item.institution}</p>
-                      <span className="text-xs text-teal-600 font-medium bg-teal-50 px-2 py-0.5 rounded-full whitespace-nowrap flex-shrink-0">{item.year}</span>
-                    </div>
-                    <p className="text-xs text-slate-400 mt-0.5 mb-2">{item.note}</p>
-                    <p className="text-sm text-slate-600 leading-relaxed">{item.credential}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          <p className="text-center text-slate-400 text-sm mt-8 italic">
-            Dr. Gedalia has worked directly with patients since 2011: over a decade of listening, educating, and building trust in clinical settings.
           </p>
         </div>
       </section>
@@ -328,116 +176,6 @@ export default function OriginsPage() {
               These are not marketing language. They reflect a personal ethic built from direct experience of what it means to be helped, and not helped, by another person.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* ==================== THE OFFERING ==================== */}
-      <section className="py-20 px-6 bg-slate-50">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-14">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-slate-200 text-slate-500 text-xs tracking-widest bg-white">
-              THE OFFERING
-            </Badge>
-            <h2 className="text-3xl md:text-4xl font-medium text-slate-800 mb-4">
-              He decided to become what he couldn't find.
-            </h2>
-            <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              Not as an act of charity, but as a genuine expression of what he values and what he can offer.
-            </p>
-          </div>
-
-          <Card className="bg-white border-slate-100 shadow-sm mb-8">
-            <CardContent className="p-8 md:p-12">
-              <div className="space-y-5 text-slate-600 leading-relaxed">
-                <p>
-                  He is not a therapist. He is not a coach. He is a witness, one with an unusually deep map of the inner territory, assembled over years of genuine exploration.
-                </p>
-                <p>
-                  What he offers is rare: a space where someone can be heard clearly, reflected accurately, and handed back a portrait of themselves that they can actually use.
-                </p>
-              </div>
-
-              <Separator className="my-8 bg-slate-100" />
-
-              <div className="space-y-3">
-                <p className="text-sm font-medium text-teal-600 uppercase tracking-widest mb-4">What he brings to every session</p>
-                {[
-                  'Formal training across dentistry, medicine, and Harvard-certified wellness coaching',
-                  'A decade of documented self-inquiry spanning EMDR, TMS, neuroimaging, and plant medicine',
-                  'Pattern-recognition that comes from going deep enough to see structure clearly',
-                  'Genuine curiosity about who people actually are beneath their adaptations',
-                  'The values encoded in the name he chose: Respect, Love, and Humility',
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-3">
-                    <div className="w-5 h-5 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Star className="w-3 h-3 text-teal-600" />
-                    </div>
-                    <span className="text-slate-600 leading-relaxed">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-gradient-to-br from-teal-50 to-slate-50 border-teal-100 shadow-sm">
-            <CardContent className="p-8 text-center">
-              <Quote className="w-8 h-8 text-teal-400 mx-auto mb-4" />
-              <p className="text-xl md:text-2xl font-light text-slate-700 italic leading-relaxed max-w-2xl mx-auto">
-                "I want to offer an undistorted mirror. That's the whole thing. I want to be the witness I always needed, because it comes directly from my wound, and my wound is also my greatest gift."
-              </p>
-              <p className="mt-6 text-sm text-teal-600 font-medium">Dr. Gedalia, Founder</p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* ==================== REALITY SCIENCE ==================== */}
-      <section className="py-20 px-6 bg-slate-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-teal-900/30 via-slate-900 to-slate-900" />
-        <div className="relative max-w-3xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-6">Where ReLoHu Comes From</p>
-          <h2 className="text-2xl md:text-3xl font-medium text-white mb-6 leading-snug">
-            ReLoHu is not a standalone product.<br />
-            It emerges from a broader body of work.
-          </h2>
-          <div className="space-y-5 text-slate-300 leading-relaxed">
-            <p>
-              Dr. Gedalia operates under a framework he calls <span className="text-teal-400 font-medium">Reality Science™</span>, a set of theories and frameworks for understanding the structure of reality itself, including human beings. It is not a philosophy in the abstract sense. It is a rigorous attempt to map how things actually work: systems, patterns, emergence, and the inner architecture of conscious experience.
-            </p>
-            <p>
-              Within that larger framework, ReLoHu is the application to the inner life: a method for mapping how a specific person is configured. The same impulse that drove Dr. Gedalia to understand reality at large drove him to understand the most immediate reality he could access: other human beings, in their full specificity.
-            </p>
-            <p>
-              This is why he calls himself a Reality Scientist™. And it is why ReLoHu carries a rigor that most psychological mapping approaches do not. It was built as part of something larger, not as a product in isolation.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== ORIGIN STATEMENT ==================== */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-2xl md:text-3xl font-light text-slate-700 leading-relaxed italic">
-            "A man who spent a decade learning to witness himself, who built a methodology out of that practice, who now offers other people what he had to build for himself from scratch."
-          </p>
-          <div className="flex items-center justify-center gap-3 mt-6">
-            <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">The origin of ReLoHu</p>
-            <div className="w-8 h-px bg-teal-300" />
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== I SEE YOU ==================== */}
-      <section className="py-28 px-6 bg-white">
-        <div className="max-w-xl mx-auto text-center">
-          <p className="text-5xl md:text-7xl font-light text-slate-800 tracking-wide mb-8">
-            "I see you."
-          </p>
-          <p className="text-slate-400 text-base leading-relaxed">
-            Three words. Rarely meant. Almost never fully delivered.<br />
-            That is what ReLoHu exists to offer.
-          </p>
         </div>
       </section>
 

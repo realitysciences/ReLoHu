@@ -433,27 +433,6 @@ function LandingContent() {
         </div>
       </section>
 
-      {/* ==================== FOR EVERYONE SECTION ==================== */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-3xl mx-auto">
-          <div className="border border-teal-100 rounded-2xl p-10 bg-teal-50/30 text-center">
-            <p className="text-[10px] font-mono tracking-widest text-teal-600 uppercase mb-5">This is for everyone</p>
-            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-5 leading-snug">
-              You don't have to be struggling<br className="hidden md:block" /> to deserve to be known.
-            </h2>
-            <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
-              Some people come to ReLoHu because something isn't working. Others come simply because they're curious, about their patterns, their depth, what makes them who they are. Both are equally welcome.
-            </p>
-            <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
-              The session is the same. The map is the same. The experience of being genuinely seen is the same.
-            </p>
-            <p className="text-slate-700 font-medium max-w-xl mx-auto">
-              Self-knowledge is not a remedy. It's a gift. You don't need a reason beyond wanting it.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* ==================== MINI MAP ENTRY POINT ==================== */}
       <section className="py-16 px-6 bg-slate-900">
         <div className="max-w-2xl mx-auto text-center">
@@ -695,37 +674,6 @@ function LandingContent() {
         </div>
       </section>
 
-      {/* ==================== FOR WHO SECTION ==================== */}
-      <section className="py-24 px-6 bg-white">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-              {t('forwho.title')}
-            </Badge>
-            <h2 className="text-2xl md:text-3xl font-medium text-slate-800">
-              {t('forwho.headline')}
-            </h2>
-          </div>
-
-          <Card className="bg-gradient-to-br from-slate-50 to-white border-slate-100 shadow-sm">
-            <CardContent className="p-8">
-              <ul className="space-y-4">
-                {[1, 2, 3, 4, 5].map((num) => (
-                  <li key={num} className="flex items-start gap-4 group">
-                    <div className="w-6 h-6 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0 mt-1 group-hover:bg-teal-200 transition-colors">
-                      <CheckCircle className="w-4 h-4 text-teal-600" />
-                    </div>
-                    <span className="text-slate-600 text-lg leading-relaxed">
-                      {t(`forwho.item${num}`)}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       {/* ==================== AI DIFFERENTIATION SECTION ==================== */}
       <section className="py-24 px-6 bg-slate-900 relative overflow-hidden">
         <div className="absolute inset-0">
@@ -745,23 +693,7 @@ function LandingContent() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { q: t('ai.q1'), a: t('ai.a1'), icon: Bot },
-              { q: t('ai.q2'), a: t('ai.a2'), icon: Mic },
-              { q: t('ai.q3'), a: t('ai.a3'), icon: HelpCircle },
-            ].map((item, i) => (
-              <div key={i} className="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 hover:border-teal-700 transition-colors group">
-                <div className="w-12 h-12 rounded-xl bg-teal-900/50 group-hover:bg-teal-800/60 flex items-center justify-center mb-4 transition-colors">
-                  <item.icon className="w-6 h-6 text-teal-400" />
-                </div>
-                <p className="text-teal-300 font-medium mb-3 text-sm">{item.q}</p>
-                <p className="text-slate-400 leading-relaxed text-sm">{item.a}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-10 border border-teal-700/50 bg-teal-900/30 rounded-2xl px-7 py-5 flex items-start gap-4">
+          <div className="mt-0 border border-teal-700/50 bg-teal-900/30 rounded-2xl px-7 py-5 flex items-start gap-4">
             <div className="w-10 h-10 rounded-xl bg-teal-800/60 flex items-center justify-center flex-shrink-0 mt-0.5">
               <Brain className="w-5 h-5 text-teal-400" />
             </div>
@@ -785,57 +717,6 @@ function LandingContent() {
                 )}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== METHODOLOGY ==================== */}
-      <section className="py-20 px-6 bg-slate-50 border-t border-slate-100">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-              THE METHODOLOGY
-            </Badge>
-            <h2 className="text-3xl md:text-4xl font-medium text-slate-800 mb-4">
-              Built on decades of <span className="text-teal-600">psychological science</span>
-            </h2>
-            <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
-              ReLoHu is not intuition dressed up as insight. It draws from established frameworks, applied through a human conversation that no assessment form can replicate.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              {
-                label: 'Depth Psychology',
-                body: 'Rooted in the tradition of Jungian and psychodynamic thought: shadow integration, archetypal identity, and the unconscious structures organizing behavior.',
-              },
-              {
-                label: 'Attachment Theory',
-                body: 'Your relational patterns are mapped against the foundational research of Bowlby, Ainsworth, and the decades of study that followed, making invisible dynamics visible.',
-              },
-              {
-                label: 'Narrative Psychology',
-                body: 'The story you tell about your own life reveals as much as its facts. ReLoHu attends to both: the events and the meaning-making that surrounds them.',
-              },
-              {
-                label: 'Somatic Awareness',
-                body: 'Where the body holds what the mind has not yet processed. Session work attends to what the nervous system carries, not only what the mind can articulate.',
-              },
-              {
-                label: 'Phenomenological Inquiry',
-                body: 'Questions emerge from what you say, not a fixed protocol. The structure follows the person, not the other way around.',
-              },
-              {
-                label: 'Integrative Mapping',
-                body: 'No single framework owns the full picture. ReLoHu synthesizes across traditions to produce a portrait that is specific to you, not a category you fall into.',
-              },
-            ].map(({ label, body }) => (
-              <div key={label} className="bg-white border border-slate-200 rounded-2xl p-6">
-                <div className="w-1 h-6 bg-teal-400 rounded-full mb-4" />
-                <p className="font-medium text-slate-800 mb-2">{label}</p>
-                <p className="text-sm text-slate-500 leading-relaxed">{body}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -866,87 +747,6 @@ function LandingContent() {
                 <div className="text-slate-500 font-medium">{stat.label}</div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== WAYS TO WORK WITH DR. GEDALIA ==================== */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-4">
-              {lang === 'en' ? 'Ways to Work with Dr. Gedalia' : 'Formas de Trabajar con el Dr. Gedalia'}
-            </p>
-            <h2 className="text-2xl md:text-3xl font-medium text-slate-800">
-              {lang === 'en' ? 'One offering. Built to fit where you are.' : 'Una oferta. Construida para donde estás.'}
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {/* Card 1 — Founding Cohort */}
-            <div className="bg-teal-600 rounded-2xl p-7 text-white flex flex-col">
-              <div className="text-[9px] font-mono tracking-[0.3em] uppercase text-teal-200 mb-3">Now Open · First Public Clients</div>
-              <h3 className="text-lg font-medium mb-3">
-                {lang === 'en' ? 'First Public Group' : 'Primer Grupo Público'}
-              </h3>
-              <p className="text-teal-100 text-sm leading-relaxed flex-1">
-                {lang === 'en'
-                  ? 'After two years of development, ReLoHu is opening to its first public clients. Ten spots, with a 30-day follow-up call that won\'t be part of the offer once this group closes.'
-                  : 'Después de dos años de desarrollo, ReLoHu abre a sus primeros clientes públicos. Diez cupos, con una llamada de seguimiento a los 30 días.'}
-              </p>
-              <div className="mt-6 pt-5 border-t border-teal-500 flex items-center justify-between">
-                <div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-white font-medium">$497</span>
-                    <span className="text-teal-300 text-sm line-through">$997</span>
-                  </div>
-                  <span className="text-teal-200 text-xs">April only</span>
-                </div>
-                <a href="/founding-cohort" className="text-teal-200 text-sm hover:text-white transition-colors underline underline-offset-2">
-                  {lang === 'en' ? 'Learn more →' : 'Más info →'}
-                </a>
-              </div>
-            </div>
-
-            {/* Card 2 — Terrain Map */}
-            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-7 flex flex-col">
-              <div className="text-[9px] font-mono tracking-[0.3em] uppercase text-slate-400 mb-3">
-                {lang === 'en' ? 'After Cohort Closes' : 'Después del Cohorte'}
-              </div>
-              <h3 className="text-lg font-medium text-slate-800 mb-3">
-                {lang === 'en' ? 'Terrain Map Session' : 'Sesión Terrain Map'}
-              </h3>
-              <p className="text-slate-500 text-sm leading-relaxed flex-1">
-                {lang === 'en'
-                  ? 'The intake conversation, verbal readback, and your complete Terrain Map delivered as a file. The full picture, without the follow-up call.'
-                  : 'La conversación de intake, lectura verbal y tu Terrain Map completo como archivo. La imagen completa, sin la llamada de seguimiento.'}
-              </p>
-              <div className="mt-6 pt-5 border-t border-slate-200">
-                <span className="text-slate-400 text-sm">
-                  {lang === 'en' ? 'Available after the first public group closes.' : 'Disponible después de que cierre el primer grupo público.'}
-                </span>
-              </div>
-            </div>
-
-            {/* Card 3 — Gift */}
-            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-7 flex flex-col">
-              <div className="text-[9px] font-mono tracking-[0.3em] uppercase text-slate-400 mb-3">
-                {lang === 'en' ? 'For Someone You Know' : 'Para Alguien que Conoces'}
-              </div>
-              <h3 className="text-lg font-medium text-slate-800 mb-3">
-                {lang === 'en' ? 'Gift a Session' : 'Regala una Sesión'}
-              </h3>
-              <p className="text-slate-500 text-sm leading-relaxed flex-1">
-                {lang === 'en'
-                  ? 'Give someone the experience of being genuinely mapped. A Terrain Map makes a meaningful gift for someone you know is ready to be seen.'
-                  : 'Dale a alguien la experiencia de ser genuinamente mapeado. Un Terrain Map es un regalo significativo para alguien listo para ser visto.'}
-              </p>
-              <div className="mt-6 pt-5 border-t border-slate-200">
-                <a href="/gift" className="text-teal-600 text-sm hover:text-teal-700 transition-colors underline underline-offset-2">
-                  {lang === 'en' ? 'Learn more →' : 'Más info →'}
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -1068,52 +868,6 @@ function LandingContent() {
             <div className="w-8 h-px bg-teal-300" />
             <p className="text-sm text-slate-500 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== CREATOR SECTION ==================== */}
-      <section className="py-24 px-6 bg-white border-t border-slate-100">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Photo */}
-            <div className="flex justify-center md:justify-end">
-              <img
-                src="/david-photo.png"
-                alt="Dr. Gedalia - Creator of ReLoHu"
-                className="w-64 md:w-72 object-cover object-top rounded-2xl"
-                style={{ aspectRatio: '4/5' }}
-              />
-            </div>
-
-            {/* Text */}
-            <div>
-              <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-                {t('creator.title')}
-              </Badge>
-              <h2 className="text-2xl md:text-3xl font-medium mb-2 text-slate-800">
-                {t('creator.headline')}
-              </h2>
-              <p className="text-teal-600 text-lg mb-6 font-medium">
-                {t('creator.subtitle')}
-              </p>
-
-              <div className="space-y-4 text-slate-600 leading-relaxed">
-                <p>{t('creator.text1')}</p>
-                <p>{t('creator.text2')}</p>
-                <p>{t('creator.text3')}</p>
-              </div>
-
-              <Separator className="my-6 bg-slate-100" />
-
-              <blockquote className="text-lg text-slate-600 italic">
-                {t('creator.quote')}
-              </blockquote>
-
-              <p className="text-3xl font-light text-teal-600 mt-8 tracking-wide">
-                "I see you."
-              </p>
-            </div>
           </div>
         </div>
       </section>

@@ -31,7 +31,7 @@ export default function WhatBeingKnownMeans() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-medium text-slate-800 mb-4 leading-tight">
-            What "Being Known" Actually Means — and Why It's Harder Than Being Loved
+            What "Being Known" Actually Means, and Why It's Harder Than Being Loved
           </h1>
           <p className="text-slate-500 text-lg leading-relaxed mb-12 border-b border-slate-100 pb-12">
             People confuse love and knowing all the time. You can be deeply loved by someone who has never once seen you clearly. The two are not the same thing, and the difference matters more than most people realize.
@@ -48,7 +48,7 @@ export default function WhatBeingKnownMeans() {
             </p>
 
             <p>
-              Not known about. Not observed. Not categorized. Known — in the sense of being held in someone else's mind with accuracy and care. Recognized for who you actually are, not for the version of you that is easiest to love, or most convenient to understand, or least threatening to the people around you.
+              Not known about. Not observed. Not categorized. Known, in the sense of being held in someone else's mind with accuracy and care. Recognized for who you actually are, not for the version of you that is easiest to love, or most convenient to understand, or least threatening to the people around you.
             </p>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">What the research shows about intimacy</h2>
@@ -58,7 +58,7 @@ export default function WhatBeingKnownMeans() {
             </p>
 
             <p>
-              The key word is <em>understanding</em>. Not agreement. Not reassurance. Understanding — meaning that the other person has accurately apprehended what you shared. Reis and colleagues have since demonstrated across numerous studies that <em>perceived partner responsiveness</em> — the felt sense that one has been understood — is one of the strongest predictors of relationship satisfaction, mental health, and even physical wellbeing.<Cite>2</Cite>
+              The key word is <em>understanding</em>. Not agreement. Not reassurance. Understanding, meaning that the other person has accurately apprehended what you shared. Reis and colleagues have since demonstrated across numerous studies that <em>perceived partner responsiveness</em>, the felt sense that one has been understood, is one of the strongest predictors of relationship satisfaction, mental health, and even physical wellbeing.<Cite>2</Cite>
             </p>
 
             <p>
@@ -76,11 +76,11 @@ export default function WhatBeingKnownMeans() {
             </p>
 
             <p>
-              None of this is bad faith. It is just the way most human connection works. We see each other approximately. We fill in the gaps with projection and assumption. Psychologists call this <em>positive illusion</em> — the tendency to perceive partners in a more favorable light than objective evidence warrants.<Cite>3</Cite> These illusions serve relational stability. But they come at a cost: the person inside them is loved for a portrait that is not quite accurate.
+              None of this is bad faith. It is just the way most human connection works. We see each other approximately. We fill in the gaps with projection and assumption. Psychologists call this <em>positive illusion</em>, the tendency to perceive partners in a more favorable light than objective evidence warrants.<Cite>3</Cite> These illusions serve relational stability. But they come at a cost: the person inside them is loved for a portrait that is not quite accurate.
             </p>
 
             <p>
-              There is a hunger that this kind of love does not feed. A loneliness that can persist even inside a close relationship. Researchers John Cacioppo and William Patrick, in their foundational work on loneliness, found that the subjective experience of social disconnection was distinct from the objective quantity of social contact.<Cite>4</Cite> You can be surrounded by people who love you and still feel profoundly alone — if those people are loving someone slightly different from who you actually are.
+              There is a hunger that this kind of love does not feed. A loneliness that can persist even inside a close relationship. Researchers John Cacioppo and William Patrick, in their foundational work on loneliness, found that the subjective experience of social disconnection was distinct from the objective quantity of social contact.<Cite>4</Cite> You can be surrounded by people who love you and still feel profoundly alone, if those people are loving someone slightly different from who you actually are.
             </p>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">What knowing requires</h2>
@@ -90,16 +90,16 @@ export default function WhatBeingKnownMeans() {
             </p>
 
             <p>
-              Most people approach the people they love with an existing frame. You are my son, my partner, my friend — and that frame shapes what they can perceive. Anything that fits the frame gets amplified. Anything that doesn't tends to get quietly set aside.
+              Most people approach the people they love with an existing frame. You are my son, my partner, my friend, and that frame shapes what they can perceive. Anything that fits the frame gets amplified. Anything that doesn't tends to get quietly set aside.
             </p>
 
             <p>
-              Carl Rogers described the antidote as <em>unconditional positive regard</em> — a form of attention that receives the person as they actually are, rather than as one hopes or needs them to be.<Cite>5</Cite> Rogers considered this one of the three core conditions for therapeutic growth. But it is also, simply, what being known feels like from the inside.
+              Carl Rogers described the antidote as <em>unconditional positive regard</em>, a form of attention that receives the person as they actually are, rather than as one hopes or needs them to be.<Cite>5</Cite> Rogers considered this one of the three core conditions for therapeutic growth. But it is also, simply, what being known feels like from the inside.
             </p>
 
             <blockquote className="border-l-2 border-teal-400 pl-6 py-1 my-8 text-slate-600 italic text-[1rem]">
-              "Every person is carrying something entirely their own — a particular texture, a particular way of being in the world. If you go deep enough into any one of those worlds, you stop feeling alone."
-              <footer className="text-sm text-slate-400 mt-2 not-italic">— Dr. Gedalia, Founder of ReLoHu</footer>
+              "Every person is carrying something entirely their own, a particular texture, a particular way of being in the world. If you go deep enough into any one of those worlds, you stop feeling alone."
+              <footer className="text-sm text-slate-400 mt-2 not-italic">Dr. Gedalia, Founder of ReLoHu</footer>
             </blockquote>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">Why not knowing yourself first compounds everything</h2>
@@ -109,7 +109,7 @@ export default function WhatBeingKnownMeans() {
             </p>
 
             <p>
-              Most people have large portions of their inner life that are not available to them with clarity. Not because they are not introspective — often quite the opposite — but because self-knowledge is not a purely solo endeavor. Attachment theorist John Bowlby argued that the internal working models through which we understand ourselves are formed in relation to others — meaning that who we believe ourselves to be is always, in part, a product of how we have been seen.<Cite>6</Cite>
+              Most people have large portions of their inner life that are not available to them with clarity. Not because they are not introspective, often quite the opposite, but because self-knowledge is not a purely solo endeavor. Attachment theorist John Bowlby argued that the internal working models through which we understand ourselves are formed in relation to others, meaning that who we believe ourselves to be is always, in part, a product of how we have been seen.<Cite>6</Cite>
             </p>
 
             <p>
@@ -119,15 +119,15 @@ export default function WhatBeingKnownMeans() {
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">What changes when it happens</h2>
 
             <p>
-              People who have experienced being genuinely known — even once, even briefly — describe it in similar terms. Something relaxes that has been held for a long time. There is a quality of relief that is different from comfort or reassurance. It is more like setting down something heavy that you forgot you were carrying.
+              People who have experienced being genuinely known, even once, even briefly, describe it in similar terms. Something relaxes that has been held for a long time. There is a quality of relief that is different from comfort or reassurance. It is more like setting down something heavy that you forgot you were carrying.
             </p>
 
             <p>
-              This is not a small thing. It reorganizes something in the person. Relationships that follow tend to be different — not because the person has changed fundamentally, but because they are carrying themselves differently. They know what they are looking for, and they know what it feels like when they find it.
+              This is not a small thing. It reorganizes something in the person. Relationships that follow tend to be different, not because the person has changed fundamentally, but because they are carrying themselves differently. They know what they are looking for, and they know what it feels like when they find it.
             </p>
 
             <p className="text-slate-500 italic border-t border-slate-100 pt-8 mt-8">
-              The word at the center of ReLoHu is not healing. It is not transformation. It is knowing. Everything else — clarity, connection, momentum in the work — follows from that.
+              The word at the center of ReLoHu is not healing. It is not transformation. It is knowing. Everything else, clarity, connection, momentum in the work, follows from that.
             </p>
 
             {/* References */}

@@ -21,7 +21,7 @@ export default function ReturningClientsPage() {
             Because I already know<br />your terrain.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
-            We can move faster and go further. The existing map means you don't start from scratch — you start from a foundation. Three paths exist for returning clients, depending on what you're ready for next.
+            We can move faster and go further. The existing map means you don't start from scratch. You start from a foundation. Three paths exist for returning clients, depending on what you're ready for next.
           </p>
         </div>
       </section>
@@ -43,13 +43,13 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                No new session. Dr. Gedalia runs a new analytical pass on your existing transcript through a different framework — archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
+                No new session. Dr. Gedalia runs a new analytical pass on your existing transcript through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
               </p>
               <div className="space-y-2">
                 {[
                   'No intake session required',
                   'New framework applied to your existing transcript',
-                  'Delivered as a file — archetypes, character comparisons, or a focused lens',
+                  'Delivered as a file: archetypes, character comparisons, or a focused lens',
                   '30–45 minutes of Dr. Gedalia\'s analysis and review time',
                 ].map(item => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-slate-500">
@@ -59,7 +59,7 @@ export default function ReturningClientsPage() {
                 ))}
               </div>
               <p className="text-slate-400 text-xs mt-5 leading-relaxed italic">
-                Best for: clients who received their Terrain Map and want to go deeper into a specific dimension — character psychology, archetypal patterns, or a particular framework — without scheduling a new intake.
+                Best for: clients who received their Terrain Map and want to go deeper into a specific dimension, such as character psychology, archetypal patterns, or a particular framework, without scheduling a new intake.
               </p>
             </div>
           </div>
@@ -77,14 +77,14 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                A new intake that goes directly into something your first Terrain Map surfaced. Picks up where the map left off — no orientation, no overview, no starting from scratch. The conversation is focused, the report is more targeted, and the work goes further because the foundation already exists.
+                A new intake that goes directly into something your first Terrain Map surfaced. Picks up where the map left off, no orientation, no overview, no starting from scratch. The conversation is focused, the report is more targeted, and the work goes further because the foundation already exists.
               </p>
               <div className="space-y-2">
                 {[
-                  'New intake session — shorter than the original, fully focused',
+                  'New intake session, shorter than the original, fully focused',
                   'Verbal readback during the session',
                   'Targeted report delivered as a file',
-                  'No orientation overhead — you already know the terrain',
+                  'No orientation overhead, you already know the terrain',
                 ].map(item => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-slate-500">
                     <span className="text-teal-400 mt-0.5 shrink-0">·</span>
@@ -93,7 +93,7 @@ export default function ReturningClientsPage() {
                 ))}
               </div>
               <p className="text-slate-400 text-xs mt-5 leading-relaxed italic">
-                Best for: clients who received their Terrain Map and found something they want to go deeper on — a specific pattern, wound, or relational dynamic that the first map named but didn't fully explore.
+                Best for: clients who received their Terrain Map and found something they want to go deeper on, such as a specific pattern, wound, or relational dynamic that the first map named but didn't fully explore.
               </p>
             </div>
           </div>
@@ -111,14 +111,14 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                A new intake on a different area of life — relationships, work, a specific recurring pattern. Similar in scope to the original session, but without the orientation that a first conversation requires. Because the relationship already exists, you go deeper sooner. The map you receive covers new territory entirely.
+                A new intake on a different area of life: relationships, work, a specific recurring pattern. Similar in scope to the original session, but without the orientation that a first conversation requires. Because the relationship already exists, you go deeper sooner. The map you receive covers new territory entirely.
               </p>
               <div className="space-y-2">
                 {[
                   'Full intake session on a new focus area',
                   'Verbal readback during the session',
-                  'Complete report on the new territory — relationships, work, or a specific pattern',
-                  'Moves faster than a first session — no orientation overhead',
+                  'Complete report on the new territory: relationships, work, or a specific pattern',
+                  'Moves faster than a first session, no orientation overhead',
                 ].map(item => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-slate-500">
                     <span className="text-teal-400 mt-0.5 shrink-0">·</span>
@@ -127,7 +127,7 @@ export default function ReturningClientsPage() {
                 ))}
               </div>
               <p className="text-slate-400 text-xs mt-5 leading-relaxed italic">
-                Best for: clients who want to apply the same depth of mapping to a different domain — a relationship they're navigating, a career decision, or a pattern that keeps showing up in a specific context.
+                Best for: clients who want to apply the same depth of mapping to a different domain, such as a relationship they're navigating, a career decision, or a pattern that keeps showing up in a specific context.
               </p>
             </div>
           </div>
@@ -139,9 +139,9 @@ export default function ReturningClientsPage() {
       <section className="py-16 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">
           <blockquote className="text-xl md:text-2xl font-light leading-[1.75] text-slate-700 italic mb-6">
-            "The first session maps the terrain. Everything after builds from that map — which means it can start from a deeper place, move faster, and reach further than anything that came before."
+            "The first session maps the terrain. Everything after builds from that map, which means it can start from a deeper place, move faster, and reach further than anything that came before."
           </blockquote>
-          <p className="text-sm text-slate-400 font-medium">— Dr. Gedalia</p>
+          <p className="text-sm text-slate-400 font-medium">Dr. Gedalia</p>
         </div>
       </section>
 

@@ -21,7 +21,7 @@ export default function PrivacyPage() {
               How your information is handled
             </h1>
             <p className="text-slate-500 text-lg leading-relaxed">
-              ReLoHu asks you to share things most people have never said out loud. That requires trust. This page covers the essentials. Full details — including recording consent, data handling, and confidentiality terms — are covered in the client agreement you sign before any session begins.
+              ReLoHu asks you to share things most people have never said out loud. That requires trust. This page covers the essentials. Full details, including recording consent, data handling, and confidentiality terms, are covered in the client agreement you sign before any session begins.
             </p>
             <p className="text-slate-400 text-sm mt-4">Last updated: March 2026</p>
           </div>
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-lg font-medium text-slate-800 mb-3">Your information is never shared or sold</h2>
               <p>
-                Everything shared within a ReLoHu session is held in strict confidence. Session material is never shared, sold, licensed, or disclosed to any third party — ever. The only exception would be if required by law, and you would be notified to the extent permitted.
+                Everything shared within a ReLoHu session is held in strict confidence. Session material is never shared, sold, licensed, or disclosed to any third party. Ever. The only exception would be if required by law, and you would be notified to the extent permitted.
               </p>
             </section>
 
@@ -50,11 +50,11 @@ export default function PrivacyPage() {
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="bg-teal-50 border border-teal-100 rounded-xl p-5">
                   <p className="text-xs font-mono tracking-widest text-teal-600 uppercase mb-3">Yours</p>
-                  <p className="text-slate-700 text-sm leading-relaxed">Your Terrain Map and all deliverables produced from the session. These are your portrait — assembled from your words, synthesized for you. They are delivered to you and belong to you entirely.</p>
+                  <p className="text-slate-700 text-sm leading-relaxed">Your Terrain Map and all deliverables produced from the session. These are your portrait, assembled from your words, synthesized for you. They are delivered to you and belong to you entirely.</p>
                 </div>
                 <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
                   <p className="text-xs font-mono tracking-widest text-slate-400 uppercase mb-3">ReLoHu's</p>
-                  <p className="text-slate-600 text-sm leading-relaxed">The raw substrate that powered the analysis — retained under full confidentiality and used only to produce your deliverables or inform any future reports from your session.</p>
+                  <p className="text-slate-600 text-sm leading-relaxed">The raw substrate that powered the analysis, retained under full confidentiality and used only to produce your deliverables or inform any future reports from your session.</p>
                 </div>
               </div>
               <div className="border-l-2 border-teal-300 pl-5 py-1 my-6">
@@ -63,13 +63,13 @@ export default function PrivacyPage() {
               <p className="mb-3 text-slate-700">You have the right to:</p>
               <ul className="space-y-2 list-none pl-0 mb-5">
                 {[
-                  'Receive all deliverables from your session — your Terrain Map and any additional reports are yours entirely',
+                  'Receive all deliverables from your session: your Terrain Map and any additional reports are yours entirely',
                   'Request deletion of your personal contact information from ReLoHu\'s records at any time',
                   'Know what deliverables have been produced from your session',
                   'Withdraw consent at any time prior to the session',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="text-teal-500 font-mono text-sm mt-0.5">—</span>
+                    <span className="text-teal-500 font-mono text-sm mt-0.5">·</span>
                     <span className="text-slate-600">{item}</span>
                   </li>
                 ))}

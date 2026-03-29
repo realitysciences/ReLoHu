@@ -15,7 +15,7 @@ export async function POST(req: Request) {
       from: 'ReLoHu Contact <onboarding@resend.dev>',
       to: 'respectlovehumility@gmail.com',
       replyTo: email,
-      subject: `ReLoHu Contact: ${subject || 'New message'} — from ${name}`,
+      subject: `ReLoHu Contact: ${subject || 'New message'} from ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b;">
           <div style="background: #0f766e; padding: 24px 32px; border-radius: 12px 12px 0 0;">
@@ -33,7 +33,7 @@ export async function POST(req: Request) {
               </tr>
               <tr>
                 <td style="padding: 8px 0; color: #64748b; font-size: 13px; vertical-align: top;">Subject</td>
-                <td style="padding: 8px 0;">${subject || '—'}</td>
+                <td style="padding: 8px 0;">${subject || '(none)'}</td>
               </tr>
             </table>
             <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px;">

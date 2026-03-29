@@ -4,9 +4,25 @@ import Link from 'next/link'
 
 const posts = [
   {
+    slug: 'the-two-ways-ai-changes-humanity',
+    title: 'The Two Ways AI Ends Up Changing What It Means to Be Human',
+    excerpt: 'Every technology reshapes humanity. The question is never whether AI will change us. It is in which direction. And that direction is not determined by the technology itself. It is determined by what the people building it decide to point it at.',
+    tag: 'Technology',
+    date: 'March 2026',
+    readTime: '8 min read',
+  },
+  {
+    slug: 'why-self-knowledge-is-a-public-good',
+    title: 'What Happens to a Society Where People Know Themselves',
+    excerpt: 'The loneliness epidemic, political polarization, relationship failure, the mental health crisis. These are not separate problems. They share a common source. And it is not the one most people are looking at.',
+    tag: 'Society',
+    date: 'March 2026',
+    readTime: '9 min read',
+  },
+  {
     slug: 'the-diagnosis-problem',
     title: 'The Dentist Who Wanted to Separate the Diagnosis from the Drill',
-    excerpt: 'When the person who evaluates you also profits from what they find, the evaluation is compromised — whether they mean it to be or not. I believed this about dentistry for years. I eventually realized I believed it about nearly everything.',
+    excerpt: 'When the person who evaluates you also profits from what they find, the evaluation is compromised, whether they mean it to be or not. I believed this about dentistry for years. I eventually realized I believed it about nearly everything.',
     tag: 'Human Systems',
     date: 'March 2026',
     readTime: '9 min read',
@@ -14,14 +30,14 @@ const posts = [
   {
     slug: 'the-vipeholm-study',
     title: 'What Tooth Decay Taught a Dentist About the Human Interior',
-    excerpt: 'The Vipeholm study revealed that damage accumulates invisibly, below the surface, long before anyone notices. The human interior works exactly the same way — and most psychological support never looks beneath the surface.',
+    excerpt: 'The Vipeholm study revealed that damage accumulates invisibly, below the surface, long before anyone notices. The human interior works exactly the same way, and most psychological support never looks beneath the surface.',
     tag: 'Psychology',
     date: 'March 2026',
     readTime: '8 min read',
   },
   {
     slug: 'why-therapy-stalls',
-    title: 'Why Therapy Stalls — And What Nobody Is Saying About It',
+    title: 'Why Therapy Stalls: And What Nobody Is Saying About It',
     excerpt: 'Most therapy failures are not failures of technique or commitment. They are failures of information. The practitioner is working with an incomplete picture of who you are.',
     tag: 'Therapy',
     date: 'March 2026',
@@ -30,14 +46,14 @@ const posts = [
   {
     slug: 'the-observer-problem',
     title: 'The Observer Problem: When Self-Awareness Becomes Its Own Obstacle',
-    excerpt: 'There is a particular kind of person who can narrate their own therapy session from the outside while it is happening. They are usually the hardest to reach — and the most in need of being reached.',
+    excerpt: 'There is a particular kind of person who can narrate their own therapy session from the outside while it is happening. They are usually the hardest to reach, and the most in need of being reached.',
     tag: 'Psychology',
     date: 'March 2026',
     readTime: '7 min read',
   },
   {
     slug: 'what-being-known-actually-means',
-    title: 'What "Being Known" Actually Means — and Why It\'s Harder Than Being Loved',
+    title: 'What "Being Known" Actually Means, and Why It\'s Harder Than Being Loved',
     excerpt: 'People confuse love and knowing all the time. You can be deeply loved by someone who has never once seen you clearly. The two are not the same thing, and the difference matters more than most people realize.',
     tag: 'Relationships',
     date: 'March 2026',

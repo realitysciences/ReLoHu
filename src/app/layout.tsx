@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "ReLoHu | Be Seen. Be Known.",
     template: "%s | ReLoHu"
   },
-  description: "For those who've felt unseen by conventional therapy. ReLoHu provides a complete emotional terrain map that helps your therapist truly see you—starting from session one.",
+  description: "For those who've felt unseen by conventional therapy. ReLoHu provides a complete emotional terrain map that helps your therapist truly see you, starting from session one.",
   keywords: [
     "ReLoHu",
     "emotional terrain map",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     url: 'https://relohu.com',
     siteName: 'ReLoHu',
     title: "ReLoHu | Be Seen. Be Known.",
-    description: "For those who've felt unseen by conventional therapy. ReLoHu provides a complete emotional terrain map that helps your therapist truly see you—starting from session one.",
+    description: "For those who've felt unseen by conventional therapy. ReLoHu provides a complete emotional terrain map that helps your therapist truly see you, starting from session one.",
     images: [
       {
         url: '/david-photo-cropped.jpeg',

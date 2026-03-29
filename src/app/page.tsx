@@ -309,7 +309,7 @@ function LandingContent() {
             When was the last time someone truly listened to you?
           </h2>
           <p className="text-slate-500 text-lg leading-relaxed">
-            Not waiting for their turn. Not forming a response. Not reaching for advice. Just — listening.
+            Not waiting for their turn. Not forming a response. Not reaching for advice. Just listening.
           </p>
         </div>
       </section>
@@ -397,6 +397,42 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== YOU PARAGRAPH ==================== */}
+      <section className="py-20 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">
+            {lang === 'en' ? 'Does this sound like you?' : '¿Esto te suena familiar?'}
+          </p>
+          <div className="space-y-5 text-lg text-slate-700 leading-relaxed">
+            {lang === 'en' ? (
+              <>
+                <p>
+                  You've read the books. You've done the therapy. You're fluent in your patterns, you can name your wounds, and you've given more than one skilled practitioner a detailed map of your interior life.
+                </p>
+                <p>
+                  And yet. You're still not fully known. Not by the people closest to you, and not by the professionals who've tried. There's a version of you that shows up in conversation and a version that exists underneath it, and no one has quite reached the second one.
+                </p>
+                <p className="text-slate-800 font-medium">
+                  That's not a failure of your effort. It's a failure of the tools available. ReLoHu was built for the gap.
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Has leído los libros. Has hecho la terapia. Conoces tus patrones, puedes nombrar tus heridas, y le has dado a más de un profesional habilidoso un mapa detallado de tu vida interior.
+                </p>
+                <p>
+                  Y sin embargo. Todavía no eres completamente conocido. Ni por las personas más cercanas a ti, ni por los profesionales que lo han intentado. Hay una versión de ti que aparece en la conversación y una versión que existe debajo de ella, y nadie ha llegado del todo a la segunda.
+                </p>
+                <p className="text-slate-800 font-medium">
+                  Eso no es un fracaso de tu esfuerzo. Es un fracaso de las herramientas disponibles. ReLoHu fue construido para esa brecha.
+                </p>
+              </>
+            )}
+          </div>
+        </div>
+      </section>
+
       {/* ==================== FOR EVERYONE SECTION ==================== */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-3xl mx-auto">
@@ -406,7 +442,7 @@ function LandingContent() {
               You don't have to be struggling<br className="hidden md:block" /> to deserve to be known.
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
-              Some people come to ReLoHu because something isn't working. Others come simply because they're curious — about their patterns, their depth, what makes them who they are. Both are equally welcome.
+              Some people come to ReLoHu because something isn't working. Others come simply because they're curious, about their patterns, their depth, what makes them who they are. Both are equally welcome.
             </p>
             <p className="text-slate-600 leading-relaxed mb-4 max-w-xl mx-auto">
               The session is the same. The map is the same. The experience of being genuinely seen is the same.
@@ -415,6 +451,53 @@ function LandingContent() {
               Self-knowledge is not a remedy. It's a gift. You don't need a reason beyond wanting it.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* ==================== MINI MAP ENTRY POINT ==================== */}
+      <section className="py-16 px-6 bg-slate-900">
+        <div className="max-w-2xl mx-auto text-center">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-5">
+            {lang === 'en' ? 'Try it before you commit' : 'Pruébalo antes de comprometerte'}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-light text-white mb-4">
+            {lang === 'en'
+              ? 'Get a free map fragment. Five questions, five minutes.'
+              : 'Obtén un fragmento de mapa gratis. Cinco preguntas, cinco minutos.'}
+          </h2>
+          <p className="text-slate-400 leading-relaxed mb-8 max-w-lg mx-auto">
+            {lang === 'en'
+              ? 'Answer five questions in Dr. Gedalia\'s voice. Submit your email. Receive a short written portrait of what you shared, generated by the same AI methodology behind every full Terrain Map. No commitment, no sales follow-up.'
+              : 'Responde cinco preguntas. Recibe un retrato escrito breve de lo que compartiste, generado por la misma metodología de IA detrás de cada Terrain Map completo. Sin compromiso, sin seguimiento de ventas.'}
+          </p>
+          <a
+            href="/mini-map"
+            className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white px-10 py-4 rounded-full font-medium text-lg transition-colors"
+          >
+            {lang === 'en' ? 'Start your map fragment' : 'Comenzar tu fragmento de mapa'}
+            <ArrowRight className="w-5 h-5" />
+          </a>
+          <p className="text-slate-600 text-xs mt-5">
+            {lang === 'en'
+              ? 'Free. Delivered to your email. Takes about five minutes.'
+              : 'Gratis. Enviado a tu correo. Toma unos cinco minutos.'}
+          </p>
+        </div>
+      </section>
+
+      {/* ==================== INNER WORLD IMAGE ==================== */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+            <img
+              src="/inner-world.png"
+              alt="Everyone carries a world inside them"
+              className="w-full object-cover"
+            />
+          </div>
+          <p className="text-center text-slate-400 text-sm mt-6 max-w-lg mx-auto leading-relaxed italic">
+            Everyone is carrying a world inside them. Most people never get to see it clearly.
+          </p>
         </div>
       </section>
 
@@ -547,6 +630,71 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== OFFER SUMMARY BOX ==================== */}
+      <section className="py-16 px-6 bg-teal-700">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-300 uppercase mb-6 text-center">
+            {lang === 'en' ? 'The Founding Cohort Offer' : 'La Oferta del Cohorte Fundador'}
+          </p>
+          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl">
+            {/* What you get */}
+            <div className="px-8 pt-8 pb-6 border-b border-slate-100">
+              <p className="text-[10px] font-mono tracking-widest text-teal-600 uppercase mb-5">
+                {lang === 'en' ? 'What you get' : 'Lo que recibes'}
+              </p>
+              <div className="space-y-3">
+                {(lang === 'en' ? [
+                  { icon: Phone,     text: '15-min orientation call, free, no commitment' },
+                  { icon: Clock,     text: 'Up to 2-hr intake conversation with Dr. Gedalia' },
+                  { icon: FileText,  text: 'Full written Terrain Map delivered as a document' },
+                  { icon: Calendar,  text: '30-day follow-up call (Founding Cohort only)' },
+                ] : [
+                  { icon: Phone,     text: 'Llamada de orientación de 15 min, gratis, sin compromiso' },
+                  { icon: Clock,     text: 'Hasta 2 hrs de conversación de intake con el Dr. Gedalia' },
+                  { icon: FileText,  text: 'Terrain Map completo entregado como documento' },
+                  { icon: Calendar,  text: 'Llamada de seguimiento a los 30 días (solo Cohorte Fundador)' },
+                ]).map(({ icon: Icon, text }, i) => (
+                  <div key={i} className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-4 h-4 text-teal-600" />
+                    </div>
+                    <span className="text-slate-700 text-sm">{text}</span>
+                    <CheckCircle className="w-4 h-4 text-teal-400 ml-auto flex-shrink-0" />
+                  </div>
+                ))}
+              </div>
+              <div className="mt-5 pt-4 border-t border-slate-100 flex items-start gap-2">
+                <Brain className="w-3.5 h-3.5 text-teal-400 flex-shrink-0 mt-0.5" />
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  {lang === 'en'
+                    ? 'The Terrain Map is written by AI running on Dr. Gedalia\'s proprietary prompts and clinical frameworks, not a generic tool.'
+                    : 'El Terrain Map es escrito por IA que ejecuta los prompts propietarios y marcos clínicos del Dr. Gedalia, no una herramienta genérica.'}
+                </p>
+              </div>
+            </div>
+            {/* Price + CTA */}
+            <div className="px-8 py-6 bg-slate-50 flex items-center justify-between flex-wrap gap-4">
+              <div>
+                <div className="flex items-baseline gap-2">
+                  <p className="text-3xl font-bold text-slate-800">$497</p>
+                  <p className="text-base text-slate-400 line-through">$997</p>
+                </div>
+                <p className="text-xs text-teal-600 mt-0.5 font-medium">
+                  {lang === 'en' ? 'April only · $997 in May' : 'Solo abril · $997 en mayo'}
+                </p>
+              </div>
+              <Button
+                className="bg-teal-600 hover:bg-teal-700 text-white font-medium px-8 py-5 rounded-full"
+                onClick={() => window.open(CALENDLY, '_blank')}
+              >
+                <Calendar className="w-4 h-4 mr-2" />
+                {lang === 'en' ? 'Book your orientation call' : 'Agenda tu llamada de orientación'}
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== FOR WHO SECTION ==================== */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-3xl mx-auto">
@@ -612,6 +760,32 @@ function LandingContent() {
               </div>
             ))}
           </div>
+
+          <div className="mt-10 border border-teal-700/50 bg-teal-900/30 rounded-2xl px-7 py-5 flex items-start gap-4">
+            <div className="w-10 h-10 rounded-xl bg-teal-800/60 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <Brain className="w-5 h-5 text-teal-400" />
+            </div>
+            <div>
+              <p className="text-teal-200 font-medium text-sm mb-2">
+                {lang === 'en' ? 'Proprietary methodology: present on both ends.' : 'Metodología propia: presente en ambos extremos.'}
+              </p>
+              <div className="text-slate-400 text-sm leading-relaxed space-y-2">
+                {lang === 'en' ? (
+                  <>
+                    <p><span className="text-slate-300 font-medium">On the input side:</span> The questions asked during the intake session are Dr. Gedalia's, designed to surface what matters, reach what is usually avoided, and create the conditions for genuine disclosure. What gets said is shaped by how he asks.</p>
+                    <p><span className="text-slate-300 font-medium">On the output side:</span> The frameworks used to interpret that data, the psychological lenses, the pattern recognition, the way depth is distinguished from surface, are also his. Built, tested, and refined over years.</p>
+                    <p>The AI applies both. The difference between generic AI output and what ReLoHu produces is the difference between what went into building the system. Slop comes from shallow input. This comes from a decade of high-quality clinical methodology encoded into every layer of the process.</p>
+                  </>
+                ) : (
+                  <>
+                    <p><span className="text-slate-300 font-medium">En el lado de entrada:</span> Las preguntas durante la sesión son del Dr. Gedalia, diseñadas para revelar lo que importa y crear condiciones para la divulgación genuina.</p>
+                    <p><span className="text-slate-300 font-medium">En el lado de salida:</span> Los marcos para interpretar esos datos, las lentes psicológicas, el reconocimiento de patrones, también son suyos. Construidos y refinados durante años.</p>
+                    <p>La IA aplica ambos. Una IA genérica produciría algo categorialmente diferente. El sistema es el trabajo.</p>
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -626,22 +800,22 @@ function LandingContent() {
               Built on decades of <span className="text-teal-600">psychological science</span>
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed">
-              ReLoHu is not intuition dressed up as insight. It draws from established frameworks — applied through a human conversation that no assessment form can replicate.
+              ReLoHu is not intuition dressed up as insight. It draws from established frameworks, applied through a human conversation that no assessment form can replicate.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 label: 'Depth Psychology',
-                body: 'Rooted in the tradition of Jungian and psychodynamic thought — shadow integration, archetypal identity, and the unconscious structures organizing behavior.',
+                body: 'Rooted in the tradition of Jungian and psychodynamic thought: shadow integration, archetypal identity, and the unconscious structures organizing behavior.',
               },
               {
                 label: 'Attachment Theory',
-                body: 'Your relational patterns are mapped against the foundational research of Bowlby, Ainsworth, and the decades of study that followed — making invisible dynamics visible.',
+                body: 'Your relational patterns are mapped against the foundational research of Bowlby, Ainsworth, and the decades of study that followed, making invisible dynamics visible.',
               },
               {
                 label: 'Narrative Psychology',
-                body: 'The story you tell about your own life reveals as much as its facts. ReLoHu attends to both — the events and the meaning-making that surrounds them.',
+                body: 'The story you tell about your own life reveals as much as its facts. ReLoHu attends to both: the events and the meaning-making that surrounds them.',
               },
               {
                 label: 'Somatic Awareness',
@@ -649,11 +823,11 @@ function LandingContent() {
               },
               {
                 label: 'Phenomenological Inquiry',
-                body: 'Questions emerge from what you say — not a fixed protocol. The structure follows the person, not the other way around.',
+                body: 'Questions emerge from what you say, not a fixed protocol. The structure follows the person, not the other way around.',
               },
               {
                 label: 'Integrative Mapping',
-                body: 'No single framework owns the full picture. ReLoHu synthesizes across traditions to produce a portrait that is specific to you — not a category you fall into.',
+                body: 'No single framework owns the full picture. ReLoHu synthesizes across traditions to produce a portrait that is specific to you, not a category you fall into.',
               },
             ].map(({ label, body }) => (
               <div key={label} className="bg-white border border-slate-200 rounded-2xl p-6">
@@ -721,7 +895,13 @@ function LandingContent() {
                   : 'Después de dos años de desarrollo, ReLoHu abre a sus primeros clientes públicos. Diez cupos, con una llamada de seguimiento a los 30 días.'}
               </p>
               <div className="mt-6 pt-5 border-t border-teal-500 flex items-center justify-between">
-                <span className="text-white font-medium">$997 · 10 spots</span>
+                <div>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-white font-medium">$497</span>
+                    <span className="text-teal-300 text-sm line-through">$997</span>
+                  </div>
+                  <span className="text-teal-200 text-xs">April only</span>
+                </div>
                 <a href="/founding-cohort" className="text-teal-200 text-sm hover:text-white transition-colors underline underline-offset-2">
                   {lang === 'en' ? 'Learn more →' : 'Más info →'}
                 </a>
@@ -738,8 +918,8 @@ function LandingContent() {
               </h3>
               <p className="text-slate-500 text-sm leading-relaxed flex-1">
                 {lang === 'en'
-                  ? 'The intake conversation, verbal readback, and your complete Terrain Map delivered as a file. The full picture — without the follow-up call.'
-                  : 'La conversación de intake, lectura verbal y tu Terrain Map completo como archivo. La imagen completa — sin la llamada de seguimiento.'}
+                  ? 'The intake conversation, verbal readback, and your complete Terrain Map delivered as a file. The full picture, without the follow-up call.'
+                  : 'La conversación de intake, lectura verbal y tu Terrain Map completo como archivo. La imagen completa, sin la llamada de seguimiento.'}
               </p>
               <div className="mt-6 pt-5 border-t border-slate-200">
                 <span className="text-slate-400 text-sm">
@@ -797,7 +977,7 @@ function LandingContent() {
                     "{testimonial.quote}"
                   </p>
                   <div className="flex items-center justify-between pt-4 border-t border-slate-100">
-                    <p className="text-xs text-slate-400 italic">— {testimonial.author}</p>
+                    <p className="text-xs text-slate-400 italic">{testimonial.author}</p>
                     <span className="text-[10px] font-mono tracking-wide text-slate-400 uppercase">Verified Client</span>
                   </div>
                 </CardContent>
@@ -813,11 +993,76 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== SAMPLE REPORTS / PRE-EDUCATION ==================== */}
+      <section className="py-20 px-6 bg-slate-50 border-t border-slate-100">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-4">
+              {lang === 'en' ? 'See the work' : 'Ve el trabajo'}
+            </p>
+            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-3">
+              {lang === 'en' ? 'Read a real Terrain Map before you decide.' : 'Lee un Terrain Map real antes de decidir.'}
+            </h2>
+            <p className="text-slate-500 leading-relaxed max-w-xl mx-auto">
+              {lang === 'en'
+                ? 'Two complete maps, created for two real people, shown in full. Not excerpts. The actual document you would receive.'
+                : 'Dos mapas completos, creados para dos personas reales, mostrados en su totalidad. No son extractos. El documento real que recibirías.'}
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-5">
+            {[
+              {
+                href: '/sample-report',
+                num: '01',
+                title: lang === 'en' ? 'Trauma survival, identity excavation, radical self-construction' : 'Supervivencia al trauma, excavación de identidad, autoconstrucción radical',
+                tags: lang === 'en' ? ['Central wound', 'Relational terrain', 'Core vectors'] : ['Herida central', 'Terreno relacional', 'Vectores centrales'],
+              },
+              {
+                href: '/sample-report-2',
+                num: '02',
+                title: lang === 'en' ? 'Sovereignty, spiritual awakening, the bridge archetype' : 'Soberanía, despertar espiritual, el arquetipo del puente',
+                tags: lang === 'en' ? ['Formative architecture', 'Core seeing', 'Insights for the path ahead'] : ['Arquitectura formativa', 'Visión central', 'Perspectivas para el camino'],
+              },
+            ].map(({ href, num, title, tags }) => (
+              <a
+                key={num}
+                href={href}
+                className="group block bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-300 hover:shadow-md transition-all duration-300"
+              >
+                <p className="text-[9px] font-mono tracking-[0.3em] text-teal-500 uppercase mb-3">
+                  {lang === 'en' ? `Sample Report ${num}` : `Reporte de Muestra ${num}`}
+                </p>
+                <p className="text-slate-700 font-medium leading-snug mb-4 group-hover:text-teal-700 transition-colors">
+                  {title}
+                </p>
+                <div className="flex flex-wrap gap-2 mb-5">
+                  {tags.map((tag) => (
+                    <span key={tag} className="text-[10px] font-mono tracking-wide text-slate-400 bg-slate-50 border border-slate-100 px-2 py-0.5 rounded-full">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <span className="text-teal-600 text-sm font-medium group-hover:text-teal-700 transition-colors">
+                  {lang === 'en' ? 'Read this report →' : 'Leer este reporte →'}
+                </span>
+              </a>
+            ))}
+          </div>
+
+          <p className="text-center text-slate-400 text-xs mt-8 leading-relaxed">
+            {lang === 'en'
+              ? 'Names and identifying details are anonymized. The writing, structure, and depth are unchanged.'
+              : 'Los nombres y detalles identificativos están anonimizados. La escritura, estructura y profundidad no han sido alteradas.'}
+          </p>
+        </div>
+      </section>
+
       {/* ==================== FOUNDER QUOTE ==================== */}
       <section className="py-20 px-6 bg-white border-t border-slate-100">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-2xl md:text-3xl font-light text-slate-700 leading-relaxed italic mb-8">
-            "I believe every person is carrying something entirely their own — a particular texture, a particular way of being in the world. And I believe that if you go deep enough into any one of those worlds, you stop feeling alone. The most specific truths turn out to be the most shared ones."
+            "I believe every person is carrying something entirely their own, a particular texture, a particular way of being in the world. And I believe that if you go deep enough into any one of those worlds, you stop feeling alone. The most specific truths turn out to be the most shared ones."
           </p>
           <div className="flex items-center justify-center gap-3">
             <div className="w-8 h-px bg-teal-300" />
@@ -942,8 +1187,8 @@ function LandingContent() {
 
           <p className="text-slate-400 text-xs mt-3 text-center">
             {lang === 'en'
-              ? <>First public clients · $997 · 10 spots · Follow-up call included · <a href="/founding-cohort" className="text-teal-500 hover:underline">View full offer →</a></>
-              : <>Primeros clientes públicos · $997 · 10 cupos · Llamada de seguimiento incluida · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
+              ? <>April only · $497 now, $997 in May · Follow-up call included · <a href="/founding-cohort" className="text-teal-500 hover:underline">View full offer →</a></>
+              : <>Solo abril · $497 ahora, $997 en mayo · Llamada de seguimiento incluida · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
             }
           </p>
         </div>

@@ -28,7 +28,7 @@ export default function UniquenessPage() {
             <span className="text-teal-600">Psychological mapping.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            ReLoHu is not therapy, coaching, or counseling. It is the work that happens before those things — the careful, witnessed gathering of who a person actually is.
+            ReLoHu is not therapy, coaching, or counseling. It is the work that happens before those things: the careful, witnessed gathering of who a person actually is.
           </p>
         </div>
       </section>
@@ -57,11 +57,11 @@ export default function UniquenessPage() {
                     'Weeks of sessions just establishing who you are',
                     'Practitioner works from low-resolution self-knowledge',
                     'You explain yourself repeatedly, from scratch',
-                    'Real work begins late — if it begins at all',
+                    'Real work begins late, if it begins at all',
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <div className="w-5 h-5 rounded-full bg-slate-200 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-slate-500 text-xs font-bold">—</span>
+                        <span className="text-slate-500 text-xs font-bold">×</span>
                       </div>
                       <span className="text-slate-500 text-sm leading-relaxed">{item}</span>
                     </div>
@@ -105,7 +105,7 @@ export default function UniquenessPage() {
               Not an interview. A witnessed conversation.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              The intake specialist is not a therapist. The role is more analogous to a skilled interviewer or a master diagnostician — someone whose primary craft is listening and asking the next right question.
+              The intake specialist is not a therapist. The role is more analogous to a skilled interviewer or a master diagnostician, someone whose primary craft is listening and asking the next right question.
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function UniquenessPage() {
               {
                 icon: Mic,
                 title: 'Unscripted in its probing',
-                body: 'Questions emerge from what the person says — not from a fixed protocol written in advance. The conversation is adaptive. What matters most surfaces from what you actually say.',
+                body: 'Questions emerge from what the person says, not from a fixed protocol written in advance. The conversation is adaptive. What matters most surfaces from what you actually say.',
               },
               {
                 icon: Users,
@@ -124,7 +124,7 @@ export default function UniquenessPage() {
               {
                 icon: ArrowUpCircle,
                 title: 'Structurally rigorous',
-                body: 'Guided by a methodology that ensures key domains of your inner life are explored — without the rigidity of a checklist. Adaptive structure, not rigid protocol.',
+                body: 'Guided by a methodology that ensures key domains of your inner life are explored, without the rigidity of a checklist. Adaptive structure, not rigid protocol.',
               },
               {
                 icon: Map,
@@ -163,7 +163,7 @@ export default function UniquenessPage() {
               Not a diagnosis. A mirror.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              The Terrain Map shows you something true about yourself that you could not have assembled alone — in a form legible to both you and any professional you subsequently engage.
+              The Terrain Map shows you something true about yourself that you could not have assembled alone, in a form legible to both you and any professional you subsequently engage.
             </p>
           </div>
 
@@ -177,7 +177,7 @@ export default function UniquenessPage() {
                   <Map className="w-4 h-4 text-teal-600" />
                 </div>
                 <span className="text-slate-700 leading-relaxed text-sm pt-1.5 font-medium">
-                  Your Terrain Map — a structured psychological portrait assembled from your own words, in a form legible to both you and any professional you subsequently engage.
+                  Your Terrain Map: a structured psychological portrait assembled from your own words, in a form legible to both you and any professional you subsequently engage.
                 </span>
               </div>
 
@@ -189,7 +189,7 @@ export default function UniquenessPage() {
                   { icon: BookOpen, text: 'Archetypal mapping: the historical, literary, or living figure whose profile most closely matches yours' },
                   { icon: Users, text: 'Relational insight: what kind of person or partnership would genuinely meet you' },
                   { icon: Target, text: 'Central problem identification: the one unsolved question organizing your present life' },
-                  { icon: ArrowUpCircle, text: 'Observer state mapped — how open or closed you are to your own process' },
+                  { icon: ArrowUpCircle, text: 'Observer state mapped: how open or closed you are to your own process' },
                   { icon: Route, text: 'Priority roadmap for any professional work that follows' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 group">
@@ -201,14 +201,14 @@ export default function UniquenessPage() {
                 ))}
               </div>
               <p className="text-xs text-slate-400 italic leading-relaxed mb-8 pl-12">
-                This list is not complete — and it is growing. New deliverables are being developed constantly. What becomes possible from a single session is broader than any list can capture.
+                This list is not complete, and it is growing. New deliverables are being developed constantly. What becomes possible from a single session is broader than any list can capture.
               </p>
 
               <Separator className="my-8 bg-slate-100" />
 
               <div className="bg-gradient-to-r from-teal-50 to-slate-50 rounded-xl p-5 border border-teal-100">
                 <p className="text-slate-700 leading-relaxed">
-                  <span className="font-medium text-teal-700">Your reports don't expire.</span> As new deliverables become available — and they are being developed constantly — what you've already explored can generate entirely new layers of insight. One session. Expanding returns.
+                  <span className="font-medium text-teal-700">Your reports don't expire.</span> As new deliverables become available, and they are being developed constantly, what you've already explored can generate entirely new layers of insight. One session. Expanding returns.
                 </p>
               </div>
             </CardContent>
@@ -249,7 +249,7 @@ export default function UniquenessPage() {
               {
                 icon: Brain,
                 question: 'What is the specialist\'s craft?',
-                answer: 'Dr. Gedalia spent a decade learning to excavate and interpret his own interior life. That practice — knowing what to ask, how to hold someone\'s data, which lens to turn it through — is the methodology. It cannot be automated because it was never a script.',
+                answer: 'Dr. Gedalia spent a decade learning to excavate and interpret his own interior life. That practice, knowing what to ask, how to hold someone\'s data, which lens to turn it through, is the methodology. It cannot be automated because it was never a script.',
               },
             ].map((item, i) => (
               <div key={i} className="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 hover:border-teal-700 transition-colors group">
@@ -284,7 +284,7 @@ export default function UniquenessPage() {
               Therapy's format hasn't changed.<br />What's possible now has.
             </h2>
             <p className="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed">
-              The basic structure of professional psychological support — one person talking, another listening, a picture assembling itself over months — has remained fundamentally unchanged since the mid-twentieth century. The questions have improved. The research has deepened. The format has not.
+              The basic structure of professional psychological support, one person talking, another listening, a picture assembling itself over months, has remained fundamentally unchanged since the mid-twentieth century. The questions have improved. The research has deepened. The format has not.
             </p>
           </div>
 
@@ -293,7 +293,7 @@ export default function UniquenessPage() {
               <p className="text-xs font-mono tracking-widest text-slate-400 uppercase mb-4">Then</p>
               <div className="space-y-4 text-slate-500 leading-relaxed">
                 <p>
-                  A practitioner meets you for fifty minutes a week. Over months, they accumulate a picture — built from what you choose to share, in the order you're ready to share it. The most important material surfaces last, once trust is fully established.
+                  A practitioner meets you for fifty minutes a week. Over months, they accumulate a picture built from what you choose to share, in the order you're ready to share it. The most important material surfaces last, once trust is fully established.
                 </p>
                 <p>
                   This is not a flaw in the practitioner. It is a structural limitation of the format. The map builds slowly because the format allows for nothing else.
@@ -304,7 +304,7 @@ export default function UniquenessPage() {
               <p className="text-xs font-mono tracking-widest text-teal-600 uppercase mb-4">Now</p>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  A single witnessed conversation — structured to create the conditions for genuine depth — produces a transcript. That transcript is processed through Transcengine™, ReLoHu's proprietary AI methodology, capable of identifying patterns across the full arc of what you said: what you returned to, what you avoided, how you constructed meaning, where your language shifted.
+                  A single witnessed conversation, structured to create the conditions for genuine depth, produces a transcript. That transcript is processed through Transcengine™, ReLoHu's proprietary AI methodology, capable of identifying patterns across the full arc of what you said: what you returned to, what you avoided, how you constructed meaning, where your language shifted.
                 </p>
                 <p>
                   The result is a high-resolution psychological portrait assembled in one session. This was not possible to produce from a single conversation a decade ago. It is now.
@@ -318,16 +318,16 @@ export default function UniquenessPage() {
             <div className="relative">
               <p className="text-xs font-mono tracking-widest text-teal-400 uppercase mb-6">The Principle</p>
               <p className="text-xl md:text-2xl font-light text-white leading-relaxed mb-6">
-                ReLoHu is not a technology product. It is a human process — one that uses technology to do something that has never been possible before: produce a complete psychological map from a single session.
+                ReLoHu is not a technology product. It is a human process, one that uses technology to do something that has never been possible before: produce a complete psychological map from a single session.
               </p>
               <p className="text-slate-400 leading-relaxed mb-4">
-                The human witness is irreplaceable. The depth of the conversation cannot be automated. But what that conversation produces — when run through Transcengine™, ReLoHu's proprietary AI analysis system — is something that would have taken a skilled practitioner a year of careful observation to assemble. That is what 2026 makes possible.
+                The human witness is irreplaceable. The depth of the conversation cannot be automated. But what that conversation produces, when run through Transcengine™, ReLoHu's proprietary AI analysis system, is something that would have taken a skilled practitioner a year of careful observation to assemble. That is what 2026 makes possible.
               </p>
               <p className="text-slate-500 text-sm leading-relaxed mb-6">
-                Transcengine™ is also the foundation of Meta Aware™ — a platform currently in development for AI-assisted self-awareness analysis and human perception training at scale.
+                Transcengine™ is also the foundation of Meta Aware™, a platform currently in development for AI-assisted self-awareness analysis and human perception training at scale.
               </p>
               <p className="text-slate-500 leading-relaxed border-t border-slate-700 pt-6 text-sm">
-                There will always be companies building AI tools for psychology. Most are built by people who saw an opportunity. This was built by someone who needed it — who spent a decade unable to find what he was trying to build, and finally built it himself. That is not a positioning statement. It is just what happened.
+                There will always be companies building AI tools for psychology. Most are built by people who saw an opportunity. This was built by someone who needed it, who spent a decade unable to find what he was trying to build, and finally built it himself. That is not a positioning statement. It is just what happened.
               </p>
             </div>
           </div>
@@ -342,7 +342,7 @@ export default function UniquenessPage() {
           </p>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">— Dr. Gedalia, Founder</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>
@@ -370,22 +370,22 @@ export default function UniquenessPage() {
               {
                 number: '02',
                 title: 'Adaptive probing, not fixed questions.',
-                body: 'The questions that matter most emerge from what you say — not from a protocol written in advance. Every session is genuinely different because every person is genuinely different.',
+                body: 'The questions that matter most emerge from what you say, not from a protocol written in advance. Every session is genuinely different because every person is genuinely different.',
               },
               {
                 number: '03',
                 title: 'High-resolution data before analysis.',
-                body: 'AI output is only as good as its input. ReLoHu collects richly textured, witnessed self-disclosure — and that changes everything the analysis can do.',
+                body: 'AI output is only as good as its input. ReLoHu collects richly textured, witnessed self-disclosure, and that changes everything the analysis can do.',
               },
               {
                 number: '04',
                 title: 'Your Terrain Map is just the beginning.',
-                body: 'The session produces a Terrain Map — but that\'s just the beginning. New deliverables are constantly being developed. What you receive today may be only the first of many layers of insight from a single session.',
+                body: 'The session produces a Terrain Map, but that\'s just the beginning. New deliverables are constantly being developed. What you receive today may be only the first of many layers of insight from a single session.',
               },
               {
                 number: '05',
                 title: 'Built to complete, not to continue.',
-                body: 'Most support structures — by design or circumstance — create an ongoing relationship of return. ReLoHu is built differently. One session delivers something whole and lasting. There is no open loop that requires you to come back. If you return, it will be because you chose to — because you found it valuable, because being truly known opened something you want to explore further. That\'s not dependency. That\'s genuine interest.',
+                body: 'Most support structures, by design or circumstance, create an ongoing relationship of return. ReLoHu is built differently. One session delivers something whole and lasting. There is no open loop that requires you to come back. If you return, it will be because you chose to, because you found it valuable, because being truly known opened something you want to explore further. That\'s not dependency. That\'s genuine interest.',
               },
             ].map((item, i) => (
               <Card key={i} className="bg-white border-slate-100 shadow-sm hover:border-teal-200 hover:shadow-md transition-all duration-300 group">
@@ -415,7 +415,7 @@ export default function UniquenessPage() {
             Experience it yourself.
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            One session. The clearest portrait of yourself you've ever held — and the beginning of something that keeps expanding.
+            One session. The clearest portrait of yourself you've ever held, and the beginning of something that keeps expanding.
           </p>
           <a
             href="/#cta-section"

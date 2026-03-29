@@ -35,7 +35,7 @@ const tiers = [
   {
     name: 'The Deep Dive',
     price: null,
-    description: 'The fullest possible portrait — a gift that could change how someone understands themselves forever.',
+    description: 'The fullest possible portrait, a gift that could change how someone understands themselves forever.',
     features: [
       'Free 15–20 min orientation call',
       '3-hour intake session with Dr. Gedalia',
@@ -65,7 +65,7 @@ export default function GiftPage() {
             <span className="text-teal-600">being truly known.</span>
           </h1>
           <p className="text-slate-500 text-lg leading-relaxed max-w-xl mx-auto">
-            Most gifts are things. This one is an experience of being fully seen — perhaps for the first time. A ReLoHu Terrain Map is something a person carries with them.
+            Most gifts are things. This one is an experience of being fully seen, perhaps for the first time. A ReLoHu Terrain Map is something a person carries with them.
           </p>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function GiftPage() {
       {/* Tiers */}
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="text-center text-slate-400 text-sm mb-12">Pricing coming soon — contact Dr. Gedalia directly to arrange a gift session.</p>
+          <p className="text-center text-slate-400 text-sm mb-12">Pricing coming soon. Contact Dr. Gedalia directly to arrange a gift session.</p>
           <div className="grid md:grid-cols-3 gap-6 items-start">
             {tiers.map((tier) => (
               <div
@@ -150,9 +150,9 @@ export default function GiftPage() {
           <div className="space-y-6 text-left">
             {[
               { step: '1', title: 'Reach out to Dr. Gedalia', body: 'Book a quick call or send a message explaining who the gift is for. No need to involve the recipient yet.' },
-              { step: '2', title: 'We arrange the details', body: 'Dr. Gedalia will send the recipient a personalized note and orientation call invitation — or you can deliver it yourself.' },
+              { step: '2', title: 'We arrange the details', body: 'Dr. Gedalia will send the recipient a personalized note and orientation call invitation, or you can deliver it yourself.' },
               { step: '3', title: 'They experience it on their timeline', body: 'The recipient books their own orientation call when they\'re ready. There\'s no pressure and no expiry.' },
-              { step: '4', title: 'They receive their Terrain Map', body: 'A structured, personal document they\'ll carry with them — in therapy, in coaching, or simply as a map of themselves.' },
+              { step: '4', title: 'They receive their Terrain Map', body: 'A structured, personal document they\'ll carry with them, in therapy, in coaching, or simply as a map of themselves.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="flex gap-5">
                 <div className="w-8 h-8 rounded-full bg-teal-100 text-teal-700 text-sm font-medium flex items-center justify-center shrink-0 mt-0.5">

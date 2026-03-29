@@ -50,7 +50,7 @@ export default function ContactPage() {
             Get in touch
           </h1>
           <p className="text-lg text-slate-500 max-w-xl mx-auto leading-relaxed">
-            Whether you have a question, want to explore if ReLoHu is right for you, or just want to reach out — this is the place.
+            Whether you have a question, want to explore if ReLoHu is right for you, or just want to reach out, this is the place.
           </p>
         </div>
       </section>

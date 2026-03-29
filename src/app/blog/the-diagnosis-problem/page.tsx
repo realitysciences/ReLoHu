@@ -34,7 +34,7 @@ export default function TheDiagnosisProblem() {
             The Dentist Who Wanted to Separate the Diagnosis from the Drill
           </h1>
           <p className="text-slate-500 text-lg leading-relaxed mb-12 border-b border-slate-100 pb-12">
-            When the person who evaluates you also profits from what they find, the evaluation is compromised — whether they mean it to be or not. I believed this about dentistry for years. I eventually realized I believed it about nearly everything.
+            When the person who evaluates you also profits from what they find, the evaluation is compromised, whether they mean it to be or not. I believed this about dentistry for years. I eventually realized I believed it about nearly everything.
           </p>
 
           <div className="space-y-6 text-[0.97rem] leading-[1.85] text-slate-700">
@@ -44,15 +44,15 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              The standard model — where one dentist examines you, diagnoses you, recommends treatment, and then performs that treatment — has a structural problem that the profession rarely discusses openly. The dentist who tells you that you need a crown is often the same dentist who will bill several thousand dollars to place it. The dentist who recommends a full treatment plan is the same dentist whose revenue depends on that plan being accepted.
+              The standard model, where one dentist examines you, diagnoses you, recommends treatment, and then performs that treatment, has a structural problem that the profession rarely discusses openly. The dentist who tells you that you need a crown is often the same dentist who will bill several thousand dollars to place it. The dentist who recommends a full treatment plan is the same dentist whose revenue depends on that plan being accepted.
             </p>
 
             <p>
-              This is not an accusation. The vast majority of dentists I have known are honest, careful, and genuinely motivated by the wellbeing of their patients. But good intentions do not eliminate structural incentives. Research on clinical decision-making consistently shows that financial context shapes judgment in ways that are largely unconscious — that even when a practitioner believes they are acting purely in the patient's interest, the conditions they operate within are influencing what they see.<Cite>1</Cite>
+              This is not an accusation. The vast majority of dentists I have known are honest, careful, and genuinely motivated by the wellbeing of their patients. But good intentions do not eliminate structural incentives. Research on clinical decision-making consistently shows that financial context shapes judgment in ways that are largely unconscious, such that even when a practitioner believes they are acting purely in the patient's interest, the conditions they operate within are influencing what they see.<Cite>1</Cite>
             </p>
 
             <p>
-              Studies examining diagnostic variability in dentistry have found significant disagreement between practitioners reviewing the same radiographs — the same X-rays, the same patient, wildly different treatment recommendations.<Cite>2</Cite> Some of this is genuine clinical uncertainty. But some of it is the quiet pressure of a system that rewards treatment over watchfulness, intervention over observation.
+              Studies examining diagnostic variability in dentistry have found significant disagreement between practitioners reviewing the same radiographs: the same X-rays, the same patient, wildly different treatment recommendations.<Cite>2</Cite> Some of this is genuine clinical uncertainty. But some of it is the quiet pressure of a system that rewards treatment over watchfulness, intervention over observation.
             </p>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">What I always wanted to do instead</h2>
@@ -62,7 +62,7 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              What is actually going on in this mouth — and why? What are this person's oral hygiene habits, their diet, their stress levels, their relationship to their own health? What is the history here, the pattern, the trajectory? Who is this person, and what does their mouth reveal about how they are living?
+              What is actually going on in this mouth, and why? What are this person's oral hygiene habits, their diet, their stress levels, their relationship to their own health? What is the history here, the pattern, the trajectory? Who is this person, and what does their mouth reveal about how they are living?
             </p>
 
             <p>
@@ -70,7 +70,7 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              The model I kept returning to was one where I performed only the diagnosis — the full, unhurried, conflict-free evaluation — and then referred the patient to a different provider for any treatment that followed. Not because I couldn't do the treatment. Because if the patient knew I had no financial stake in what I found, they could trust what I told them. The diagnosis would be clean. My incentive and their interest would be perfectly aligned: I wanted to see them clearly, and they needed to be seen clearly. Nothing else in the room.
+              The model I kept returning to was one where I performed only the diagnosis, the full, unhurried, conflict-free evaluation, and then referred the patient to a different provider for any treatment that followed. Not because I couldn't do the treatment. Because if the patient knew I had no financial stake in what I found, they could trust what I told them. The diagnosis would be clean. My incentive and their interest would be perfectly aligned: I wanted to see them clearly, and they needed to be seen clearly. Nothing else in the room.
             </p>
 
             <p>
@@ -88,7 +88,7 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              The Institute of Medicine's landmark report on patient-centered care identified the same tension across healthcare broadly: that systems organized around provider convenience, institutional efficiency, or financial throughput tend to drift away from the human at their center — not through malice, but through accumulated structural pressure.<Cite>3</Cite> The human becomes secondary to the system. And the system keeps running, because it works well enough, and because no one has built the alternative yet.
+              The Institute of Medicine's landmark report on patient-centered care identified the same tension across healthcare broadly: that systems organized around provider convenience, institutional efficiency, or financial throughput tend to drift away from the human at their center, not through malice, but through accumulated structural pressure.<Cite>3</Cite> The human becomes secondary to the system. And the system keeps running, because it works well enough, and because no one has built the alternative yet.
             </p>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">We have not landed anywhere final</h2>
@@ -98,11 +98,11 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              Dentistry has made extraordinary advances in technique, materials, and clinical outcomes. And the basic structure of how a patient is evaluated, how their interests are represented, and whether the person looking at their mouth has genuinely clean incentives — those questions remain largely unanswered. We improved the drill. We did not meaningfully revisit the relationship.
+              Dentistry has made extraordinary advances in technique, materials, and clinical outcomes. And the basic structure of how a patient is evaluated, how their interests are represented, and whether the person looking at their mouth has genuinely clean incentives: those questions remain largely unanswered. We improved the drill. We did not meaningfully revisit the relationship.
             </p>
 
             <p>
-              The same is true in psychology and therapy. The therapeutic hour has remained structurally unchanged for over a century. The couch, the fifty-minute session, the ongoing relationship, the slow accumulation of insight over months and years — these are not immutable laws of nature. They are historical conventions that have calcified into assumptions. And the question of whether they are the best possible structure for helping a human being know themselves has rarely been seriously asked.
+              The same is true in psychology and therapy. The therapeutic hour has remained structurally unchanged for over a century. The couch, the fifty-minute session, the ongoing relationship, the slow accumulation of insight over months and years: these are not immutable laws of nature. They are historical conventions that have calcified into assumptions. And the question of whether they are the best possible structure for helping a human being know themselves has rarely been seriously asked.
             </p>
 
             <p>
@@ -116,11 +116,11 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              Human-centered is not a value statement. It is a design question. Who does the structure actually serve? When the interests of the practitioner and the interests of the person diverge — which they sometimes will — whose interests win? What has the system been built to protect?
+              Human-centered is not a value statement. It is a design question. Who does the structure actually serve? When the interests of the practitioner and the interests of the person diverge, which they sometimes will, whose interests win? What has the system been built to protect?
             </p>
 
             <p>
-              The dental examination I always imagined was human-centered in this specific sense: the person in the chair would know, without any doubt, that the findings were for them. Not for a treatment plan. Not for a revenue target. For them. That kind of clarity changes everything — not just what the practitioner does, but what the patient is able to receive. You hear differently when you trust the source.
+              The dental examination I always imagined was human-centered in this specific sense: the person in the chair would know, without any doubt, that the findings were for them. Not for a treatment plan. Not for a revenue target. For them. That kind of clarity changes everything, not just what the practitioner does, but what the patient is able to receive. You hear differently when you trust the source.
             </p>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">This is where ReLoHu came from</h2>
@@ -148,17 +148,17 @@ export default function TheDiagnosisProblem() {
             </p>
 
             <p>
-              What I have learned — in dentistry, in my own psychological work, and in building ReLoHu — is that the obligation to improve is never discharged. There is no point at which we can say: this is how it is done now, and how it will be done. Every convention deserves the question: is this actually the best we can do for the person this is supposed to serve?
+              What I have learned, in dentistry, in my own psychological work, and in building ReLoHu, is that the obligation to improve is never discharged. There is no point at which we can say: this is how it is done now, and how it will be done. Every convention deserves the question: is this actually the best we can do for the person this is supposed to serve?
             </p>
 
             <p>
-              That question is uncomfortable. It challenges livelihood, habit, and identity. But it is the only question that leads anywhere worth going. Human beings must always push forward — and always push forward in a way that keeps the human at the center. When we lose that, we have to notice. We have to say something. And then we have to build something better.
+              That question is uncomfortable. It challenges livelihood, habit, and identity. But it is the only question that leads anywhere worth going. Human beings must always push forward, and always push forward in a way that keeps the human at the center. When we lose that, we have to notice. We have to say something. And then we have to build something better.
             </p>
 
             <div className="mt-14 p-6 bg-teal-50 border border-teal-100 rounded-2xl">
               <p className="text-teal-800 font-medium mb-2">A diagnosis with no agenda.</p>
               <p className="text-teal-700 text-sm mb-4 leading-relaxed">
-                One session. One map. No treatment plan, no ongoing commitment, no conflict of interest. Just an honest picture of who you are — delivered to you and belonging entirely to you.
+                One session. One map. No treatment plan, no ongoing commitment, no conflict of interest. Just an honest picture of who you are, delivered to you and belonging entirely to you.
               </p>
               <a
                 href="https://calendly.com/relohu"

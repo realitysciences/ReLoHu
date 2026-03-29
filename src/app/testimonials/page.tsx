@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 const testimonials = [
   {
-    quote: 'For the first time, I felt like someone actually saw the whole picture. Not just my symptoms, not just my patterns — me. The Terrain Map changed everything. I\'ve been in therapy for years and nothing has given me this kind of clarity about who I actually am.',
+    quote: 'For the first time, I felt like someone actually saw the whole picture. Not just my symptoms, not just my patterns, but me. The Terrain Map changed everything. I\'ve been in therapy for years and nothing has given me this kind of clarity about who I actually am.',
     author: 'M. Chen',
     role: 'Software Engineer',
     location: 'San Francisco, CA',
@@ -23,28 +23,28 @@ const testimonials = [
     highlight: 'Skipped months of guesswork',
   },
   {
-    quote: 'I was skeptical. I\'d seen many practitioners. But this was different — built by someone who actually understands what it\'s like to be "too sophisticated" for help. Dr. Gedalia didn\'t try to fit me into a framework. He just listened until the picture came into focus.',
+    quote: 'I was skeptical. I\'d seen many practitioners. But this was different, built by someone who actually understands what it\'s like to be "too sophisticated" for help. Dr. Gedalia didn\'t try to fit me into a framework. He just listened until the picture came into focus.',
     author: 'R. Patel',
     role: 'Startup Founder',
     location: 'Austin, TX',
     highlight: 'Didn\'t try to fit me into a framework',
   },
   {
-    quote: 'I\'ve done EMDR, somatic work, cognitive therapy — all of it useful in different ways. But I\'d never had someone simply witness me without an agenda. The Terrain Map gave my coach something she said she\'d never had before walking into a first session: a real starting point.',
+    quote: 'I\'ve done EMDR, somatic work, cognitive therapy, all of it useful in different ways. But I\'d never had someone simply witness me without an agenda. The Terrain Map gave my coach something she said she\'d never had before walking into a first session: a real starting point.',
     author: 'L. Okafor',
     role: 'Executive',
     location: 'Chicago, IL',
     highlight: 'Without an agenda',
   },
   {
-    quote: 'I kept waiting for the session to feel like therapy. It never did. It felt like being interviewed by someone who was genuinely curious — not trying to fix anything, not rushing toward an insight. Just present. The map that came out of it was more accurate than anything I\'ve ever read about myself.',
+    quote: 'I kept waiting for the session to feel like therapy. It never did. It felt like being interviewed by someone who was genuinely curious, not trying to fix anything, not rushing toward an insight. Just present. The map that came out of it was more accurate than anything I\'ve ever read about myself.',
     author: 'S. Reyes',
     role: 'Psychologist',
     location: 'Los Angeles, CA',
     highlight: 'More accurate than anything I\'ve ever read about myself',
   },
   {
-    quote: 'What surprised me most was how much I said that I\'d never said before. Dr. Gedalia asked the right question at the right moment, and I found myself going somewhere I hadn\'t been. The Terrain Map captured it in a way I could actually hand to someone else — or just keep for myself.',
+    quote: 'What surprised me most was how much I said that I\'d never said before. Dr. Gedalia asked the right question at the right moment, and I found myself going somewhere I hadn\'t been. The Terrain Map captured it in a way I could actually hand to someone else, or just keep for myself.',
     author: 'T. Nakamura',
     role: 'Writer',
     location: 'Seattle, WA',
@@ -141,17 +141,17 @@ export default function TestimonialsPage() {
               {
                 icon: Star,
                 title: 'They had already tried',
-                body: 'Therapy. Coaching. Meditation. Self-help. Sometimes all of the above. They weren\'t new to self-inquiry — they were sophisticated practitioners of it. And still felt unseen.',
+                body: 'Therapy. Coaching. Meditation. Self-help. Sometimes all of the above. They weren\'t new to self-inquiry. They were sophisticated practitioners of it. And still felt unseen.',
               },
               {
                 icon: Star,
                 title: 'They came in skeptical',
-                body: 'The bar was high. They\'d been disappointed before. Several almost didn\'t book the orientation call. What changed their minds was the specificity of how ReLoHu described their experience — before they\'d said a word.',
+                body: 'The bar was high. They\'d been disappointed before. Several almost didn\'t book the orientation call. What changed their minds was the specificity of how ReLoHu described their experience, before they\'d said a word.',
               },
               {
                 icon: Star,
                 title: 'They left with something usable',
-                body: 'Not a feeling. Not a reframe. A document. A map. Something they could hand to a therapist, a coach, a partner — or simply keep for themselves as the clearest portrait of who they actually are.',
+                body: 'Not a feeling. Not a reframe. A document. A map. Something they could hand to a therapist, a coach, a partner, or simply keep for themselves as the clearest portrait of who they actually are.',
               },
             ].map((item, i) => (
               <div key={i} className="text-center p-6 rounded-2xl bg-slate-50 border border-slate-100">

@@ -2,6 +2,7 @@ import SiteNav from '@/components/SiteNav'
 import SiteFooter from '@/components/SiteFooter'
 import Link from 'next/link'
 import { Calendar, FileText, Phone, CheckCircle, Users } from 'lucide-react'
+import PayButton from '@/components/PayButton'
 
 export const metadata = {
   title: 'First Public Clients | ReLoHu',
@@ -111,16 +112,24 @@ export default function FoundingCohortPage() {
               <p className="text-sm text-teal-600 font-mono">April only</p>
             </div>
             <p className="text-slate-500 text-sm mb-6">All four components above. One price. No upsells during the session. Price returns to $997 in May.</p>
+            <PayButton
+              className="w-full inline-flex items-center justify-center gap-2.5 bg-teal-600 hover:bg-teal-700 disabled:opacity-60 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
+            />
+            <p className="text-center text-slate-400 text-xs mt-3">Secure checkout via Stripe · No commitment beyond payment</p>
+            <div className="relative my-5">
+              <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-slate-100" /></div>
+              <div className="relative flex justify-center"><span className="px-3 text-xs text-slate-400 bg-white">or start with a free call first</span></div>
+            </div>
             <a
               href="https://calendly.com/relohu"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full inline-flex items-center justify-center gap-2.5 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
+              className="w-full inline-flex items-center justify-center gap-2.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-medium rounded-full px-8 py-3.5 text-sm transition-all"
             >
               <Calendar className="w-4 h-4" />
-              Book Your Orientation Call
+              Book a Free Orientation Call
             </a>
-            <p className="text-center text-slate-400 text-xs mt-3">Starts with a free 15-min orientation call · No commitment</p>
+            <p className="text-center text-slate-400 text-xs mt-3">15 min · No commitment · Just a conversation to see if it's right for you</p>
             <p className="text-center text-slate-400 text-xs mt-2">
               Already booked? <a href="/intake" className="text-teal-500 hover:underline">Fill out your pre-session intake form →</a>
             </p>
@@ -272,16 +281,21 @@ export default function FoundingCohortPage() {
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
             Start with a free 15-minute orientation call with Dr. Gedalia. No commitment, just a conversation to see if ReLoHu is right for you right now.
           </p>
-          <a
-            href="https://calendly.com/relohu"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-white hover:bg-teal-50 text-teal-700 font-medium rounded-full px-10 py-4 text-base transition-all"
-          >
-            <Calendar className="w-4 h-4" />
-            Book Your Orientation Call
-          </a>
-          <p className="text-teal-300 text-xs mt-4">Confidential · No commitment · 15 minutes</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <PayButton
+              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-teal-50 disabled:opacity-60 text-teal-700 font-medium rounded-full px-10 py-4 text-base transition-all"
+            />
+            <a
+              href="https://calendly.com/relohu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-teal-400 hover:bg-teal-600 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
+            >
+              <Calendar className="w-4 h-4" />
+              Free Orientation Call
+            </a>
+          </div>
+          <p className="text-teal-300 text-xs mt-4">Secure checkout via Stripe · or start with a free 15-min call</p>
           <p className="text-teal-300/70 text-xs mt-2">
             Already booked? <a href="/intake" className="text-teal-200 hover:underline">Fill out your pre-session intake form →</a>
           </p>

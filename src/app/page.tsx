@@ -945,6 +945,12 @@ function LandingContent() {
               : <>Solo abril · $497 ahora, $997 en mayo · Llamada de seguimiento incluida · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
             }
           </p>
+          <p className="text-slate-400 text-xs mt-1.5 text-center">
+            {lang === 'en'
+              ? <>Already booked? <a href="/intake" className="text-teal-500 hover:underline">Fill out your pre-session intake form →</a></>
+              : <>Ya reservaste? <a href="/intake" className="text-teal-500 hover:underline">Completa tu formulario de pre-sesion →</a></>
+            }
+          </p>
         </div>
       </section>
 

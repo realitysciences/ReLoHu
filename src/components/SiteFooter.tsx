@@ -18,6 +18,7 @@ export default function SiteFooter() {
           <Link href="/founding-cohort" className="hover:text-teal-600 transition-colors">Founding Cohort</Link>
           <Link href="/faq" className="hover:text-teal-600 transition-colors">FAQ</Link>
           <Link href="/contact" className="hover:text-teal-600 transition-colors">Contact</Link>
+          <Link href="/intake" className="hover:text-teal-600 transition-colors">Session Intake</Link>
           <Link href="/privacy" className="hover:text-teal-600 transition-colors">Privacy</Link>
         </div>
         <p className="text-slate-400 text-sm">

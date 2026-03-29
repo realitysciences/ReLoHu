@@ -121,6 +121,9 @@ export default function FoundingCohortPage() {
               Book Your Orientation Call
             </a>
             <p className="text-center text-slate-400 text-xs mt-3">Starts with a free 15-min orientation call · No commitment</p>
+            <p className="text-center text-slate-400 text-xs mt-2">
+              Already booked? <a href="/intake" className="text-teal-500 hover:underline">Fill out your pre-session intake form →</a>
+            </p>
           </div>
         </div>
       </section>
@@ -279,6 +282,9 @@ export default function FoundingCohortPage() {
             Book Your Orientation Call
           </a>
           <p className="text-teal-300 text-xs mt-4">Confidential · No commitment · 15 minutes</p>
+          <p className="text-teal-300/70 text-xs mt-2">
+            Already booked? <a href="/intake" className="text-teal-200 hover:underline">Fill out your pre-session intake form →</a>
+          </p>
         </div>
       </section>
 

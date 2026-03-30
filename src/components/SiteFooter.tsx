@@ -29,6 +29,7 @@ export default function SiteFooter() {
           </a>
         </p>
         <p className="text-slate-500 text-xs">ReLoHu is operated by Spheronaut LLC</p>
+        <p className="text-slate-400 text-xs">Your sessions are confidential. Your data is never sold.</p>
       </div>
     </footer>
   )

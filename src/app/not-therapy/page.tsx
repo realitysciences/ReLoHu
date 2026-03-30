@@ -17,7 +17,7 @@ const comparisons = [
   {
     dimension: 'What it treats',
     therapy: 'What is wrong or dysregulated',
-    relohu: 'The whole person -- including what is working but unseen',
+    relohu: 'The whole person, including what is working but unseen',
   },
   {
     dimension: 'Time horizon',
@@ -37,7 +37,7 @@ const comparisons = [
   {
     dimension: 'Who it requires you to be',
     therapy: 'A patient',
-    relohu: 'A person -- exactly as you are',
+    relohu: 'A person, exactly as you are',
   },
 ]
 
@@ -58,7 +58,7 @@ export default function NotTherapyPage() {
             <span className="text-teal-600">and still feel unknown.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            ReLoHu is not therapy. It is not coaching. It is not a better version of something you've already tried. It is a different thing entirely -- and this page exists to be honest about what that means.
+            ReLoHu is not therapy. It is not coaching. It is not a better version of something you've already tried. It is a different thing entirely. This page exists to be honest about what that means.
           </p>
         </div>
       </section>
@@ -72,13 +72,13 @@ export default function NotTherapyPage() {
           </h2>
           <div className="space-y-4 text-slate-600 leading-relaxed">
             <p>
-              Therapy is genuinely useful. For processing trauma, managing symptoms, building coping tools, and navigating crisis -- it works. Many people need it. Many people should be in it.
+              Therapy is genuinely useful. For processing trauma, managing symptoms, building coping tools, and navigating crisis. It works. Many people need it. Many people should be in it.
             </p>
             <p>
               But therapy is designed to do specific things. And "being fully known" is not always one of them. That is not a failure of therapy. It is simply not what most therapeutic frameworks are built for.
             </p>
             <p>
-              What a lot of people experience -- even after years of good therapy with good therapists -- is that they understand themselves better, but still don't feel genuinely met. They can name their patterns. They know their history. And yet something essential about who they are hasn't quite made it into the room.
+              What a lot of people experience, even after years of good therapy with good therapists, is that they understand themselves better, but still don't feel genuinely met. They can name their patterns. They know their history. And yet something essential about who they are hasn't quite made it into the room.
             </p>
             <p className="font-medium text-slate-700">
               ReLoHu exists for that gap.
@@ -93,10 +93,10 @@ export default function NotTherapyPage() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10 text-center">What that gap feels like</p>
           <div className="grid md:grid-cols-2 gap-4">
             {[
-              'You\'ve been in therapy and found it helpful -- but you still feel like your therapist only knows part of you.',
+              'You\'ve been in therapy and found it helpful, but you still feel like your therapist only knows part of you.',
               'You\'re fluent in your own psychology. You can explain yourself clearly. And yet something stays unrecognized.',
               'You\'ve done the work. You\'ve read the books. You can name your patterns. And yet the feeling of being truly seen remains rare.',
-              'You know how to talk about yourself in ways that land -- but you\'ve started to wonder if that\'s different from being actually known.',
+              'You know how to talk about yourself in ways that land, but you\'ve started to wonder if that\'s different from being actually known.',
               'You leave sessions feeling heard in the moment, but the map that gets built over time doesn\'t quite match the territory.',
               'The framework your therapist works from was built for someone else. You\'ve spent years translating yourself into it.',
             ].map((item, i) => (
@@ -163,7 +163,7 @@ export default function NotTherapyPage() {
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed">
             <p>
-              ReLoHu is a single deep session with Dr. Gedalia -- a 1-2 hour conversation in which he listens carefully to what you say and how you say it. He is not listening for symptoms. He is not listening for what fits a diagnostic frame. He is listening for <span className="font-medium text-slate-700">you</span> -- the specific texture of how you think, feel, move through the world, and make meaning.
+              ReLoHu is a single deep session with Dr. Gedalia: a 1-2 hour conversation in which he listens carefully to what you say and how you say it. He is not listening for symptoms. He is not listening for what fits a diagnostic frame. He is listening for <span className="font-medium text-slate-700">you</span>: the specific texture of how you think, feel, move through the world, and make meaning.
             </p>
             <p>
               After the session, your transcript is analyzed using ReLoHu's methodology and produced as a written Terrain Map: a document that reflects your inner world back to you in language that actually fits. Not a summary. Not an interpretation. A portrait.
@@ -172,7 +172,7 @@ export default function NotTherapyPage() {
               The session is not ongoing. You don't come back weekly. You don't build a therapeutic relationship over years. You do one thing, deeply, and you leave with something permanent: a map of yourself that you can use, return to, and build from.
             </p>
             <p>
-              For some people, that map becomes the most useful thing they've ever had -- more useful than years of talking, because for the first time, the whole of who they are is in the room.
+              For some people, that map becomes the most useful thing they've ever had, more useful than years of talking, because for the first time, the whole of who they are is in the room.
             </p>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function NotTherapyPage() {
           <div className="space-y-3">
             {[
               'You have done significant inner work and want something that meets you at your current level',
-              'You are not in crisis -- you are in motion, and you want a clearer map of the terrain',
+              'You are not in crisis. You are in motion, and you want a clearer map of the terrain',
               'You are curious about yourself, not just anxious about yourself',
               'You want to be known, not managed',
               'You are willing to speak honestly about your inner life for one to two hours',

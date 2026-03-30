@@ -326,7 +326,7 @@ function LandingContent() {
           <div className="text-center mb-16">
             <p className="text-slate-400 text-base leading-relaxed max-w-2xl mx-auto mb-10">
               {lang === 'en'
-                ? 'Some people arrive here after years of therapy that left them still feeling unknown. Others arrive simply curious -- wanting a clearer picture of who they actually are. Either is a valid reason.'
+                ? 'Some people arrive here after years of therapy that left them still feeling unknown. Others arrive simply curious, wanting a clearer picture of who they actually are. Either is a valid reason.'
                 : 'Algunas personas llegan aqui despues de anos de terapia sintiendose aun desconocidas. Otras llegan simplemente curiosas, queriendo una imagen mas clara de quienes realmente son. Cualquiera es una razon valida.'}
             </p>
             <Badge variant="outline" className="mb-4 px-4 py-1 border-slate-200 text-slate-500 text-xs tracking-widest bg-white">

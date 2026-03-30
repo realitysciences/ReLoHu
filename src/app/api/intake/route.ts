@@ -3,6 +3,12 @@ import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   try {
+    if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
+      return NextResponse.json({
+        error: `Missing env vars: GMAIL_USER=${!!process.env.GMAIL_USER} GMAIL_APP_PASSWORD=${!!process.env.GMAIL_APP_PASSWORD}`
+      }, { status: 500 })
+    }
+
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {

@@ -3,7 +3,11 @@ import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    if (!process.env.STRIPE_SECRET_KEY) {
+      return NextResponse.json({ error: 'STRIPE_SECRET_KEY environment variable is not set on this server.' }, { status: 500 })
+    }
+
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
       apiVersion: '2026-03-25.dahlia',
     })
 

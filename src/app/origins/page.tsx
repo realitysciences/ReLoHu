@@ -136,7 +136,7 @@ export default function OriginsPage() {
               ReLoHu is not a coined word.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              It encodes three values David identified as most absent in every space he sought genuine support.
+              It encodes three values Dr. Gedalia identified as most absent in every space he sought genuine support.
             </p>
           </div>
 

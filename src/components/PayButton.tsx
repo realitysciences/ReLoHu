@@ -1,6 +1,4 @@
-'use client'
-
-import { useState } from 'react'
+const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/00w7sE3lT0eo1OtaXMaMU01'
 
 interface PayButtonProps {
   className?: string
@@ -8,45 +6,14 @@ interface PayButtonProps {
 }
 
 export default function PayButton({ className, label = 'Pay $497 — Secure Your Spot' }: PayButtonProps) {
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState('')
-
-  async function handlePay() {
-    setLoading(true)
-    setError('')
-    try {
-      const res = await fetch('/api/checkout', { method: 'POST' })
-      const data = await res.json()
-      if (data.url) {
-        window.location.href = data.url
-      } else {
-        setError(data.error || 'Something went wrong. Please try again.')
-        setLoading(false)
-      }
-    } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Something went wrong. Please try again.')
-      setLoading(false)
-    }
-  }
-
   return (
-    <div className="w-full">
-      <button
-        onClick={handlePay}
-        disabled={loading}
-        className={className}
-      >
-        {loading ? (
-          <span className="flex items-center justify-center gap-2">
-            <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-            </svg>
-            Redirecting to payment...
-          </span>
-        ) : label}
-      </button>
-      {error && <p className="text-red-500 text-xs text-center mt-2">{error}</p>}
-    </div>
+    <a
+      href={STRIPE_PAYMENT_LINK}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={className}
+    >
+      {label}
+    </a>
   )
 }

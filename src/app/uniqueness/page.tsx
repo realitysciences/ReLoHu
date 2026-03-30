@@ -338,7 +338,7 @@ export default function UniquenessPage() {
       <section className="py-16 px-6 bg-white">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-2xl md:text-3xl font-light text-slate-700 leading-relaxed italic">
-            "I believe AI can make the world less human. I also believe it can make things more human. ReLoHu is proof of that."
+            "AI built to serve your self-knowledge is one of the most powerful tools for being human ever created. That is what ReLoHu is built to do."
           </p>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />

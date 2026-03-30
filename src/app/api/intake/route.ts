@@ -1,16 +1,16 @@
 import nodemailer from 'nodemailer'
 import { NextResponse } from 'next/server'
 
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_APP_PASSWORD,
-  },
-})
-
 export async function POST(req: Request) {
   try {
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_APP_PASSWORD,
+      },
+    })
+
     const body = await req.json()
     const { name, email, phone, sessionDate, q1, q2, q3, q4, q5 } = body
 
@@ -115,8 +115,9 @@ export async function POST(req: Request) {
     })
 
     return NextResponse.json({ success: true })
-  } catch (error) {
-    console.error('Intake form error:', error)
-    return NextResponse.json({ error: 'Failed to submit intake form' }, { status: 500 })
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : String(error)
+    console.error('Intake form error:', message)
+    return NextResponse.json({ error: message }, { status: 500 })
   }
 }

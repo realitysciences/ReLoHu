@@ -78,14 +78,6 @@ function isDailyCapReached(): boolean {
   return date === today && count >= DAILY_CAP
 }
 
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_APP_PASSWORD,
-  },
-})
-
 const FOCUS_LABELS: Record<string, string> = {
   pattern: 'a relationship pattern they keep repeating',
   stuck: 'a place where they feel stuck but do not know why',
@@ -103,6 +95,14 @@ const QUESTIONS = [
 
 export async function POST(req: Request) {
   try {
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_APP_PASSWORD,
+      },
+    })
+
     const { name, email, focusArea, answers } = await req.json()
 
     if (!name || !email || !focusArea || !answers) {

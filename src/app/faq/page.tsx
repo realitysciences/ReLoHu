@@ -37,7 +37,7 @@ const faqGroups = [
     items: [
       {
         q: 'What actually happens in a session?',
-        a: 'A session is a one-to-one conversation, 90 minutes, with Dr. Gedalia. It is unscripted: the questions that matter most emerge from what you say, not from a fixed protocol. There\'s no advice, no therapeutic intervention, no goal-setting. Just careful, adaptive listening designed to surface who you are at depth. The conversation is transcribed and processed to produce your Terrain Map and any additional deliverables.',
+        a: 'A session is a one-to-one conversation, 90 minutes, with Dr. Gedalia. It is unscripted: the questions that matter most emerge from what you say, not from a fixed protocol. There\'s no advice, no therapeutic intervention, no goal-setting. Just careful, adaptive listening designed to surface who you are at depth. The conversation is carefully processed to produce your Terrain Map and any additional deliverables.',
       },
       {
         q: 'What do I need to prepare?',
@@ -54,10 +54,6 @@ const faqGroups = [
       {
         q: 'Is the session confidential?',
         a: 'Yes, completely. Your session content is never shared with, sold to, or disclosed to any third party. Your Terrain Map and all deliverables belong to you. Full details are covered in the consent agreement you sign before the session begins.',
-      },
-      {
-        q: 'Is the session recorded? What happens to the recording?',
-        a: 'Sessions are recorded and transcribed locally, on Dr. Gedalia\'s device. No audio or recording is sent to any external service. Once the local transcription is complete, the recording is permanently deleted. No audio or video is retained. Only the text transcript is then shared securely with an AI system for analysis. The transcript is stored without your name or any identifying information attached to it. Recording is also directly in your interest: your Terrain Map is built from your exact words rather than reconstructed notes, and because nothing is being written down during the session, Dr. Gedalia\'s full attention stays on you.',
       },
     ],
   },

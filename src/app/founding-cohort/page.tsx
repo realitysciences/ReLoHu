@@ -51,7 +51,7 @@ export default function FoundingCohortPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">Intake session: 1 to 2 hours</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. The session is recorded and transcribed. After the call, the transcript is analyzed using ReLoHu's proprietary methodology.
+                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. After the call, what you shared is analyzed using ReLoHu's proprietary methodology.
                 </p>
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">What actually happens in the intake?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                A 1–2 hour conversation, not a questionnaire, not a structured interview with a script. Dr. Gedalia asks questions and listens carefully to what you say and how you say it. The conversation is recorded and transcribed. After the session, the transcript is analyzed using ReLoHu's proprietary methodology to produce your Terrain Map.
+                A 1–2 hour conversation, not a questionnaire, not a structured interview with a script. Dr. Gedalia asks questions and listens carefully to what you say and how you say it. After the session, what you shared is analyzed using ReLoHu's proprietary methodology to produce your Terrain Map.
               </p>
             </div>
 

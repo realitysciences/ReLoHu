@@ -21,7 +21,7 @@ export default function PrivacyPage() {
               How your information is handled
             </h1>
             <p className="text-slate-500 text-lg leading-relaxed">
-              ReLoHu asks you to share things most people have never said out loud. That requires trust. This page covers the essentials. Full details, including recording consent, data handling, and confidentiality terms, are covered in the client agreement you sign before any session begins.
+              ReLoHu asks you to share things most people have never said out loud. That requires trust. This page covers the essentials. Full details, including data handling and confidentiality terms, are covered in the client agreement you sign before any session begins.
             </p>
             <p className="text-slate-400 text-sm mt-4">Last updated: March 2026</p>
           </div>
@@ -86,7 +86,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-lg font-medium text-slate-800 mb-3">The client agreement</h2>
               <p>
-                Before any session begins, you will sign a client agreement that covers session recording, data handling, confidentiality terms, and your rights in full detail. This page is a plain-language overview. The client agreement is the binding document.
+                Before any session begins, you will sign a client agreement that covers data handling, confidentiality terms, and your rights in full detail. This page is a plain-language overview. The client agreement is the binding document.
               </p>
             </section>
 

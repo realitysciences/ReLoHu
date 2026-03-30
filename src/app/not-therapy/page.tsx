@@ -166,7 +166,7 @@ export default function NotTherapyPage() {
               ReLoHu is a single deep session with Dr. Gedalia: a 1-2 hour conversation in which he listens carefully to what you say and how you say it. He is not listening for symptoms. He is not listening for what fits a diagnostic frame. He is listening for <span className="font-medium text-slate-700">you</span>: the specific texture of how you think, feel, move through the world, and make meaning.
             </p>
             <p>
-              After the session, your transcript is analyzed using ReLoHu's methodology and produced as a written Terrain Map: a document that reflects your inner world back to you in language that actually fits. Not a summary. Not an interpretation. A portrait.
+              After the session, what you shared is analyzed using ReLoHu's methodology and produced as a written Terrain Map: a document that reflects your inner world back to you in language that actually fits. Not a summary. Not an interpretation. A portrait.
             </p>
             <p>
               The session is not ongoing. You don't come back weekly. You don't build a therapeutic relationship over years. You do one thing, deeply, and you leave with something permanent: a map of yourself that you can use, return to, and build from.

@@ -122,7 +122,7 @@ const translations: Record<Language, Record<string, string>> = {
     'ai.headline': 'Yes, AI writes your Terrain Map. Here\'s what that actually means.',
     'ai.subtitle': 'His methodology exists on both ends: he designed the questions that draw the data out, and the frameworks that interpret it. The AI applies both. Through all of it, the asking and the reading, Dr. Gedalia is present.',
     'ai.q1': 'Isn\'t this just AI slop?',
-    'ai.a1': 'AI slop is what happens when generic prompts meet generic output. ReLoHu is the opposite. The system was built on years of high-quality clinical input: specific questions, specific frameworks, specific interpretive patterns, developed and refined by Dr. Gedalia over a decade of practice. Generic AI handed a transcript about a person produces a generic answer about a person. This system was built to produce a portrait.',
+    'ai.a1': 'AI slop is what happens when generic prompts meet generic output. ReLoHu is the opposite. The system was built on years of high-quality clinical input: specific questions, specific frameworks, specific interpretive patterns, developed and refined by Dr. Gedalia over a decade of practice. Generic AI handed information about a person produces a generic answer about a person. This system was built to produce a portrait.',
     'ai.q2': 'So why does the human conversation matter?',
     'ai.a2': 'The quality of the map depends entirely on the quality of the input. Human beings disclose differently in dialogue than in writing. Dr. Gedalia\'s role as interviewer is to create the conditions where you say the things that are actually true, not the things you\'ve rehearsed.',
     'ai.q3': 'What exactly did Dr. Gedalia build?',

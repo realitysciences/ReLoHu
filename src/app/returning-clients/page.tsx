@@ -43,12 +43,12 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                No new session. Dr. Gedalia runs a new analytical pass on your existing transcript through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
+                No new session. Dr. Gedalia runs a new analytical pass on your existing session through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
               </p>
               <div className="space-y-2">
                 {[
                   'No intake session required',
-                  'New framework applied to your existing transcript',
+                  'New framework applied to your existing session',
                   'Delivered as a file: archetypes, character comparisons, or a focused lens',
                   '30–45 minutes of Dr. Gedalia\'s analysis and review time',
                 ].map(item => (

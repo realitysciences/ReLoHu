@@ -129,7 +129,7 @@ export default function UniquenessPage() {
               {
                 icon: Map,
                 title: 'Data-preserving',
-                body: 'The conversation is transcribed and processed to extract high-resolution signal. The richness of what you say becomes the foundation for every report and deliverable that follows.',
+                body: 'The conversation is processed to extract high-resolution signal. The richness of what you say becomes the foundation for every report and deliverable that follows.',
               },
             ].map((item, i) => (
               <Card key={i} className="bg-white border-slate-100 shadow-sm hover:border-teal-200 hover:shadow-lg transition-all duration-300 group">
@@ -304,7 +304,7 @@ export default function UniquenessPage() {
               <p className="text-xs font-mono tracking-widest text-teal-600 uppercase mb-4">Now</p>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  A single witnessed conversation, structured to create the conditions for genuine depth, produces a transcript. That transcript is processed through Transcengine™, ReLoHu's proprietary AI methodology, capable of identifying patterns across the full arc of what you said: what you returned to, what you avoided, how you constructed meaning, where your language shifted.
+                  A single witnessed conversation, structured to create the conditions for genuine depth, is processed through Transcengine™, ReLoHu's proprietary AI methodology, capable of identifying patterns across the full arc of what you said: what you returned to, what you avoided, how you constructed meaning, where your language shifted.
                 </p>
                 <p>
                   The result is a high-resolution psychological portrait assembled in one session. This was not possible to produce from a single conversation a decade ago. It is now.

@@ -1,7 +1,7 @@
 import SiteNav from '@/components/SiteNav'
 import SiteFooter from '@/components/SiteFooter'
 import Link from 'next/link'
-import { Calendar, FileText, Phone, CheckCircle, Users } from 'lucide-react'
+import { Calendar, FileText, Phone, CheckCircle, Users, BookOpen, Sparkles } from 'lucide-react'
 import PayButton from '@/components/PayButton'
 
 export const metadata = {
@@ -19,10 +19,10 @@ export default function FoundingCohortPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">ReLoHu · First Public Clients</p>
           <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 tracking-tight text-slate-800">
-            Ten spots.<br />One complete map.
+            Ten spots.<br />Five reports. One complete picture.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
-            After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. I'm keeping this initial group small, ten spots, to stay close to the work during this phase. Everyone in this group receives a 30-minute follow-up call, 30 days after their session, that won't be part of the offer once this group closes.
+            After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. The founding cohort offer includes a 90-minute intake, five detailed reports, and a 30-minute report reading session. Standard sessions, once this group closes, are 60 minutes with a single Terrain Map. This bundle does not come back.
           </p>
           <a
             href="https://calendly.com/relohu"
@@ -33,7 +33,7 @@ export default function FoundingCohortPage() {
             <Calendar className="w-4 h-4" />
             Claim Your Spot · $497
           </a>
-          <p className="text-slate-400 text-sm mt-4">April only · $997 after April · Follow-up call included</p>
+          <p className="text-slate-400 text-sm mt-4">April only · $997 after April · 5 reports + report reading included</p>
         </div>
       </section>
 
@@ -49,9 +49,12 @@ export default function FoundingCohortPage() {
                 <Phone className="w-5 h-5 text-teal-600" />
               </div>
               <div>
-                <h3 className="font-medium text-slate-800 mb-1">Intake session: 1 to 2 hours</h3>
+                <h3 className="font-medium text-slate-800 mb-1">
+                  90-minute intake session
+                  <span className="ml-2 text-[10px] font-mono tracking-wider text-slate-400 bg-slate-100 rounded-full px-2 py-0.5 align-middle">Standard: 60 min</span>
+                </h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. After the call, what you shared is analyzed using ReLoHu's proprietary methodology.
+                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. The extra 30 minutes over the standard session means more ground covered and a richer set of reports.
                 </p>
               </div>
             </div>
@@ -74,29 +77,40 @@ export default function FoundingCohortPage() {
 
             <div className="flex gap-6 items-start">
               <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
-                <FileText className="w-5 h-5 text-teal-600" />
+                <Sparkles className="w-5 h-5 text-teal-600" />
               </div>
               <div>
-                <h3 className="font-medium text-slate-800 mb-1">Terrain Map: delivered as a file you keep</h3>
-                <p className="text-slate-500 leading-relaxed text-sm">
-                  A structured report organized around your psychological patterns, relational architecture, upstream behavioral drivers, and character comparisons: people from history or fiction whose psychology resembles yours in specific ways. It is not a diagnosis. It is a map.
-                </p>
+                <h3 className="font-medium text-slate-800 mb-2">
+                  Five detailed reports, delivered as files you keep
+                  <span className="ml-2 text-[10px] font-mono tracking-wider text-slate-400 bg-slate-100 rounded-full px-2 py-0.5 align-middle">Standard: Terrain Map only</span>
+                </h3>
+                <div className="space-y-3">
+                  {[
+                    { name: 'Terrain Map', desc: 'Your psychological patterns, relational architecture, and the upstream drivers behind how you behave. The foundation everything else builds on.' },
+                    { name: 'Archetype Report', desc: 'The deeper structural patterns that run through your personality — not a category, but a map of the forces that shape how you move through the world.' },
+                    { name: 'People You Are Similar To', desc: 'Real people and fictional characters — from history, literature, film, television, comics — whose psychology resembles yours in specific, documented ways. Not flattery. Precision.' },
+                    { name: 'Your Strengths and Weaknesses', desc: 'An honest assessment of where your particular configuration gives you an edge and where it creates friction. Both sides, clearly named.' },
+                    { name: 'Unique Things You Probably Never Knew About Yourself', desc: 'The observations that don\'t fit neatly into a category. The things most people never get told. Often the part people remember longest.' },
+                  ].map(({ name, desc }) => (
+                    <div key={name} className="pl-4 border-l-2 border-teal-100">
+                      <p className="text-sm font-medium text-slate-700">{name}</p>
+                      <p className="text-xs text-slate-400 leading-relaxed mt-0.5">{desc}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 
             <div className="w-full h-px bg-slate-100" />
 
             <div className="flex gap-6 items-start">
-              <div className="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center shrink-0 mt-0.5">
-                <Calendar className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
+                <BookOpen className="w-5 h-5 text-teal-600" />
               </div>
               <div>
-                <h3 className="font-medium text-slate-800 mb-1">
-                  30-day follow-up call
-                  <span className="ml-2 text-[10px] font-mono tracking-wider text-teal-600 bg-teal-50 border border-teal-100 rounded-full px-2 py-0.5 align-middle">First Public Group Only</span>
-                </h3>
+                <h3 className="font-medium text-slate-800 mb-1">30-minute report reading session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  Scheduled 30 days after your session. A lot changes in a month. The map tends to land differently once you've lived with it. The follow-up call exists to close that loop. This call will not be included once this initial group closes.
+                  A dedicated call to go through the reports together. Not a summary — a reading. Dr. Gedalia walks through what each report says and what it means for you specifically. Included in the founding cohort price.
                 </p>
               </div>
             </div>
@@ -111,7 +125,7 @@ export default function FoundingCohortPage() {
               </div>
               <p className="text-sm text-teal-600 font-mono">April only</p>
             </div>
-            <p className="text-slate-500 text-sm mb-6">All four components above. One price. No upsells during the session. Price returns to $997 in May.</p>
+            <p className="text-slate-500 text-sm mb-6">90-minute intake, 5 reports, and a 30-minute report reading session. One price. No upsells. Price returns to $997 in May, with a standard 60-minute intake and Terrain Map only.</p>
             <PayButton
               className="w-full inline-flex items-center justify-center gap-2.5 bg-teal-600 hover:bg-teal-700 disabled:opacity-60 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
             />
@@ -197,7 +211,7 @@ export default function FoundingCohortPage() {
               This group is different. These are the first public clients: people who find their way here through the site, who read what ReLoHu is and decide it's for them. Ten is the number that lets Dr. Gedalia stay close to the work: to track what lands, what the map produces, and how people use it during the first phase of public availability.
             </p>
             <p>
-              The follow-up call is part of this group's offer because their experience continues to matter to how ReLoHu develops. That's not a marketing reason. It's the actual reason.
+              The five-report bundle is part of this group's offer because their experience continues to matter to how ReLoHu develops. That's not a marketing reason. It's the actual reason.
             </p>
           </div>
           <div className="mt-10 flex items-center gap-3">
@@ -255,7 +269,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">Why only 10 spots?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                ReLoHu has been in active development for two years, with a private cohort of sessions before this public opening. Ten spots is a number that lets Dr. Gedalia stay close to the work, tracking what lands, what the map produces, and how clients use it, during this first phase of public availability. It's a real constraint, not a device. When those spots are filled, the follow-up call is no longer part of the offer.
+                ReLoHu has been in active development for two years, with a private cohort of sessions before this public opening. Ten spots is a number that lets Dr. Gedalia stay close to the work, tracking what lands, what the reports produce, and how clients use them during this first phase of public availability. It's a real constraint, not a device.
               </p>
             </div>
 
@@ -264,7 +278,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">What happens after this group closes?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                The intake and Terrain Map remain available at $997. The follow-up call does not. Sessions booked in April are the only ones that include both components at $497.
+                Standard sessions are available at $997: a 60-minute intake and a single Terrain Map. The founding cohort bundle — 90-minute intake, five reports, and the report reading session — does not come back at any price once these ten spots are filled.
               </p>
             </div>
 
@@ -319,7 +333,7 @@ export default function FoundingCohortPage() {
       {/* ── Final CTA ── */}
       <section className="py-20 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto text-center">
-          <p className="text-teal-200 text-[10px] font-mono tracking-[0.35em] uppercase mb-6">April Only · $497 · Follow-up Call Included · $997 in May</p>
+          <p className="text-teal-200 text-[10px] font-mono tracking-[0.35em] uppercase mb-6">April Only · $497 · 5 Reports + Report Reading · $997 in May</p>
           <h2 className="text-3xl md:text-4xl font-medium text-white mb-4 leading-snug">
             Ready to see your map?
           </h2>

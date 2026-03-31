@@ -530,6 +530,16 @@ function LandingContent() {
               </>
             )}
           </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a href="/sample-report" className="inline-flex items-center gap-1.5 text-sm text-teal-600 hover:text-teal-700 border border-teal-200 hover:border-teal-300 bg-teal-50/50 hover:bg-teal-50 rounded-full px-4 py-2 transition-all">
+              <FileText className="w-3.5 h-3.5" />
+              {lang === 'en' ? 'View Sample Report #1' : 'Ver Reporte de Muestra #1'}
+            </a>
+            <a href="/sample-report-2" className="inline-flex items-center gap-1.5 text-sm text-teal-600 hover:text-teal-700 border border-teal-200 hover:border-teal-300 bg-teal-50/50 hover:bg-teal-50 rounded-full px-4 py-2 transition-all">
+              <FileText className="w-3.5 h-3.5" />
+              {lang === 'en' ? 'View Sample Report #2' : 'Ver Reporte de Muestra #2'}
+            </a>
+          </div>
         </div>
       </section>
 

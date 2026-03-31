@@ -15,11 +15,11 @@ function LangToggle({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => void 
       <button
         onClick={() => setLang('en')}
         className={`px-4 py-2 text-sm font-semibold rounded-full transition-all ${lang === 'en' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'}`}
-      >EN</button>
+      >English</button>
       <button
         onClick={() => setLang('es')}
         className={`px-4 py-2 text-sm font-semibold rounded-full transition-all ${lang === 'es' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'}`}
-      >ES</button>
+      >Español</button>
     </div>
   )
 }

@@ -491,6 +491,48 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== WHAT MAPPING MEANS ==================== */}
+      <section className="py-20 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">
+            {lang === 'en' ? 'What mapping actually means' : 'Qué significa el mapeo'}
+          </p>
+          <div className="space-y-5 text-slate-600 leading-relaxed">
+            {lang === 'en' ? (
+              <>
+                <p className="text-xl font-medium text-slate-800">
+                  A diagnosis tells you something is wrong and names it. A personality test puts you in a category. A map does something different: it shows you how your terrain is actually configured.
+                </p>
+                <p>
+                  Not "you are an introvert." Not "you have anxiety." More like: here is the pattern in how you connect with people. Here is what you do when you feel unseen. Here is where your confidence actually comes from, which turns out to be different from what you thought. Here is what you share, psychologically, with specific people from history and fiction who moved through the world the way you do.
+                </p>
+                <p>
+                  A map doesn't ask you to fix anything. It asks you to see clearly. For most people, that's the part that was missing.
+                </p>
+                <p className="text-slate-800 font-medium">
+                  What ReLoHu produces is a document, written in plain language, that describes the specific architecture of who you are. You keep it. You can share it. You can return to it. It doesn't expire.
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="text-xl font-medium text-slate-800">
+                  Un diagnóstico te dice que algo está mal y lo nombra. Un test de personalidad te pone en una categoría. Un mapa hace algo diferente: te muestra cómo está configurado tu terreno interior.
+                </p>
+                <p>
+                  No "eres introvertido." No "tienes ansiedad." Más bien: aquí está el patrón en cómo te conectas con las personas. Aquí está lo que haces cuando te sientes ignorado. Aquí está de dónde viene realmente tu confianza, que resulta ser diferente de lo que pensabas.
+                </p>
+                <p>
+                  Un mapa no te pide que arregles nada. Te pide que veas con claridad. Para la mayoría de las personas, esa es la parte que faltaba.
+                </p>
+                <p className="text-slate-800 font-medium">
+                  Lo que ReLoHu produce es un documento, escrito en lenguaje sencillo, que describe la arquitectura específica de quién eres. Te lo quedas. Puedes compartirlo. Puedes volver a él. No caduca.
+                </p>
+              </>
+            )}
+          </div>
+        </div>
+      </section>
+
       {/* ==================== SOLUTION SECTION (PAS - Solution) ==================== */}
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-5xl mx-auto">

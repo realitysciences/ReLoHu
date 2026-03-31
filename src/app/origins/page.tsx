@@ -143,19 +143,19 @@ export default function OriginsPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                letters: 'R·E·L',
+                letters: 'RE',
                 value: 'Respect',
                 description: 'Respect for who the person actually is, not who would be most convenient for the practitioner to treat.',
                 color: 'from-teal-500 to-teal-600',
               },
               {
-                letters: 'O',
+                letters: 'LO',
                 value: 'Love',
                 description: 'Love as the orientation beneath the listening. Not sentimentality, but the genuine care required to hold another person\'s inner world with attention.',
                 color: 'from-teal-600 to-teal-700',
               },
               {
-                letters: 'H·U',
+                letters: 'HU',
                 value: 'Humility',
                 description: 'Humility in the face of how complex a human being is, and how little any of us fully understand about ourselves or each other.',
                 color: 'from-teal-700 to-slate-700',
@@ -163,7 +163,7 @@ export default function OriginsPage() {
             ].map((item, i) => (
               <div key={i} className="text-center group">
                 <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center mx-auto mb-4 shadow-md group-hover:shadow-lg transition-shadow`}>
-                  <span className="text-white font-bold text-sm tracking-widest">{item.letters}</span>
+                  <span className="text-white font-bold text-xl tracking-widest">{item.letters}</span>
                 </div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-3">{item.value}</h3>
                 <p className="text-slate-500 leading-relaxed text-sm max-w-xs mx-auto">{item.description}</p>

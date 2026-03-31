@@ -717,7 +717,7 @@ function LandingContent() {
             {/* Deal banner */}
             <div className="bg-gradient-to-r from-amber-400 to-amber-500 px-8 py-3 flex items-center justify-between">
               <span className="text-amber-900 font-bold text-sm tracking-wide">
-                {lang === 'en' ? 'Founding Cohort — Limited to 10 spots' : 'Cohorte Fundador — Limitado a 10 cupos'}
+                {lang === 'en' ? 'Founding Cohort — April Only' : 'Cohorte Fundador — Solo Abril'}
               </span>
               <span className="bg-amber-900/20 text-amber-900 text-xs font-bold px-3 py-1 rounded-full">
                 {lang === 'en' ? 'You save $500' : 'Ahorras $500'}

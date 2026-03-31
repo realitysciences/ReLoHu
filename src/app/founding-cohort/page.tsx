@@ -6,7 +6,7 @@ import PayButton from '@/components/PayButton'
 
 export const metadata = {
   title: 'First Public Clients | ReLoHu',
-  description: 'After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. Ten spots, with a 30-day follow-up call included.',
+  description: 'ReLoHu is opening to its first public clients through April. 90-minute intake, five detailed reports, and a Terrain Map reading session — at the founding cohort price of $497.',
 }
 
 export default function FoundingCohortPage() {
@@ -19,7 +19,7 @@ export default function FoundingCohortPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">ReLoHu · First Public Clients</p>
           <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 tracking-tight text-slate-800">
-            Ten spots.<br />Five reports. One complete picture.
+            April only.<br />Five reports. One complete picture.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
             After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. The founding cohort offer includes a 90-minute intake, five detailed reports, and a 30-minute report reading session. Standard sessions, once this group closes, are 60 minutes with a single Terrain Map. This bundle does not come back.
@@ -208,7 +208,7 @@ export default function FoundingCohortPage() {
               ReLoHu has been in development for two years. In that time, over a dozen sessions were conducted privately, with people who came through word of mouth, who understood what they were part of, and whose experiences shaped what the methodology became.
             </p>
             <p>
-              This group is different. These are the first public clients: people who find their way here through the site, who read what ReLoHu is and decide it's for them. Ten is the number that lets Dr. Gedalia stay close to the work: to track what lands, what the map produces, and how people use it during the first phase of public availability.
+              This group is different. These are the first public clients: people who find their way here through the site, who read what ReLoHu is and decide it's for them. Keeping it to April lets Dr. Gedalia stay close to the work: tracking what lands, what the reports produce, and how people use them during this first phase of public availability.
             </p>
             <p>
               The five-report bundle is part of this group's offer because their experience continues to matter to how ReLoHu develops. That's not a marketing reason. It's the actual reason.
@@ -267,9 +267,9 @@ export default function FoundingCohortPage() {
             <div className="w-full h-px bg-slate-100" />
 
             <div>
-              <h3 className="font-medium text-slate-800 mb-2">Why only 10 spots?</h3>
+              <h3 className="font-medium text-slate-800 mb-2">Why is this offer only available in April?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                ReLoHu has been in active development for two years, with a private cohort of sessions before this public opening. Ten spots is a number that lets Dr. Gedalia stay close to the work, tracking what lands, what the reports produce, and how clients use them during this first phase of public availability. It's a real constraint, not a device.
+                ReLoHu has been in development for two years. Opening with a founding cohort price lets Dr. Gedalia stay close to the work during the first phase of public availability — tracking what lands, what the reports produce, and how clients use them. In May the price returns to $997 and the bundle changes to a standard 60-minute intake with a single Terrain Map.
               </p>
             </div>
 
@@ -278,7 +278,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">What happens after this group closes?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Standard sessions are available at $997: a 60-minute intake and a single Terrain Map. The founding cohort bundle — 90-minute intake, five reports, and the report reading session — does not come back at any price once these ten spots are filled.
+                Standard sessions are available at $997: a 60-minute intake and a single Terrain Map. The founding cohort bundle — 90-minute intake, five reports, and the report reading session — is available through April only and does not come back.
               </p>
             </div>
 

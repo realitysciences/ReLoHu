@@ -137,6 +137,51 @@ export default function FoundingCohortPage() {
         </div>
       </section>
 
+      {/* ── The Questions ── */}
+      <section className="py-20 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">What the conversation is actually like</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-4 leading-snug">
+            Questions most people have never been asked before.
+          </h2>
+          <p className="text-slate-500 leading-relaxed mb-10">
+            Not because they are unusual for the sake of it. Because they are aimed at what is actually there, rather than what is convenient to ask. A few examples from real sessions:
+          </p>
+          <div className="space-y-5">
+            {[
+              {
+                q: 'When you say you\'re full of love for someone -- what do you actually mean by that?',
+                note: 'Most people have never been asked to unpack a word they use constantly.',
+              },
+              {
+                q: 'How do you feel about crying?',
+                note: 'Not "do you cry" -- but your relationship to it. Most people have never been asked.',
+              },
+              {
+                q: 'At what point did you cross that bridge -- and what finally made it possible?',
+                note: 'Precision about the moment of change, not just the change itself.',
+              },
+              {
+                q: 'Where do you think that comes from? Not the event -- the part of you that responded that way.',
+                note: 'The question behind the question.',
+              },
+              {
+                q: 'How does someone end up there without seeing it coming?',
+                note: 'Curious, not judgmental. Aimed at understanding, not evaluation.',
+              },
+            ].map((item, i) => (
+              <div key={i} className="border border-slate-100 rounded-2xl p-6 bg-slate-50/50">
+                <p className="text-slate-800 font-medium leading-relaxed mb-2">"{item.q}"</p>
+                <p className="text-slate-400 text-sm italic">{item.note}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-slate-400 text-sm mt-8 leading-relaxed">
+            The questions change depending on who you are and what you bring. These are examples, not a script. There is no script.
+          </p>
+        </div>
+      </section>
+
       {/* ── Why founding cohort ── */}
       <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">

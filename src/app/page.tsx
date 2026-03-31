@@ -883,6 +883,45 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== THE QUESTIONS ==================== */}
+      <section className="py-20 px-6 bg-slate-50 border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6 text-center">
+            {lang === 'en' ? 'What the conversation is like' : 'Como es la conversacion'}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-3 text-center leading-snug">
+            {lang === 'en' ? 'Questions most people have never been asked.' : 'Preguntas que la mayoria nunca ha recibido.'}
+          </h2>
+          <p className="text-slate-400 text-sm text-center mb-10 leading-relaxed">
+            {lang === 'en'
+              ? 'Not unusual for the sake of it. Aimed at what is actually there.'
+              : 'No inusuales por serlo. Dirigidas a lo que realmente esta ahi.'}
+          </p>
+          <div className="space-y-4">
+            {lang === 'en' ? [
+              'When you say you\'re full of love for someone -- what do you actually mean by that?',
+              'How do you feel about crying?',
+              'Where does that come from? Not the event -- the part of you that responded that way.',
+              'How does someone end up there without seeing it coming?',
+            ] : [
+              'Cuando dices que estas llena de amor por alguien, que significa eso exactamente para ti?',
+              'Como te sientes respecto a llorar?',
+              'De donde viene eso? No el evento, sino la parte de ti que respondio de esa manera.',
+              'Como llega alguien a ese punto sin verlo venir?',
+            ].map((q, i) => (
+              <div key={i} className="bg-white border border-slate-100 rounded-xl px-6 py-4 shadow-sm">
+                <p className="text-slate-700 leading-relaxed">"{q}"</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-slate-400 text-xs mt-6 text-center">
+            {lang === 'en'
+              ? 'There is no script. The questions follow you.'
+              : 'No hay guion. Las preguntas te siguen a ti.'}
+          </p>
+        </div>
+      </section>
+
       {/* ==================== CTA SECTION ==================== */}
       <section id="cta-section" className="py-24 px-6 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
         <div className="absolute inset-0">

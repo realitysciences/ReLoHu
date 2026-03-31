@@ -3,107 +3,152 @@
 import SiteNav from '@/components/SiteNav'
 import SiteFooter from '@/components/SiteFooter'
 import Link from 'next/link'
-import { Calendar, ArrowRight, MapPin, Compass, RefreshCw, Clock, CheckCircle, Globe } from 'lucide-react'
+import { Calendar, ArrowRight, MapPin, Compass, RefreshCw, Clock, CheckCircle, Globe, Leaf, Waves } from 'lucide-react'
 import { useState } from 'react'
 
 type Lang = 'en' | 'es'
+type Mode = 'plant' | 'wellness'
 
 function LangToggle({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => void }) {
   return (
     <div className="flex items-center gap-1 bg-teal-50 border-2 border-teal-300 rounded-full p-1 shadow-sm">
       <button
         onClick={() => setLang('en')}
-        className={`flex items-center gap-1.5 px-4 py-2 text-sm font-semibold rounded-full transition-all ${
-          lang === 'en' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'
-        }`}
-      >
-        EN
-      </button>
+        className={`px-4 py-2 text-sm font-semibold rounded-full transition-all ${lang === 'en' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'}`}
+      >EN</button>
       <button
         onClick={() => setLang('es')}
-        className={`flex items-center gap-1.5 px-4 py-2 text-sm font-semibold rounded-full transition-all ${
-          lang === 'es' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'
-        }`}
+        className={`px-4 py-2 text-sm font-semibold rounded-full transition-all ${lang === 'es' ? 'bg-teal-600 text-white shadow' : 'text-teal-600 hover:bg-teal-100'}`}
+      >ES</button>
+    </div>
+  )
+}
+
+function ModeToggle({ mode, setMode, lang }: { mode: Mode; setMode: (m: Mode) => void; lang: Lang }) {
+  return (
+    <div className="flex items-center gap-2 bg-slate-100 border border-slate-200 rounded-full p-1">
+      <button
+        onClick={() => setMode('plant')}
+        className={`flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-full transition-all ${mode === 'plant' ? 'bg-emerald-700 text-white shadow' : 'text-slate-500 hover:text-slate-800'}`}
       >
-        ES
+        <Leaf className="w-3.5 h-3.5" />
+        {lang === 'en' ? 'Plant Medicine' : 'Medicina de Plantas'}
+      </button>
+      <button
+        onClick={() => setMode('wellness')}
+        className={`flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-full transition-all ${mode === 'wellness' ? 'bg-teal-600 text-white shadow' : 'text-slate-500 hover:text-slate-800'}`}
+      >
+        <Waves className="w-3.5 h-3.5" />
+        {lang === 'en' ? 'Wellness Retreats' : 'Retiros de Bienestar'}
       </button>
     </div>
   )
 }
 
+// ─────────────────────────────────────────────
+// PLANT MEDICINE CONTENT
+// ─────────────────────────────────────────────
+const plant = {
+  h1a:        { en: 'The ceremony opens something.', es: 'La ceremonia abre algo.' },
+  h1b:        { en: 'ReLoHu maps it.', es: 'ReLoHu lo mapea.' },
+  hero:       { en: 'Ayahuasca, psilocybin, San Pedro, ibogaine — whatever medicine you work with, the question that follows is always the same: how do you make it last? Most people don\'t. Not because they weren\'t transformed. Because they had no map of where they went.', es: 'Ayahuasca, psilocibina, San Pedro, ibogaína — cualquier medicina con la que trabajes, la pregunta que sigue siempre es la misma: ¿cómo haces que dure? La mayoría de las personas no lo logra. No porque no se hayan transformado. Porque no tenían un mapa de adonde fueron.' },
+  prob_badge: { en: 'The problem nobody names', es: 'El problema que nadie nombra' },
+  prob_h:     { en: 'Most people who work with plant medicine find that, in the end, it changes very little. Not because the experience wasn\'t real. Because integration is harder than anyone tells you.', es: 'La mayoría de las personas que trabaja con medicina de plantas descubre que, al final, cambia muy poco. No porque la experiencia no fuera real. Porque la integración es más difícil de lo que nadie te dice.' },
+  prob_1:     { en: 'You leave the retreat cleaned out. Opened. Certain that something has shifted for good. And then you go back. Back to where you live, back to who you\'re around, back to the same environment that produced the same patterns that sent you to the ceremony in the first place.', es: 'Sales del retiro limpio. Abierto. Seguro de que algo cambió para siempre. Y luego regresas. Al mismo lugar, a las mismas personas, al mismo entorno que produjo los mismos patrones que te llevaron a la ceremonia.' },
+  prob_2:     { en: 'The same things that caused the problems before you left are the same things that erode the benefit after you return. The trash builds back up. Most retreat centers know this and still don\'t have a real answer for it.', es: 'Las mismas cosas que causaron los problemas antes de irte son las mismas que erosionan el beneficio después de regresar. La basura se acumula de nuevo. La mayoría de los centros de retiro lo saben y aún no tienen una respuesta real.' },
+  prob_3:     { en: 'Integration support at most centers is thin. When it exists, it\'s expensive. And it almost never goes deep enough to work with the specific interior landscape the medicine revealed.', es: 'El apoyo para la integración en la mayoría de los centros es escaso. Cuando existe, es caro. Y casi nunca va lo suficientemente profundo como para trabajar con el paisaje interior específico que la medicina reveló.' },
+  phases_badge: { en: 'Where ReLoHu fits', es: 'Dónde encaja ReLoHu' },
+  phases_h:   { en: 'Before. Between ceremonies. After. And as far after as you need.', es: 'Antes. Entre ceremonias. Después. Y tan después como lo necesites.' },
+  p1h: { en: 'Before: give the medicine something to meet', es: 'Antes: dale a la medicina algo con qué encontrarse' },
+  p1b: { en: 'A ReLoHu session before the retreat maps your current interior landscape: your patterns, your unresolved terrain, your intentions. The medicine has more to work with when you arrive knowing where you are. Instead of hoping the ceremony finds something, you show it where to go.', es: 'Una sesión de ReLoHu antes del retiro mapea tu paisaje interior actual. La medicina tiene más con qué trabajar cuando llegas sabiendo dónde estás. En lugar de esperar que la ceremonia encuentre algo, le muestras hacia dónde ir.' },
+  p2h: { en: 'Between ceremonies: substrate for the next one', es: 'Entre ceremonias: sustrato para la siguiente' },
+  p2b: { en: 'Without something to orient you between ceremonies, you can go session after session without a substrate for the medicine to work on. A ReLoHu session in between tells you where you are now, what was opened, and where to direct your intention for what comes next.', es: 'Sin algo que te oriente entre ceremonias, puedes ir de sesión en sesión sin un sustrato para que la medicina trabaje. Una sesión de ReLoHu en el medio te dice dónde estás ahora, qué se abrió y hacia dónde dirigir tu intención.' },
+  p3h: { en: 'After: integration that actually holds', es: 'Después: integración que realmente se sostiene' },
+  p3b: { en: 'Integration is where almost everyone fails. Not for lack of trying. Because they try to integrate without knowing specifically what they\'re integrating into. A post-ceremony ReLoHu session maps what the experience revealed and gives you something concrete to orient around as you return to ordinary life.', es: 'La integración es donde casi todos fallan. No por falta de esfuerzo. Porque intentan integrar sin saber específicamente en qué están integrando. Una sesión de ReLoHu después mapea lo que la experiencia reveló y te da algo concreto alrededor de lo cual orientarte.' },
+  p4h: { en: 'Months later, when the trash builds back up', es: 'Meses después, cuando la basura vuelve a acumularse' },
+  p4b: { en: 'Your map doesn\'t expire. But your terrain keeps changing. Returning clients book depth sessions that pick up exactly where the first map left off, tracking what has evolved and what still needs to be worked.', es: 'Tu mapa no caduca. Pero tu terreno sigue cambiando. Los clientes que regresan reservan sesiones de profundidad que retoman exactamente donde quedó el primer mapa.' },
+  quote: { en: '"I went through ceremony after ceremony without knowing what to do next. I had no substrate for the medicine to work on. If ReLoHu had existed then, each ceremony would have had something specific to meet."', es: '"Pasé de ceremonia en ceremonia sin saber qué hacer a continuación. No tenía un sustrato para que la medicina trabajara. Si ReLoHu hubiera existido entonces, cada ceremonia habría tenido algo específico con qué encontrarse."' },
+}
+
+// ─────────────────────────────────────────────
+// WELLNESS RETREAT CONTENT
+// ─────────────────────────────────────────────
+const wellness = {
+  h1a:        { en: 'You come home different.', es: 'Regresas diferente.' },
+  h1b:        { en: 'Then life happens.', es: 'Entonces llega la vida.' },
+  hero:       { en: 'Yoga retreats, silent retreats, breathwork intensives, Vipassana, somatic immersions — the retreat state is real. The problem is re-entry. Most people lose what they found within weeks. Not because it wasn\'t genuine. Because they never mapped what it touched.', es: 'Retiros de yoga, retiros de silencio, intensivos de respiración, Vipassana, inmersiones somáticas — el estado del retiro es real. El problema es el regreso. La mayoría de las personas pierde lo que encontró en semanas. No porque no fuera genuino. Porque nunca mapearon lo que tocó.' },
+  prob_badge: { en: 'Why the benefit fades', es: 'Por qué el beneficio se desvanece' },
+  prob_h:     { en: 'The retreat works. The return home undoes it. That\'s not a failure of the retreat — it\'s a failure of what comes after.', es: 'El retiro funciona. El regreso a casa lo deshace. Eso no es un fracaso del retiro — es un fracaso de lo que viene después.' },
+  prob_1:     { en: 'You spend a week in structured stillness, guided movement, intentional community. Something genuinely shifts. Your nervous system settles. You feel like yourself in a way you haven\'t in months. And then you get on a plane, go back to your inbox, your relationships, your environment — and it evaporates.', es: 'Pasas una semana en quietud estructurada, movimiento guiado, comunidad intencional. Algo genuinamente cambia. Tu sistema nervioso se asienta. Te sientes como tú mismo de una manera que no habías sentido en meses. Y luego te subes a un avión, regresas a tu bandeja de entrada, tus relaciones, tu entorno — y se evapora.' },
+  prob_2:     { en: 'The environment you returned to is the same one that made the retreat necessary. The retreat cleared some space. It didn\'t change the terrain underneath. Without a map of that terrain, you\'re working without any way to hold what you found.', es: 'El entorno al que regresaste es el mismo que hizo necesario el retiro. El retiro despejó algo de espacio. No cambió el terreno subyacente. Sin un mapa de ese terreno, estás trabajando sin ninguna manera de sostener lo que encontraste.' },
+  prob_3:     { en: 'Most retreat centers offer some integration support. Almost none of it is personalized to your specific interior landscape — the particular patterns and drivers the retreat was working against in you, specifically.', es: 'La mayoría de los centros de retiro ofrecen algún apoyo para la integración. Casi ninguno está personalizado para tu paisaje interior específico — los patrones y conductores particulares contra los que el retiro estaba trabajando en ti, específicamente.' },
+  phases_badge: { en: 'Where ReLoHu fits', es: 'Dónde encaja ReLoHu' },
+  phases_h:   { en: 'Before. During. After. Anytime the map needs updating.', es: 'Antes. Durante. Después. Cada vez que el mapa necesite actualizarse.' },
+  p1h: { en: 'Before: arrive knowing what you\'re bringing in', es: 'Antes: llega sabiendo lo que traes contigo' },
+  p1b: { en: 'A ReLoHu session before the retreat maps where you are right now: the patterns, tensions, and terrain you\'re carrying in. When you know what you\'re bringing, the retreat can work on something specific rather than a general hope of feeling better. You get more from a week when you arrive with a map.', es: 'Una sesión de ReLoHu antes del retiro mapea dónde estás ahora mismo: los patrones, tensiones y terreno que llevas contigo. Cuando sabes lo que traes, el retiro puede trabajar en algo específico en lugar de una esperanza general de sentirte mejor. Obtienes más de una semana cuando llegas con un mapa.' },
+  p2h: { en: 'During: for multi-day or multi-stage retreats', es: 'Durante: para retiros de varios días o etapas' },
+  p2b: { en: 'Longer retreats often have natural inflection points — between phases, after a particularly deep session, before the final day. A brief ReLoHu check-in at those moments helps you name what\'s been opened and direct what comes next with intention rather than just continuing to move through the schedule.', es: 'Los retiros más largos a menudo tienen puntos de inflexión naturales — entre fases, después de una sesión particularmente profunda, antes del último día. Un check-in breve de ReLoHu en esos momentos te ayuda a nombrar lo que se ha abierto y dirigir lo que viene con intención.' },
+  p3h: { en: 'After: understand what the retreat was actually touching', es: 'Después: comprende lo que el retiro estaba tocando en realidad' },
+  p3b: { en: 'A post-retreat ReLoHu session maps what shifted: which patterns softened, what the stillness or the movement or the practice was working on in you specifically, and what to carry forward. Not vague intentions to "keep up the practice." A map of why this particular practice matters for this particular person.', es: 'Una sesión de ReLoHu posterior al retiro mapea lo que cambió: qué patrones se suavizaron, en qué estaba trabajando la quietud o el movimiento o la práctica específicamente en ti, y qué llevar adelante. No intenciones vagas de "mantener la práctica." Un mapa de por qué esta práctica particular importa para esta persona particular.' },
+  p4h: { en: 'Ongoing: as your terrain evolves', es: 'Continuo: a medida que tu terreno evoluciona' },
+  p4b: { en: 'The work of a retreat doesn\'t end when you get home. It enters a different phase. Returning clients book depth sessions that track what has evolved since the first map — what the retreat set in motion, what has actually changed, and where to direct attention now.', es: 'El trabajo de un retiro no termina cuando llegas a casa. Entra en una fase diferente. Los clientes que regresan reservan sesiones de profundidad que rastrean lo que ha evolucionado desde el primer mapa.' },
+  quote: { en: '"The retreat gives you the experience. What almost no retreat gives you is a map of what that experience revealed about your specific interior terrain. That\'s the gap ReLoHu fills."', es: '"El retiro te da la experiencia. Lo que casi ningún retiro te da es un mapa de lo que esa experiencia reveló sobre tu terreno interior específico. Esa es la brecha que llena ReLoHu."' },
+}
+
+// ─────────────────────────────────────────────
+// SHARED CONTENT
+// ─────────────────────────────────────────────
+const shared = {
+  missing_badge: { en: 'What\'s been missing', es: 'Lo que ha faltado' },
+  missing_h:     { en: 'We can map stars. We can map terrain. We can map galaxies. Why don\'t we map ourselves?', es: 'Podemos mapear estrellas. Podemos mapear terrenos. Podemos mapear galaxias. ¿Por qué no nos mapeamos a nosotros mismos?' },
+  missing_1:     { en: 'Every human being is a universe. The interior world is genuinely complex, genuinely structured, and genuinely chartable — if someone is actually willing to do the work of charting it.', es: 'Cada ser humano es un universo. El mundo interior es genuinamente complejo, genuinamente estructurado y genuinamente cartografiable — si alguien está dispuesto a hacer el trabajo de cartografiarlo.' },
+  missing_2:     { en: 'The retreat gives you an experience. What it rarely gives you is a map of what that experience revealed. Where you are, how your terrain is configured, what was being worked on, and where to direct your intention next.', es: 'El retiro te da una experiencia. Lo que rara vez te da es un mapa de lo que esa experiencia reveló. Dónde estás, cómo está configurado tu terreno, qué se estaba trabajando y hacia dónde dirigir tu intención.' },
+  missing_3:     { en: 'That is what ReLoHu does. Not therapy. Not a framework thrown over you. A map. Yours specifically, built from a real conversation, delivered as a document you keep.', es: 'Eso es lo que hace ReLoHu. No es terapia. No es un marco impuesto sobre ti. Es un mapa. El tuyo específicamente, construido desde una conversación real, entregado como un documento que conservas.' },
+  ai_badge: { en: 'Why AI matters here', es: 'Por qué la IA importa aquí' },
+  ai_h:     { en: 'You can\'t have a human with you at every moment of integration. You can have your map.', es: 'No puedes tener a un humano contigo en cada momento de integración. Puedes tener tu mapa.' },
+  ai_1:     { en: 'Integration happens in ordinary moments — in the middle of a difficult conversation, at 2am when something surfaces, during a walk when a pattern becomes suddenly visible. A therapist can\'t be there. A retreat center can\'t be there. Your map can.', es: 'La integración sucede en momentos ordinarios — en medio de una conversación difícil, a las 2am cuando algo emerge, durante un paseo cuando un patrón se vuelve de repente visible. Un terapeuta no puede estar ahí. Tu mapa sí puede.' },
+  ai_2:     { en: 'The AI behind ReLoHu holds the information from your session and runs on Dr. Gedalia\'s proprietary methodology. When you have your map, you have something to return to that knows your specific terrain — not a generic wellness resource built for no one in particular.', es: 'La IA detrás de ReLoHu conserva la información de tu sesión. Cuando tienes tu mapa, tienes algo a lo que regresar que conoce tu terreno específico, no un recurso de bienestar genérico.' },
+  delivers_badge: { en: 'What a session produces', es: 'Qué produce una sesión' },
+  delivers: {
+    en: [
+      'A Terrain Map: your psychological patterns, relational architecture, and behavioral drivers',
+      'An Archetype Report: the deeper structural forces shaping how you move through the world',
+      'People You Are Similar To: real people and fictional characters whose psychology maps onto yours',
+      'Your Strengths and Weaknesses: both sides, honestly named',
+      'Unique Things You Probably Never Knew About Yourself',
+    ],
+    es: [
+      'Un Mapa de Terreno: tus patrones psicológicos, arquitectura relacional y conductores de comportamiento',
+      'Un Reporte de Arquetipo: las fuerzas estructurales más profundas que moldean cómo te mueves por el mundo',
+      'Personas a las que te Pareces: personas reales y personajes ficticios cuya psicología se mapea sobre la tuya',
+      'Tus Fortalezas y Debilidades: ambos lados, nombrados con honestidad',
+      'Cosas Únicas que Probablemente Nunca Supiste de Ti Mismo',
+    ],
+  },
+  delivers_note: { en: 'Each report is delivered as a document you keep. They don\'t expire. They are yours.', es: 'Cada reporte se entrega como un documento que conservas. No caducan. Son tuyos.' },
+  cta_badge: { en: 'Start before you go in, or after you return', es: 'Comienza antes de entrar, o después de regresar' },
+  cta_h1:   { en: 'The retreat gives you the experience.', es: 'El retiro te da la experiencia.' },
+  cta_h2:   { en: 'ReLoHu gives you the map.', es: 'ReLoHu te da el mapa.' },
+  cta_body: { en: 'A 15-minute orientation call with Dr. Gedalia is free and requires nothing. If ReLoHu is right for where you are in your process, you\'ll know quickly.', es: 'Una llamada de orientación de 15 minutos con el Dr. Gedalia es gratuita y sin compromiso. Si ReLoHu es adecuado para donde estás, lo sabrás rápidamente.' },
+  cta_book: { en: 'Book a Free Orientation Call', es: 'Reservar una Llamada de Orientación' },
+  cta_offer: { en: 'View the Offer', es: 'Ver la Oferta' },
+  cta_note: { en: 'Founding cohort: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.', es: 'Cohorte fundador: $497 hasta abril. Cinco reportes, 90 minutos de intake, sesión de lectura del Mapa de Terreno.' },
+}
+
+function s(obj: Record<Lang, string>, lang: Lang) { return obj[lang] }
+
 export default function RetreatsPage() {
   const [lang, setLang] = useState<Lang>('en')
+  const [mode, setMode] = useState<Mode>('plant')
 
-  const t = {
-    badge: { en: 'ReLoHu · Retreats', es: 'ReLoHu · Retiros' },
-    langNote: { en: 'Esta página está disponible en español', es: 'This page is available in English' },
-    h1a: { en: 'The retreat opens something.', es: 'El retiro abre algo.' },
-    h1b: { en: 'ReLoHu maps it.', es: 'ReLoHu lo mapea.' },
-    heroBody: {
-      en: 'Psychedelic retreats, wellness retreats, silent retreats. Whatever opens you up, the question that follows is always the same: how do you make it last? Most people don\'t. Not because they weren\'t transformed. Because they had no map of where they went.',
-      es: 'Retiros psicodélicos, retiros de bienestar, retiros de silencio. Sea lo que sea que te abre, la pregunta que sigue siempre es la misma: ¿cómo haces que dure? La mayoría de las personas no lo logra. No porque no se hayan transformado. Porque no tenían un mapa de adonde fueron.',
-    },
+  const c = mode === 'plant' ? plant : wellness
 
-    prob_badge: { en: 'The problem nobody names', es: 'El problema que nadie nombra' },
-    prob_h: { en: 'Most people who go to retreats find that, in the end, it changes very little. Not because the experience wasn\'t real. Because integration is harder than anyone tells you.', es: 'La mayoría de las personas que van a retiros descubre que, al final, cambia muy poco. No porque la experiencia no fuera real. Porque la integración es más difícil de lo que nadie te dice.' },
-    prob_1: { en: 'You leave the retreat cleaned out. Opened. Certain that something has shifted for good. And then you go back. Back to where you live, back to who you\'re around, back to the same environment that produced the same patterns that sent you to the retreat in the first place.', es: 'Sales del retiro limpio. Abierto. Seguro de que algo cambió para siempre. Y luego regresas. Regresas a donde vives, a quienes te rodean, al mismo entorno que produjo los mismos patrones que te enviaron al retiro en primer lugar.' },
-    prob_2: { en: 'The same things that caused the problems before you left are the same things that erode the benefit after you return. The world has too much coming at us constantly. The trash builds back up. Most retreat centers know this and still don\'t have a real answer for it.', es: 'Las mismas cosas que causaron los problemas antes de irte son las mismas que erosionan el beneficio después de regresar. El mundo nos trae demasiado constantemente. La basura se acumula de nuevo. La mayoría de los centros de retiro lo saben y aún no tienen una respuesta real para ello.' },
-    prob_3: { en: 'Integration support at most centers is thin. When it exists at all, it\'s expensive. And it almost never goes deep enough to work with the specific interior landscape the medicine revealed.', es: 'El apoyo para la integración en la mayoría de los centros es escaso. Cuando existe, es caro. Y casi nunca va lo suficientemente profundo como para trabajar con el paisaje interior específico que la medicina reveló.' },
-
-    missing_badge: { en: 'What\'s been missing', es: 'Lo que ha faltado' },
-    missing_h: { en: 'We can map stars. We can map terrain. We can map galaxies. Why don\'t we map ourselves?', es: 'Podemos mapear estrellas. Podemos mapear terrenos. Podemos mapear galaxias. ¿Por qué no nos mapeamos a nosotros mismos?' },
-    missing_1: { en: 'Every human being is a universe. That\'s not a metaphor. It\'s an acknowledgment that the interior world is genuinely complex, genuinely structured, and genuinely chartable — if someone is actually willing to do the work of charting it.', es: 'Cada ser humano es un universo. Eso no es una metáfora. Es el reconocimiento de que el mundo interior es genuinamente complejo, genuinamente estructurado y genuinamente cartografiable — si alguien está dispuesto a hacer el trabajo de cartografiarlo.' },
-    missing_2: { en: 'The retreat gives you an experience. What it rarely gives you is a map of what that experience revealed. Where you are, how your terrain is configured, what the medicine was working on, what to carry forward and where to direct your intention next.', es: 'El retiro te da una experiencia. Lo que rara vez te da es un mapa de lo que esa experiencia reveló. Dónde estás, cómo está configurado tu terreno, en qué estaba trabajando la medicina, qué llevar adelante y hacia dónde dirigir tu intención.' },
-    missing_3: { en: 'That is what ReLoHu does. Not therapy. Not a framework thrown over you. A map. Yours specifically, built from a real conversation, delivered as a document you keep.', es: 'Eso es lo que hace ReLoHu. No es terapia. No es un marco impuesto sobre ti. Es un mapa. El tuyo específicamente, construido desde una conversación real, entregado como un documento que conservas.' },
-
-    phases_badge: { en: 'Where ReLoHu fits', es: 'Dónde encaja ReLoHu' },
-    phases_h: { en: 'Before. Between. After. And as far after as you need.', es: 'Antes. Entre. Después. Y tan después como lo necesites.' },
-    phase1_h: { en: 'Before the retreat', es: 'Antes del retiro' },
-    phase1_b: { en: 'Before you go in, know where you are. A ReLoHu session maps your current interior landscape: your patterns, your intentions, your unresolved terrain. The medicine has more to work with when you arrive with a map rather than a vague hope of transformation. You give it something specific to meet.', es: 'Antes de entrar, sabe dónde estás. Una sesión de ReLoHu mapea tu paisaje interior actual: tus patrones, tus intenciones, tu terreno sin resolver. La medicina tiene más con qué trabajar cuando llegas con un mapa en lugar de una vaga esperanza de transformación. Le das algo específico con qué encontrarse.' },
-    phase2_h: { en: 'Between ceremonies', es: 'Entre ceremonias' },
-    phase2_b: { en: 'If you are doing multiple ceremonies, what happens between them matters more than most people realize. Without something to orient you, you can go ceremony after ceremony without a substrate for the medicine to work on. A session in between tells you where you are, what was opened, and where to direct your intention next.', es: 'Si estás haciendo múltiples ceremonias, lo que sucede entre ellas importa más de lo que la mayoría de las personas se da cuenta. Sin algo que te oriente, puedes ir de ceremonia en ceremonia sin un sustrato para que la medicina trabaje. Una sesión intermedia te dice dónde estás, qué se abrió y hacia dónde dirigir tu intención.' },
-    phase3_h: { en: 'After: integration that actually holds', es: 'Después: integración que realmente se sostiene' },
-    phase3_b: { en: 'Integration is where almost everyone fails. Not for lack of trying. Because they try to integrate without knowing specifically what they\'re integrating into. A post-retreat ReLoHu session maps what the experience revealed, names what changed and what didn\'t, and gives you something concrete to orient around as you return to ordinary life.', es: 'La integración es donde casi todos fallan. No por falta de esfuerzo. Porque intentan integrar sin saber específicamente en qué están integrando. Una sesión de ReLoHu posterior al retiro mapea lo que la experiencia reveló, nombra qué cambió y qué no, y te da algo concreto alrededor de lo cual orientarte al regresar a la vida ordinaria.' },
-    phase4_h: { en: 'Months later, when the trash builds back up', es: 'Meses después, cuando la basura vuelve a acumularse' },
-    phase4_b: { en: 'The map from your first session doesn\'t expire. But your terrain keeps changing. Returning clients can book a depth session that picks up exactly where the first map left off, tracking what has evolved and what still needs to be worked. Your map stays current because you do.', es: 'El mapa de tu primera sesión no caduca. Pero tu terreno sigue cambiando. Los clientes que regresan pueden reservar una sesión de profundidad que retoma exactamente donde quedó el primer mapa, rastreando qué ha evolucionado y qué todavía necesita trabajarse. Tu mapa se mantiene actualizado porque tú lo haces.' },
-
-    ai_badge: { en: 'Why AI matters here', es: 'Por qué la IA importa aquí' },
-    ai_h: { en: 'You can\'t have a human with you at every moment of integration. You can have your map.', es: 'No puedes tener a un humano contigo en cada momento de integración. Puedes tener tu mapa.' },
-    ai_1: { en: 'Integration happens in ordinary moments. In the middle of a difficult conversation. At 2am when something surfaces. During a walk when a pattern becomes suddenly visible. A therapist can\'t be there. A retreat center can\'t be there. Your map can.', es: 'La integración sucede en momentos ordinarios. En medio de una conversación difícil. A las 2am cuando algo emerge. Durante un paseo cuando un patrón se vuelve de repente visible. Un terapeuta no puede estar ahí. Un centro de retiro no puede estar ahí. Tu mapa sí puede.' },
-    ai_2: { en: 'The AI behind ReLoHu runs on Dr. Gedalia\'s proprietary methodology and holds the information from your session. When you have your map, you have something to return to that knows your specific terrain — not a generic wellness resource built for no one in particular.', es: 'La IA detrás de ReLoHu funciona con la metodología propietaria del Dr. Gedalia y conserva la información de tu sesión. Cuando tienes tu mapa, tienes algo a lo que regresar que conoce tu terreno específico, no un recurso de bienestar genérico construido para nadie en particular.' },
-    ai_3: { en: 'In the end, when we have the information we need, we can integrate on our own. It\'s the information that\'s crucial. ReLoHu makes sure you have it.', es: 'Al final, cuando tenemos la información que necesitamos, podemos integrar por nuestra cuenta. Es la información lo que es crucial. ReLoHu se asegura de que la tengas.' },
-
-    quote: { en: '"I went through ceremony after ceremony without knowing what to do next. I had no substrate for the medicine to work on. If ReLoHu had existed then, each ceremony would have had something specific to meet."', es: '"Pasé de ceremonia en ceremonia sin saber qué hacer a continuación. No tenía un sustrato para que la medicina trabajara. Si ReLoHu hubiera existido entonces, cada ceremonia habría tenido algo específico con qué encontrarse."' },
-
-    delivers_badge: { en: 'What a session produces', es: 'Qué produce una sesión' },
-    delivers: {
-      en: [
-        'A Terrain Map: your psychological patterns, relational architecture, and behavioral drivers — what the medicine has to work with',
-        'An Archetype Report: the deeper structural forces shaping how you move through the world',
-        'People You Are Similar To: real people and fictional characters whose psychology maps onto yours in specific ways',
-        'Your Strengths and Weaknesses: both sides, honestly named',
-        'Unique Things You Probably Never Knew About Yourself: the observations most people never get told',
-      ],
-      es: [
-        'Un Mapa de Terreno: tus patrones psicológicos, arquitectura relacional y conductores de comportamiento — con qué trabaja la medicina',
-        'Un Reporte de Arquetipo: las fuerzas estructurales más profundas que moldean cómo te mueves por el mundo',
-        'Personas a las que te Pareces: personas reales y personajes ficticios cuya psicología se mapea sobre la tuya de maneras específicas',
-        'Tus Fortalezas y Debilidades: ambos lados, nombrados con honestidad',
-        'Cosas Únicas que Probablemente Nunca Supiste de Ti Mismo: las observaciones que la mayoría de las personas nunca recibe',
-      ],
-    },
-    delivers_note: { en: 'Each report is delivered as a document you keep. They don\'t expire. You can share them with a therapist, an integration coach, or no one. They are yours.', es: 'Cada reporte se entrega como un documento que conservas. No caducan. Puedes compartirlos con un terapeuta, un coach de integración, o con nadie. Son tuyos.' },
-
-    cta_badge: { en: 'Start before you go in, or after you return', es: 'Comienza antes de entrar, o después de regresar' },
-    cta_h1: { en: 'The retreat gives you the experience.', es: 'El retiro te da la experiencia.' },
-    cta_h2: { en: 'ReLoHu gives you the map.', es: 'ReLoHu te da el mapa.' },
-    cta_body: { en: 'A 15-minute orientation call with Dr. Gedalia is free and requires nothing. If ReLoHu is right for where you are in your process, you\'ll know quickly.', es: 'Una llamada de orientación de 15 minutos con el Dr. Gedalia es gratuita y no requiere ningún compromiso. Si ReLoHu es adecuado para donde estás en tu proceso, lo sabrás rápidamente.' },
-    cta_book: { en: 'Book a Free Orientation Call', es: 'Reservar una Llamada de Orientación' },
-    cta_offer: { en: 'View the Offer', es: 'Ver la Oferta' },
-    cta_note: { en: 'Founding cohort: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.', es: 'Cohorte fundador: $497 hasta abril. Cinco reportes, 90 minutos de intake, sesión de lectura del Mapa de Terreno.' },
-  }
-
-  const s = (key: keyof typeof t) => (t[key] as Record<Lang, string>)[lang]
+  const phases = [
+    { icon: MapPin,    hKey: 'p1h' as const, bKey: 'p1b' as const },
+    { icon: Compass,   hKey: 'p2h' as const, bKey: 'p2b' as const },
+    { icon: RefreshCw, hKey: 'p3h' as const, bKey: 'p3b' as const },
+    { icon: Clock,     hKey: 'p4h' as const, bKey: 'p4b' as const },
+  ]
 
   return (
     <main className="min-h-screen bg-white text-slate-800">
@@ -112,69 +157,75 @@ export default function RetreatsPage() {
       {/* ==================== HERO ==================== */}
       <section className="pt-32 pb-24 px-6 border-b border-slate-100">
         <div className="max-w-2xl mx-auto">
-          <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
-            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase">{s('badge')}</p>
+          {/* Top bar: badge + lang toggle */}
+          <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
+            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase">
+              {lang === 'en' ? 'ReLoHu · Retreats' : 'ReLoHu · Retiros'}
+            </p>
             <div className="flex items-center gap-3">
               <Globe className="w-4 h-4 text-teal-500 shrink-0" />
               <LangToggle lang={lang} setLang={setLang} />
             </div>
           </div>
+
+          {/* Mode toggle — prominent */}
+          <div className="mb-10">
+            <p className="text-xs text-slate-400 mb-3 font-medium">
+              {lang === 'en' ? 'Select your retreat type:' : 'Selecciona tu tipo de retiro:'}
+            </p>
+            <ModeToggle mode={mode} setMode={setMode} lang={lang} />
+          </div>
+
           <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 tracking-tight text-slate-800">
-            {s('h1a')}<br />{s('h1b')}
+            {s(c.h1a, lang)}<br />{s(c.h1b, lang)}
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
-            {s('heroBody')}
+            {s(c.hero, lang)}
           </p>
         </div>
       </section>
 
-      {/* ==================== THE REAL PROBLEM ==================== */}
+      {/* ==================== THE PROBLEM ==================== */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">{s('prob_badge')}</p>
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">{s(c.prob_badge, lang)}</p>
           <div className="space-y-5 text-slate-600 leading-relaxed">
-            <p className="text-xl font-medium text-slate-800">{s('prob_h')}</p>
-            <p>{s('prob_1')}</p>
-            <p>{s('prob_2')}</p>
-            <p className="text-slate-800 font-medium">{s('prob_3')}</p>
+            <p className="text-xl font-medium text-slate-800">{s(c.prob_h, lang)}</p>
+            <p>{s(c.prob_1, lang)}</p>
+            <p>{s(c.prob_2, lang)}</p>
+            <p className="text-slate-800 font-medium">{s(c.prob_3, lang)}</p>
           </div>
         </div>
       </section>
 
-      {/* ==================== THE MISSING PIECE ==================== */}
+      {/* ==================== MISSING PIECE (shared) ==================== */}
       <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">{s('missing_badge')}</p>
-          <p className="text-xl font-medium text-slate-800 mb-6 leading-snug">{s('missing_h')}</p>
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">{s(shared.missing_badge, lang)}</p>
+          <p className="text-xl font-medium text-slate-800 mb-6 leading-snug">{s(shared.missing_h, lang)}</p>
           <div className="space-y-5 text-slate-600 leading-relaxed">
-            <p>{s('missing_1')}</p>
-            <p>{s('missing_2')}</p>
-            <p>{s('missing_3')}</p>
+            <p>{s(shared.missing_1, lang)}</p>
+            <p>{s(shared.missing_2, lang)}</p>
+            <p>{s(shared.missing_3, lang)}</p>
           </div>
         </div>
       </section>
 
-      {/* ==================== THREE PHASES ==================== */}
+      {/* ==================== PHASES ==================== */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">{s('phases_badge')}</p>
-          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-12 leading-snug">{s('phases_h')}</h2>
-
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">{s(c.phases_badge, lang)}</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-12 leading-snug">{s(c.phases_h, lang)}</h2>
           <div className="space-y-10">
-            {[
-              { icon: MapPin, hKey: 'phase1_h', bKey: 'phase1_b' },
-              { icon: Compass, hKey: 'phase2_h', bKey: 'phase2_b' },
-              { icon: RefreshCw, hKey: 'phase3_h', bKey: 'phase3_b' },
-              { icon: Clock, hKey: 'phase4_h', bKey: 'phase4_b' },
-            ].map(({ icon: Icon, hKey, bKey }, i) => (
+            {phases.map(({ icon: Icon, hKey, bKey }, i) => (
               <div key={i}>
                 <div className="flex gap-6 items-start">
                   <div className="w-10 h-10 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
                     <Icon className="w-5 h-5 text-teal-600" />
                   </div>
                   <div>
-                    <h3 className="font-medium text-slate-800 mb-2">{s(hKey as keyof typeof t)}</h3>
-                    <p className="text-slate-500 leading-relaxed text-sm">{s(bKey as keyof typeof t)}</p>
+                    <h3 className="font-medium text-slate-800 mb-2">{s(c[hKey], lang)}</h3>
+                    <p className="text-slate-500 leading-relaxed text-sm">{s(c[bKey], lang)}</p>
                   </div>
                 </div>
                 {i < 3 && <div className="w-full h-px bg-slate-100 mt-10" />}
@@ -184,24 +235,23 @@ export default function RetreatsPage() {
         </div>
       </section>
 
-      {/* ==================== AI FILLS THE GAP ==================== */}
+      {/* ==================== AI (shared) ==================== */}
       <section className="py-20 px-6 bg-slate-900">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-8">{s('ai_badge')}</p>
-          <h2 className="text-2xl md:text-3xl font-medium text-white mb-6 leading-snug">{s('ai_h')}</h2>
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-8">{s(shared.ai_badge, lang)}</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-white mb-6 leading-snug">{s(shared.ai_h, lang)}</h2>
           <div className="space-y-5 text-slate-400 leading-relaxed">
-            <p>{s('ai_1')}</p>
-            <p>{s('ai_2')}</p>
-            <p className="text-slate-300">{s('ai_3')}</p>
+            <p>{s(shared.ai_1, lang)}</p>
+            <p className="text-slate-300">{s(shared.ai_2, lang)}</p>
           </div>
         </div>
       </section>
 
-      {/* ==================== PERSONAL NOTE ==================== */}
+      {/* ==================== QUOTE ==================== */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-2xl mx-auto">
           <p className="text-2xl md:text-3xl font-light text-slate-700 leading-relaxed italic">
-            {s('quote')}
+            {s(c.quote, lang)}
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
@@ -211,30 +261,30 @@ export default function RetreatsPage() {
         </div>
       </section>
 
-      {/* ==================== WHAT YOU GET ==================== */}
+      {/* ==================== DELIVERABLES (shared) ==================== */}
       <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">{s('delivers_badge')}</p>
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">{s(shared.delivers_badge, lang)}</p>
           <div className="space-y-4">
-            {(t.delivers[lang] as string[]).map((item, i) => (
+            {(shared.delivers[lang] as string[]).map((item, i) => (
               <div key={i} className="flex items-start gap-3">
                 <CheckCircle className="w-4 h-4 text-teal-500 shrink-0 mt-1" />
                 <p className="text-slate-600 text-sm leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
-          <p className="text-slate-400 text-sm mt-8 leading-relaxed">{s('delivers_note')}</p>
+          <p className="text-slate-400 text-sm mt-8 leading-relaxed">{s(shared.delivers_note, lang)}</p>
         </div>
       </section>
 
       {/* ==================== CTA ==================== */}
       <section className="py-20 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto text-center">
-          <p className="text-teal-200 text-[10px] font-mono tracking-[0.35em] uppercase mb-6">{s('cta_badge')}</p>
+          <p className="text-teal-200 text-[10px] font-mono tracking-[0.35em] uppercase mb-6">{s(shared.cta_badge, lang)}</p>
           <h2 className="text-3xl md:text-4xl font-medium text-white mb-4 leading-snug">
-            {s('cta_h1')}<br />{s('cta_h2')}
+            {s(shared.cta_h1, lang)}<br />{s(shared.cta_h2, lang)}
           </h2>
-          <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">{s('cta_body')}</p>
+          <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">{s(shared.cta_body, lang)}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="https://calendly.com/relohu"
@@ -243,17 +293,17 @@ export default function RetreatsPage() {
               className="inline-flex items-center gap-2 bg-white hover:bg-teal-50 text-teal-700 font-medium rounded-full px-10 py-4 text-base transition-all"
             >
               <Calendar className="w-4 h-4" />
-              {s('cta_book')}
+              {s(shared.cta_book, lang)}
             </a>
             <Link
               href="/founding-cohort"
               className="inline-flex items-center gap-2 border border-teal-400 hover:bg-teal-600 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
             >
-              {s('cta_offer')}
+              {s(shared.cta_offer, lang)}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
-          <p className="text-teal-300 text-xs mt-6">{s('cta_note')}</p>
+          <p className="text-teal-300 text-xs mt-6">{s(shared.cta_note, lang)}</p>
         </div>
       </section>
 

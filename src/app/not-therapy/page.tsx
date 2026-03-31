@@ -189,6 +189,9 @@ export default function NotTherapyPage() {
             <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
+          <p className="text-xs text-slate-400 mt-4 leading-relaxed max-w-md mx-auto">
+            Dr. Gedalia holds a doctorate in dental surgery and has spent two decades studying how people understand themselves. ReLoHu is not a clinical practice. It is a methodology he built from scratch, as a Reality Scientist: someone who applies systematic, rigorous inquiry to inner experience.
+          </p>
         </div>
       </section>
 

@@ -108,9 +108,9 @@ export default function FoundingCohortPage() {
                 <BookOpen className="w-5 h-5 text-teal-600" />
               </div>
               <div>
-                <h3 className="font-medium text-slate-800 mb-1">30-minute report reading session</h3>
+                <h3 className="font-medium text-slate-800 mb-1">30-minute Terrain Map reading session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A dedicated call to go through the reports together. Not a summary — a reading. Dr. Gedalia walks through what each report says and what it means for you specifically. Included in the founding cohort price.
+                  A dedicated call to go through the Terrain Map together. Dr. Gedalia walks through what it says and what it means for you specifically. The other four reports are delivered directly as documents you keep. Included in the founding cohort price.
                 </p>
               </div>
             </div>

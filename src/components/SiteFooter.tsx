@@ -16,6 +16,7 @@ export default function SiteFooter() {
           <Link href="/uniqueness" className="hover:text-teal-600 transition-colors">The Difference</Link>
           <Link href="/not-therapy" className="hover:text-teal-600 transition-colors">Not Therapy</Link>
           <Link href="/retreats" className="hover:text-teal-600 transition-colors">Retreats</Link>
+          <Link href="/therapists" className="hover:text-teal-600 transition-colors">For Therapists</Link>
           <Link href="/blog" className="hover:text-teal-600 transition-colors">Blog</Link>
           <Link href="/founding-cohort" className="hover:text-teal-600 transition-colors">Founding Cohort</Link>
           <Link href="/faq" className="hover:text-teal-600 transition-colors">FAQ</Link>

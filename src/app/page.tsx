@@ -571,13 +571,48 @@ function LandingContent() {
 
               {/* Guaranteed deliverable */}
               <h3 className="text-lg font-medium text-teal-600 mb-4">{t('solution.what_is')}</h3>
-              <div className="flex items-start gap-4 group bg-teal-50 rounded-xl p-4 mb-8 border border-teal-100">
+              <div className="flex items-start gap-4 group bg-teal-50 rounded-xl p-4 mb-4 border border-teal-100">
                 <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center flex-shrink-0">
                   <Map className="w-5 h-5 text-teal-600" />
                 </div>
                 <span className="text-slate-700 leading-relaxed pt-2 font-medium">
                   {t('solution.item1')}
                 </span>
+              </div>
+
+              {/* Founding Cohort upgrade callout */}
+              <div className="rounded-xl border-2 border-amber-300 bg-amber-50 p-5 mb-8 relative overflow-hidden">
+                <div className="absolute top-0 right-0 bg-amber-400 text-amber-900 text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-bl-xl">
+                  {lang === 'en' ? 'April Only' : 'Solo Abril'}
+                </div>
+                <p className="text-xs font-bold tracking-widest text-amber-700 uppercase mb-3">
+                  {lang === 'en' ? 'Founding Cohort also receives' : 'El Cohorte Fundador también recibe'}
+                </p>
+                <div className="space-y-2">
+                  {(lang === 'en' ? [
+                    'Archetype Report',
+                    'People You Are Similar To (real people and fictional characters)',
+                    'Your Strengths and Weaknesses',
+                    'Unique Things You Probably Never Knew About Yourself',
+                    '30-minute Terrain Map reading session with Dr. Gedalia',
+                  ] : [
+                    'Reporte de Arquetipo',
+                    'Personas a las que te pareces (personas reales y personajes ficticios)',
+                    'Tus Fortalezas y Debilidades',
+                    'Cosas Únicas que Probablemente Nunca Supiste de Ti Mismo',
+                    'Sesión de lectura del Terrain Map de 30 minutos con el Dr. Gedalia',
+                  ]).map((item, i) => (
+                    <div key={i} className="flex items-start gap-2">
+                      <CheckCircle className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
+                      <span className="text-sm text-amber-900">{item}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-xs text-amber-600 mt-3">
+                  {lang === 'en'
+                    ? 'Standard sessions include the Terrain Map only. This bundle does not come back.'
+                    : 'Las sesiones estándar incluyen solo el Terrain Map. Este paquete no vuelve.'}
+                </p>
               </div>
 
               {/* Possibilities */}
@@ -678,7 +713,16 @@ function LandingContent() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-300 uppercase mb-6 text-center">
             {lang === 'en' ? 'The Founding Cohort Offer' : 'La Oferta del Cohorte Fundador'}
           </p>
-          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl">
+          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl ring-4 ring-amber-300/60">
+            {/* Deal banner */}
+            <div className="bg-gradient-to-r from-amber-400 to-amber-500 px-8 py-3 flex items-center justify-between">
+              <span className="text-amber-900 font-bold text-sm tracking-wide">
+                {lang === 'en' ? 'Founding Cohort — Limited to 10 spots' : 'Cohorte Fundador — Limitado a 10 cupos'}
+              </span>
+              <span className="bg-amber-900/20 text-amber-900 text-xs font-bold px-3 py-1 rounded-full">
+                {lang === 'en' ? 'You save $500' : 'Ahorras $500'}
+              </span>
+            </div>
             {/* What you get */}
             <div className="px-8 pt-8 pb-6 border-b border-slate-100">
               <p className="text-[10px] font-mono tracking-widest text-teal-600 uppercase mb-5">
@@ -687,14 +731,14 @@ function LandingContent() {
               <div className="space-y-3">
                 {(lang === 'en' ? [
                   { icon: Phone,     text: '15-min orientation call, free, no commitment' },
-                  { icon: Clock,     text: 'Up to 2-hr intake conversation with Dr. Gedalia' },
-                  { icon: FileText,  text: 'Full written Terrain Map delivered as a document' },
-                  { icon: Calendar,  text: '30-day follow-up call (Founding Cohort only)' },
+                  { icon: Clock,     text: '90-minute intake conversation with Dr. Gedalia' },
+                  { icon: FileText,  text: 'Five detailed reports delivered as documents you keep' },
+                  { icon: BookOpen,  text: '30-minute Terrain Map reading session with Dr. Gedalia' },
                 ] : [
                   { icon: Phone,     text: 'Llamada de orientación de 15 min, gratis, sin compromiso' },
-                  { icon: Clock,     text: 'Hasta 2 hrs de conversación de intake con el Dr. Gedalia' },
-                  { icon: FileText,  text: 'Terrain Map completo entregado como documento' },
-                  { icon: Calendar,  text: 'Llamada de seguimiento a los 30 días (solo Cohorte Fundador)' },
+                  { icon: Clock,     text: 'Conversación de intake de 90 minutos con el Dr. Gedalia' },
+                  { icon: FileText,  text: 'Cinco reportes detallados entregados como documentos' },
+                  { icon: BookOpen,  text: 'Sesión de lectura del Terrain Map de 30 minutos con el Dr. Gedalia' },
                 ]).map(({ icon: Icon, text }, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-lg bg-teal-50 flex items-center justify-center flex-shrink-0">
@@ -1043,8 +1087,8 @@ function LandingContent() {
 
           <p className="text-slate-400 text-xs mt-3 text-center">
             {lang === 'en'
-              ? <>April only · $497 now, $997 in May · Follow-up call included · <a href="/founding-cohort" className="text-teal-500 hover:underline">View full offer →</a></>
-              : <>Solo abril · $497 ahora, $997 en mayo · Llamada de seguimiento incluida · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
+              ? <>April only · $497 now, $997 in May · 5 reports + reading session included · <a href="/founding-cohort" className="text-teal-500 hover:underline">View full offer →</a></>
+              : <>Solo abril · $497 ahora, $997 en mayo · 5 reportes + sesión de lectura incluidos · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
             }
           </p>
           <p className="text-slate-400 text-xs mt-1.5 text-center">

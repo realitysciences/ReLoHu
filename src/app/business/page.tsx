@@ -21,7 +21,7 @@ export default function BusinessPage() {
             Every business problem<br />has an author.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
-            The decisions you make, the conflicts that keep recurring, the partnerships that fail the same way twice — these are not random. They follow patterns. And those patterns come from you. Most leaders never map them. ReLoHu does.
+            The decisions you make, the conflicts that keep recurring, the partnerships that fail the same way twice. These are not random. They follow patterns. And those patterns come from you. Most leaders never map them. ReLoHu does.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <a
@@ -59,7 +59,7 @@ export default function BusinessPage() {
               These are not strategic failures. They are pattern failures. And patterns don't change until they're named.
             </p>
             <p className="text-slate-800 font-medium">
-              The highest-leverage investment a leader can make is in understanding how they actually operate — not how they think they operate, and not how they present in a 360 review. How they actually operate, upstream of behavior, where the patterns live.
+              The highest-leverage investment a leader can make is in understanding how they actually operate: not how they think they operate, and not how they present in a 360 review. How they actually operate, upstream of behavior, where the patterns live.
             </p>
           </div>
         </div>
@@ -74,12 +74,12 @@ export default function BusinessPage() {
               {
                 icon: AlertTriangle,
                 title: 'Your blind spots, named honestly',
-                body: 'Not a 360 review filtered through what colleagues are willing to say. Not a personality quiz that tells you what you want to hear. A direct, honest account of where your particular configuration creates friction — in leadership, in relationships, in decisions under pressure.',
+                body: 'Not a 360 review filtered through what colleagues are willing to say. Not a personality quiz that tells you what you want to hear. A direct, honest account of where your particular configuration creates friction: in leadership, in relationships, in decisions under pressure.',
               },
               {
                 icon: TrendingUp,
                 title: 'Where your strengths actually come from',
-                body: 'Most leaders have a vague sense of what they\'re good at. Very few understand why they\'re good at it — what upstream configuration produces that capability, and what it costs on the other side. Understanding the source makes the strength more reliable and the cost more manageable.',
+                body: 'Most leaders have a vague sense of what they\'re good at. Very few understand why they\'re good at it: what upstream configuration produces that capability, and what it costs on the other side. Understanding the source makes the strength more reliable and the cost more manageable.',
               },
               {
                 icon: Users,
@@ -89,7 +89,7 @@ export default function BusinessPage() {
               {
                 icon: Target,
                 title: 'The pattern beneath the recurring problem',
-                body: 'If the same kind of conflict keeps happening — with co-founders, with employees, with clients, in board rooms — the common variable is you. The map doesn\'t assign blame. It shows you the structure of the pattern so you can actually do something about it instead of attributing it to circumstances.',
+                body: 'If the same kind of conflict keeps happening, with co-founders, with employees, with clients, in board rooms, the common variable is you. The map doesn\'t assign blame. It shows you the structure of the pattern so you can actually do something about it instead of attributing it to circumstances.',
               },
               {
                 icon: Compass,
@@ -126,7 +126,7 @@ export default function BusinessPage() {
               You come in, you talk, and you leave with a complete map of your interior terrain. Executives and entrepreneurs who have spent years in therapy often find that ReLoHu surfaces things the therapeutic relationship hasn't reached, precisely because it approaches from a different angle: not treatment, but cartography.
             </p>
             <p className="text-slate-300">
-              You don't need to be struggling. You need to be curious about what is driving the results you keep getting — and willing to look at it honestly.
+              You don't need to be struggling. You need to be curious about what is driving the results you keep getting, and willing to look at it honestly.
             </p>
           </div>
         </div>
@@ -156,9 +156,9 @@ export default function BusinessPage() {
           <div className="space-y-4">
             {[
               { name: 'Terrain Map', desc: 'The full picture: your psychological patterns, relational architecture, behavioral drivers, and the upstream causes of how you show up as a leader and decision-maker.' },
-              { name: 'Archetype Report', desc: 'The deeper structural forces shaping how you operate — not a personality type, but the specific configuration of pressures and tendencies that produce your behavior.' },
+              { name: 'Archetype Report', desc: 'The deeper structural forces shaping how you operate: not a personality type, but the specific configuration of pressures and tendencies that produce your behavior.' },
               { name: 'People You Are Similar To', desc: 'Historical figures, executives, and fictional characters whose psychological profile resembles yours in specific, documented ways. Often the most immediately useful reference point.' },
-              { name: 'Strengths and Weaknesses', desc: 'Both sides, with equal honesty. Where your configuration gives you an edge, and where it creates friction — named clearly enough to actually be useful.' },
+              { name: 'Strengths and Weaknesses', desc: 'Both sides, with equal honesty. Where your configuration gives you an edge, and where it creates friction, named clearly enough to actually be useful.' },
               { name: 'Unique Things You Probably Never Knew About Yourself', desc: 'The observations that don\'t fit standard categories. Often what changes how you see a recurring problem.' },
             ].map(({ name, desc }) => (
               <div key={name} className="flex items-start gap-3 p-4 rounded-xl border border-slate-100 hover:border-teal-200 transition-colors">

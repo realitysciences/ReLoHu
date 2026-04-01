@@ -5,7 +5,7 @@ import { Calendar, ArrowRight, CheckCircle, FileText, Clock, Users, Zap, BookOpe
 
 export const metadata = {
   title: 'For Therapists & Mental Health Professionals | ReLoHu',
-  description: 'Your client arrives already mapped. ReLoHu gives therapists and mental health professionals a complete psychological portrait of their client before session one — so the work can begin immediately.',
+  description: 'Your client arrives already mapped. ReLoHu gives therapists and mental health professionals a complete psychological portrait of their client before session one, so the work can begin immediately.',
 }
 
 export default function TherapistsPage() {
@@ -50,7 +50,7 @@ export default function TherapistsPage() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-8">The orientation problem</p>
           <div className="space-y-5 text-slate-600 leading-relaxed">
             <p className="text-xl font-medium text-slate-800">
-              The first 6 to 12 sessions of a new therapeutic relationship are largely orientation. You are learning who this person is. They are learning to trust you. The actual work — the work that required your training — hasn't fully started yet.
+              The first 6 to 12 sessions of a new therapeutic relationship are largely orientation. You are learning who this person is. They are learning to trust you. The actual work (the work that required your training) hasn't fully started yet.
             </p>
             <p>
               This is not a failure of therapy. It's the nature of it. Trust takes time. Disclosure takes time. But that time has a cost: for the client in money and patience, and for you in the effort of building a picture from scratch every time a new person sits across from you.
@@ -79,12 +79,12 @@ export default function TherapistsPage() {
               {
                 icon: Users,
                 title: 'A shared language',
-                body: 'The Terrain Map gives you and your client a shared document to orient around. The client has already read it, reflected on it, and begun to locate themselves in it. That document becomes a reference point — something to return to, build on, or push back against.',
+                body: 'The Terrain Map gives you and your client a shared document to orient around. The client has already read it, reflected on it, and begun to locate themselves in it. That document becomes a reference point: something to return to, build on, or push back against.',
               },
               {
                 icon: Clock,
                 title: 'Faster therapeutic alliance',
-                body: 'Clients who arrive already mapped often feel more known from the first session. The experience of being accurately described — not diagnosed, not categorized, but genuinely seen — is itself therapeutic. It accelerates the trust that makes the deeper work possible.',
+                body: 'Clients who arrive already mapped often feel more known from the first session. The experience of being accurately described, not diagnosed, not categorized, but genuinely seen, is itself therapeutic. It accelerates the trust that makes the deeper work possible.',
               },
               {
                 icon: BookOpen,
@@ -111,14 +111,14 @@ export default function TherapistsPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">What you receive</p>
           <p className="text-slate-600 leading-relaxed mb-8">
-            A ReLoHu session produces five written reports, delivered to the client as documents they keep — and can share with you directly if they choose.
+            A ReLoHu session produces five written reports, delivered to the client as documents they keep, and can share with you directly if they choose.
           </p>
           <div className="space-y-4">
             {[
               { name: 'Terrain Map', desc: 'Psychological patterns, relational architecture, upstream behavioral drivers, and the structural forces beneath the presenting issue.' },
-              { name: 'Archetype Report', desc: 'The deeper forces shaping how the client moves through the world — not a type, but a configuration of pressures and tendencies.' },
+              { name: 'Archetype Report', desc: 'The deeper forces shaping how the client moves through the world: not a type, but a configuration of pressures and tendencies.' },
               { name: 'People They Are Similar To', desc: 'Real historical figures and fictional characters whose psychological structure resembles the client\'s in documented, specific ways. Often the most immediately resonant part of the map.' },
-              { name: 'Strengths and Weaknesses', desc: 'An honest assessment of where the client\'s configuration gives them advantage and where it creates friction — without pathologizing either side.' },
+              { name: 'Strengths and Weaknesses', desc: 'An honest assessment of where the client\'s configuration gives them advantage and where it creates friction, without pathologizing either side.' },
               { name: 'Unique Things They Probably Never Knew About Themselves', desc: 'The observations that fall outside standard categories. Often what the client refers back to most.' },
             ].map(({ name, desc }) => (
               <div key={name} className="flex items-start gap-3 p-4 rounded-xl border border-slate-100 hover:border-teal-200 transition-colors">
@@ -167,7 +167,7 @@ export default function TherapistsPage() {
       <section className="py-20 px-6 bg-white">
         <div className="max-w-2xl mx-auto">
           <p className="text-2xl md:text-3xl font-light text-slate-700 leading-relaxed italic">
-            "Therapy works at the narrator level: the story a person tells about themselves. ReLoHu works upstream from that — mapping the drivers that produce the story in the first place. They are not the same project. They are complementary."
+            "Therapy works at the narrator level: the story a person tells about themselves. ReLoHu works upstream from that: mapping the drivers that produce the story in the first place. They are not the same project. They are complementary."
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />

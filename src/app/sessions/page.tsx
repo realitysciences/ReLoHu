@@ -221,15 +221,14 @@ export default function SessionsPage() {
             </div>
             <p className="text-slate-500 text-sm mb-6">60-minute intake, core pattern summary, verbal readback. One session, no ongoing commitment. If you want to go further after this, returning sessions pick up exactly where this leaves off.</p>
             <a
-              href="https://calendly.com/relohu"
+              href="https://buy.stripe.com/7sYbIU4pX6CM50F0j8aMU02"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full inline-flex items-center justify-center gap-2.5 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
             >
-              <Calendar className="w-4 h-4" />
-              Book a Terrain Session · $250
+              Terrain Session · $250
             </a>
-            <p className="text-center text-slate-400 text-xs mt-3">Payment details shared after booking · No commitment before the call</p>
+            <p className="text-center text-slate-400 text-xs mt-3">Secure checkout via Stripe · No commitment beyond payment</p>
           </div>
         </div>
       </section>

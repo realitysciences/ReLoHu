@@ -1,4 +1,4 @@
-const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/00w7sE3lT0eo1OtaXMaMU01'
+const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/dRm9AMaOl1is64J8PEaMU03'
 
 interface PayButtonProps {
   className?: string

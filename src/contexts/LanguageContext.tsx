@@ -107,15 +107,15 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Testimonials
     'testimonials.title': 'WHAT CLIENTS SAY',
-    'testimonials.quote1': 'For the first time, I felt like someone actually saw the whole picture. Not just my symptoms, not just my patterns. Me. The map changed everything.',
-    'testimonials.author1': 'M. Chen',
-    'testimonials.role1': 'Software Engineer, SF',
-    'testimonials.quote2': 'I\'d spent years in therapy going in circles. After the Terrain Map, my therapist knew exactly where to start. We skipped months of guesswork.',
-    'testimonials.author2': 'A. Morrison',
-    'testimonials.role2': 'Creative Director, NYC',
-    'testimonials.quote3': 'I was skeptical. I\'d seen many practitioners. But this was different: built by someone who actually understands what it\'s like to be "too sophisticated" for help.',
-    'testimonials.author3': 'R. Patel',
-    'testimonials.role3': 'Startup Founder, Austin',
+    'testimonials.quote1': 'David is extremely thorough and listens carefully to your answers, leads you to critically think about follow up answers in a new way, and organizes the data in a meaningful way. Very helpful, highly recommended.',
+    'testimonials.author1': 'JJ Dent NS',
+    'testimonials.role1': 'Verified Google Review',
+    'testimonials.quote2': 'My session with David was incredibly validating. His natural interest and intelligence to make questions and listen attentive to my life experiences leads me towards a better understanding about myself.',
+    'testimonials.author2': 'Denise Monti',
+    'testimonials.role2': 'Verified Google Review',
+    'testimonials.quote3': 'This was a fantastic experience, it really helped me to start looking to get into therapy. I really enjoyed this program.',
+    'testimonials.author3': 'Kervens Normil',
+    'testimonials.role3': 'Verified Google Review',
 
     // AI Differentiation Section
     'ai.title': 'THE AI METHODOLOGY',
@@ -240,15 +240,15 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Testimonials
     'testimonials.title': 'LO QUE DICEN LOS CLIENTES',
-    'testimonials.quote1': 'Por primera vez, sentí que alguien realmente vio el panorama completo. No solo mis síntomas, no solo mis patrones. Yo. El mapa lo cambió todo.',
-    'testimonials.author1': 'M. Chen',
-    'testimonials.role1': 'Ingeniero de Software, SF',
-    'testimonials.quote2': 'Había pasado años en terapia dando vueltas. Después del Terrain Map, mi terapeuta supo exactamente dónde empezar. Saltamos meses de adivinar.',
-    'testimonials.author2': 'A. Morrison',
-    'testimonials.role2': 'Director Creativo, NYC',
-    'testimonials.quote3': 'Era escéptico. Había visto muchos profesionales. Pero esto era diferente: construido por alguien que realmente entiende qué se siente ser "demasiado sofisticado" para recibir ayuda.',
-    'testimonials.author3': 'R. Patel',
-    'testimonials.role3': 'Fundador de Startup, Austin',
+    'testimonials.quote1': 'David is extremely thorough and listens carefully to your answers, leads you to critically think about follow up answers in a new way, and organizes the data in a meaningful way. Very helpful, highly recommended.',
+    'testimonials.author1': 'JJ Dent NS',
+    'testimonials.role1': 'Reseña verificada de Google',
+    'testimonials.quote2': 'My session with David was incredibly validating. His natural interest and intelligence to make questions and listen attentive to my life experiences leads me towards a better understanding about myself.',
+    'testimonials.author2': 'Denise Monti',
+    'testimonials.role2': 'Reseña verificada de Google',
+    'testimonials.quote3': 'This was a fantastic experience, it really helped me to start looking to get into therapy. I really enjoyed this program.',
+    'testimonials.author3': 'Kervens Normil',
+    'testimonials.role3': 'Reseña verificada de Google',
 
     // AI Differentiation Section
     'ai.title': 'LA METODOLOGÍA DE IA',

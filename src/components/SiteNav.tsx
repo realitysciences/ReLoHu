@@ -36,6 +36,12 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
           <Link href="/not-therapy" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
             Not Therapy
           </Link>
+          <Link href="/maps" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
+            The Maps
+          </Link>
+          <Link href="/practice" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
+            The Practice
+          </Link>
           <Link href="/testimonials" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
             Testimonials
           </Link>
@@ -86,6 +92,12 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
           </Link>
           <Link href="/not-therapy" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
             Not Therapy
+          </Link>
+          <Link href="/maps" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
+            The Maps
+          </Link>
+          <Link href="/practice" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
+            The Practice
           </Link>
           <Link href="/testimonials" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
             Testimonials

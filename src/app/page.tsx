@@ -611,6 +611,15 @@ function LandingContent() {
                 </p>
               </div>
 
+              <div className="mt-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  {lang === 'en'
+                    ? <>This is the beginning of your map library. Over time — through Integration Maps, Relationship Maps, Transition Maps, and more — what you build here becomes something no one has ever had: a comprehensive, living portrait of how you actually work. <a href="/maps" className="text-teal-600 hover:text-teal-700 font-medium">See all maps →</a></>
+                    : <>Este es el comienzo de tu biblioteca de mapas. Con el tiempo — a través de Mapas de Integración, Mapas de Relación, Mapas de Transición y más — lo que construyes aquí se convierte en algo que nadie ha tenido: un retrato completo y vivo de cómo realmente funciones. <a href="/maps" className="text-teal-600 hover:text-teal-700 font-medium">Ver todos los mapas →</a></>
+                  }
+                </p>
+              </div>
+
               <div className="mt-6 text-center">
                 <a
                   href="/sample-report"
@@ -666,6 +675,14 @@ function LandingContent() {
                 </Card>
               )
             })}
+          </div>
+          <div className="mt-8 p-5 bg-white rounded-xl border border-slate-200 max-w-2xl mx-auto">
+            <p className="text-slate-600 text-sm leading-relaxed">
+              {lang === 'en'
+                ? <>And if you want to go further: your inner world is larger than any single session can reach. ReLoHu is designed to be returned to. Not because something is unresolved — because there is always more terrain. <a href="/practice" className="text-teal-600 hover:text-teal-700 font-medium">Learn about the practice →</a></>
+                : <>Y si quieres ir más lejos: tu mundo interior es más grande de lo que una sola sesión puede alcanzar. ReLoHu está diseñado para ser revisitado. No porque algo esté sin resolver, sino porque siempre hay más terreno. <a href="/practice" className="text-teal-600 hover:text-teal-700 font-medium">Aprende sobre la práctica →</a></>
+              }
+            </p>
           </div>
         </div>
       </section>

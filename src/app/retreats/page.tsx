@@ -299,6 +299,43 @@ export default function RetreatsPage() {
         </div>
       </section>
 
+      {/* ==================== INTEGRATION MAP ==================== */}
+      {mode === 'plant' && (
+        <section className="py-20 px-6 bg-white">
+          <div className="max-w-2xl mx-auto">
+            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">
+              {lang === 'en' ? 'A dedicated map type' : 'Un tipo de mapa dedicado'}
+            </p>
+            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-6 leading-snug">
+              {lang === 'en' ? 'The Integration Map' : 'El Mapa de Integración'}
+            </h2>
+            <div className="space-y-5 text-slate-500 leading-relaxed text-sm">
+              {lang === 'en' ? (
+                <>
+                  <p>Post-ceremony integration now has a dedicated map type. The Integration Map is a structured ReLoHu session focused specifically on what the experience revealed — where it landed in your existing terrain, what it moved, what it opened, what remains unresolved.</p>
+                  <p>Unlike a general Terrain Map, the Integration Map is designed to be done in sequence: Terrain Map first, so there is a landscape to map the experience onto. Integration Map after, so the experience has somewhere specific to go.</p>
+                  <p className="text-slate-700 font-medium">This is what has been missing from integration support everywhere else. Not a conversation. Not a circle. A document. Something you can return to as the experience continues to unfold over weeks and months.</p>
+                </>
+              ) : (
+                <>
+                  <p>La integración post-ceremonia ahora tiene un tipo de mapa dedicado. El Mapa de Integración es una sesión de ReLoHu enfocada específicamente en lo que la experiencia reveló — dónde aterrizó en tu terreno existente, qué movió, qué abrió, qué queda sin resolver.</p>
+                  <p>A diferencia de un Mapa de Terreno general, el Mapa de Integración está diseñado para hacerse en secuencia: primero el Mapa de Terreno, para que haya un paisaje sobre el cual mapear la experiencia. Mapa de Integración después, para que la experiencia tenga un lugar específico al que ir.</p>
+                  <p className="text-slate-700 font-medium">Esto es lo que ha faltado en el apoyo de integración en todos los demás lugares. No una conversación. No un círculo. Un documento. Algo a lo que puedes volver mientras la experiencia continúa desplegándose durante semanas y meses.</p>
+                </>
+              )}
+            </div>
+            <div className="mt-8">
+              <Link
+                href="/maps"
+                className="inline-flex items-center gap-2 text-sm text-teal-600 hover:text-teal-700 font-medium"
+              >
+                {lang === 'en' ? 'Learn more about the Integration Map →' : 'Aprende más sobre el Mapa de Integración →'}
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ==================== CTA ==================== */}
       <section className="py-20 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto text-center">

@@ -4,6 +4,8 @@ import { Badge } from '@/components/ui/badge'
 import Link from 'next/link'
 import { Star, ExternalLink } from 'lucide-react'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   title: 'What People Say | ReLoHu',
   description: 'Read what ReLoHu clients have shared about their experience.',
@@ -35,7 +37,7 @@ async function getGoogleReviews(): Promise<GoogleReview[]> {
           'X-Goog-Api-Key': apiKey,
           'X-Goog-FieldMask': 'id,displayName,reviews,rating',
         },
-        next: { revalidate: 3600 },
+        cache: 'no-store',
       }
     )
     const data = await res.json()

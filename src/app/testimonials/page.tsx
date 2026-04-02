@@ -133,15 +133,17 @@ export default async function TestimonialsPage() {
       <section className="py-16 px-6 bg-white border-t border-slate-100">
         <div className="max-w-xl mx-auto text-center">
           <p className="text-slate-600 leading-relaxed mb-6">
-            If you have had a session and want to share what it was like, David would be grateful. Responses are published only with your permission, and only in the form you approve.
+            If you have had a session and want to share what it was like, David would be grateful. It takes about two minutes and helps others find the work.
           </p>
           <a
-            href="mailto:respectlovehumility@gmail.com?subject=My ReLoHu experience"
+            href="https://search.google.com/local/writereview?placeid=ChIJx10Z7OujD0EREByShlSDu4I"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-3.5 text-sm transition-all hover:shadow-lg hover:shadow-teal-100"
           >
-            Share Your Experience
+            Leave a Google Review
           </a>
-          <p className="text-slate-400 text-xs mt-4">Nothing is published without your explicit approval.</p>
+          <p className="text-slate-400 text-xs mt-4">Opens Google. Takes about two minutes.</p>
         </div>
       </section>
 

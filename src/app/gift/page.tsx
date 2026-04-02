@@ -12,7 +12,7 @@ const tiers = [
     description: 'A complete ReLoHu Terrain Map for someone you believe deserves to be truly seen.',
     features: [
       'Free 15–20 min orientation call',
-      '90-minute intake session with David',
+      '90-minute intake session with Dr. David',
       'Full Terrain Map delivered as a structured document',
       'Strictly confidential',
     ],
@@ -25,7 +25,7 @@ const tiers = [
     description: 'For someone whose inner world runs deep and deserves more time to surface.',
     features: [
       'Free 15–20 min orientation call',
-      '2-hour intake session with David',
+      '2-hour intake session with Dr. David',
       'Expanded Terrain Map with greater resolution',
       'Strictly confidential',
     ],
@@ -38,7 +38,7 @@ const tiers = [
     description: 'The fullest possible portrait, a gift that could change how someone understands themselves forever.',
     features: [
       'Free 15–20 min orientation call',
-      '3-hour intake session with David',
+      '3-hour intake session with Dr. David',
       'Full Terrain Map with complete depth',
       '30-min personal delivery & walkthrough call',
       'Strictly confidential',
@@ -94,7 +94,7 @@ export default function GiftPage() {
       {/* Tiers */}
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="text-center text-slate-400 text-sm mb-12">Pricing coming soon. Contact David directly to arrange a gift session.</p>
+          <p className="text-center text-slate-400 text-sm mb-12">Pricing coming soon. Contact Dr. David directly to arrange a gift session.</p>
           <div className="grid md:grid-cols-3 gap-6 items-start">
             {tiers.map((tier) => (
               <div
@@ -149,8 +149,8 @@ export default function GiftPage() {
           <h2 className="text-2xl font-medium text-slate-800 mb-10">How gifting works</h2>
           <div className="space-y-6 text-left">
             {[
-              { step: '1', title: 'Reach out to David', body: 'Book a quick call or send a message explaining who the gift is for. No need to involve the recipient yet.' },
-              { step: '2', title: 'We arrange the details', body: 'David will send the recipient a personalized note and orientation call invitation, or you can deliver it yourself.' },
+              { step: '1', title: 'Reach out to Dr. David', body: 'Book a quick call or send a message explaining who the gift is for. No need to involve the recipient yet.' },
+              { step: '2', title: 'We arrange the details', body: 'Dr. David will send the recipient a personalized note and orientation call invitation, or you can deliver it yourself.' },
               { step: '3', title: 'They experience it on their timeline', body: 'The recipient books their own orientation call when they\'re ready. There\'s no pressure and no expiry.' },
               { step: '4', title: 'They receive their Terrain Map', body: 'A structured, personal document they\'ll carry with them, in therapy, in coaching, or simply as a map of themselves.' },
             ].map(({ step, title, body }) => (

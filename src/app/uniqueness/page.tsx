@@ -102,10 +102,10 @@ export default function UniquenessPage() {
               THE INTAKE
             </Badge>
             <h2 className="text-3xl md:text-4xl font-medium text-slate-800 mb-4">
-              Not an interview. A private conversation with David.
+              Not an interview. A private conversation with Dr. David.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              One-on-one. Just you and David. No observers, no recordings shared, no third parties. His role is more analogous to a skilled interviewer or a master diagnostician: someone whose primary craft is listening and asking the next right question.
+              One-on-one. Just you and Dr. David. No observers, no recordings shared, no third parties. His role is more analogous to a skilled interviewer or a master diagnostician: someone whose primary craft is listening and asking the next right question.
             </p>
           </div>
 
@@ -249,7 +249,7 @@ export default function UniquenessPage() {
               {
                 icon: Brain,
                 question: 'What is the specialist\'s craft?',
-                answer: 'David spent a decade learning to excavate and interpret his own interior life. That practice, knowing what to ask, how to hold someone\'s data, which lens to turn it through, is the methodology. It cannot be automated because it was never a script.',
+                answer: 'Dr. David spent a decade learning to excavate and interpret his own interior life. That practice, knowing what to ask, how to hold someone\'s data, which lens to turn it through, is the methodology. It cannot be automated because it was never a script.',
               },
             ].map((item, i) => (
               <div key={i} className="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 hover:border-teal-700 transition-colors group">
@@ -339,7 +339,7 @@ export default function UniquenessPage() {
           </p>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. David, Founder</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>

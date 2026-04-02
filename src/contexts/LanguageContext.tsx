@@ -66,7 +66,7 @@ const translations: Record<Language, Record<string, string>> = {
     'creator.title': 'THE CREATOR',
     'creator.headline': 'Built from lived experience.',
     'creator.subtitle': 'Not from textbooks.',
-    'creator.text1': "David holds a Doctorate in Dental Surgery from the University of Maryland School of Dentistry, an Advanced Education in General Dentistry Residency from NYU Langone Health, and a Certificate in Lifestyle and Wellness Coaching from Harvard Medical School. He didn't create ReLoHu from academic theory. He built it because he kept looking for something that didn't exist yet, a way of being truly known, and eventually built it himself.",
+    'creator.text1': "Dr. David holds a Doctorate in Dental Surgery from the University of Maryland School of Dentistry, an Advanced Education in General Dentistry Residency from NYU Langone Health, and a Certificate in Lifestyle and Wellness Coaching from Harvard Medical School. He didn't create ReLoHu from academic theory. He built it because he kept looking for something that didn't exist yet, a way of being truly known, and eventually built it himself.",
     'creator.text2': "After years of rigorous personal exploration spanning multiple therapeutic modalities, neuroimaging, and work with indigenous plant medicine traditions in South America, he developed something different: a methodology built from the inside out.",
     'creator.text3': 'He understands what it means to be called "difficult" when you\'re simply honest. To have your body refuse to pretend everything was fine. To search decades for someone who could truly know you. Not fix you, not advise you. Know you.',
     'creator.quote': '"Every human being deserves to be known. Not fixed. Not advised. Known."',
@@ -120,23 +120,23 @@ const translations: Record<Language, Record<string, string>> = {
     // AI Differentiation Section
     'ai.title': 'THE AI METHODOLOGY',
     'ai.headline': 'Yes, AI writes your Terrain Map. Here\'s what that actually means.',
-    'ai.subtitle': 'His methodology exists on both ends: he designed the questions that draw the data out, and the frameworks that interpret it. The AI applies both. Through all of it, the asking and the reading, David is present.',
+    'ai.subtitle': 'His methodology exists on both ends: he designed the questions that draw the data out, and the frameworks that interpret it. The AI applies both. Through all of it, the asking and the reading, Dr. David is present.',
     'ai.q1': 'Isn\'t this just AI slop?',
-    'ai.a1': 'AI slop is what happens when generic prompts meet generic output. ReLoHu is the opposite. The system was built on years of high-quality clinical input: specific questions, specific frameworks, specific interpretive patterns, developed and refined by David over a decade of practice. Generic AI handed information about a person produces a generic answer about a person. This system was built to produce a portrait.',
+    'ai.a1': 'AI slop is what happens when generic prompts meet generic output. ReLoHu is the opposite. The system was built on years of high-quality clinical input: specific questions, specific frameworks, specific interpretive patterns, developed and refined by Dr. David over a decade of practice. Generic AI handed information about a person produces a generic answer about a person. This system was built to produce a portrait.',
     'ai.q2': 'So why does the human conversation matter?',
-    'ai.a2': 'The quality of the map depends entirely on the quality of the input. Human beings disclose differently in dialogue than in writing. David\'s role as interviewer is to create the conditions where you say the things that are actually true, not the things you\'ve rehearsed.',
-    'ai.q3': 'What exactly did David build?',
+    'ai.a2': 'The quality of the map depends entirely on the quality of the input. Human beings disclose differently in dialogue than in writing. Dr. David\'s role as interviewer is to create the conditions where you say the things that are actually true, not the things you\'ve rehearsed.',
+    'ai.q3': 'What exactly did Dr. David build?',
     'ai.a3': 'The entire analytical system: which questions surface what, which psychological frameworks apply when, how they interact, and what constitutes depth versus surface. He designed it, tested it, and continues to refine it. The AI executes it. Without that system, there\'s no map.',
 
     // CTA Section
     'cta.headline': 'Ready to be known?',
-    'cta.text': 'Schedule a 15-20 minute orientation call with David. No commitment. Just a conversation to explore if ReLoHu is right for you.',
+    'cta.text': 'Schedule a 15-20 minute orientation call with Dr. David. No commitment. Just a conversation to explore if ReLoHu is right for you.',
     'cta.button': 'Book Your Orientation Call',
     'cta.note': 'No commitment • Confidential conversation • 15-20 minutes',
 
     // Footer
     'footer.tagline': "You don't need to be fixed. You need to be known.",
-    'footer.creator': 'Created by David',
+    'footer.creator': 'Created by Dr. David',
 
     // Navigation
     'nav.method': 'The Method',
@@ -199,7 +199,7 @@ const translations: Record<Language, Record<string, string>> = {
     'creator.title': 'EL CREADOR',
     'creator.headline': 'Construido desde la experiencia vivida.',
     'creator.subtitle': 'No desde libros de texto.',
-    'creator.text1': 'El David tiene un Doctorado en Cirugía Dental de la Universidad de Maryland, una Residencia Avanzada en Odontología General de NYU Langone Health, y un Certificado en Estilo de Vida y Bienestar de la Escuela de Medicina de Harvard. No creó ReLoHu desde la teoría académica, lo construyó porque los enfoques convencionales no podían alcanzar su profundidad.',
+    'creator.text1': 'El Dr. David tiene un Doctorado en Cirugía Dental de la Universidad de Maryland, una Residencia Avanzada en Odontología General de NYU Langone Health, y un Certificado en Estilo de Vida y Bienestar de la Escuela de Medicina de Harvard. No creó ReLoHu desde la teoría académica, lo construyó porque los enfoques convencionales no podían alcanzar su profundidad.',
     'creator.text2': 'Después de años de exploración personal rigurosa que abarcó múltiples modalidades terapéuticas, neuroimagen, y trabajo con tradiciones indígenas de medicina vegetal en América del Sur, desarrolló algo diferente: una metodología construida desde adentro hacia afuera.',
     'creator.text3': 'Entiende qué significa ser llamado "difícil" cuando simplemente eres honesto. Que tu cuerpo se niegue a fingir que todo estaba bien. Buscar por décadas a alguien que pudiera verdaderamente conocerte. No arreglarte, no aconsejarte. Conocerte.',
     'creator.quote': '"Todo ser humano merece ser conocido. No arreglado. No aconsejado. Conocido."',
@@ -253,23 +253,23 @@ const translations: Record<Language, Record<string, string>> = {
     // AI Differentiation Section
     'ai.title': 'LA METODOLOGÍA DE IA',
     'ai.headline': 'Sí, la IA escribe tu Terrain Map. Esto es lo que eso significa.',
-    'ai.subtitle': 'Su metodología existe en ambos extremos: diseñó las preguntas que extraen los datos, y los marcos que los interpretan. La IA aplica ambos. A través de todo, el preguntar y el leer, el David está presente.',
+    'ai.subtitle': 'Su metodología existe en ambos extremos: diseñó las preguntas que extraen los datos, y los marcos que los interpretan. La IA aplica ambos. A través de todo, el preguntar y el leer, el Dr. David está presente.',
     'ai.q1': '¿No es esto solo "AI slop"?',
-    'ai.a1': 'El "AI slop" ocurre cuando prompts genéricos producen resultados genéricos. ReLoHu es lo opuesto. El sistema fue construido sobre años de input clínico de alta calidad: preguntas específicas, marcos específicos, patrones interpretativos específicos, desarrollados por el David durante una década de práctica. Una IA genérica dada una transcripción produce una respuesta genérica. Este sistema fue construido para producir un retrato.',
+    'ai.a1': 'El "AI slop" ocurre cuando prompts genéricos producen resultados genéricos. ReLoHu es lo opuesto. El sistema fue construido sobre años de input clínico de alta calidad: preguntas específicas, marcos específicos, patrones interpretativos específicos, desarrollados por el Dr. David durante una década de práctica. Una IA genérica dada una transcripción produce una respuesta genérica. Este sistema fue construido para producir un retrato.',
     'ai.q2': '¿Por qué importa la conversación humana?',
-    'ai.a2': 'La calidad del mapa depende completamente de la calidad de la entrada. Los seres humanos se revelan de manera diferente en el diálogo que por escrito. El rol del David como entrevistador es crear las condiciones donde dices las cosas que son realmente verdaderas, no las que has ensayado.',
-    'ai.q3': '¿Qué construyó exactamente el David?',
+    'ai.a2': 'La calidad del mapa depende completamente de la calidad de la entrada. Los seres humanos se revelan de manera diferente en el diálogo que por escrito. El rol del Dr. David como entrevistador es crear las condiciones donde dices las cosas que son realmente verdaderas, no las que has ensayado.',
+    'ai.q3': '¿Qué construyó exactamente el Dr. David?',
     'ai.a3': 'Todo el sistema analítico: qué preguntas revelan qué, qué marcos psicológicos aplican cuándo, cómo interactúan, y qué constituye profundidad versus superficie. Lo diseñó, lo probó y continúa refinándolo. La IA lo ejecuta. Sin ese sistema, no hay mapa.',
 
     // CTA Section
     'cta.headline': '¿Listo para ser conocido?',
-    'cta.text': 'Agenda una llamada de orientación de 15-20 minutos con David. Sin compromiso. Solo una conversación para explorar si ReLoHu es para ti.',
+    'cta.text': 'Agenda una llamada de orientación de 15-20 minutos con Dr. David. Sin compromiso. Solo una conversación para explorar si ReLoHu es para ti.',
     'cta.button': 'Agenda tu Llamada de Orientación',
     'cta.note': 'Sin compromiso • Conversación confidencial • 15-20 minutos',
 
     // Footer
     'footer.tagline': 'No necesitas ser arreglado. Necesitas ser conocido.',
-    'footer.creator': 'Creado por el David',
+    'footer.creator': 'Creado por el Dr. David',
 
     // Navigation
     'nav.method': 'El Método',

@@ -38,7 +38,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-lg font-medium text-slate-800 mb-3">Data security</h2>
               <p>
-                All session material is stored in encrypted, access-controlled systems. Only David has access. No session content is stored on shared or publicly accessible platforms.
+                All session material is stored in encrypted, access-controlled systems. Only Dr. David has access. No session content is stored on shared or publicly accessible platforms.
               </p>
             </section>
 
@@ -93,14 +93,14 @@ export default function PrivacyPage() {
             <section className="pt-4 border-t border-slate-100">
               <h2 className="text-lg font-medium text-slate-800 mb-3">Questions</h2>
               <p>
-                If you have any questions about how your information is handled, contact David directly. Every message is read personally.
+                If you have any questions about how your information is handled, contact Dr. David directly. Every message is read personally.
               </p>
               <div className="mt-4">
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-7 py-3 text-sm transition-all"
                 >
-                  Contact David →
+                  Contact Dr. David →
                 </Link>
               </div>
             </section>

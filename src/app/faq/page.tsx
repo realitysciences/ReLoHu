@@ -12,7 +12,7 @@ const faqGroups = [
     items: [
       {
         q: 'How do you pronounce ReLoHu?',
-        a: 'reh·loh·hoo, three syllables, each one even. Re (like "red" without the d), Lo (like "low"), Hu (like "who"). The name is an acronym encoding the three values David found most absent in every space he sought genuine support: Respect, Love, and Humility.',
+        a: 'reh·loh·hoo, three syllables, each one even. Re (like "red" without the d), Lo (like "low"), Hu (like "who"). The name is an acronym encoding the three values Dr. David found most absent in every space he sought genuine support: Respect, Love, and Humility.',
       },
       {
         q: 'Is this therapy?',
@@ -24,11 +24,11 @@ const faqGroups = [
       },
       {
         q: 'Is ReLoHu a one-time thing, or ongoing?',
-        a: 'The intake session is a single, complete event, designed to produce something whole and lasting, not to require you to return. David approaches this the way a good dentist approaches their work: the goal is to fix something properly so it holds. A dentist doesn\'t want you returning every week for the same tooth. They want the work to last. The same ethos is built into ReLoHu. There is no business model here that depends on your ongoing need. Your Terrain Map and any additional deliverables don\'t expire, and they don\'t lose their value the moment you stop coming back. As new reports and artifacts are developed, what you\'ve already explored becomes the foundation for entirely new layers of insight, without requiring another full intake. If you come back, it won\'t be because you have to. It will be because you found the process genuinely fascinating, because being truly seen opened something you want to explore further, or because you\'re ready to go deeper. That\'s a different kind of return entirely.',
+        a: 'The intake session is a single, complete event, designed to produce something whole and lasting, not to require you to return. Dr. David approaches this the way a good dentist approaches their work: the goal is to fix something properly so it holds. A dentist doesn\'t want you returning every week for the same tooth. They want the work to last. The same ethos is built into ReLoHu. There is no business model here that depends on your ongoing need. Your Terrain Map and any additional deliverables don\'t expire, and they don\'t lose their value the moment you stop coming back. As new reports and artifacts are developed, what you\'ve already explored becomes the foundation for entirely new layers of insight, without requiring another full intake. If you come back, it won\'t be because you have to. It will be because you found the process genuinely fascinating, because being truly seen opened something you want to explore further, or because you\'re ready to go deeper. That\'s a different kind of return entirely.',
       },
       {
         q: 'Who created this, and why?',
-        a: 'ReLoHu was created by David, a licensed dentist who spent more than a decade in serious self-inquiry after finding that conventional support never quite reached him. He built ReLoHu because he couldn\'t find it anywhere else. The name encodes the three values he found most absent in every space he sought genuine support: Respect, Love, and Humility. You can read the full story on the Origins page.',
+        a: 'ReLoHu was created by Dr. David, a licensed dentist who spent more than a decade in serious self-inquiry after finding that conventional support never quite reached him. He built ReLoHu because he couldn\'t find it anywhere else. The name encodes the three values he found most absent in every space he sought genuine support: Respect, Love, and Humility. You can read the full story on the Origins page.',
       },
     ],
   },
@@ -37,7 +37,7 @@ const faqGroups = [
     items: [
       {
         q: 'What actually happens in a session?',
-        a: 'A session is a one-to-one conversation, 90 minutes, with David. It is unscripted: the questions that matter most emerge from what you say, not from a fixed protocol. There\'s no advice, no therapeutic intervention, no goal-setting. Just careful, adaptive listening designed to surface who you are at depth. The conversation is carefully processed to produce your Terrain Map and any additional deliverables.',
+        a: 'A session is a one-to-one conversation, 90 minutes, with Dr. David. It is unscripted: the questions that matter most emerge from what you say, not from a fixed protocol. There\'s no advice, no therapeutic intervention, no goal-setting. Just careful, adaptive listening designed to surface who you are at depth. The conversation is carefully processed to produce your Terrain Map and any additional deliverables.',
       },
       {
         q: 'What do I need to prepare?',
@@ -90,7 +90,7 @@ const faqGroups = [
         a: 'Everything before the analysis. The Intake Specialist\'s role is not to interpret. It\'s to listen and ask the next right question. That craft determines the richness and depth of what gets captured. The analysis can only work with what\'s there. Shallow input produces shallow output, regardless of how sophisticated the analysis is.',
       },
       {
-        q: 'Is David acting as a therapist or AI prompt engineer during the session?',
+        q: 'Is Dr. David acting as a therapist or AI prompt engineer during the session?',
         a: 'Neither. The role is closer to a master diagnostician or skilled interviewer, someone whose primary craft is listening and asking the next right question. No therapeutic interpretation. No scripted prompts. Just adaptive, disciplined attention.',
       },
     ],
@@ -108,7 +108,7 @@ const faqGroups = [
       },
       {
         q: 'Could I refer my clients to ReLoHu before we begin working together?',
-        a: 'Yes, and that\'s exactly the kind of use this was designed to support. When a client arrives having already been witnessed and mapped, the professional relationship starts at a level that normally takes months to reach. The Terrain Map is legible to any trained professional: it\'s not a raw transcript, it\'s a structured portrait. If you\'re curious about how it would look in practice, an orientation call with David is the best place to start.',
+        a: 'Yes, and that\'s exactly the kind of use this was designed to support. When a client arrives having already been witnessed and mapped, the professional relationship starts at a level that normally takes months to reach. The Terrain Map is legible to any trained professional: it\'s not a raw transcript, it\'s a structured portrait. If you\'re curious about how it would look in practice, an orientation call with Dr. David is the best place to start.',
       },
       {
         q: 'Does ReLoHu make claims about replacing therapeutic care?',
@@ -125,24 +125,24 @@ const faqGroups = [
       },
       {
         q: 'Are there options for returning clients?',
-        a: 'Yes. Three paths exist for people who have completed a Terrain Map and want to go further. A Lens Report ($197): your existing transcript run through a different framework, no new session required. A Depth Session ($347): a new intake that picks up where your Terrain Map left off, producing a more targeted report. A Fresh Session ($397): a new intake exploring a different area of life. Because David already knows your terrain, returning sessions move faster and go further than the first one.',
+        a: 'Yes. Three paths exist for people who have completed a Terrain Map and want to go further. A Lens Report ($197): your existing transcript run through a different framework, no new session required. A Depth Session ($347): a new intake that picks up where your Terrain Map left off, producing a more targeted report. A Fresh Session ($397): a new intake exploring a different area of life. Because Dr. David already knows your terrain, returning sessions move faster and go further than the first one.',
       },
       {
         q: 'Is there a payment plan?',
-        a: 'Not at this time. If cost is a genuine barrier, reach out directly via the contact page. David reads every message personally.',
+        a: 'Not at this time. If cost is a genuine barrier, reach out directly via the contact page. Dr. David reads every message personally.',
       },
     ],
   },
   {
-    label: 'Why David',
+    label: 'Why Dr. David',
     items: [
       {
         q: 'Why is a dentist doing this? Shouldn\'t this come from a psychologist or therapist?',
-        a: 'That question contains an assumption worth examining. The best people for a given kind of work are not always the ones who followed the most obvious path to it. The most transformative leaders in any field often came from somewhere adjacent, or somewhere entirely different, precisely because they weren\'t shaped by the field\'s existing assumptions. A psychologist or therapist is trained to treat, diagnose, and intervene. David is not trying to do any of those things. He is trying to witness and map. That is a fundamentally different craft, and it turns out his background equips him for it unusually well.',
+        a: 'That question contains an assumption worth examining. The best people for a given kind of work are not always the ones who followed the most obvious path to it. The most transformative leaders in any field often came from somewhere adjacent, or somewhere entirely different, precisely because they weren\'t shaped by the field\'s existing assumptions. A psychologist or therapist is trained to treat, diagnose, and intervene. Dr. David is not trying to do any of those things. He is trying to witness and map. That is a fundamentally different craft, and it turns out his background equips him for it unusually well.',
       },
       {
         q: 'What does dentistry have to do with psychological mapping?',
-        a: 'More than it might seem. A dentist spends thousands of hours learning to see what others miss, to notice structural patterns beneath the surface, to earn the trust of someone who is anxious and vulnerable, and to communicate findings with precision and care. David spent over a decade doing exactly that in clinical settings, across four states, with thousands of patients. The craft of careful observation, the discipline of listening before concluding, the respect for the person in front of you, none of that is unique to psychology. He brought all of it with him.',
+        a: 'More than it might seem. A dentist spends thousands of hours learning to see what others miss, to notice structural patterns beneath the surface, to earn the trust of someone who is anxious and vulnerable, and to communicate findings with precision and care. Dr. David spent over a decade doing exactly that in clinical settings, across four states, with thousands of patients. The craft of careful observation, the discipline of listening before concluding, the respect for the person in front of you, none of that is unique to psychology. He brought all of it with him.',
       },
       {
         q: 'What actually makes him qualified for this work?',
@@ -150,11 +150,11 @@ const faqGroups = [
       },
       {
         q: 'Isn\'t it a liability that he isn\'t a licensed therapist or psychologist?',
-        a: 'ReLoHu is not therapy, and it does not require a therapy license. What it requires is the ability to witness clearly, listen deeply, and map what is actually there. Those are skills David has developed over a lifetime, through formal training, sustained self-inquiry, and clinical practice. The absence of a psychology license is not a gap. It is part of why the work looks different from therapy. He is not trained to see pathology or to treat it. He is trained to see the person, whole, and reflect them accurately. That is a narrower and more specific task than therapy, and it is the one he has built his entire methodology around.',
+        a: 'ReLoHu is not therapy, and it does not require a therapy license. What it requires is the ability to witness clearly, listen deeply, and map what is actually there. Those are skills Dr. David has developed over a lifetime, through formal training, sustained self-inquiry, and clinical practice. The absence of a psychology license is not a gap. It is part of why the work looks different from therapy. He is not trained to see pathology or to treat it. He is trained to see the person, whole, and reflect them accurately. That is a narrower and more specific task than therapy, and it is the one he has built his entire methodology around.',
       },
       {
         q: 'You mentioned he came to this because he needed it. Doesn\'t that make him biased?',
-        a: 'It makes him specific, which is different. He is not neutral about whether being seen matters. He knows it does, because the absence of it shaped him in ways he spent years trying to understand. But that is not bias in the distorting sense. It is conviction that comes from direct experience. The best people for any job that requires genuine empathy are not those who have never felt the need. They are those who have felt it most clearly and done the most rigorous work to understand it. David built ReLoHu from that place. His personal wound is not incidental to the methodology. It is the methodology\'s origin.',
+        a: 'It makes him specific, which is different. He is not neutral about whether being seen matters. He knows it does, because the absence of it shaped him in ways he spent years trying to understand. But that is not bias in the distorting sense. It is conviction that comes from direct experience. The best people for any job that requires genuine empathy are not those who have never felt the need. They are those who have felt it most clearly and done the most rigorous work to understand it. Dr. David built ReLoHu from that place. His personal wound is not incidental to the methodology. It is the methodology\'s origin.',
       },
     ],
   },
@@ -179,7 +179,7 @@ const faqGroups = [
       },
       {
         q: 'What if I\'m not sure I\'m ready?',
-        a: 'That\'s exactly what the orientation call is for. It\'s 15–20 minutes with David, no commitment, no pressure. Just a conversation to understand where you are and whether ReLoHu makes sense for you right now.',
+        a: 'That\'s exactly what the orientation call is for. It\'s 15–20 minutes with Dr. David, no commitment, no pressure. Just a conversation to understand where you are and whether ReLoHu makes sense for you right now.',
       },
     ],
   },
@@ -201,7 +201,7 @@ export default function FAQPage() {
             Frequently asked questions
           </h1>
           <p className="text-lg text-slate-500 max-w-xl mx-auto leading-relaxed">
-            Everything you need to know before your first conversation with David.
+            Everything you need to know before your first conversation with Dr. David.
           </p>
         </div>
       </section>
@@ -242,7 +242,7 @@ export default function FAQPage() {
             Still have questions?
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            The orientation call is the best place to get them answered. 15–20 minutes with David, no commitment, just a conversation.
+            The orientation call is the best place to get them answered. 15–20 minutes with Dr. David, no commitment, just a conversation.
           </p>
           <a
             href="/#cta-section"

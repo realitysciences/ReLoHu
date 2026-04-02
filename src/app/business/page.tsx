@@ -120,7 +120,7 @@ export default function BusinessPage() {
           </h2>
           <div className="space-y-5 text-slate-400 leading-relaxed">
             <p>
-              ReLoHu is a single 90-minute conversation with David, followed by five written reports delivered as documents you keep. There is no ongoing therapeutic relationship. No weekly sessions. No process of slowly building disclosure over months.
+              ReLoHu is a single 90-minute conversation with Dr. David, followed by five written reports delivered as documents you keep. There is no ongoing therapeutic relationship. No weekly sessions. No process of slowly building disclosure over months.
             </p>
             <p>
               You come in, you talk, and you leave with a complete map of your interior terrain. Executives and entrepreneurs who have spent years in therapy often find that ReLoHu surfaces things the therapeutic relationship hasn't reached, precisely because it approaches from a different angle: not treatment, but cartography.
@@ -140,7 +140,7 @@ export default function BusinessPage() {
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder of ReLoHu</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. David, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>
@@ -190,7 +190,7 @@ export default function BusinessPage() {
             Know the person running the operation.
           </h2>
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
-            A 15-minute orientation call with David is free and requires nothing. If ReLoHu is the right tool for where you are, you'll know quickly.
+            A 15-minute orientation call with Dr. David is free and requires nothing. If ReLoHu is the right tool for where you are, you'll know quickly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a

@@ -10,7 +10,7 @@ export default function SiteFooter() {
         <p className="text-teal-600/80 font-light text-lg italic">
           "You don't need to be fixed. You need to be known."
         </p>
-        <p className="text-slate-400 text-sm">Created by David</p>
+        <p className="text-slate-400 text-sm">Created by Dr. David</p>
         <div className="flex items-center gap-6 flex-wrap justify-center text-sm text-slate-400">
           <Link href="/origins" className="hover:text-teal-600 transition-colors">Origins</Link>
           <Link href="/uniqueness" className="hover:text-teal-600 transition-colors">The Difference</Link>

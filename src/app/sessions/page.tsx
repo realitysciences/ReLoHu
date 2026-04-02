@@ -6,7 +6,7 @@ import PayButton from '@/components/PayButton'
 
 export const metadata = {
   title: 'Sessions | ReLoHu',
-  description: 'Two ways to begin a ReLoHu session. A private, one-on-one conversation with David that produces a focused, honest portrait of your psychological terrain.',
+  description: 'Two ways to begin a ReLoHu session. A private, one-on-one conversation with Dr. David that produces a focused, honest portrait of your psychological terrain.',
 }
 
 export default function SessionsPage() {
@@ -22,7 +22,7 @@ export default function SessionsPage() {
             One conversation.<br />A complete picture of who you are.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
-            Most people go their entire lives without ever being fully known. Not by a therapist, not by a partner, not by anyone. ReLoHu is a private, one-on-one conversation with David that produces a focused, honest portrait of your psychological terrain. Two sessions are available, depending on where you want to start.
+            Most people go their entire lives without ever being fully known. Not by a therapist, not by a partner, not by anyone. ReLoHu is a private, one-on-one conversation with Dr. David that produces a focused, honest portrait of your psychological terrain. Two sessions are available, depending on where you want to start.
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function SessionsPage() {
             Start with a free 15-minute call.
           </h2>
           <p className="text-slate-500 text-sm leading-relaxed mb-6 max-w-lg">
-            A short conversation with David to see whether ReLoHu is right for you right now. No commitment. You will know quickly whether it fits.
+            A short conversation with Dr. David to see whether ReLoHu is right for you right now. No commitment. You will know quickly whether it fits.
           </p>
           <a
             href="https://calendly.com/relohu"
@@ -64,7 +64,7 @@ export default function SessionsPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">90-minute intake session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A conversation, not a questionnaire. David listens carefully to what you say and how you say it. The 90 minutes allows more ground to be covered and produces a richer set of reports.
+                  A conversation, not a questionnaire. Dr. David listens carefully to what you say and how you say it. The 90 minutes allows more ground to be covered and produces a richer set of reports.
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function SessionsPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">Verbal readback during the session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  Before the call ends, David shares initial findings directly with you. The first time you hear certain things about yourself described precisely is part of the process.
+                  Before the call ends, Dr. David shares initial findings directly with you. The first time you hear certain things about yourself described precisely is part of the process.
                 </p>
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function SessionsPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">30-minute Terrain Map reading session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A dedicated call to go through the Terrain Map together. David walks through what it says and what it means for you specifically. The other four reports are delivered directly as documents you keep.
+                  A dedicated call to go through the Terrain Map together. Dr. David walks through what it says and what it means for you specifically. The other four reports are delivered directly as documents you keep.
                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function SessionsPage() {
             Start with your map.
           </h2>
           <p className="text-slate-500 leading-relaxed mb-4 max-w-xl">
-            A 60-minute conversation that produces a focused map of your psychological terrain. David listens carefully to what you say and how you say it. Before the session ends, he shares what he sees directly with you. A written summary follows.
+            A 60-minute conversation that produces a focused map of your psychological terrain. Dr. David listens carefully to what you say and how you say it. Before the session ends, he shares what he sees directly with you. A written summary follows.
           </p>
           <p className="text-slate-500 leading-relaxed mb-10 max-w-xl">
             Most people start here. If you want to go further, everything builds from this foundation.
@@ -179,7 +179,7 @@ export default function SessionsPage() {
               <div>
                 <h3 className="font-medium text-slate-700 mb-1">60-minute intake conversation</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  The same kind of conversation. David listens to what you say and how you say it. No script, no questionnaire. The session determines the map.
+                  The same kind of conversation. Dr. David listens to what you say and how you say it. No script, no questionnaire. The session determines the map.
                 </p>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function SessionsPage() {
               <div>
                 <h3 className="font-medium text-slate-700 mb-1">Verbal readback before the call ends</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  Before the session closes, David shares what he is finding, directly. Spoken, not written. Most people describe this as the part that lands hardest: hearing certain things about yourself named precisely, for the first time, by someone who was actually listening.
+                  Before the session closes, Dr. David shares what he is finding, directly. Spoken, not written. Most people describe this as the part that lands hardest: hearing certain things about yourself named precisely, for the first time, by someone who was actually listening.
                 </p>
               </div>
             </div>
@@ -288,7 +288,7 @@ export default function SessionsPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">What actually happens in the intake?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                A conversation, not a questionnaire, not a structured interview with a script. David asks questions and listens carefully to what you say and how you say it. After the session, what you shared is analyzed using ReLoHu's proprietary methodology to produce your reports.
+                A conversation, not a questionnaire, not a structured interview with a script. Dr. David asks questions and listens carefully to what you say and how you say it. After the session, what you shared is analyzed using ReLoHu's proprietary methodology to produce your reports.
               </p>
             </div>
 
@@ -338,7 +338,7 @@ export default function SessionsPage() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-6">After Your Terrain Map</p>
           <h2 className="text-xl font-medium text-slate-700 mb-3">What comes next, for those who want to go further.</h2>
           <p className="text-slate-500 text-sm leading-relaxed mb-8">
-            Because David already knows your terrain, returning sessions move faster and go further than the first one. Three paths exist for returning clients. None are required, all are available.
+            Because Dr. David already knows your terrain, returning sessions move faster and go further than the first one. Three paths exist for returning clients. None are required, all are available.
           </p>
           <div className="space-y-4">
             {[
@@ -384,7 +384,7 @@ export default function SessionsPage() {
             Not sure which session is right for you?
           </h2>
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
-            Start with a free 15-minute orientation call with David. No commitment, just a conversation to see if ReLoHu is right for you right now.
+            Start with a free 15-minute orientation call with Dr. David. No commitment, just a conversation to see if ReLoHu is right for you right now.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a

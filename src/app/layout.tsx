@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "ReLoHu | Be Seen. Be Known.",
     template: "%s | ReLoHu"
   },
-  description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with David that produces a complete picture of who you are — not what is wrong with you.",
+  description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with Dr. David that produces a complete picture of who you are — not what is wrong with you.",
   keywords: [
     "ReLoHu",
     "emotional terrain map",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
     "consciousness exploration",
     "depth psychology"
   ],
-  authors: [{ name: "David - ReLoHu Creator" }],
-  creator: "David",
+  authors: [{ name: "Dr. David - ReLoHu Creator" }],
+  creator: "Dr. David",
   publisher: "ReLoHu",
   robots: {
     index: true,
@@ -55,20 +55,20 @@ export const metadata: Metadata = {
     url: 'https://relohu.com',
     siteName: 'ReLoHu',
     title: "ReLoHu | Be Seen. Be Known.",
-    description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with David that produces a complete picture of who you are — not what is wrong with you.",
+    description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with Dr. David that produces a complete picture of who you are — not what is wrong with you.",
     images: [
       {
         url: '/david-photo-cropped.jpeg',
         width: 800,
         height: 1000,
-        alt: 'David - ReLoHu Creator',
+        alt: 'Dr. David - ReLoHu Creator',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: "ReLoHu | Be Seen. Be Known.",
-    description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with David that produces a complete picture of who you are.",
+    description: "A single deep session that maps your inner world. ReLoHu is a 1-2 hour conversation with Dr. David that produces a complete picture of who you are.",
     creator: '@relohu',
     images: ['/david-photo-cropped.jpeg'],
   },

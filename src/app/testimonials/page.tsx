@@ -133,7 +133,7 @@ export default async function TestimonialsPage() {
       <section className="py-16 px-6 bg-white border-t border-slate-100">
         <div className="max-w-xl mx-auto text-center">
           <p className="text-slate-600 leading-relaxed mb-6">
-            If you have had a session and want to share what it was like, David would be grateful. It takes about two minutes and helps others find the work.
+            If you have had a session and want to share what it was like, Dr. David would be grateful. It takes about two minutes and helps others find the work.
           </p>
           <a
             href="https://search.google.com/local/writereview?placeid=ChIJx10Z7OujD0EREByShlSDu4I"
@@ -151,7 +151,7 @@ export default async function TestimonialsPage() {
       <section className="py-16 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-slate-400 text-sm leading-relaxed mb-8">
-            The best way to understand what a session is like is to read what David has written about the work, or to start with a free orientation call.
+            The best way to understand what a session is like is to read what Dr. David has written about the work, or to start with a free orientation call.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

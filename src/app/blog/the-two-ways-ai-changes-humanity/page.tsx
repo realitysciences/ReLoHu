@@ -89,7 +89,7 @@ export default function TheTwoWaysAIChangesHumanity() {
 
             <blockquote className="border-l-2 border-teal-400 pl-6 py-1 my-8 text-slate-600 italic text-[1rem]">
               "The AI does not decide what is true about you. You decide that, in what you say. The AI's job is to make sure nothing you said gets lost."
-              <footer className="text-sm text-slate-400 mt-2 not-italic">David, Founder of ReLoHu</footer>
+              <footer className="text-sm text-slate-400 mt-2 not-italic">Dr. David, Founder of ReLoHu</footer>
             </blockquote>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">The design choice that determines everything</h2>

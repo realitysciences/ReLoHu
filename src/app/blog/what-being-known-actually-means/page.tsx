@@ -99,7 +99,7 @@ export default function WhatBeingKnownMeans() {
 
             <blockquote className="border-l-2 border-teal-400 pl-6 py-1 my-8 text-slate-600 italic text-[1rem]">
               "Every person is carrying something entirely their own, a particular texture, a particular way of being in the world. If you go deep enough into any one of those worlds, you stop feeling alone."
-              <footer className="text-sm text-slate-400 mt-2 not-italic">David, Founder of ReLoHu</footer>
+              <footer className="text-sm text-slate-400 mt-2 not-italic">Dr. David, Founder of ReLoHu</footer>
             </blockquote>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">Why not knowing yourself first compounds everything</h2>

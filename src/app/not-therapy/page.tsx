@@ -163,7 +163,7 @@ export default function NotTherapyPage() {
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed">
             <p>
-              ReLoHu is a single deep session with David: a 1-2 hour conversation in which he listens carefully to what you say and how you say it. He is not listening for symptoms. He is not listening for what fits a diagnostic frame. He is listening for <span className="font-medium text-slate-700">you</span>: the specific texture of how you think, feel, move through the world, and make meaning.
+              ReLoHu is a single deep session with Dr. David: a 1-2 hour conversation in which he listens carefully to what you say and how you say it. He is not listening for symptoms. He is not listening for what fits a diagnostic frame. He is listening for <span className="font-medium text-slate-700">you</span>: the specific texture of how you think, feel, move through the world, and make meaning.
             </p>
             <p>
               After the session, what you shared is analyzed using ReLoHu's methodology and produced as a written Terrain Map: a document that reflects your inner world back to you in language that actually fits. Not a summary. Not an interpretation. A portrait.
@@ -186,11 +186,11 @@ export default function NotTherapyPage() {
           </p>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder of ReLoHu</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. David, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
           <p className="text-xs text-slate-400 mt-4 leading-relaxed max-w-md mx-auto">
-            David holds a doctorate in dental surgery and has spent two decades studying how people understand themselves. ReLoHu is not a clinical practice. It is a methodology he built from scratch, as a Reality Scientist: someone who applies systematic, rigorous inquiry to inner experience.
+            Dr. David holds a doctorate in dental surgery and has spent two decades studying how people understand themselves. ReLoHu is not a clinical practice. It is a methodology he built from scratch, as a Reality Scientist: someone who applies systematic, rigorous inquiry to inner experience.
           </p>
         </div>
       </section>
@@ -233,7 +233,7 @@ export default function NotTherapyPage() {
             Ready to see what this actually is?
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            Start with a free 15-minute orientation call. No commitment. David will tell you honestly whether ReLoHu is right for you right now.
+            Start with a free 15-minute orientation call. No commitment. Dr. David will tell you honestly whether ReLoHu is right for you right now.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

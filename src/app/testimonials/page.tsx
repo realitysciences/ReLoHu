@@ -10,13 +10,13 @@ export const metadata = {
 }
 
 interface GoogleReview {
-  author_name: string
+  relativePublishTimeDescription: string
   rating: number
-  text: string
-  time: number
-  relative_time_description: string
-  author_url?: string
-  profile_photo_url?: string
+  text?: { text: string }
+  authorAttribution: {
+    displayName: string
+    uri?: string
+  }
 }
 
 async function getGoogleReviews(): Promise<GoogleReview[]> {
@@ -29,12 +29,17 @@ async function getGoogleReviews(): Promise<GoogleReview[]> {
 
   try {
     const res = await fetch(
-      `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews,rating,user_ratings_total&key=${apiKey}`,
-      { next: { revalidate: 3600 } }
+      `https://places.googleapis.com/v1/places/${placeId}`,
+      {
+        headers: {
+          'X-Goog-Api-Key': apiKey,
+          'X-Goog-FieldMask': 'id,displayName,reviews,rating',
+        },
+        next: { revalidate: 3600 },
+      }
     )
     const data = await res.json()
-    if (data.status !== 'OK') return []
-    return data.result?.reviews ?? []
+    return data.reviews ?? []
   } catch {
     return []
   }
@@ -56,6 +61,7 @@ function StarRating({ rating }: { rating: number }) {
 export default async function TestimonialsPage() {
   const reviews = await getGoogleReviews()
   const hasReviews = reviews.length > 0
+  const placeId = process.env.GOOGLE_PLACE_ID
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-800">
@@ -91,7 +97,7 @@ export default async function TestimonialsPage() {
               <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase">Verified Google Reviews</p>
               <div className="flex-1 h-px bg-slate-100" />
               <a
-                href={`https://search.google.com/local/reviews?placeid=${process.env.GOOGLE_PLACE_ID}`}
+                href={`https://www.google.com/maps/place/?q=place_id:${placeId}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-xs text-slate-400 hover:text-teal-600 transition-colors"
@@ -106,13 +112,13 @@ export default async function TestimonialsPage() {
                 <div key={i} className="border border-slate-100 rounded-2xl p-7 bg-white hover:border-teal-100 hover:shadow-sm transition-all">
                   <div className="flex items-start justify-between gap-4 mb-4">
                     <div>
-                      <p className="font-medium text-slate-800 text-sm">{review.author_name}</p>
-                      <p className="text-xs text-slate-400 mt-0.5">{review.relative_time_description}</p>
+                      <p className="font-medium text-slate-800 text-sm">{review.authorAttribution.displayName}</p>
+                      <p className="text-xs text-slate-400 mt-0.5">{review.relativePublishTimeDescription}</p>
                     </div>
                     <StarRating rating={review.rating} />
                   </div>
-                  {review.text && (
-                    <p className="text-slate-600 leading-relaxed text-sm">{review.text}</p>
+                  {review.text?.text && (
+                    <p className="text-slate-600 leading-relaxed text-sm">{review.text.text}</p>
                   )}
                 </div>
               ))}

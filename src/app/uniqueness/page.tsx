@@ -102,10 +102,10 @@ export default function UniquenessPage() {
               THE INTAKE
             </Badge>
             <h2 className="text-3xl md:text-4xl font-medium text-slate-800 mb-4">
-              Not an interview. A witnessed conversation.
+              Not an interview. A private conversation with David.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              The intake specialist is not a therapist. The role is more analogous to a skilled interviewer or a master diagnostician, someone whose primary craft is listening and asking the next right question.
+              One-on-one. Just you and David. No observers, no recordings shared, no third parties. His role is more analogous to a skilled interviewer or a master diagnostician: someone whose primary craft is listening and asking the next right question.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ export default function UniquenessPage() {
               },
               {
                 icon: Users,
-                title: 'Witnessed, not answered',
+                title: 'Heard, not processed',
                 body: 'The experience of speaking to another human being who is genuinely listening is categorically different from answering a form or typing into an AI. That difference changes what you say and how deep you go.',
               },
               {

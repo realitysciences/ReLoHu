@@ -116,7 +116,7 @@ export default function BusinessPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-8">This is not therapy</p>
           <h2 className="text-2xl md:text-3xl font-medium text-white mb-6 leading-snug">
-            One session. A complete picture. No ongoing commitment.
+            One experience. A complete picture. No ongoing commitment.
           </h2>
           <div className="space-y-5 text-slate-400 leading-relaxed">
             <p>

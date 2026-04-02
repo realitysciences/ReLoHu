@@ -75,7 +75,7 @@ export default function UniquenessPage() {
                 <p className="text-xs font-semibold tracking-widest text-teal-600 uppercase mb-4">With ReLoHu</p>
                 <div className="space-y-3">
                   {[
-                    'One session captures who you are at high resolution',
+                    'One experience captures who you are at high resolution',
                     'Practitioner begins with your complete map in hand',
                     'The alliance is built from illuminated ground',
                     'Real work begins immediately',
@@ -415,7 +415,7 @@ export default function UniquenessPage() {
             Experience it yourself.
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            One session. The clearest portrait of yourself you've ever held, and the beginning of something that keeps expanding.
+            One experience. The clearest portrait of yourself you've ever held, and the beginning of something that keeps expanding.
           </p>
           <a
             href="/#cta-section"

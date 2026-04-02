@@ -20,7 +20,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.headline3': 'So why do you still feel',
     'hero.headline4': 'unseen?',
     'hero.tagline': "Most people have never been this clearly seen.",
-    'hero.subheadline': "ReLoHu sits upstream of therapy, coaching, and consulting, gathering who you actually are before any professional work begins. One session. No ongoing commitment. You leave with something real.",
+    'hero.subheadline': "ReLoHu sits upstream of therapy, coaching, and consulting, gathering who you actually are before any professional work begins. One experience. No ongoing commitment. You leave with something real.",
     'hero.cta': 'Book Your Orientation Call',
     'hero.secondary': 'Learn the Method',
 
@@ -153,7 +153,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.headline3': '¿Por qué sigues sintiéndote',
     'hero.headline4': 'invisible?',
     'hero.tagline': 'La mayoría de las personas nunca han sido vistas con tanta claridad.',
-    'hero.subheadline': 'ReLoHu está antes de la terapia, el coaching y la consultoría, reuniendo quién eres realmente antes de que comience cualquier trabajo profesional. Una sesión. Sin compromiso continuo. Te vas con algo real.',
+    'hero.subheadline': 'ReLoHu está antes de la terapia, el coaching y la consultoría, reuniendo quién eres realmente antes de que comience cualquier trabajo profesional. Una experiencia. Sin compromiso continuo. Te vas con algo real.',
     'hero.cta': 'Agenda tu Llamada de Orientación',
     'hero.secondary': 'Conoce el Método',
 

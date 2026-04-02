@@ -159,7 +159,7 @@ export default function NotTherapyPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">What ReLoHu actually is</p>
           <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-8">
-            One session. One map. A different kind of encounter.
+            One experience. One map. A different kind of encounter.
           </h2>
           <div className="space-y-5 text-slate-600 leading-relaxed">
             <p>

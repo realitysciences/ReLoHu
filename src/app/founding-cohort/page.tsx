@@ -22,7 +22,7 @@ export default function FoundingCohortPage() {
             April only.<br />Five reports. One complete picture.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed mb-10 max-w-xl">
-            After two years of development and a private cohort of over a dozen sessions, ReLoHu is opening to its first public clients. The founding cohort offer includes a 90-minute intake, five detailed reports, and a 30-minute report reading session. Standard sessions, once this group closes, are 60 minutes with a single Terrain Map. This bundle does not come back.
+            Most people go their entire lives without ever being fully known. Not by a therapist, not by a partner, not by anyone. ReLoHu is a different kind of experience: a private, one-on-one conversation with David that produces a complete psychological portrait of who you are. After two years of development, ReLoHu is opening to its first public clients. The founding cohort offer includes a 90-minute intake, five detailed reports, and a 30-minute report reading session. Standard sessions, once this group closes, are 60 minutes with a single Terrain Map. This bundle does not come back.
           </p>
           <a
             href="https://calendly.com/relohu"

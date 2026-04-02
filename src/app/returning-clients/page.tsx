@@ -43,13 +43,13 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                No new session required. Your existing transcript is run through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map.
+                No new session required. Your existing transcript is run through a different framework and a new report is produced. The result adds a new dimension to your existing Terrain Map.
               </p>
               <div className="space-y-2">
                 {[
                   'No intake session required',
                   'New framework applied to your existing session',
-                  'Delivered as a file: archetypes, character comparisons, or a focused lens',
+                  'Delivered as a file you keep',
                   '30–45 minutes of David\'s analysis and review time',
                 ].map(item => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-slate-500">

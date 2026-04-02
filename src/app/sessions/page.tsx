@@ -345,7 +345,7 @@ export default function SessionsPage() {
               {
                 name: 'Lens Report',
                 price: '$197',
-                desc: 'No new session. Your existing transcript is run through a different framework: archetypes, character comparisons, a specific psychological lens. A new report is produced and delivered as a file. A meaningful addition to your existing map.',
+                desc: 'No new session. Your existing transcript is run through a different framework and a new report is produced, delivered as a file. A meaningful addition to your existing map.',
               },
               {
                 name: 'Depth Session',

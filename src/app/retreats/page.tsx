@@ -52,6 +52,11 @@ const plant = {
   h1a:        { en: 'The ceremony opens something.', es: 'La ceremonia abre algo.' },
   h1b:        { en: 'ReLoHu maps it.', es: 'ReLoHu lo mapea.' },
   hero:       { en: 'Ayahuasca, psilocybin, San Pedro, ibogaine: whatever medicine you work with, the question that follows is always the same: how do you make it last? Most people don\'t. Not because they weren\'t transformed. Because they had no map of where they went.', es: 'Ayahuasca, psilocibina, San Pedro, ibogaína: cualquier medicina con la que trabajes, la pregunta que sigue siempre es la misma: ¿cómo haces que dure? La mayoría de las personas no lo logra. No porque no se hayan transformado. Porque no tenían un mapa de adonde fueron.' },
+  substrate_badge: { en: 'What you bring in is what the medicine has to work with', es: 'Lo que llevas contigo es lo que la medicina tiene para trabajar' },
+  substrate_h: { en: 'Going in cold and going in mapped are not the same experience.', es: 'Entrar en frío y entrar con un mapa no son la misma experiencia.' },
+  substrate_1: { en: 'This is something most people who work with plant medicine learn the hard way: the state you enter with is not neutral. Your patterns, your unresolved terrain, your unexamined assumptions about yourself — all of it goes into the ceremony with you. The medicine amplifies what is there. If what is there is unnamed, the experience can still be powerful, but it works without a map. It pulls at whatever it finds.', es: 'Esto es algo que la mayoría de las personas que trabaja con medicina de plantas aprende de la manera difícil: el estado con el que entras no es neutral. Tus patrones, tu terreno no resuelto, tus suposiciones no examinadas sobre ti mismo, todo eso va a la ceremonia contigo. La medicina amplifica lo que hay. Si lo que hay no tiene nombre, la experiencia aún puede ser poderosa, pero trabaja sin un mapa. Jala de lo que encuentra.' },
+  substrate_2: { en: 'A ReLoHu session before a ceremony names what you are carrying in. Not to manage it or soften it, but to make it visible. You arrive knowing your terrain. The patterns that will surface, the unresolved material the medicine is likely to find, the intentions that are actually yours rather than ones you think you should have. The medicine has something specific to meet. That changes the quality of everything that follows.', es: 'Una sesión de ReLoHu antes de una ceremonia nombra lo que llevas contigo. No para manejarlo o suavizarlo, sino para hacerlo visible. Llegas conociendo tu terreno. Los patrones que van a surgir, el material no resuelto que la medicina probablemente encontrará, las intenciones que son realmente tuyas. La medicina tiene algo específico con qué encontrarse. Eso cambia la calidad de todo lo que sigue.' },
+  substrate_3: { en: 'Most people go into their first ceremony, and many of their subsequent ones, completely cold. They have not named what they are bringing. They hope the medicine will find what matters. Sometimes it does. More often, it finds the loudest thing, not necessarily the most important one. Arriving with a map gives the medicine a different kind of substrate to work from.', es: 'La mayoría de las personas entra a su primera ceremonia, y a muchas de las siguientes, completamente en frío. No han nombrado lo que llevan. Esperan que la medicina encuentre lo que importa. A veces lo hace. Más a menudo, encuentra lo más ruidoso, no necesariamente lo más importante. Llegar con un mapa le da a la medicina un sustrato diferente desde el cual trabajar.' },
   prob_badge: { en: 'The problem nobody names', es: 'El problema que nadie nombra' },
   prob_h:     { en: 'Most people who work with plant medicine find that, in the end, it changes very little. Not because the experience wasn\'t real. Because integration is harder than anyone tells you.', es: 'La mayoría de las personas que trabaja con medicina de plantas descubre que, al final, cambia muy poco. No porque la experiencia no fuera real. Porque la integración es más difícil de lo que nadie te dice.' },
   prob_1:     { en: 'You leave the retreat cleaned out. Opened. Certain that something has shifted for good. And then you go back. Back to where you live, back to who you\'re around, back to the same environment that produced the same patterns that sent you to the ceremony in the first place.', es: 'Sales del retiro limpio. Abierto. Seguro de que algo cambió para siempre. Y luego regresas. Al mismo lugar, a las mismas personas, al mismo entorno que produjo los mismos patrones que te llevaron a la ceremonia.' },
@@ -108,6 +113,7 @@ const shared = {
   ai_h:     { en: 'You can\'t have a human with you at every moment of integration. You can have your map.', es: 'No puedes tener a un humano contigo en cada momento de integración. Puedes tener tu mapa.' },
   ai_1:     { en: 'Integration happens in ordinary moments: in the middle of a difficult conversation, at 2am when something surfaces, during a walk when a pattern becomes suddenly visible. A therapist can\'t be there. A retreat center can\'t be there. Your map can.', es: 'La integración sucede en momentos ordinarios: en medio de una conversación difícil, a las 2am cuando algo emerge, durante un paseo cuando un patrón se vuelve de repente visible. Un terapeuta no puede estar ahí. Tu mapa sí puede.' },
   ai_2:     { en: 'The AI behind ReLoHu holds the information from your session and runs on David\'s proprietary methodology. When you have your map, you have something to return to that knows your specific terrain, not a generic wellness resource built for no one in particular.', es: 'La IA detrás de ReLoHu conserva la información de tu sesión. Cuando tienes tu mapa, tienes algo a lo que regresar que conoce tu terreno específico, no un recurso de bienestar genérico.' },
+  ai_3:     { en: 'David spent a lifetime wishing he had access to something that doesn\'t quite exist yet: not just a therapist or a coach, but a real witness. Someone who could be with him all day, hearing his thoughts as they happened, seeing his experiences as they unfolded, not just receiving a summary of them an hour later in an office. Hearing something after the fact is not the same as being present for it. That gap is what ReLoHu is working toward. Right now it produces reports. What it is becoming is something you can return to in the exact moment you need it, during the experience itself, not only afterward. ReLoHu is a futuristic, human-centered service that could only exist now, with the help of AI. It is always improving and adapting to what people actually need.', es: 'David pasó una vida deseando tener acceso a algo que aún no existe del todo: no solo un terapeuta o un coach, sino un testigo real. Alguien que pudiera estar con él todo el día, escuchando sus pensamientos mientras ocurrían, viendo sus experiencias mientras se desarrollaban, no solo recibiendo un resumen de ellas una hora después en una oficina. Escuchar algo después del hecho no es lo mismo que estar presente para ello. Esa brecha es hacia lo que ReLoHu está trabajando. Ahora mismo produce reportes. Lo que se está convirtiendo es algo a lo que puedes regresar en el momento exacto en que lo necesitas, durante la experiencia misma, no solo después. ReLoHu es un servicio futurista y centrado en el ser humano que solo podría existir ahora, con la ayuda de la IA. Siempre está mejorando y adaptándose a lo que las personas realmente necesitan.' },
   delivers_badge: { en: 'What a session produces', es: 'Qué produce una sesión' },
   delivers: {
     en: [
@@ -198,6 +204,21 @@ export default function RetreatsPage() {
         </div>
       </section>
 
+      {/* ==================== SUBSTRATE (plant only) ==================== */}
+      {mode === 'plant' && (
+        <section className="py-20 px-6 bg-emerald-950">
+          <div className="max-w-2xl mx-auto">
+            <p className="text-[10px] font-mono tracking-[0.35em] text-emerald-400 uppercase mb-8">{s(plant.substrate_badge, lang)}</p>
+            <h2 className="text-2xl md:text-3xl font-medium text-white mb-8 leading-snug">{s(plant.substrate_h, lang)}</h2>
+            <div className="space-y-5 text-emerald-100/80 leading-relaxed">
+              <p>{s(plant.substrate_1, lang)}</p>
+              <p>{s(plant.substrate_2, lang)}</p>
+              <p className="text-white font-medium">{s(plant.substrate_3, lang)}</p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ==================== MISSING PIECE (shared) ==================== */}
       <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">
@@ -243,6 +264,7 @@ export default function RetreatsPage() {
           <div className="space-y-5 text-slate-400 leading-relaxed">
             <p>{s(shared.ai_1, lang)}</p>
             <p className="text-slate-300">{s(shared.ai_2, lang)}</p>
+            <p>{s(shared.ai_3, lang)}</p>
           </div>
         </div>
       </section>

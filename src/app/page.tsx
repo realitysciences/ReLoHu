@@ -685,12 +685,12 @@ function LandingContent() {
               <div className="space-y-3">
                 {(lang === 'en' ? [
                   { icon: Phone,     text: '15-min orientation call, free, no commitment' },
-                  { icon: Clock,     text: 'Intake conversation with Dr. David' },
+                  { icon: Clock,     text: '90-minute intake conversation with Dr. David' },
                   { icon: FileText,  text: 'Five detailed reports delivered as documents you keep' },
                   { icon: BookOpen,  text: 'Terrain Map reading session with Dr. David' },
                 ] : [
                   { icon: Phone,     text: 'Llamada de orientación de 15 min, gratis, sin compromiso' },
-                  { icon: Clock,     text: 'Conversación de intake con Dr. David' },
+                  { icon: Clock,     text: 'Conversación de intake de 90 minutos con Dr. David' },
                   { icon: FileText,  text: 'Cinco reportes detallados entregados como documentos' },
                   { icon: BookOpen,  text: 'Sesión de lectura del Terrain Map con Dr. David' },
                 ]).map(({ icon: Icon, text }, i) => (

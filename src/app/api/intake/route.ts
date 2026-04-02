@@ -94,7 +94,7 @@ export async function POST(req: Request) {
 
     // Confirmation email to the person
     await transporter.sendMail({
-      from: `"Dr. Gedalia at ReLoHu" <${process.env.GMAIL_USER}>`,
+      from: `"David at ReLoHu" <${process.env.GMAIL_USER}>`,
       to: email,
       subject: `Your intake form is received, ${name.split(' ')[0]}`,
       html: `
@@ -113,7 +113,7 @@ export async function POST(req: Request) {
             <p style="margin: 0; line-height: 1.75; color: #374151;">
               See you soon.
             </p>
-            <p style="margin: 16px 0 0; color: #0f766e; font-weight: 500;">Dr. Gedalia</p>
+            <p style="margin: 16px 0 0; color: #0f766e; font-weight: 500;">David</p>
             <p style="margin: 2px 0 0; font-size: 12px; color: #94a3b8;">Founder, ReLoHu</p>
           </div>
         </div>

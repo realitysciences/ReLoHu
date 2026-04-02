@@ -33,7 +33,7 @@ export default function OriginsPage() {
             <div className="group overflow-hidden rounded-2xl shadow-lg mb-2 w-64 md:w-72">
               <img
                 src="/david-colombia.jpg"
-                alt="Dr. Gedalia, Colombia"
+                alt="David, Colombia"
                 className="w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                 style={{ aspectRatio: '3/4' }}
               />
@@ -42,12 +42,12 @@ export default function OriginsPage() {
             <Badge variant="outline" className="mb-3 px-4 py-1 border-slate-200 text-slate-500 text-xs tracking-widest bg-slate-50">
               THE FOUNDER
             </Badge>
-            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 text-center">Dr. Gedalia</h2>
+            <h2 className="text-2xl md:text-3xl font-medium text-slate-800 text-center">David</h2>
             <p className="text-teal-600 text-lg font-medium mt-2 text-center">Who He Is and Where This Came From</p>
           </div>
           <div className="space-y-4 text-slate-600 leading-relaxed">
             <p>
-              Dr. Gedalia spent the better part of a lifetime searching for something specific: a genuine witness. Someone who could see him clearly, not who they needed him to be, not a version filtered through their own agenda or limitation, but actually, undistortedly him.
+              David spent the better part of a lifetime searching for something specific: a genuine witness. Someone who could see him clearly, not who they needed him to be, not a version filtered through their own agenda or limitation, but actually, undistortedly him.
             </p>
             <p>
               He looked for this in friendships, in family, in years of therapy across multiple modalities. He found it only in rare, fleeting moments.
@@ -59,7 +59,7 @@ export default function OriginsPage() {
               His grandfather survived Auschwitz, as did his grandfather's brother. The rest of their family perished. He carries the inherited weight of what it means to have one's reality unseen, denied, or erased, and how profoundly that wound travels across generations.
             </p>
             <p>
-              His grandfather's given name was Gedalia. When he came to America, he quietly set it aside, going by Daniel for the rest of his life, as many survivors did, shedding the old world along with the old name. Dr. Gedalia has taken that name back. He bears it now, in his grandfather's memory, as part of this work: a small act of return against a larger erasure.
+              His grandfather's given name was Gedalia. When he came to America, he quietly set it aside, going by Daniel for the rest of his life, as many survivors did, shedding the old world along with the old name. David carries that name privately, as part of the inheritance that shapes this work.
             </p>
             <p>
               His grandmother was also a Holocaust survivor, and a poet. After her death, her poems were collected and published by her daughter. He first encountered the power of what would become ReLoHu's methodology not in a session room, but reading those poems, trying to know his grandmother across time and silence. What he found there was a complete interior world: a person fully present on the page, waiting to be witnessed. That experience of meeting someone through their own words, assembled into something whole, became the seed of everything that followed.
@@ -84,7 +84,7 @@ export default function OriginsPage() {
           <blockquote className="text-xl md:text-2xl font-light leading-[1.75] text-slate-700 italic">
             "I believe every person is carrying something entirely their own, a particular texture, a particular way of being in the world. And I believe that if you go deep enough into any one of those worlds, you stop feeling alone. The most specific truths turn out to be the most shared ones."
           </blockquote>
-          <p className="mt-6 text-sm text-slate-400 font-medium not-italic">Dr. Gedalia, Founder of ReLoHu</p>
+          <p className="mt-6 text-sm text-slate-400 font-medium not-italic">David, Founder of ReLoHu</p>
         </div>
       </section>
 
@@ -97,7 +97,7 @@ export default function OriginsPage() {
               <div className="overflow-hidden rounded-2xl shadow-md">
                 <img
                   src="/piaroa.jpg"
-                  alt="Dr. Gedalia with a Piaroa elder, Venezuela"
+                  alt="David with a Piaroa elder, Venezuela"
                   className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   style={{ aspectRatio: '4/3' }}
                 />
@@ -108,7 +108,7 @@ export default function OriginsPage() {
               <div className="overflow-hidden rounded-2xl shadow-md">
                 <img
                   src="/shaman.jpg"
-                  alt="Dr. Gedalia receiving a blessing, Peru"
+                  alt="David receiving a blessing, Peru"
                   className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   style={{ aspectRatio: '4/3' }}
                 />
@@ -136,7 +136,7 @@ export default function OriginsPage() {
               ReLoHu is not a coined word.
             </h2>
             <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-              It encodes three values Dr. Gedalia identified as most absent in every space he sought genuine support.
+              It encodes three values David identified as most absent in every space he sought genuine support.
             </p>
           </div>
 
@@ -186,7 +186,7 @@ export default function OriginsPage() {
             Ready to experience it?
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            A 15–20 minute orientation call with Dr. Gedalia. No commitment. Just a conversation to explore if ReLoHu is right for you.
+            A 15–20 minute orientation call with David. No commitment. Just a conversation to explore if ReLoHu is right for you.
           </p>
           <a
             href="/#cta-section"

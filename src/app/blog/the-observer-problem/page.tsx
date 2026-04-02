@@ -95,7 +95,7 @@ export default function TheObserverProblem() {
 
             <blockquote className="border-l-2 border-teal-400 pl-6 py-1 my-8 text-slate-600 italic text-[1rem]">
               "The observer is not the enemy of healing. It is a guardian that needs to be addressed before it will stand aside."
-              <footer className="text-sm text-slate-400 mt-2 not-italic">Dr. Gedalia</footer>
+              <footer className="text-sm text-slate-400 mt-2 not-italic">David</footer>
             </blockquote>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">What actually reaches the person behind the observer</h2>

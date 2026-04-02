@@ -54,7 +54,7 @@ export default function FoundingCohortPage() {
                   <span className="ml-2 text-[10px] font-mono tracking-wider text-slate-400 bg-slate-100 rounded-full px-2 py-0.5 align-middle">Standard: 60 min</span>
                 </h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A conversation, not a questionnaire. Dr. Gedalia listens carefully to what you say and how you say it. The extra 30 minutes over the standard session means more ground covered and a richer set of reports.
+                  A conversation, not a questionnaire. David listens carefully to what you say and how you say it. The extra 30 minutes over the standard session means more ground covered and a richer set of reports.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function FoundingCohortPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">Verbal readback during the session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  Before the call ends, Dr. Gedalia shares initial findings directly with you. The first time you hear certain things about yourself described precisely is part of the process.
+                  Before the call ends, David shares initial findings directly with you. The first time you hear certain things about yourself described precisely is part of the process.
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function FoundingCohortPage() {
               <div>
                 <h3 className="font-medium text-slate-800 mb-1">30-minute Terrain Map reading session</h3>
                 <p className="text-slate-500 leading-relaxed text-sm">
-                  A dedicated call to go through the Terrain Map together. Dr. Gedalia walks through what it says and what it means for you specifically. The other four reports are delivered directly as documents you keep. Included in the founding cohort price.
+                  A dedicated call to go through the Terrain Map together. David walks through what it says and what it means for you specifically. The other four reports are delivered directly as documents you keep. Included in the founding cohort price.
                 </p>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function FoundingCohortPage() {
               ReLoHu has been in development for two years. In that time, over a dozen sessions were conducted privately, with people who came through word of mouth, who understood what they were part of, and whose experiences shaped what the methodology became.
             </p>
             <p>
-              This group is different. These are the first public clients: people who find their way here through the site, who read what ReLoHu is and decide it's for them. Keeping it to April lets Dr. Gedalia stay close to the work: tracking what lands, what the reports produce, and how people use them during this first phase of public availability.
+              This group is different. These are the first public clients: people who find their way here through the site, who read what ReLoHu is and decide it's for them. Keeping it to April lets David stay close to the work: tracking what lands, what the reports produce, and how people use them during this first phase of public availability.
             </p>
             <p>
               The five-report bundle is part of this group's offer because their experience continues to matter to how ReLoHu develops. That's not a marketing reason. It's the actual reason.
@@ -233,7 +233,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">What actually happens in the intake?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                A 1–2 hour conversation, not a questionnaire, not a structured interview with a script. Dr. Gedalia asks questions and listens carefully to what you say and how you say it. After the session, what you shared is analyzed using ReLoHu's proprietary methodology to produce your Terrain Map.
+                A 1–2 hour conversation, not a questionnaire, not a structured interview with a script. David asks questions and listens carefully to what you say and how you say it. After the session, what you shared is analyzed using ReLoHu's proprietary methodology to produce your Terrain Map.
               </p>
             </div>
 
@@ -269,7 +269,7 @@ export default function FoundingCohortPage() {
             <div>
               <h3 className="font-medium text-slate-800 mb-2">Why is this offer only available in April?</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                ReLoHu has been in development for two years. Opening with a founding cohort price lets Dr. Gedalia stay close to the work during the first phase of public availability — tracking what lands, what the reports produce, and how clients use them. In May the price returns to $997 and the bundle changes to a standard 60-minute intake with a single Terrain Map.
+                ReLoHu has been in development for two years. Opening with a founding cohort price lets David stay close to the work during the first phase of public availability — tracking what lands, what the reports produce, and how clients use them. In May the price returns to $997 and the bundle changes to a standard 60-minute intake with a single Terrain Map.
               </p>
             </div>
 
@@ -292,7 +292,7 @@ export default function FoundingCohortPage() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-6">After Your Terrain Map</p>
           <h2 className="text-xl font-medium text-slate-700 mb-3">What comes next, for those who want to go further.</h2>
           <p className="text-slate-500 text-sm leading-relaxed mb-8">
-            Because Dr. Gedalia already knows your terrain, returning sessions move faster and go further than the first one. Three paths exist for returning clients. None are required, all are available.
+            Because David already knows your terrain, returning sessions move faster and go further than the first one. Three paths exist for returning clients. None are required, all are available.
           </p>
           <div className="space-y-4">
             {[
@@ -338,7 +338,7 @@ export default function FoundingCohortPage() {
             Ready to see your map?
           </h2>
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
-            Start with a free 15-minute orientation call with Dr. Gedalia. No commitment, just a conversation to see if ReLoHu is right for you right now.
+            Start with a free 15-minute orientation call with David. No commitment, just a conversation to see if ReLoHu is right for you right now.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <PayButton

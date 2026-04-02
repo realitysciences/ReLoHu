@@ -5,7 +5,7 @@ import { Calendar, FileText, Mic, RefreshCw } from 'lucide-react'
 
 export const metadata = {
   title: 'Returning Clients | ReLoHu',
-  description: 'Because Dr. Gedalia already knows your terrain, returning sessions move faster and go further than the first one.',
+  description: 'Because David already knows your terrain, returning sessions move faster and go further than the first one.',
 }
 
 export default function ReturningClientsPage() {
@@ -43,14 +43,14 @@ export default function ReturningClientsPage() {
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                No new session. Dr. Gedalia runs a new analytical pass on your existing session through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
+                No new session. David runs a new analytical pass on your existing session through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
               </p>
               <div className="space-y-2">
                 {[
                   'No intake session required',
                   'New framework applied to your existing session',
                   'Delivered as a file: archetypes, character comparisons, or a focused lens',
-                  '30–45 minutes of Dr. Gedalia\'s analysis and review time',
+                  '30–45 minutes of David\'s analysis and review time',
                 ].map(item => (
                   <div key={item} className="flex items-start gap-2.5 text-sm text-slate-500">
                     <span className="text-teal-400 mt-0.5 shrink-0">·</span>
@@ -141,7 +141,7 @@ export default function ReturningClientsPage() {
           <blockquote className="text-xl md:text-2xl font-light leading-[1.75] text-slate-700 italic mb-6">
             "The first session maps the terrain. Everything after builds from that map, which means it can start from a deeper place, move faster, and reach further than anything that came before."
           </blockquote>
-          <p className="text-sm text-slate-400 font-medium">Dr. Gedalia</p>
+          <p className="text-sm text-slate-400 font-medium">David</p>
         </div>
       </section>
 
@@ -150,7 +150,7 @@ export default function ReturningClientsPage() {
         <div className="max-w-2xl mx-auto">
           <h2 className="text-2xl font-medium text-slate-800 mb-3">Ready to go further?</h2>
           <p className="text-slate-500 leading-relaxed mb-8 text-sm">
-            If you've completed a Terrain Map and want to explore what's next, reach out directly. Dr. Gedalia will suggest which session type fits where you are.
+            If you've completed a Terrain Map and want to explore what's next, reach out directly. David will suggest which session type fits where you are.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

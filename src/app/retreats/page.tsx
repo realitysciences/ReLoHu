@@ -107,7 +107,7 @@ const shared = {
   ai_badge: { en: 'Why AI matters here', es: 'Por qué la IA importa aquí' },
   ai_h:     { en: 'You can\'t have a human with you at every moment of integration. You can have your map.', es: 'No puedes tener a un humano contigo en cada momento de integración. Puedes tener tu mapa.' },
   ai_1:     { en: 'Integration happens in ordinary moments: in the middle of a difficult conversation, at 2am when something surfaces, during a walk when a pattern becomes suddenly visible. A therapist can\'t be there. A retreat center can\'t be there. Your map can.', es: 'La integración sucede en momentos ordinarios: en medio de una conversación difícil, a las 2am cuando algo emerge, durante un paseo cuando un patrón se vuelve de repente visible. Un terapeuta no puede estar ahí. Tu mapa sí puede.' },
-  ai_2:     { en: 'The AI behind ReLoHu holds the information from your session and runs on Dr. Gedalia\'s proprietary methodology. When you have your map, you have something to return to that knows your specific terrain, not a generic wellness resource built for no one in particular.', es: 'La IA detrás de ReLoHu conserva la información de tu sesión. Cuando tienes tu mapa, tienes algo a lo que regresar que conoce tu terreno específico, no un recurso de bienestar genérico.' },
+  ai_2:     { en: 'The AI behind ReLoHu holds the information from your session and runs on David\'s proprietary methodology. When you have your map, you have something to return to that knows your specific terrain, not a generic wellness resource built for no one in particular.', es: 'La IA detrás de ReLoHu conserva la información de tu sesión. Cuando tienes tu mapa, tienes algo a lo que regresar que conoce tu terreno específico, no un recurso de bienestar genérico.' },
   delivers_badge: { en: 'What a session produces', es: 'Qué produce una sesión' },
   delivers: {
     en: [
@@ -129,7 +129,7 @@ const shared = {
   cta_badge: { en: 'Start before you go in, or after you return', es: 'Comienza antes de entrar, o después de regresar' },
   cta_h1:   { en: 'The retreat gives you the experience.', es: 'El retiro te da la experiencia.' },
   cta_h2:   { en: 'ReLoHu gives you the map.', es: 'ReLoHu te da el mapa.' },
-  cta_body: { en: 'A 15-minute orientation call with Dr. Gedalia is free and requires nothing. If ReLoHu is right for where you are in your process, you\'ll know quickly.', es: 'Una llamada de orientación de 15 minutos con el Dr. Gedalia es gratuita y sin compromiso. Si ReLoHu es adecuado para donde estás, lo sabrás rápidamente.' },
+  cta_body: { en: 'A 15-minute orientation call with David is free and requires nothing. If ReLoHu is right for where you are in your process, you\'ll know quickly.', es: 'Una llamada de orientación de 15 minutos con David es gratuita y sin compromiso. Si ReLoHu es adecuado para donde estás, lo sabrás rápidamente.' },
   cta_book: { en: 'Book a Free Orientation Call', es: 'Reservar una Llamada de Orientación' },
   cta_offer: { en: 'View the Offer', es: 'Ver la Oferta' },
   cta_note: { en: 'Founding cohort: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.', es: 'Cohorte fundador: $497 hasta abril. Cinco reportes, 90 minutos de intake, sesión de lectura del Mapa de Terreno.' },
@@ -255,7 +255,7 @@ export default function RetreatsPage() {
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>

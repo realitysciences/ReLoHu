@@ -120,7 +120,7 @@ export default function VipeholmStudy() {
             <div className="mt-14 p-6 bg-teal-50 border border-teal-100 rounded-2xl">
               <p className="text-teal-800 font-medium mb-2">Ready to see what's beneath the surface?</p>
               <p className="text-teal-700 text-sm mb-4 leading-relaxed">
-                A 15–20 minute orientation call with Dr. Gedalia. No commitment. Just a conversation to explore if ReLoHu is right for you.
+                A 15–20 minute orientation call with David. No commitment. Just a conversation to explore if ReLoHu is right for you.
               </p>
               <a
                 href="https://calendly.com/relohu"

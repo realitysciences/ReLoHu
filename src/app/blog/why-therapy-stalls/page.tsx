@@ -103,7 +103,7 @@ export default function WhyTherapyStalls() {
 
             <blockquote className="border-l-2 border-teal-400 pl-6 py-1 my-8 text-slate-600 italic text-[1rem]">
               "The most specific truths turn out to be the most shared ones. Going deep into any one person's world reveals something that belongs to all of us."
-              <footer className="text-sm text-slate-400 mt-2 not-italic">Dr. Gedalia, Founder of ReLoHu</footer>
+              <footer className="text-sm text-slate-400 mt-2 not-italic">David, Founder of ReLoHu</footer>
             </blockquote>
 
             <h2 className="text-xl font-medium text-slate-800 mt-10 mb-3">The people who stall the longest</h2>
@@ -137,7 +137,7 @@ export default function WhyTherapyStalls() {
 
           <div className="mt-16 p-8 bg-teal-50 border border-teal-100 rounded-2xl text-center">
             <p className="text-slate-700 font-medium mb-2">Curious what your map would look like?</p>
-            <p className="text-slate-500 text-sm mb-5">A 15-minute orientation call with Dr. Gedalia. No commitment.</p>
+            <p className="text-slate-500 text-sm mb-5">A 15-minute orientation call with David. No commitment.</p>
             <a
               href="https://calendly.com/relohu"
               target="_blank"

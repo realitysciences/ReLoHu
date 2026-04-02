@@ -31,7 +31,7 @@ export default function PaymentSuccessPage() {
           </p>
 
           <p className="text-slate-500 leading-relaxed mb-10">
-            Two next steps: book your session time on Calendly, then fill out the pre-session intake form so Dr. Gedalia can come prepared.
+            Two next steps: book your session time on Calendly, then fill out the pre-session intake form so David can come prepared.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

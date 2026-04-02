@@ -32,7 +32,7 @@ export default function TestimonialsPage() {
       <section className="py-16 px-6 bg-white">
         <div className="max-w-xl mx-auto text-center">
           <p className="text-slate-600 leading-relaxed mb-6">
-            If you've had a session and want to share what it was like, Dr. Gedalia would be grateful. Responses are published only with your permission, and only in the form you approve.
+            If you've had a session and want to share what it was like, David would be grateful. Responses are published only with your permission, and only in the form you approve.
           </p>
           <a
             href="mailto:respectlovehumility@gmail.com?subject=My ReLoHu experience"
@@ -47,7 +47,7 @@ export default function TestimonialsPage() {
       <section className="py-16 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-slate-400 text-sm leading-relaxed mb-8">
-            In the meantime, the best way to understand what a session is like is to read what Dr. Gedalia has written about the work, or to start with a free orientation call.
+            In the meantime, the best way to understand what a session is like is to read what David has written about the work, or to start with a free orientation call.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -249,7 +249,7 @@ export default function UniquenessPage() {
               {
                 icon: Brain,
                 question: 'What is the specialist\'s craft?',
-                answer: 'Dr. Gedalia spent a decade learning to excavate and interpret his own interior life. That practice, knowing what to ask, how to hold someone\'s data, which lens to turn it through, is the methodology. It cannot be automated because it was never a script.',
+                answer: 'David spent a decade learning to excavate and interpret his own interior life. That practice, knowing what to ask, how to hold someone\'s data, which lens to turn it through, is the methodology. It cannot be automated because it was never a script.',
               },
             ].map((item, i) => (
               <div key={i} className="bg-slate-800/60 border border-slate-700 rounded-2xl p-6 hover:border-teal-700 transition-colors group">
@@ -342,7 +342,7 @@ export default function UniquenessPage() {
           </p>
           <div className="flex items-center justify-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>

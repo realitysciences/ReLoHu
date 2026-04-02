@@ -301,7 +301,7 @@ export default function SampleReportPage() {
             Ready to see what your map looks like?
           </h2>
           <p className="text-slate-500 mb-8 leading-relaxed">
-            A 15–20 minute orientation call with Dr. Gedalia. No commitment. Just a conversation to explore if ReLoHu is right for you.
+            A 15–20 minute orientation call with David. No commitment. Just a conversation to explore if ReLoHu is right for you.
           </p>
           <a
             href="https://calendly.com/relohu"

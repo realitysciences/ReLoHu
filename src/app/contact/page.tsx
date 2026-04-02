@@ -70,7 +70,7 @@ export default function ContactPage() {
                   <div>
                     <h2 className="text-2xl font-medium text-slate-800 mb-3">Message received</h2>
                     <p className="text-slate-500 leading-relaxed max-w-sm">
-                      Thank you for reaching out. Dr. Gedalia will get back to you personally. In the meantime, feel free to book an orientation call if you'd like to talk sooner.
+                      Thank you for reaching out. David will get back to you personally. In the meantime, feel free to book an orientation call if you'd like to talk sooner.
                     </p>
                   </div>
                   <a
@@ -173,7 +173,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-lg font-medium mb-2">Prefer to talk?</h3>
                 <p className="text-teal-100 text-sm leading-relaxed mb-5">
-                  The fastest way to get your questions answered is a 15–20 minute orientation call with Dr. Gedalia. No commitment. Just a conversation.
+                  The fastest way to get your questions answered is a 15–20 minute orientation call with David. No commitment. Just a conversation.
                 </p>
                 <a
                   href="/#cta-section"
@@ -204,7 +204,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-lg font-medium text-slate-800 mb-2">Direct email</h3>
                 <p className="text-slate-500 text-sm leading-relaxed mb-4">
-                  Prefer to write directly? Every message goes to Dr. Gedalia personally.
+                  Prefer to write directly? Every message goes to David personally.
                 </p>
                 <a
                   href="mailto:respectlovehumility@gmail.com"

@@ -151,7 +151,7 @@ export default function TherapistsPage() {
           </h2>
           <div className="space-y-5 text-slate-400 leading-relaxed">
             <p>
-              ReLoHu is a single mapping session conducted by Dr. Gedalia, a doctoral-level practitioner and founder of the methodology. It produces a set of reports. It is not an ongoing treatment relationship. It does not diagnose, prescribe, or treat.
+              ReLoHu is a single mapping session conducted by David, a doctoral-level practitioner and founder of the methodology. It produces a set of reports. It is not an ongoing treatment relationship. It does not diagnose, prescribe, or treat.
             </p>
             <p>
               The client's relationship with their therapist remains the primary treatment relationship. ReLoHu is upstream of that: it maps the terrain the therapist will be working on, giving both the client and the clinician a clearer picture of what they are dealing with before the clinical work begins.
@@ -171,7 +171,7 @@ export default function TherapistsPage() {
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>
@@ -183,10 +183,10 @@ export default function TherapistsPage() {
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-10">How to refer a client</p>
           <div className="space-y-6">
             {[
-              { step: '1', title: 'Client books an orientation call', body: 'A free 15-minute call with Dr. Gedalia. No commitment. The client decides whether ReLoHu feels right for them before any session is booked.' },
-              { step: '2', title: '90-minute intake session', body: 'A deep conversation with Dr. Gedalia. Not a questionnaire. Dr. Gedalia listens carefully to what the client says and how they say it, then analyzes the session using the ReLoHu methodology.' },
+              { step: '1', title: 'Client books an orientation call', body: 'A free 15-minute call with David. No commitment. The client decides whether ReLoHu feels right for them before any session is booked.' },
+              { step: '2', title: '90-minute intake session', body: 'A deep conversation with David. Not a questionnaire. David listens carefully to what the client says and how they say it, then analyzes the session using the ReLoHu methodology.' },
               { step: '3', title: 'Five reports delivered', body: 'The client receives all five reports as written documents they keep. They can share any or all of them with you directly.' },
-              { step: '4', title: '30-minute Terrain Map reading', body: 'Dr. Gedalia walks the client through the Terrain Map on a dedicated call, so they arrive at your office having already processed the initial picture.' },
+              { step: '4', title: '30-minute Terrain Map reading', body: 'David walks the client through the Terrain Map on a dedicated call, so they arrive at your office having already processed the initial picture.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="flex gap-5 items-start">
                 <div className="w-8 h-8 rounded-full bg-teal-600 text-white text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">{step}</div>
@@ -208,7 +208,7 @@ export default function TherapistsPage() {
             See what a mapped client looks like.
           </h2>
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
-            A 15-minute orientation call with Dr. Gedalia costs nothing. View a sample report first, or book a call directly to discuss whether ReLoHu is the right fit for your practice.
+            A 15-minute orientation call with David costs nothing. View a sample report first, or book a call directly to discuss whether ReLoHu is the right fit for your practice.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a

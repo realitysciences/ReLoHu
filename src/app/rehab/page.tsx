@@ -162,7 +162,7 @@ export default function RehabPage() {
           </h2>
           <div className="space-y-5 text-slate-400 leading-relaxed">
             <p>
-              ReLoHu is not clinical treatment. Dr. Gedalia is not a licensed addiction counselor or psychiatrist. ReLoHu does not diagnose, prescribe, or provide medical or psychiatric care. It is a psychological mapping methodology: a structured conversation that produces a set of written reports describing the interior landscape of the person who sat for it.
+              ReLoHu is not clinical treatment. David is not a licensed addiction counselor or psychiatrist. ReLoHu does not diagnose, prescribe, or provide medical or psychiatric care. It is a psychological mapping methodology: a structured conversation that produces a set of written reports describing the interior landscape of the person who sat for it.
             </p>
             <p>
               What it adds to a clinical setting is specificity. Standard treatment protocols work with populations. ReLoHu works with individuals. The Terrain Map gives the treatment team something no intake form or structured assessment produces: a complete, honest portrait of the specific person, in their own words, analyzed through a proprietary methodology built for that purpose.
@@ -182,7 +182,7 @@ export default function RehabPage() {
           </p>
           <div className="flex items-center gap-3 mt-6">
             <div className="w-8 h-px bg-teal-300" />
-            <p className="text-sm text-slate-400 font-medium tracking-wide">Dr. Gedalia, Founder of ReLoHu</p>
+            <p className="text-sm text-slate-400 font-medium tracking-wide">David, Founder of ReLoHu</p>
             <div className="w-8 h-px bg-teal-300" />
           </div>
         </div>
@@ -232,7 +232,7 @@ export default function RehabPage() {
             Give recovery something to build on.
           </h2>
           <p className="text-teal-100 leading-relaxed mb-10 max-w-lg mx-auto">
-            A 15-minute orientation call with Dr. Gedalia is free. Whether you are a treatment center exploring how ReLoHu fits into your program, a counselor considering it for a specific client, or an individual in recovery: the call costs nothing and requires nothing.
+            A 15-minute orientation call with David is free. Whether you are a treatment center exploring how ReLoHu fits into your program, a counselor considering it for a specific client, or an individual in recovery: the call costs nothing and requires nothing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a

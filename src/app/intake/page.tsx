@@ -107,7 +107,7 @@ export default function IntakePage() {
               Got it, {form.name.split(' ')[0]}.
             </h1>
             <p className="text-slate-500 leading-relaxed mb-4">
-              Your responses are with Dr. Gedalia. He reads every intake carefully before the session. What you wrote won't be skimmed. It will be used.
+              Your responses are with David. He reads every intake carefully before the session. What you wrote won't be skimmed. It will be used.
             </p>
             <p className="text-slate-500 leading-relaxed">
               A confirmation has been sent to <span className="font-medium text-slate-700">{form.email}</span>. If anything shifts before the session, or something important didn't make it into the form, just reply to that email.
@@ -256,7 +256,7 @@ export default function IntakePage() {
                 </>
               ) : 'Submit Intake Form'}
             </button>
-            <p className="text-slate-400 text-xs mt-3">Responses go directly to Dr. Gedalia. You'll receive a confirmation email.</p>
+            <p className="text-slate-400 text-xs mt-3">Responses go directly to David. You'll receive a confirmation email.</p>
           </div>
 
         </form>

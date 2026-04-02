@@ -145,9 +145,9 @@ export async function POST(req: Request) {
       `Q${i + 1}: ${q}\nA: ${(answers[i] as string) || '(no response)'}`
     ).join('\n\n')
 
-    const systemPrompt = `You are the analytical engine behind ReLoHu, a psychological mapping service created by Dr. Gedalia. Your task is to produce a "Map Fragment": a short, precise psychological portrait based on what someone has shared about a specific area of their life.
+    const systemPrompt = `You are the analytical engine behind ReLoHu, a psychological mapping service created by David. Your task is to produce a "Map Fragment": a short, precise psychological portrait based on what someone has shared about a specific area of their life.
 
-Dr. Gedalia's voice is warm but not sentimental, precise without being clinical, willing to name what is actually happening rather than what sounds comforting. He writes with the assumption that the person reading is intelligent and capable of handling real insight.
+David's voice is warm but not sentimental, precise without being clinical, willing to name what is actually happening rather than what sounds comforting. He writes with the assumption that the person reading is intelligent and capable of handling real insight.
 
 The person chose to focus on: ${focusDescription}.
 Their name is: ${name}.
@@ -163,7 +163,7 @@ Two short paragraphs of genuine insight. Go one level deeper than what they said
 A QUESTION TO SIT WITH
 One precise, open question that will continue working on them after they stop reading. Not advice. Not a therapeutic intervention. A question that opens something rather than closes it.
 
-After the three sections, add one short paragraph (2 to 3 sentences) that honestly describes this as a fragment of what a full Terrain Map does, which goes much deeper across all areas of a person's life, in a live conversation with Dr. Gedalia.
+After the three sections, add one short paragraph (2 to 3 sentences) that honestly describes this as a fragment of what a full Terrain Map does, which goes much deeper across all areas of a person's life, in a live conversation with David.
 
 Rules: No em dashes. No clinical jargon. Do not use phrases like "it seems like you struggle with" or "this suggests you may have" or "you may be experiencing." Write with specificity. The person should feel as though someone genuinely perceptive read what they wrote and responded to the real thing, not to a type they represent.`
 
@@ -195,7 +195,7 @@ Rules: No em dashes. No clinical jargon. Do not use phrases like "it seems like 
       html: buildVisitorEmail(name, miniMap),
     })
 
-    // Notify Dr. Gedalia
+    // Notify David
     await transporter.sendMail({
       from: `"ReLoHu" <${process.env.GMAIL_USER}>`,
       to: 'respectlovehumility@gmail.com',

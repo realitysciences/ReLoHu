@@ -42,8 +42,8 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
           <Link href="/blog" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
             Blog
           </Link>
-          <Link href="/founding-cohort" className="text-sm font-medium text-teal-600 hover:text-teal-700 transition-colors font-semibold">
-            Founding Cohort
+          <Link href="/sessions" className="text-sm font-medium text-teal-600 hover:text-teal-700 transition-colors font-semibold">
+            Sessions
           </Link>
           <Link href="/faq" className="text-sm font-medium text-slate-600 hover:text-teal-600 transition-colors">
             FAQ
@@ -93,8 +93,8 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
           <Link href="/blog" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
             Blog
           </Link>
-          <Link href="/founding-cohort" className="text-sm font-semibold text-teal-600 hover:text-teal-700" onClick={() => setMenuOpen(false)}>
-            Founding Cohort
+          <Link href="/sessions" className="text-sm font-semibold text-teal-600 hover:text-teal-700" onClick={() => setMenuOpen(false)}>
+            Sessions
           </Link>
           <Link href="/faq" className="text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
             FAQ

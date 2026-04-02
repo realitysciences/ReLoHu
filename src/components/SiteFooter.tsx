@@ -20,7 +20,7 @@ export default function SiteFooter() {
           <Link href="/business" className="hover:text-teal-600 transition-colors">For Business</Link>
           <Link href="/rehab" className="hover:text-teal-600 transition-colors">For Rehabs</Link>
           <Link href="/blog" className="hover:text-teal-600 transition-colors">Blog</Link>
-          <Link href="/founding-cohort" className="hover:text-teal-600 transition-colors">Founding Cohort</Link>
+          <Link href="/sessions" className="hover:text-teal-600 transition-colors">Sessions</Link>
           <Link href="/faq" className="hover:text-teal-600 transition-colors">FAQ</Link>
           <Link href="/contact" className="hover:text-teal-600 transition-colors">Contact</Link>
           <Link href="/intake" className="hover:text-teal-600 transition-colors">Session Intake</Link>

@@ -39,11 +39,11 @@ export default function ReturningClientsPage() {
                 </div>
                 <h2 className="font-medium text-slate-800">Lens Report</h2>
               </div>
-              <p className="text-xl font-medium text-teal-600">$347</p>
+              <p className="text-xl font-medium text-teal-600">$197</p>
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
-                No new session. David runs a new analytical pass on your existing session through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map without requiring another intake conversation.
+                No new session required. Your existing transcript is run through a different framework: archetypes, character comparisons, a specific psychological lens. The result is a focused report that adds a new dimension to your existing Terrain Map.
               </p>
               <div className="space-y-2">
                 {[
@@ -73,7 +73,7 @@ export default function ReturningClientsPage() {
                 </div>
                 <h2 className="font-medium text-slate-800">Depth Session</h2>
               </div>
-              <p className="text-xl font-medium text-teal-600">$697</p>
+              <p className="text-xl font-medium text-teal-600">$347</p>
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">
@@ -107,7 +107,7 @@ export default function ReturningClientsPage() {
                 </div>
                 <h2 className="font-medium text-slate-800">Fresh Session</h2>
               </div>
-              <p className="text-xl font-medium text-teal-600">$847</p>
+              <p className="text-xl font-medium text-teal-600">$397</p>
             </div>
             <div className="px-7 py-6">
               <p className="text-slate-600 leading-relaxed text-sm mb-5">

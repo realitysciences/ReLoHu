@@ -121,15 +121,11 @@ const faqGroups = [
     items: [
       {
         q: 'How much does a session cost?',
-        a: 'The current offer is $497 for sessions booked in April. After April, the price returns to $997. Both include the intake session, verbal readback during the session, and your Terrain Map delivered as a file. Sessions booked in April also include a 30-minute follow-up call scheduled 30 days after the session, which will not be available after April.',
-      },
-      {
-        q: 'What happens to pricing after the founding cohort closes?',
-        a: 'In May, the price moves to $997. The session itself, including intake, readback, and Terrain Map, remains the same. What changes is the follow-up call is no longer included, and the April rate is no longer available.',
+        a: 'Two sessions are available. The Terrain Session is $250: a 60-minute intake, a core pattern summary, and a verbal readback before the call ends. The Full Session is $497: a 90-minute intake, five detailed reports, and a 30-minute Terrain Map reading session. Both are one-time, no ongoing commitment.',
       },
       {
         q: 'Are there options for returning clients?',
-        a: 'Yes. Three paths exist for people who have completed a Terrain Map and want to go further. A Lens Report ($347): a new analytical pass on your existing transcript through a different framework, no new session required. A Depth Session ($697): a new intake that picks up where your Terrain Map left off, producing a more targeted report. A Fresh Session ($847): a new intake exploring a different area of life. Because David already knows your terrain, returning sessions move faster and go further than the first one.',
+        a: 'Yes. Three paths exist for people who have completed a Terrain Map and want to go further. A Lens Report ($197): your existing transcript run through a different framework, no new session required. A Depth Session ($347): a new intake that picks up where your Terrain Map left off, producing a more targeted report. A Fresh Session ($397): a new intake exploring a different area of life. Because David already knows your terrain, returning sessions move faster and go further than the first one.',
       },
       {
         q: 'Is there a payment plan?',

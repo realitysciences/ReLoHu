@@ -344,17 +344,17 @@ export default function SessionsPage() {
             {[
               {
                 name: 'Lens Report',
-                price: '$347',
-                desc: 'No new session. A new analytical pass on your existing transcript through a different framework: archetypes, character comparisons, a specific psychological lens. A meaningful addition to your existing map.',
+                price: '$197',
+                desc: 'No new session. Your existing transcript is run through a different framework: archetypes, character comparisons, a specific psychological lens. A new report is produced and delivered as a file. A meaningful addition to your existing map.',
               },
               {
                 name: 'Depth Session',
-                price: '$697',
+                price: '$347',
                 desc: 'A new intake that goes deeper into something your first map surfaced. Picks up exactly where the Terrain Map left off and produces a more targeted report. Shorter than the original. You are not starting from scratch.',
               },
               {
                 name: 'Fresh Session',
-                price: '$847',
+                price: '$397',
                 desc: 'A new intake on a different area of life: relationships, work, a specific pattern. Similar scope to the original session, but without the orientation overhead. The existing relationship means you go deeper sooner.',
               },
             ].map(({ name, price, desc }) => (

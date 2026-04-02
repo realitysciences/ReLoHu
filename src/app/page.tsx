@@ -28,8 +28,6 @@ import {
   MessageCircle,
   Quote,
   Users,
-  Lightbulb,
-  Timer,
   BookOpen,
   Target,
   Bot,
@@ -287,9 +285,9 @@ function LandingContent() {
               size="lg"
               variant="outline"
               className="border-slate-300 text-slate-600 hover:border-teal-400 hover:text-teal-600 font-medium px-10 py-7 text-lg rounded-full transition-all duration-300"
-              onClick={() => window.location.href = '/founding-cohort'}
+              onClick={() => window.location.href = '/sessions'}
             >
-              {lang === 'en' ? 'View the Offer' : 'Ver la Oferta'}
+              {lang === 'en' ? 'View Sessions' : 'Ver Sesiones'}
             </Button>
           </div>
 
@@ -580,41 +578,6 @@ function LandingContent() {
                 </span>
               </div>
 
-              {/* Founding Cohort upgrade callout */}
-              <div className="rounded-xl border-2 border-amber-300 bg-amber-50 p-5 mb-8 relative overflow-hidden">
-                <div className="absolute top-0 right-0 bg-amber-400 text-amber-900 text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-bl-xl">
-                  {lang === 'en' ? 'April Only' : 'Solo Abril'}
-                </div>
-                <p className="text-xs font-bold tracking-widest text-amber-700 uppercase mb-3">
-                  {lang === 'en' ? 'Founding Cohort also receives' : 'El Cohorte Fundador también recibe'}
-                </p>
-                <div className="space-y-2">
-                  {(lang === 'en' ? [
-                    'Archetype Report',
-                    'People You Are Similar To (real people and fictional characters)',
-                    'Your Strengths and Weaknesses',
-                    'Unique Things You Probably Never Knew About Yourself',
-                    '30-minute Terrain Map reading session with David',
-                  ] : [
-                    'Reporte de Arquetipo',
-                    'Personas a las que te pareces (personas reales y personajes ficticios)',
-                    'Tus Fortalezas y Debilidades',
-                    'Cosas Únicas que Probablemente Nunca Supiste de Ti Mismo',
-                    'Sesión de lectura del Terrain Map de 30 minutos con David',
-                  ]).map((item, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
-                      <span className="text-sm text-amber-900">{item}</span>
-                    </div>
-                  ))}
-                </div>
-                <p className="text-xs text-amber-600 mt-3">
-                  {lang === 'en'
-                    ? 'Standard sessions include the Terrain Map only. This bundle does not come back.'
-                    : 'Las sesiones estándar incluyen solo el Terrain Map. Este paquete no vuelve.'}
-                </p>
-              </div>
-
               {/* Possibilities */}
               <h3 className="text-lg font-medium text-slate-500 mb-4">{t('solution.possibilities_title')}</h3>
               <ul className="space-y-4 mb-6">
@@ -711,18 +674,9 @@ function LandingContent() {
       <section className="py-16 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-300 uppercase mb-6 text-center">
-            {lang === 'en' ? 'The Founding Cohort Offer' : 'La Oferta del Cohorte Fundador'}
+            {lang === 'en' ? 'The Full Session' : 'La Sesión Completa'}
           </p>
-          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl ring-4 ring-amber-300/60">
-            {/* Deal banner */}
-            <div className="bg-gradient-to-r from-amber-400 to-amber-500 px-8 py-3 flex items-center justify-between">
-              <span className="text-amber-900 font-bold text-sm tracking-wide">
-                {lang === 'en' ? 'Founding Cohort — April Only' : 'Cohorte Fundador — Solo Abril'}
-              </span>
-              <span className="bg-amber-900/20 text-amber-900 text-xs font-bold px-3 py-1 rounded-full">
-                {lang === 'en' ? 'You save $500' : 'Ahorras $500'}
-              </span>
-            </div>
+          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl">
             {/* What you get */}
             <div className="px-8 pt-8 pb-6 border-b border-slate-100">
               <p className="text-[10px] font-mono tracking-widest text-teal-600 uppercase mb-5">
@@ -763,11 +717,7 @@ function LandingContent() {
               <div>
                 <div className="flex items-baseline gap-2">
                   <p className="text-3xl font-bold text-slate-800">$497</p>
-                  <p className="text-base text-slate-400 line-through">$997</p>
                 </div>
-                <p className="text-xs text-teal-600 mt-0.5 font-medium">
-                  {lang === 'en' ? 'April only · $997 in May' : 'Solo abril · $997 en mayo'}
-                </p>
               </div>
               <Button
                 className="bg-teal-600 hover:bg-teal-700 text-white font-medium px-8 py-5 rounded-full"
@@ -824,36 +774,6 @@ function LandingContent() {
                 )}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================== SOCIAL PROOF - STATS ==================== */}
-      <section className="py-20 px-6 bg-white border-y border-slate-100">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <Badge variant="outline" className="mb-4 px-4 py-1 border-teal-200 text-teal-700 text-xs tracking-widest bg-teal-50/50">
-              {t('proof.title')}
-            </Badge>
-            <p className="text-slate-500 text-lg">
-              {t('proof.subtitle')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-3 gap-8">
-            {[
-              { number: t('proof.stat1.number'), label: t('proof.stat1.label'), icon: Lightbulb },
-              { number: t('proof.stat2.number'), label: t('proof.stat2.label'), icon: Brain },
-              { number: t('proof.stat3.number'), label: t('proof.stat3.label'), icon: Timer }
-            ].map((stat, i) => (
-              <div key={i} className="text-center group">
-                <div className="w-14 h-14 rounded-2xl bg-teal-50 flex items-center justify-center mx-auto mb-4 group-hover:bg-teal-100 transition-colors">
-                  <stat.icon className="w-7 h-7 text-teal-600" />
-                </div>
-                <div className="text-4xl md:text-5xl font-bold text-slate-800 mb-2">{stat.number}</div>
-                <div className="text-slate-500 font-medium">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -1087,8 +1007,8 @@ function LandingContent() {
 
           <p className="text-slate-400 text-xs mt-3 text-center">
             {lang === 'en'
-              ? <>April only · $497 now, $997 in May · 5 reports + reading session included · <a href="/founding-cohort" className="text-teal-500 hover:underline">View full offer →</a></>
-              : <>Solo abril · $497 ahora, $997 en mayo · 5 reportes + sesión de lectura incluidos · <a href="/founding-cohort" className="text-teal-500 hover:underline">Ver oferta completa →</a></>
+              ? <>Full Session $497 · Terrain Session $250 · <a href="/sessions" className="text-teal-500 hover:underline">View all sessions →</a></>
+              : <>Sesión Completa $497 · Terrain Session $250 · <a href="/sessions" className="text-teal-500 hover:underline">Ver todas las sesiones →</a></>
             }
           </p>
           <p className="text-slate-400 text-xs mt-1.5 text-center">

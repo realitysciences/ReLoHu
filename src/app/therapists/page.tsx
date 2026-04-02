@@ -229,7 +229,7 @@ export default function TherapistsPage() {
             </Link>
           </div>
           <p className="text-teal-300 text-xs mt-6">
-            Founding cohort price: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.
+            Full Session $497 · Terrain Session $250 · Five reports, 90-minute intake.
           </p>
         </div>
       </section>

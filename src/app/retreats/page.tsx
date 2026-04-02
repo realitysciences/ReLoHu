@@ -137,8 +137,8 @@ const shared = {
   cta_h2:   { en: 'ReLoHu gives you the map.', es: 'ReLoHu te da el mapa.' },
   cta_body: { en: 'A 15-minute orientation call with David is free and requires nothing. If ReLoHu is right for where you are in your process, you\'ll know quickly.', es: 'Una llamada de orientación de 15 minutos con David es gratuita y sin compromiso. Si ReLoHu es adecuado para donde estás, lo sabrás rápidamente.' },
   cta_book: { en: 'Book a Free Orientation Call', es: 'Reservar una Llamada de Orientación' },
-  cta_offer: { en: 'View the Offer', es: 'Ver la Oferta' },
-  cta_note: { en: 'Founding cohort: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.', es: 'Cohorte fundador: $497 hasta abril. Cinco reportes, 90 minutos de intake, sesión de lectura del Mapa de Terreno.' },
+  cta_offer: { en: 'View Sessions', es: 'Ver Sesiones' },
+  cta_note: { en: 'Full Session $497 · Terrain Session $250 · Five reports, 90-minute intake.', es: 'Sesión Completa $497 · Terrain Session $250 · Cinco reportes, 90 minutos de intake.' },
 }
 
 function s(obj: Record<Lang, string>, lang: Lang) { return obj[lang] }
@@ -318,7 +318,7 @@ export default function RetreatsPage() {
               {s(shared.cta_book, lang)}
             </a>
             <Link
-              href="/founding-cohort"
+              href="/sessions"
               className="inline-flex items-center gap-2 border border-teal-400 hover:bg-teal-600 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
             >
               {s(shared.cta_offer, lang)}

@@ -245,10 +245,10 @@ export default function NotTherapyPage() {
               Book a Free Orientation Call
             </a>
             <Link
-              href="/founding-cohort"
+              href="/sessions"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-medium rounded-full px-10 py-4 text-base transition-all"
             >
-              View the Offer
+              View Sessions
             </Link>
           </div>
           <p className="text-slate-400 text-sm mt-4">No commitment · Confidential · 15 minutes</p>

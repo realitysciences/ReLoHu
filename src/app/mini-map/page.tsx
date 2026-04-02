@@ -333,10 +333,10 @@ export default function MiniMapPage() {
             It may take a minute or two to arrive. Check your spam folder if you do not see it.
           </p>
           <a
-            href="/founding-cohort"
+            href="/sessions"
             className="inline-block bg-teal-600 hover:bg-teal-500 text-white px-8 py-3 rounded-full font-medium transition-colors text-sm"
           >
-            See the full Terrain Map offer
+            View Sessions
           </a>
           <Link
             href="/"

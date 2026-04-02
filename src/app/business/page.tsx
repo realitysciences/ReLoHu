@@ -203,15 +203,15 @@ export default function BusinessPage() {
               Book a Free Orientation Call
             </a>
             <Link
-              href="/founding-cohort"
+              href="/sessions"
               className="inline-flex items-center gap-2 border border-teal-400 hover:bg-teal-600 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
             >
-              View the Offer
+              View Sessions
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
           <p className="text-teal-300 text-xs mt-6">
-            Founding cohort: $497 through April. Five reports, 90-minute intake, Terrain Map reading session.
+            Full Session $497 · Terrain Session $250 · Five reports, 90-minute intake.
           </p>
         </div>
       </section>

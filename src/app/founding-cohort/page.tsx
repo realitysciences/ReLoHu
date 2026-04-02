@@ -151,6 +151,81 @@ export default function FoundingCohortPage() {
         </div>
       </section>
 
+      {/* ── Terrain Session (entry tier) ── */}
+      <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-8">Another way in</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-3 leading-snug">
+            Start with your map.
+          </h2>
+          <p className="text-slate-500 leading-relaxed mb-10 max-w-xl">
+            See what it produces. Everything else builds from there.
+          </p>
+
+          <div className="space-y-6 mb-10">
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center shrink-0 mt-0.5">
+                <Phone className="w-5 h-5 text-slate-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-700 mb-1">60-minute intake conversation</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  The same kind of conversation. David listens to what you say and how you say it. No script, no questionnaire. The session determines the map.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-full h-px bg-slate-200" />
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center shrink-0 mt-0.5">
+                <FileText className="w-5 h-5 text-slate-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-700 mb-1">Core pattern summary</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  A focused written document: your core psychological patterns, the upstream drivers behind how you behave, and what the session revealed. One to two pages. Precise. Yours to keep.
+                </p>
+              </div>
+            </div>
+
+            <div className="w-full h-px bg-slate-200" />
+
+            <div className="flex gap-6 items-start">
+              <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center shrink-0 mt-0.5">
+                <CheckCircle className="w-5 h-5 text-slate-400" />
+              </div>
+              <div>
+                <h3 className="font-medium text-slate-700 mb-1">Verbal readback before the call ends</h3>
+                <p className="text-slate-500 leading-relaxed text-sm">
+                  Before the session closes, David shares what he's finding, directly. Spoken, not written. Most people describe this as the part that lands hardest: hearing certain things about yourself named precisely, for the first time, by someone who was actually listening.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="p-7 bg-white border border-slate-200 rounded-2xl">
+            <div className="flex items-baseline justify-between mb-1">
+              <p className="text-2xl font-medium text-slate-800">$250</p>
+              <p className="text-sm text-slate-400 font-mono">Terrain Session</p>
+            </div>
+            <p className="text-slate-500 text-sm mb-6">60-minute intake, core pattern summary, verbal readback. One session, no ongoing commitment. If you want to go further after this, returning sessions pick up exactly where this leaves off.</p>
+            <a
+              href="https://calendly.com/relohu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full inline-flex items-center justify-center gap-2.5 bg-slate-800 hover:bg-slate-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all"
+            >
+              <Calendar className="w-4 h-4" />
+              Book a Terrain Session · $250
+            </a>
+            <p className="text-center text-slate-400 text-xs mt-3">Payment details shared after booking · No commitment before the call</p>
+          </div>
+        </div>
+      </section>
+
       {/* ── The Questions ── */}
       <section className="py-20 px-6 bg-white border-t border-slate-100">
         <div className="max-w-2xl mx-auto">

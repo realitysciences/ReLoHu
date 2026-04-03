@@ -70,8 +70,12 @@ export default function OriginsPage() {
             <p className="font-medium text-slate-700">
               That search, and that inheritance, is the origin of ReLoHu.
             </p>
-            <p className="text-slate-500 italic mt-2">
-              "I built a methodology for giving other people the experience of being met because it's the thing I most need and least reliably receive."
+            <blockquote className="text-slate-600 italic mt-6 leading-relaxed border-l-2 border-teal-200 pl-5">
+              "I have read the story of my life out loud to people I trust. They received it warmly. They said beautiful things. And then the conversation kept moving. That gap — between depth given and depth received — is what ReLoHu closes. Not through more effort or more care, but structurally. The service cannot move on. I built it that way on purpose. I built the tool I most needed. I am the only client who never sat in the chair."
+            </blockquote>
+            <p className="text-sm text-slate-400 font-medium mt-3 not-italic pl-5">Dr. David, Founder</p>
+            <p className="text-slate-500 leading-relaxed mt-8">
+              Most services in this space were designed from the outside. ReLoHu was designed from the inside — built by someone who had given more depth than he had received, who had been in every kind of professional room and left still partially unknown, and who finally stopped waiting for the right tool to exist and built it himself. That is not a marketing story. It is the literal origin of the methodology.
             </p>
           </div>
         </div>

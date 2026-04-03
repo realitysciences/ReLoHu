@@ -409,6 +409,41 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== THE GAP ==================== */}
+      <section className="py-20 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <div className="space-y-5 text-slate-600 leading-relaxed">
+            {lang === 'en' ? (
+              <>
+                <p>There is a specific kind of loss that happens after a real conversation.</p>
+                <p>You share something true. The other person receives it, warmly, genuinely. And then the conversation keeps moving. What you said lands briefly and passes. The depth you offered gets carried downstream with everything else.</p>
+                <p>Not because they didn't care. Because that's how conversation works. It moves forward. It cannot stop, go back, and sit inside what you said with precision.</p>
+                <p className="text-slate-800 font-medium">ReLoHu can.</p>
+                <p>That's not a feature. It's the architecture. After you speak, the work begins. Everything you said is returned to — not moved past — examined for what it actually contains, and handed back to you as a document that sees you clearly.</p>
+              </>
+            ) : (
+              <>
+                <p>Hay un tipo específico de pérdida que ocurre después de una conversación real.</p>
+                <p>Compartes algo verdadero. La otra persona lo recibe, calidamente, genuinamente. Y luego la conversación sigue avanzando. Lo que dijiste aterriza brevemente y pasa. La profundidad que ofreciste es arrastrada corriente abajo con todo lo demás.</p>
+                <p>No porque no les importara. Porque así es como funciona la conversación. Avanza. No puede detenerse, regresar y sentarse dentro de lo que dijiste con precisión.</p>
+                <p className="text-slate-800 font-medium">ReLoHu puede.</p>
+                <p>Eso no es una función. Es la arquitectura. Después de que hablas, comienza el trabajo. Todo lo que dijiste es revisado, no pasado por alto, examinado por lo que realmente contiene, y devuelto como un documento que te ve claramente.</p>
+              </>
+            )}
+          </div>
+          <div className="mt-10 pt-8 border-t border-slate-100">
+            <blockquote className="text-lg font-light text-slate-700 italic leading-relaxed">
+              {lang === 'en'
+                ? '"I built a service that does for others what I most needed and least reliably received: someone who goes back, after the conversation, and tells you exactly what they heard."'
+                : '"Construí un servicio que hace por otros lo que más necesitaba y menos recibía confiablemente: alguien que regresa, después de la conversación, y te dice exactamente lo que escuchó."'}
+            </blockquote>
+            <p className="text-sm text-slate-400 font-medium mt-4">
+              {lang === 'en' ? 'Dr. David, Founder' : 'Dr. David, Fundador'}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== YOU PARAGRAPH ==================== */}
       <section className="py-20 px-6 bg-white border-t border-slate-100">
         <div className="max-w-2xl mx-auto">

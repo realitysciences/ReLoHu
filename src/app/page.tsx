@@ -1115,6 +1115,54 @@ function LandingContent() {
         </div>
       </section>
 
+      {/* ==================== WHY THIS EXISTS ==================== */}
+      <section className="py-20 px-6 bg-slate-50 border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">
+            {lang === 'en' ? 'Why this exists' : 'Por que existe esto'}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-8 leading-snug">
+            {lang === 'en' ? 'ReLoHu wasn\'t designed. It was extracted.' : 'ReLoHu no fue diseñado. Fue extraido.'}
+          </h2>
+          <div className="space-y-5 text-slate-600 leading-relaxed">
+            {lang === 'en' ? (
+              <>
+                <p>
+                  Dr. David spent over a decade documenting his own interior life -- through psychedelic journeys, journals, recordings, and the kind of sustained self-examination that only becomes necessary when sustained external support was never reliably there. The methodology emerged from a specific wound: the experience of not being accurately perceived. Of being in the room but not quite reached. Of having depth that people could sense but not quite enter.
+                </p>
+                <p>
+                  That experience -- of being on the wrong side of a door from other people -- is what ReLoHu was built to address. Not as therapy. Not as a fix. As a map. Because you cannot be met at a depth that has never been named.
+                </p>
+                <p>
+                  Dr. David has conducted this work with clients across four continents. Every intake is done personally, by him. That has never changed.
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  El Dr. David paso mas de una decada documentando su propia vida interior -- a traves de viajes psicodeliticos, diarios, grabaciones y el tipo de autoexamen sostenido que solo se vuelve necesario cuando el apoyo externo sostenido nunca estuvo ahi de manera confiable. La metodologia surgio de una herida especifica: la experiencia de no ser percibido con precision. De estar en la habitacion pero no del todo alcanzado. De tener profundidad que las personas podian sentir pero no del todo entrar.
+                </p>
+                <p>
+                  Esa experiencia -- de estar al lado equivocado de una puerta respecto a otras personas -- es lo que ReLoHu fue construido para abordar. No como terapia. No como solucion. Como mapa. Porque no puedes ser encontrado a una profundidad que nunca ha sido nombrada.
+                </p>
+                <p>
+                  El Dr. David ha realizado este trabajo con clientes en cuatro continentes. Cada intake es realizado personalmente por el. Eso nunca ha cambiado.
+                </p>
+              </>
+            )}
+          </div>
+          <div className="mt-8">
+            <a
+              href="/origins"
+              className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors group"
+            >
+              {lang === 'en' ? 'Read the full origin story' : 'Leer la historia completa de origen'}
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== THE QUESTIONS ==================== */}
       <section className="py-20 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto">

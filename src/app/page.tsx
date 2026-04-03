@@ -784,6 +784,23 @@ function LandingContent() {
             </p>
           </div>
 
+          {/* Human / AI distinction callout */}
+          <div className="mb-6 border border-white/10 bg-white/5 rounded-2xl px-7 py-5 flex items-start gap-4">
+            <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+              <User className="w-5 h-5 text-white" />
+            </div>
+            <div>
+              <p className="text-white font-medium text-sm mb-1">
+                {lang === 'en' ? 'To be clear: Dr. David conducts every intake conversation personally.' : 'Para ser claro: Dr. David conduce cada conversación de intake personalmente.'}
+              </p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                {lang === 'en'
+                  ? 'You are talking to a human. The AI does not conduct the intake, ask questions, or interact with you in any way. Dr. David is physically present for the entire conversation. The AI only enters afterward — analyzing what emerged from that conversation to produce your reports.'
+                  : 'Estás hablando con un ser humano. La IA no conduce el intake, no hace preguntas, ni interactúa contigo de ninguna manera. Dr. David está físicamente presente durante toda la conversación. La IA solo entra después, analizando lo que emergió de esa conversación para producir tus reportes.'}
+              </p>
+            </div>
+          </div>
+
           <div className="mt-0 border border-teal-700/50 bg-teal-900/30 rounded-2xl px-7 py-5 flex items-start gap-4">
             <div className="w-10 h-10 rounded-xl bg-teal-800/60 flex items-center justify-center flex-shrink-0 mt-0.5">
               <Brain className="w-5 h-5 text-teal-400" />

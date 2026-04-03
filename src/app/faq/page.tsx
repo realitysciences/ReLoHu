@@ -36,6 +36,10 @@ const faqGroups = [
     label: 'The Session',
     items: [
       {
+        q: 'Does Dr. David personally conduct the intake conversation?',
+        a: 'Yes, every time. The intake conversation is conducted by Dr. David personally — not an AI, not a questionnaire, not an assistant. You are talking to a human being for the full duration of the session. The AI does not interact with you at any point during the intake. It enters only afterward, when it analyzes what emerged from the conversation to produce your reports. Dr. David designed both the questions he asks and the frameworks the AI uses to interpret what you shared.',
+      },
+      {
         q: 'What actually happens in a session?',
         a: 'A session is a one-to-one conversation, 90 minutes, with Dr. David. It is unscripted: the questions that matter most emerge from what you say, not from a fixed protocol. There\'s no advice, no therapeutic intervention, no goal-setting. Just careful, adaptive listening designed to surface who you are at depth. The conversation is carefully processed to produce your Terrain Map and any additional deliverables.',
       },

@@ -899,8 +899,8 @@ function LandingContent() {
           </div>
           <p className="text-center text-slate-400 text-xs mt-8">
             {lang === 'en'
-              ? <>Had a session? <a href="https://g.page/r/relohu/review" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline">Leave a Google Review →</a></>
-              : <>¿Tuviste una sesión? <a href="https://g.page/r/relohu/review" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline">Deja una Reseña en Google →</a></>
+              ? <>Had a session? <a href="https://g.page/r/CRAckoZUg7uCEBM/review" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline">Leave a Google Review →</a></>
+              : <>¿Tuviste una sesión? <a href="https://g.page/r/CRAckoZUg7uCEBM/review" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline">Deja una Reseña en Google →</a></>
             }
           </p>
         </div>

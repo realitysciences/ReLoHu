@@ -99,7 +99,7 @@ export default async function TestimonialsPage() {
               <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase">Verified Google Reviews</p>
               <div className="flex-1 h-px bg-slate-100" />
               <a
-                href={`https://www.google.com/maps/place/?q=place_id:${placeId}`}
+                href="https://g.page/r/CRAckoZUg7uCEBM/review"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-xs text-slate-400 hover:text-teal-600 transition-colors"
@@ -136,7 +136,7 @@ export default async function TestimonialsPage() {
             If you have had a session and want to share what it was like, Dr. David would be grateful. It takes about two minutes and helps others find the work.
           </p>
           <a
-            href="https://search.google.com/local/writereview?placeid=ChIJx10Z7OujD0EREByShlSDu4I"
+            href="https://g.page/r/CRAckoZUg7uCEBM/review"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-3.5 text-sm transition-all hover:shadow-lg hover:shadow-teal-100"

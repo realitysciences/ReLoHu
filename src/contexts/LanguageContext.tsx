@@ -43,6 +43,7 @@ const translations: Record<Language, Record<string, string>> = {
     'agitation.subtitle': 'But it also keeps you alone.',
     'agitation.text1': "You built it for survival. When your authentic self was rejected, when you were told the problem was inside you and not around you, you learned to hide the real you.",
     'agitation.text2': "Now you're successful on the outside. Functional. Maybe even impressive. But inside, there's a world no one has fully entered. Not because you won't let them, but because they can't find the door.",
+    'agitation.text3': "Most people spend their entire lives running on settings they never chose. The patterns were installed before you had words for them — shaping every relationship, every decision, every room you walk into. They have never been named. That is what ReLoHu does.",
     'agitation.quote': '"I need someone who won\'t try to fix me. I need someone who can see the whole map of who I am, and stay."',
 
     // Solution Section
@@ -176,6 +177,7 @@ const translations: Record<Language, Record<string, string>> = {
     'agitation.subtitle': 'Pero también te mantiene solo.',
     'agitation.text1': 'La construiste para sobrevivir. Cuando tu yo auténtico fue rechazado, cuando te dijeron que el problema estaba dentro de ti y no alrededor, aprendiste a esconder el verdadero tú.',
     'agitation.text2': 'Ahora eres exitoso por fuera. Funcional. Tal vez incluso impresionante. Pero por dentro, hay un mundo que nadie ha entrado completamente. No porque no los dejes, sino porque no pueden encontrar la puerta.',
+    'agitation.text3': 'La mayoría de las personas pasa toda su vida ejecutando configuraciones que nunca eligió. Los patrones fueron instalados antes de que tuvieras palabras para ellos — moldeando cada relación, cada decisión, cada lugar al que entras. Nunca han sido nombrados. Eso es lo que hace ReLoHu.',
     'agitation.quote': '"Necesito alguien que no intente arreglarme. Necesito alguien que pueda ver el mapa completo de quien soy, y quedarse."',
 
     // Solution Section

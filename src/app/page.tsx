@@ -391,6 +391,9 @@ function LandingContent() {
             <p className="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
               {t('agitation.text2')}
             </p>
+            <p className="text-lg text-slate-700 font-medium leading-relaxed max-w-3xl mx-auto">
+              {t('agitation.text3')}
+            </p>
 
             <div className="py-12">
               <Card className="bg-gradient-to-br from-teal-50 to-slate-50 border-teal-100 max-w-2xl mx-auto shadow-sm">

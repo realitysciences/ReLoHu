@@ -44,6 +44,37 @@ export default function TherapistsPage() {
         </div>
       </section>
 
+      {/* ==================== DEEP WORK RECOGNITION ==================== */}
+      <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-800 mb-8 leading-snug">
+            You know what it is to sit with someone who finally feels seen.
+          </h2>
+          <div className="space-y-5 text-slate-600 leading-relaxed">
+            <p>
+              You have spent years creating that experience for others. But the person who arrives in your office has usually spent the first several sessions just explaining themselves. You are doing real work, but you are starting from scratch every time. ReLoHu changes what walks through your door. Your client arrives already mapped. Already witnessed. Already holding a document that names their patterns, their origin architecture, their central wound, and their relational terrain. You skip the intake phase entirely and begin from a place most practitioners never reach.
+            </p>
+            <p>
+              Therapists who have experienced a ReLoHu session themselves describe something specific: being on the receiving end of questions that follow them rather than a script, and receiving back a portrait that captures things they had never quite articulated. For practitioners who spend their days as the listener, being on the receiving end is disorienting in the best way. The session does not feel like an assessment. It feels like finally being asked the right questions.
+            </p>
+            <p className="italic text-slate-500">
+              If you work with people who are psychologically sophisticated, highly self-aware, and still not fully known, ReLoHu was built for exactly that person.
+            </p>
+          </div>
+          <div className="mt-10">
+            <a
+              href="https://calendly.com/relohu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 bg-teal-600 hover:bg-teal-700 text-white font-medium rounded-full px-8 py-4 text-base transition-all hover:shadow-lg hover:shadow-teal-100"
+            >
+              <Calendar className="w-4 h-4" />
+              Book a session for yourself first
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== THE ORIENTATION PROBLEM ==================== */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-2xl mx-auto">

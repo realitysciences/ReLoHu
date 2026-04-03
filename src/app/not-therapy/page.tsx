@@ -154,6 +154,47 @@ export default function NotTherapyPage() {
         </div>
       </section>
 
+      {/* ==================== THERAPY CONTRAST ==================== */}
+      <section className="py-20 px-6 bg-slate-900">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-12">
+            <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-4">The structural difference</p>
+            <h2 className="text-2xl md:text-3xl font-medium text-white">
+              This is not a rebranded therapy session.
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-slate-700 mb-10">
+            <div className="bg-slate-800 p-8 border-b md:border-b-0 md:border-r border-slate-700">
+              <p className="text-[10px] font-mono tracking-[0.35em] text-slate-500 uppercase mb-6">When you tell a therapist you&apos;re not doing well</p>
+              <div className="space-y-4 text-slate-400 leading-relaxed">
+                <p>
+                  Your disclosure becomes material to work with. The therapist is listening toward something -- a pattern to address, a treatment goal.
+                </p>
+                <p>
+                  Even the most empathic clinician is simultaneously categorizing. What you share gets metabolized into a clinical frame. It becomes evidence of something that needs to change.
+                </p>
+              </div>
+            </div>
+            <div className="bg-teal-900/30 p-8">
+              <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-6">When you tell ReLoHu you&apos;re not doing well</p>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  Your disclosure becomes part of your map. It isn&apos;t evidence of a problem -- it&apos;s terrain.
+                </p>
+                <p>
+                  It gets witnessed and placed in relation to everything else you are. You&apos;re not a patient presenting symptoms. You&apos;re a landscape being seen clearly, possibly for the first time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-slate-400 text-base max-w-2xl leading-relaxed">
+            The distinction is not about warmth or skill. A good therapist is warm. The distinction is structural: what listening is <span className="text-white font-medium">for</span>. In therapy, listening is in service of treatment. In ReLoHu, listening is the point.
+          </p>
+        </div>
+      </section>
+
       {/* ==================== WHAT RELOHU ACTUALLY IS ==================== */}
       <section className="py-20 px-6 bg-slate-50 border-y border-slate-100">
         <div className="max-w-2xl mx-auto">

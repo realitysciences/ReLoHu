@@ -94,6 +94,10 @@ const faqGroups = [
         a: 'Everything before the analysis. The Intake Specialist\'s role is not to interpret. It\'s to listen and ask the next right question. That craft determines the richness and depth of what gets captured. The analysis can only work with what\'s there. Shallow input produces shallow output, regardless of how sophisticated the analysis is.',
       },
       {
+        q: 'Why doesn\'t being told true things about myself work the same way?',
+        a: 'Because being seen accurately is a consent problem, not an accuracy problem. People have to agree to update their map of themselves — and that agreement cannot be forced by information alone. A partner can tell you something true and you will defend against it. A therapist can offer an accurate insight and it will slide past. The intake conversation creates conditions where that consent happens naturally: you are not being confronted with accuracy, you are actively choosing to be seen. That structural difference is why the map lands differently than feedback does.',
+      },
+      {
         q: 'Is Dr. David acting as a therapist or AI prompt engineer during the session?',
         a: 'Neither. The role is closer to a master diagnostician or skilled interviewer, someone whose primary craft is listening and asking the next right question. No therapeutic interpretation. No scripted prompts. Just adaptive, disciplined attention.',
       },

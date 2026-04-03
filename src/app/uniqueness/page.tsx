@@ -323,6 +323,9 @@ export default function UniquenessPage() {
               <p className="text-slate-400 leading-relaxed mb-4">
                 The human witness is irreplaceable. The depth of the conversation cannot be automated. But what that conversation produces, when run through Transcengine™, ReLoHu's proprietary AI analysis system, is something that would have taken a skilled practitioner a year of careful observation to assemble. That is what 2026 makes possible.
               </p>
+              <p className="text-slate-400 leading-relaxed mb-4">
+                There is also a subtler thing the intake does. Being told accurate things about yourself by a therapist, a partner, or anyone else who cares about you can still feel like confrontation. The accuracy doesn't always land. That is not a truth-delivery problem. It is a consent problem. People have to agree to update their map of themselves — and that agreement cannot be forced by information alone. The intake creates conditions where that agreement happens naturally: where you are not being confronted with accuracy, but are actively choosing to be seen. That is why it works differently.
+              </p>
               <p className="text-slate-500 leading-relaxed border-t border-slate-700 pt-6 text-sm">
                 There will always be companies building AI tools for psychology. Most are built by people who saw an opportunity. This was built by someone who needed it, who spent a decade unable to find what he was trying to build, and finally built it himself. That is not a positioning statement. It is just what happened.
               </p>

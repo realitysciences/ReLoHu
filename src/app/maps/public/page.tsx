@@ -12,15 +12,85 @@ const figures = [
     slug: 'joe-rogan',
     name: 'Joe Rogan',
     field: 'Comedian, podcast host, UFC commentator',
-    hook: 'Thousands of hours of self-disclosure on tape. An accidental autobiography -- and one of the clearest examples of a wound organizing an entire career without the person fully naming it.',
+    hook: 'Thousands of hours of self-disclosure on tape. An accidental autobiography and one of the clearest examples of a wound organizing an entire career without the person fully naming it.',
     tags: ['Origin architecture', 'Wound-to-method', 'Anti-credential epistemology', 'Relational register'],
   },
   {
     slug: 'eckhart-tolle',
     name: 'Eckhart Tolle',
     field: 'Spiritual teacher, author of The Power of Now',
-    hook: 'One of the most complete cases of a wound becoming a method. His framework maps the observer\'s interior with extraordinary precision -- and stops exactly where ReLoHu begins.',
+    hook: 'One of the most complete cases of a wound becoming a method. His framework maps the observer\'s interior with extraordinary precision and stops exactly where ReLoHu begins.',
     tags: ['Wound-to-method', 'Universalizing shadow', 'Relational gap', 'The particular vs. the universal'],
+  },
+  {
+    slug: 'kanye-west',
+    name: 'Kanye West',
+    field: 'Rapper, producer, designer',
+    hook: 'Grandiosity as wound-covering. The collapsed boundary between artistic vision and self. Probably the most documented real-time psychological unraveling in public life and one of the most legible terrain maps available.',
+    tags: ['Grandiosity as defense', 'Loss of primary witness', 'Collapsed self-art boundary', 'Public unraveling'],
+  },
+  {
+    slug: 'brene-brown',
+    name: 'Brene Brown',
+    field: 'Research professor, author, speaker',
+    hook: 'The researcher who built a career on vulnerability while the question of her own remains productively open. The meta-layer is where it gets interesting.',
+    tags: ['Researcher\'s position', 'Meta-layer analysis', 'Vulnerability as vocation', 'What stays off the map'],
+  },
+  {
+    slug: 'elon-musk',
+    name: 'Elon Musk',
+    field: 'Entrepreneur, CEO of Tesla, SpaceX, X',
+    hook: 'Control architecture as a response to early powerlessness. The man who builds systems of total influence while describing a childhood of total isolation.',
+    tags: ['Control architecture', 'Early powerlessness', 'Systems as wound response', 'Relational register'],
+  },
+  {
+    slug: 'oprah-winfrey',
+    name: 'Oprah Winfrey',
+    field: 'Media executive, talk show host, philanthropist',
+    hook: 'Witnessing as vocation. Someone who metabolized a brutal early life into a decades-long practice of making others feel seen and the complexity of what that costs.',
+    tags: ['Witnessing as vocation', 'Wound-to-method', 'The cost of the practice', 'Body as register'],
+  },
+  {
+    slug: 'prince-harry',
+    name: 'Prince Harry',
+    field: 'Duke of Sussex, author, mental health advocate',
+    hook: 'Identity rupture in public. The second son navigating institutional belonging, inherited trauma, and a very loud attempt at self-authorship.',
+    tags: ['Second son structure', 'Institutional grief', 'Identity rupture', 'Self-authorship in progress'],
+  },
+  {
+    slug: 'simone-biles',
+    name: 'Simone Biles',
+    field: 'Olympic gymnast, most decorated American gymnast in history',
+    hook: 'The body as both instrument and limit. What it looks like when someone finally stops performing invincibility and what made that act possible.',
+    tags: ['Body as instrument', 'Invincibility performance', 'The cost of excellence', 'The act of stopping'],
+  },
+  {
+    slug: 'anthony-bourdain',
+    name: 'Anthony Bourdain',
+    field: 'Chef, author, television host (1956-2018)',
+    hook: 'The seeker who couldn\'t be filled. Restlessness as both gift and fate and what happens when the moving stops.',
+    tags: ['Restlessness as vector', 'The seeker structure', 'Witnessing others', 'The unfillable gap'],
+  },
+  {
+    slug: 'malala-yousafzai',
+    name: 'Malala Yousafzai',
+    field: 'Education activist, Nobel Peace Prize laureate',
+    hook: 'Wound converted to mission with unusual cleanness. Worth mapping precisely because the integration appears so complete what is underneath that?',
+    tags: ['Wound-to-mission', 'The cost of becoming a symbol', 'Integration question', 'The particular beneath the universal'],
+  },
+  {
+    slug: 'steve-jobs',
+    name: 'Steve Jobs',
+    field: 'Co-founder of Apple, NeXT, and Pixar (1955-2011)',
+    hook: 'Abandonment as engine. The man who controlled everything except the thing that formed him first.',
+    tags: ['Abandonment architecture', 'Control as wound response', 'The biography impulse', 'Relational cost'],
+  },
+  {
+    slug: 'naomi-osaka',
+    name: 'Naomi Osaka',
+    field: 'Professional tennis player, four-time Grand Slam champion',
+    hook: 'The cost of excellence performed for others. What happens when a quiet person is handed a very loud platform and finally names the price.',
+    tags: ['Quiet person, loud platform', 'The cost of visibility', 'The act of naming', 'Identity and belonging'],
   },
 ]
 
@@ -41,7 +111,7 @@ export default function PublicMapsIndexPage() {
             <span className="text-teal-300">looks like in practice.</span>
           </h1>
           <p className="text-slate-300 text-lg leading-relaxed mb-6">
-            The best way to understand what a Terrain Map does is to see one. These are demonstrations of the ReLoHu methodology applied to public figures whose interior lives are extensively documented -- through their own writing, interviews, and biographical record.
+            The best way to understand what a Terrain Map does is to see one. These are demonstrations of the ReLoHu methodology applied to public figures whose interior lives are extensively documented through their own writing, interviews, and biographical record.
           </p>
           <p className="text-slate-500 text-sm leading-relaxed border-l-2 border-slate-700 pl-4">
             These are cartographic exercises, not clinical assessments or diagnoses. All content is drawn from publicly available material. No private sessions or personal contact of any kind.
@@ -86,7 +156,7 @@ export default function PublicMapsIndexPage() {
           <div className="mt-12 py-8 border border-dashed border-slate-200 rounded-xl px-6 text-center">
             <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-2">This archive is growing</p>
             <p className="text-slate-500 text-sm leading-relaxed max-w-md mx-auto">
-              New figures are added as the methodology warrants it. The selection criterion is not fame but documentation -- public figures whose interior lives are rich enough to map with specificity.
+              New figures are added as the methodology warrants it. The selection criterion is not fame but documentation public figures whose interior lives are rich enough to map with specificity.
             </p>
           </div>
         </div>
@@ -96,7 +166,7 @@ export default function PublicMapsIndexPage() {
       <section className="py-16 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed mb-6 max-w-lg">
-            These maps demonstrate the methodology. A session produces the same quality of attention -- applied to you, not a public figure, and drawing on everything you actually share rather than what is in the public record.
+            These maps demonstrate the methodology. A session produces the same quality of attention applied to you, not a public figure, and drawing on everything you actually share rather than what is in the public record.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a

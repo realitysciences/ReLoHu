@@ -376,6 +376,45 @@ export default function SessionsPage() {
         </div>
       </section>
 
+      {/* ── Real Session Reports ── */}
+      <section className="py-20 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">What you actually receive</p>
+          <h2 className="text-2xl font-medium text-slate-800 mb-3 leading-snug">Read a real session report.</h2>
+          <p className="text-slate-500 text-sm leading-relaxed mb-10 max-w-lg">
+            These are anonymized Terrain Maps from real sessions, shared with client permission. The identifying details are redacted. The depth, structure, and language are exactly as delivered. This is what you leave with.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              {
+                href: '/sample-report',
+                label: 'Example Report 1',
+                desc: 'Full Session · Terrain Map',
+              },
+              {
+                href: '/sample-report-2',
+                label: 'Example Report 2',
+                desc: 'Full Session · Terrain Map',
+              },
+            ].map(({ href, label, desc }) => (
+              <Link
+                key={href}
+                href={href}
+                className="group flex items-start gap-4 border border-slate-100 hover:border-teal-200 rounded-xl p-6 transition-all hover:shadow-sm"
+              >
+                <div className="w-10 h-10 rounded-lg bg-slate-50 group-hover:bg-teal-50 flex items-center justify-center shrink-0 transition-colors">
+                  <FileText className="w-5 h-5 text-slate-400 group-hover:text-teal-600 transition-colors" />
+                </div>
+                <div>
+                  <p className="font-medium text-slate-800 text-sm mb-1 group-hover:text-teal-700 transition-colors">{label}</p>
+                  <p className="text-[10px] font-mono tracking-widest text-slate-400 uppercase">{desc}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Final CTA ── */}
       <section className="py-20 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto text-center">

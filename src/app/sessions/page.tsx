@@ -436,19 +436,35 @@ export default function SessionsPage() {
         </div>
       </section>
 
-      {/* ── Public Maps Bridge ── */}
+      {/* ── See the work ── */}
       <section className="py-16 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-4">See the methodology in action</p>
-          <p className="text-slate-600 leading-relaxed mb-6 max-w-lg">
-            Want to see how the methodology reads before booking? The same cartographic approach applied to public figures, songs, and live events, based entirely on public record.
-          </p>
-          <Link
-            href="/maps/public"
-            className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors group"
-          >
-            Browse example maps →
-          </Link>
+          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-4">See the work</p>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div>
+              <p className="text-slate-800 font-medium text-sm mb-2">Real Terrain Maps</p>
+              <p className="text-slate-500 text-sm leading-relaxed mb-3">
+                Anonymized reports from real sessions. The actual document you receive.
+              </p>
+              <div className="flex flex-col gap-2">
+                <Link href="/sample-report" className="text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors">
+                  Sample Report #1 →
+                </Link>
+                <Link href="/sample-report-2" className="text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors">
+                  Sample Report #2 →
+                </Link>
+              </div>
+            </div>
+            <div>
+              <p className="text-slate-800 font-medium text-sm mb-2">Example Maps</p>
+              <p className="text-slate-500 text-sm leading-relaxed mb-3">
+                The methodology applied to public figures, songs, and live events.
+              </p>
+              <Link href="/maps/public" className="text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors">
+                Browse example maps →
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

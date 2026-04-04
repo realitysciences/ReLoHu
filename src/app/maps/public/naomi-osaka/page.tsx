@@ -50,6 +50,21 @@ export default function NaomiOsakaMapPage() {
           </p>
         </div>
       </section>
+      {/* ==================== VIDEO EMBED ==================== */}
+      <section className="px-6 bg-slate-900 pb-12">
+        <div className="max-w-2xl mx-auto">
+          <div className="rounded-2xl overflow-hidden border border-slate-700/50 aspect-video">
+            <iframe
+              src="https://www.youtube.com/embed/pvdofQlqG7s"
+              title="Naomi Osaka"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
         <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">

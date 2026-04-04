@@ -99,6 +99,7 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
             label="The Work"
             items={[
               { href: '/sample-report', text: 'Sample Report', sub: 'A real Terrain Map, anonymized' },
+              { href: '/mini-map', text: 'Free Map Fragment', sub: 'Five questions, five minutes' },
               { href: '/maps', text: 'The Maps', sub: 'The full map library' },
               { href: '/maps/public', text: 'Example Maps', sub: 'Public figures, mapped' },
               { href: '/practice', text: 'The Practice', sub: 'A lifelong cartographic practice' },
@@ -185,6 +186,9 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
             <div className="flex flex-col gap-1 pl-3 mb-1">
               <Link href="/sample-report" className="py-2 text-sm font-semibold text-teal-600 hover:text-teal-700" onClick={() => setMenuOpen(false)}>
                 Sample Report
+              </Link>
+              <Link href="/mini-map" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
+                Free Map Fragment
               </Link>
               <Link href="/maps" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
                 The Maps

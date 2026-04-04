@@ -101,27 +101,6 @@ export default function PracticePage() {
         </div>
       </section>
 
-      {/* ==================== MEMBERSHIP PLACEHOLDER ==================== */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-6">The Practice Membership</p>
-          <div className="border border-slate-200 rounded-2xl p-8 bg-slate-50">
-            <h2 className="text-xl font-medium text-slate-700 mb-3">Coming soon.</h2>
-            <p className="text-slate-500 text-sm leading-relaxed">
-              A formal practice membership is in development — a structured way to maintain an active practice over time, with priority scheduling, returning client rates, and a growing map archive. If you are interested in being part of the first cohort, reach out directly.
-            </p>
-            <div className="mt-6">
-              <Link
-                href="/contact"
-                className="text-sm text-teal-600 hover:text-teal-700 font-medium"
-              >
-                Express interest →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ==================== CTA ==================== */}
       <section className="py-20 px-6 bg-teal-700">
         <div className="max-w-2xl mx-auto text-center">

@@ -114,12 +114,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: `${base}/gift`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
       url: `${base}/blog`,
       lastModified: now,
       changeFrequency: 'weekly',
@@ -172,6 +166,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: 'yearly',
       priority: 0.2,
+    },
+    // Public figure maps
+    ...[
+      'anthony-bourdain', 'brene-brown', 'darryl-anka', 'eckhart-tolle',
+      'elon-musk', 'joe-rogan', 'kanye-west', 'kill-tony-574',
+      'malala-yousafzai', 'naomi-osaka', 'oprah-winfrey', 'prince-harry',
+      'simone-biles', 'steve-jobs', 'taylor-swift', 'trent-reznor',
+    ].map((slug) => ({
+      url: `${base}/maps/public/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.4,
+    })),
+    // Nested maps (songs, voices, episodes)
+    ...[
+      'taylor-swift/all-too-well',
+      'trent-reznor/closer',
+      'darryl-anka/bashar',
+    ].map((slug) => ({
+      url: `${base}/maps/public/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.3,
+    })),
+    // Evidence page
+    {
+      url: `${base}/evidence`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
     },
   ]
 }

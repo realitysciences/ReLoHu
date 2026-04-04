@@ -18,7 +18,7 @@ export default function ReturningClientsPage() {
         <div className="max-w-2xl mx-auto">
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">ReLoHu · Returning Clients</p>
           <h1 className="text-4xl md:text-5xl font-medium leading-tight mb-6 tracking-tight text-slate-800">
-            Because I already know<br />your terrain.
+            Because Dr. David already knows<br />your terrain.
           </h1>
           <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
             We can move faster and go further. The existing map means you don't start from scratch. You start from a foundation. Three paths exist for returning clients, depending on what you're ready for next.

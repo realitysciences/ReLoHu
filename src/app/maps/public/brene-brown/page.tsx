@@ -40,7 +40,7 @@ export default function BreneBrownMapPage() {
         </div>
         <div className="relative max-w-2xl mx-auto">
           <Link href="/maps/public" className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-300 text-sm mb-8 transition-colors">
-            <- Example Maps
+            ← Example Maps
           </Link>
           <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-4">Terrain Map · Public Figure</p>
           <h1 className="text-3xl md:text-5xl font-medium text-white leading-tight mb-4">Brene Brown</h1>
@@ -83,7 +83,7 @@ export default function BreneBrownMapPage() {
               Book a Free Orientation Call
             </a>
             <Link href="/maps/public" className="inline-flex items-center gap-2 border border-slate-200 hover:border-teal-300 text-slate-600 hover:text-teal-600 font-medium rounded-full px-8 py-4 text-sm transition-all">
-              <- Back to Example Maps
+              ← Back to Example Maps
             </Link>
           </div>
         </div>

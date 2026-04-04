@@ -51,7 +51,7 @@ export default function ElonMuskMapPage() {
         </div>
       </section>
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
-        <div className="max-w-2xl mx-auto md:ml-[3.5rem] md:pl-6">
+        <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">
             Control architecture as a response to early powerlessness. The man who builds systems of total influence while describing a childhood of total isolation.
           </p>

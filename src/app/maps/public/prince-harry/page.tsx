@@ -51,7 +51,7 @@ export default function PrinceHarryMapPage() {
         </div>
       </section>
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
-        <div className="max-w-2xl mx-auto md:ml-[3.5rem] md:pl-6">
+        <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">
             Identity rupture in public. The second son navigating institutional belonging, inherited trauma, and a very loud attempt at self-authorship.
           </p>

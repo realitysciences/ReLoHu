@@ -55,7 +55,7 @@ export default function KanyeWestMapPage() {
         </div>
       </section>
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
-        <div className="max-w-2xl mx-auto md:ml-[3.5rem] md:pl-6">
+        <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">
             Grandiosity as wound-covering. The collapsed boundary between artistic vision and self. Probably the most documented real-time psychological unraveling in public life and one of the most legible terrain maps available.
           </p>

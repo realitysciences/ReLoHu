@@ -59,7 +59,7 @@ export default function EckhartTolleMapPage() {
 
       {/* ==================== WHY THIS PERSON ==================== */}
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
-        <div className="max-w-2xl mx-auto ml-0 md:ml-[3.5rem] md:pl-6">
+        <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">
             Tolle is one of the most documented cases of a wound becoming a method. His interior life before and after his 1977 awakening is the subject of everything he has ever published. He is also the clearest example of what a highly developed map of the observer's interior looks like, and where that map runs out.
           </p>

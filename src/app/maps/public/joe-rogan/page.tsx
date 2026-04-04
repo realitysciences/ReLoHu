@@ -59,7 +59,7 @@ export default function JoeRoganMapPage() {
 
       {/* ==================== WHY THIS PERSON ==================== */}
       <section className="py-12 px-6 bg-slate-50 border-b border-slate-100">
-        <div className="max-w-2xl mx-auto ml-0 md:ml-[3.5rem] md:pl-6">
+        <div className="max-w-2xl mx-auto">
           <p className="text-slate-600 leading-relaxed italic">
             Rogan has produced thousands of hours of self-disclosure on tape more than almost any public figure alive. The JRE is, among other things, an accidental autobiography: thousands of hours of him processing his thinking in real time, with the full range of his curiosity and his blind spots on display. His terrain is unusually mappable precisely because he has never stopped talking.
           </p>

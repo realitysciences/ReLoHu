@@ -86,6 +86,20 @@ const figures = [
     tags: ['Abandonment architecture', 'Control as wound response', 'The biography impulse', 'Relational cost'],
   },
   {
+    slug: 'taylor-swift',
+    name: 'Taylor Swift',
+    field: 'Singer-songwriter, producer, re-recorder of her own catalog',
+    hook: 'The documentation impulse as wound response. Someone who writes everything down before it can be taken from her — and built one of the most metatextually aware bodies of work alive.',
+    tags: ['Documentation as defense', 'Epistemic wound', 'Vindication arc', 'The metacognitive split'],
+  },
+  {
+    slug: 'trent-reznor',
+    name: 'Trent Reznor',
+    field: 'Musician, producer, composer · Nine Inch Nails',
+    hook: 'The wound that built a world. One of the clearest cases of interior pain becoming total sonic architecture — and one of the most legible examples of what terrain in genuine resolution looks like.',
+    tags: ['Wound-as-architecture', 'Control as wound response', 'Sobriety rupture', 'Late-work resolution'],
+  },
+  {
     slug: 'naomi-osaka',
     name: 'Naomi Osaka',
     field: 'Professional tennis player, four-time Grand Slam champion',

@@ -89,6 +89,7 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
               { href: '/origins', text: 'Origins', sub: 'Why Dr. David built this' },
               { href: '/uniqueness', text: 'The Difference', sub: 'What makes ReLoHu distinct' },
               { href: '/not-therapy', text: 'Not Therapy', sub: 'How it differs from treatment' },
+              { href: '/evidence', text: 'The Evidence', sub: 'Peer-reviewed research base' },
             ]}
           />
           <Link href="/sessions" className="text-sm font-semibold text-teal-600 hover:text-teal-700 transition-colors">
@@ -161,6 +162,9 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
               </Link>
               <Link href="/not-therapy" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
                 Not Therapy
+              </Link>
+              <Link href="/evidence" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
+                The Evidence
               </Link>
             </div>
           )}

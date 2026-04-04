@@ -136,8 +136,8 @@ export default function SampleReportNickPage() {
               <div className="flex items-start justify-between mb-10">
                 <img src="/relohu-logo.png" alt="ReLoHu" className="h-7 w-auto object-contain opacity-90" />
                 <div className="text-right">
-                  <p className="text-slate-400 text-[10px] tracking-widest uppercase font-mono">Session 001</p>
-                  <p className="text-slate-700 text-sm font-medium">March 2026</p>
+                  <p className="text-slate-400 text-[10px] tracking-widest uppercase font-mono">Terrain Map</p>
+                  <p className="text-slate-700 text-sm font-medium">Full Session</p>
                 </div>
               </div>
 
@@ -146,7 +146,7 @@ export default function SampleReportNickPage() {
                 <div className="flex items-center justify-center mb-6"><R w="xl" /></div>
                 <div className="w-16 h-px bg-teal-200 mx-auto mb-4" />
                 <p className="text-slate-500 italic text-sm tracking-wide">
-                  <R w="xs" />&nbsp; · &nbsp;<R w="xl" />&nbsp; · &nbsp;March 2026
+                  <R w="xs" />&nbsp; · &nbsp;<R w="xl" />
                 </p>
               </div>
 
@@ -278,7 +278,7 @@ export default function SampleReportNickPage() {
               <span className="text-teal-100 text-[10px] font-mono tracking-widest uppercase">
                 ReLoHu Terrain Map · <R w="sm" /> · Pt. 1
               </span>
-              <span className="text-teal-200 text-[10px] font-mono tracking-widest uppercase">Witnessed and mapped · March 2026</span>
+              <span className="text-teal-200 text-[10px] font-mono tracking-widest uppercase">Confidential · relohu.com</span>
             </div>
 
           </div>

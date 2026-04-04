@@ -120,6 +120,9 @@ export default function KillTony574MapPage() {
           <p className="text-slate-600 leading-relaxed mb-6 max-w-lg">
             This map was built from a single episode transcript. A session produces the same quality of attention applied to you, with full information rather than reconstructed signal.
           </p>
+          <p className="text-slate-600 leading-relaxed mb-6 max-w-lg">
+            None of the individuals featured in this map are ReLoHu clients or affiliated with ReLoHu in any way.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="https://calendly.com/relohu"

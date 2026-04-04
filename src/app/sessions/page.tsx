@@ -27,6 +27,59 @@ export default function SessionsPage() {
         </div>
       </section>
 
+      {/* ── See what you actually receive — REAL REPORTS ── */}
+      <section className="py-20 px-6 bg-slate-900">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-400 uppercase mb-6">See what you actually receive</p>
+          <h2 className="text-2xl md:text-3xl font-medium text-white mb-3 leading-snug">Read a real Terrain Map before you decide.</h2>
+          <p className="text-slate-400 leading-relaxed mb-10 max-w-lg">
+            These are anonymized Terrain Maps from real sessions, shared with client permission. The identifying details are redacted. The depth, structure, and language are exactly as delivered. This is what you leave with.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-5">
+            {[
+              {
+                href: '/sample-report',
+                num: '01',
+                title: 'Trauma survival, identity excavation, radical self-construction',
+                tags: ['Central wound', 'Relational terrain', 'Core vectors'],
+              },
+              {
+                href: '/sample-report-2',
+                num: '02',
+                title: 'Sovereignty, spiritual awakening, the bridge archetype',
+                tags: ['Formative architecture', 'Core seeing', 'Insights for the path ahead'],
+              },
+            ].map(({ href, num, title, tags }) => (
+              <Link
+                key={href}
+                href={href}
+                className="group block bg-slate-800 border border-slate-700 rounded-2xl p-6 hover:border-teal-500 hover:shadow-lg hover:shadow-teal-900/20 transition-all duration-300"
+              >
+                <p className="text-[9px] font-mono tracking-[0.3em] text-teal-400 uppercase mb-3">
+                  Real Session Report {num}
+                </p>
+                <p className="text-white font-medium leading-snug mb-4 group-hover:text-teal-200 transition-colors">
+                  {title}
+                </p>
+                <div className="flex flex-wrap gap-2 mb-5">
+                  {tags.map((tag) => (
+                    <span key={tag} className="text-[10px] font-mono tracking-wide text-slate-500 bg-slate-700/50 border border-slate-700 px-2 py-0.5 rounded-full">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <span className="text-teal-400 text-sm font-medium group-hover:text-teal-300 transition-colors">
+                  Read this report →
+                </span>
+              </Link>
+            ))}
+          </div>
+          <p className="text-slate-600 text-xs mt-6 leading-relaxed">
+            Names and identifying details are anonymized. The writing, structure, and depth are unchanged.
+          </p>
+        </div>
+      </section>
+
       {/* ── Free orientation call — most prominent CTA ── */}
       <section className="py-14 px-6 bg-teal-50 border-b border-teal-100">
         <div className="max-w-2xl mx-auto">
@@ -376,42 +429,19 @@ export default function SessionsPage() {
         </div>
       </section>
 
-      {/* ── Real Session Reports ── */}
-      <section className="py-20 px-6 bg-white border-t border-slate-100">
+      {/* ── Public Maps Bridge ── */}
+      <section className="py-16 px-6 bg-slate-50 border-t border-slate-100">
         <div className="max-w-2xl mx-auto">
-          <p className="text-[10px] font-mono tracking-[0.35em] text-teal-600 uppercase mb-6">What you actually receive</p>
-          <h2 className="text-2xl font-medium text-slate-800 mb-3 leading-snug">Read a real session report.</h2>
-          <p className="text-slate-500 text-sm leading-relaxed mb-10 max-w-lg">
-            These are anonymized Terrain Maps from real sessions, shared with client permission. The identifying details are redacted. The depth, structure, and language are exactly as delivered. This is what you leave with.
+          <p className="text-[10px] font-mono tracking-[0.35em] text-slate-400 uppercase mb-4">See the methodology in action</p>
+          <p className="text-slate-600 leading-relaxed mb-6 max-w-lg">
+            Want to see how the methodology reads before booking? The same cartographic approach applied to public figures, songs, and live events, based entirely on public record.
           </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {[
-              {
-                href: '/sample-report',
-                label: 'Example Report 1',
-                desc: 'Full Session · Terrain Map',
-              },
-              {
-                href: '/sample-report-2',
-                label: 'Example Report 2',
-                desc: 'Full Session · Terrain Map',
-              },
-            ].map(({ href, label, desc }) => (
-              <Link
-                key={href}
-                href={href}
-                className="group flex items-start gap-4 border border-slate-100 hover:border-teal-200 rounded-xl p-6 transition-all hover:shadow-sm"
-              >
-                <div className="w-10 h-10 rounded-lg bg-slate-50 group-hover:bg-teal-50 flex items-center justify-center shrink-0 transition-colors">
-                  <FileText className="w-5 h-5 text-slate-400 group-hover:text-teal-600 transition-colors" />
-                </div>
-                <div>
-                  <p className="font-medium text-slate-800 text-sm mb-1 group-hover:text-teal-700 transition-colors">{label}</p>
-                  <p className="text-[10px] font-mono tracking-widest text-slate-400 uppercase">{desc}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <Link
+            href="/maps/public"
+            className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-medium text-sm transition-colors group"
+          >
+            Browse example maps →
+          </Link>
         </div>
       </section>
 

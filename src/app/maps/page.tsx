@@ -135,6 +135,26 @@ export default function MapsPage() {
         </div>
       </section>
 
+      {/* ==================== PUBLIC FIGURES BRIDGE ==================== */}
+      <section className="py-16 px-6 bg-white border-t border-slate-100">
+        <div className="max-w-2xl mx-auto flex items-start gap-5">
+          <div className="shrink-0 w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center">
+            <svg className="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+          </div>
+          <div>
+            <p className="text-slate-700 font-medium mb-2">See the methodology in action.</p>
+            <p className="text-slate-500 text-sm leading-relaxed mb-4">
+              A growing archive of Terrain Maps applied to public figures whose interior lives are extensively documented -- based entirely on publicly available writing, interviews, and biographical material.
+            </p>
+            <Link href="/maps/public" className="inline-flex items-center gap-1.5 text-sm text-teal-600 hover:text-teal-700 font-medium transition-colors">
+              View example maps →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ==================== PRACTICE BRIDGE ==================== */}
       <section className="py-16 px-6 bg-white">
         <div className="max-w-2xl mx-auto">

@@ -96,6 +96,7 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
             items={[
               { href: '/sessions', text: 'Sessions', sub: 'Full Session and Terrain Session' },
               { href: '/maps', text: 'The Maps', sub: 'The full map library' },
+              { href: '/maps/public', text: 'Example Maps', sub: 'Public figures, mapped' },
               { href: '/practice', text: 'The Practice', sub: 'A lifelong cartographic practice' },
             ]}
           />
@@ -176,6 +177,9 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
               </Link>
               <Link href="/maps" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
                 The Maps
+              </Link>
+              <Link href="/maps/public" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
+                Example Maps
               </Link>
               <Link href="/practice" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
                 The Practice

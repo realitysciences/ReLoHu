@@ -855,6 +855,15 @@ function LandingContent() {
               }
             </p>
           </div>
+
+          <div className="mt-4 p-5 bg-white rounded-xl border border-slate-200 max-w-2xl mx-auto">
+            <p className="text-slate-600 text-sm leading-relaxed">
+              {lang === 'en'
+                ? <>Curious what a Terrain Map actually looks like? See the methodology applied to public figures — Eckhart Tolle, Joe Rogan, and more — based entirely on their public record. <a href="/maps/public" className="text-teal-600 hover:text-teal-700 font-medium">View example maps →</a></>
+                : <>¿Curioso cómo se ve un Terrain Map? Mira la metodología aplicada a figuras públicas — basada completamente en su registro público. <a href="/maps/public" className="text-teal-600 hover:text-teal-700 font-medium">Ver mapas de ejemplo →</a></>
+              }
+            </p>
+          </div>
         </div>
       </section>
 

@@ -27,6 +27,28 @@ const sections = [
     ],
   },
   {
+    id: 'questions',
+    label: 'The right questions reorganize thinking before any intervention begins',
+    intro: 'The ReLoHu intake is not data collection. The questions are designed to reach places you have not reached on your own. Research shows that well-designed questions do not just extract information. They change it.',
+    studies: [
+      {
+        citation: 'Braun, J. D., Strunk, D. R., Sasso, K. E., & Cooper, A. A. (2015). Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression. Behaviour Research and Therapy, 70, 32-37.',
+        finding: 'Therapist use of Socratic questioning (guided discovery through questions rather than direct instruction) predicted session-to-session symptom change in cognitive therapy. Sessions with more Socratic questioning produced greater improvement.',
+        relevance: 'The intake questions are Socratic in structure. They do not tell you what to see. They guide you to see it yourself. This research shows that process produces measurable change, session by session.',
+      },
+      {
+        citation: 'Miller, W. R., & Rollnick, S. (2013). Motivational interviewing: Helping people change (3rd ed.). New York: Guilford Press.',
+        finding: 'Decades of research on motivational interviewing demonstrate that open-ended, reflective questions elicit "change talk," which is the strongest predictor of behavioral change. The person\'s own articulation of their situation, prompted by the right question, is more powerful than external instruction.',
+        relevance: 'When Dr. David asks "where do you think that comes from?" the answer you give is doing therapeutic work in real time. You are articulating something you have not said before. That articulation, not the map that comes later, is already producing change.',
+      },
+      {
+        citation: 'Finn, S. E., & Tonsager, M. E. (1997). Information-gathering and therapeutic models of assessment: Complementary paradigms. Psychological Assessment, 9(4), 374-385.',
+        finding: 'Distinguished between "information-gathering" assessment (extracting data) and "therapeutic" assessment (using the assessment process itself as an intervention). Demonstrated that when assessment is conducted with attention to the client\'s experience, the process of being questioned produces insight independent of any feedback or results.',
+        relevance: 'The ReLoHu intake is a therapeutic assessment, not an information-gathering one. The questions are designed to surface what matters, and the act of answering them is already the beginning of the work.',
+      },
+    ],
+  },
+  {
     id: 'narrative',
     label: 'Narrative coherence causes better mental health',
     intro: 'The terrain map gives you a coherent, written narrative of your psychological architecture. The research shows this is not just helpful. It is causal.',

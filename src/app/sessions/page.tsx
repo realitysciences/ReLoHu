@@ -328,6 +328,13 @@ export default function SessionsPage() {
           <p className="text-slate-400 text-sm mt-8 leading-relaxed">
             The questions change depending on who you are and what you bring. These are examples, not a script. There is no script.
           </p>
+
+          <div className="mt-10 p-6 bg-teal-50 border border-teal-100 rounded-2xl">
+            <p className="text-teal-800 font-medium mb-2">The questions are not just gathering information.</p>
+            <p className="text-teal-700 text-sm leading-relaxed">
+              They are designed to reach places you have not reached on your own. Most people report that the conversation itself shifted how they see something, before the terrain map even arrives. The map is the deliverable. The questions have already started working.
+            </p>
+          </div>
         </div>
       </section>
 

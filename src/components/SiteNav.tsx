@@ -91,10 +91,12 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
               { href: '/not-therapy', text: 'Not Therapy', sub: 'How it differs from treatment' },
             ]}
           />
+          <Link href="/sessions" className="text-sm font-semibold text-teal-600 hover:text-teal-700 transition-colors">
+            Get Mapped
+          </Link>
           <DropdownMenu
             label="The Work"
             items={[
-              { href: '/sessions', text: 'Sessions', sub: 'Full Session and Terrain Session' },
               { href: '/maps', text: 'The Maps', sub: 'The full map library' },
               { href: '/maps/public', text: 'Example Maps', sub: 'Public figures, mapped' },
               { href: '/practice', text: 'The Practice', sub: 'A lifelong cartographic practice' },
@@ -162,6 +164,10 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
             </div>
           )}
 
+          <Link href="/sessions" className="py-2.5 text-sm font-semibold text-teal-600 hover:text-teal-700" onClick={() => setMenuOpen(false)}>
+            Get Mapped
+          </Link>
+
           {/* The Work group */}
           <button
             className="flex items-center justify-between w-full py-2.5 text-sm font-medium text-slate-500 uppercase tracking-widest text-left"
@@ -172,9 +178,6 @@ export default function SiteNav({ onBookClick, extra, hideBookButton }: { onBook
           </button>
           {workOpen && (
             <div className="flex flex-col gap-1 pl-3 mb-1">
-              <Link href="/sessions" className="py-2 text-sm font-semibold text-teal-600 hover:text-teal-700" onClick={() => setMenuOpen(false)}>
-                Sessions
-              </Link>
               <Link href="/maps" className="py-2 text-sm font-medium text-slate-600 hover:text-teal-600" onClick={() => setMenuOpen(false)}>
                 The Maps
               </Link>

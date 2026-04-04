@@ -27,12 +27,11 @@ export default function SiteFooter() {
           <Link href="/privacy" className="hover:text-teal-600 transition-colors">Privacy</Link>
         </div>
         <p className="text-slate-400 text-sm">
-          © 2026 ReLoHu. All Rights Reserved. | Built by{' '}
+          © 2026 Spheronaut LLC. All rights reserved. | Built by{' '}
           <a href="https://svgvisual.com" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 underline underline-offset-2">
             SVG
           </a>
         </p>
-        <p className="text-slate-500 text-xs">ReLoHu is operated by Spheronaut LLC</p>
         <p className="text-slate-400 text-xs">Your sessions are confidential. Your data is never sold.</p>
       </div>
     </footer>

@@ -139,8 +139,15 @@ export default function MuskTrumpMapPage() {
               href="/maps/public/elon-musk"
               className="flex-1 border border-slate-200 hover:border-teal-300 rounded-xl px-5 py-4 text-sm text-slate-600 hover:text-teal-600 transition-all"
             >
-              <p className="font-medium mb-1">Elon Musk</p>
+              <p className="font-medium mb-1">Elon Musk: Terrain Map</p>
               <p className="text-slate-400 text-xs">Control architecture as wound response</p>
+            </Link>
+            <Link
+              href="/maps/public/donald-trump"
+              className="flex-1 border border-slate-200 hover:border-teal-300 rounded-xl px-5 py-4 text-sm text-slate-600 hover:text-teal-600 transition-all"
+            >
+              <p className="font-medium mb-1">Donald Trump: Terrain Map</p>
+              <p className="text-slate-400 text-xs">The Fred Trump architecture and the approval wound</p>
             </Link>
           </div>
         </div>

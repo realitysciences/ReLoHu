@@ -156,6 +156,13 @@ const figures = [
     tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
   },
   {
+    slug: 'donald-trump',
+    name: 'Donald Trump',
+    field: '45th and 47th President of the United States, real estate developer',
+    hook: 'The wound of conditional approval produced in Jamaica Estates by Fred Trump Sr. is still running. It has been running through every deal, every campaign rally, and every executive order. The presidency did not change the terrain. The terrain used the presidency.',
+    tags: ['Fred Trump architecture', 'Conditional approval wound', 'Outer-borough to center', 'The approval alarm'],
+  },
+  {
     slug: 'musk-trump',
     name: 'Elon Musk + Donald Trump',
     field: 'Relationship Map · Entrepreneur, CEO · 47th President of the United States',

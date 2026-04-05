@@ -120,6 +120,13 @@ const figures = [
     hook: 'The cost of excellence performed for others. What happens when a quiet person is handed a very loud platform and finally names the price.',
     tags: ['Quiet person, loud platform', 'The cost of visibility', 'The act of naming', 'Identity and belonging'],
   },
+  {
+    slug: 'zendaya',
+    name: 'Zendaya',
+    field: 'Actress, producer, former Disney Channel performer',
+    hook: 'One of the best-documented cases of someone who achieved at the highest level from a very young age and came out structurally intact. The question is not how she succeeded but what the architecture beneath the ascent actually looks like.',
+    tags: ['The scaffold', 'Controlled ascent', 'The capsule', 'Craft as anchor'],
+  },
 ]
 
 export default function PublicMapsIndexPage() {

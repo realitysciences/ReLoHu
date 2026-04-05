@@ -172,7 +172,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       'anthony-bourdain', 'brene-brown', 'darryl-anka', 'eckhart-tolle',
       'elon-musk', 'joe-rogan', 'kanye-west', 'kill-tony-574',
       'malala-yousafzai', 'naomi-osaka', 'oprah-winfrey', 'prince-harry',
-      'simone-biles', 'steve-jobs', 'taylor-swift', 'trent-reznor',
+      'simone-biles', 'steve-jobs', 'taylor-swift', 'trent-reznor', 'zendaya',
     ].map((slug) => ({
       url: `${base}/maps/public/${slug}`,
       lastModified: now,

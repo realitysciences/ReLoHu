@@ -97,7 +97,7 @@ export default function DonaldTrumpMapPage() {
         <div className="max-w-2xl mx-auto">
           <div className="rounded-2xl overflow-hidden border border-slate-700/50 aspect-video">
             <iframe
-              src="https://www.youtube.com/embed/4O9D4CRQs4A"
+              src="https://www.youtube.com/embed/7b5yESiFhd0"
               title="Donald Trump"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

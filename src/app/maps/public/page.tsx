@@ -156,13 +156,6 @@ const figures = [
     tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
   },
   {
-    slug: 'william-shatner',
-    name: 'William Shatner',
-    field: 'Actor, author, went to space at age 90',
-    hook: 'Still performing at 90. The Kirk problem, the survival drive, the death of Nerine, and the moment on the Blue Origin capsule when he wept and could not explain why. That is the map.',
-    tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
-  },
-  {
     slug: 'musk-trump',
     name: 'Elon Musk + Donald Trump',
     field: 'Relationship Map · Entrepreneur, CEO · 47th President of the United States',

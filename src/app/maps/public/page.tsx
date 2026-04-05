@@ -156,6 +156,20 @@ const figures = [
     tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
   },
   {
+    slug: 'carl-jung',
+    name: 'Carl Jung',
+    field: 'Psychiatrist, founder of analytical psychology (1875-1961)',
+    hook: 'He built the most comprehensive map of the human interior the twentieth century produced, entirely from the inside. The wound was the insufficient framework he inherited from a father who lost his faith. The method was a new framework large enough to hold the question the old one could not.',
+    tags: ['Wound-to-framework', 'The two personalities', 'Freud rupture', 'The Red Book'],
+  },
+  {
+    slug: 'sigmund-freud',
+    name: 'Sigmund Freud',
+    field: 'Neurologist, founder of psychoanalysis (1856-1939)',
+    hook: 'The founder of psychoanalysis as terrain subject: the mother\'s favorite who needed recognition at scale, the father\'s son who watched submission and vowed surpassal, and the theory that universalized one man\'s specific wound as the human condition.',
+    tags: ['The inflation wound', 'Jakob\'s submission', 'Jewish wound in Vienna', 'The Oedipus projection'],
+  },
+  {
     slug: 'donald-trump',
     name: 'Donald Trump',
     field: '45th and 47th President of the United States, real estate developer',

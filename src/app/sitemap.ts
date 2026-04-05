@@ -170,11 +170,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Public figure maps
     ...[
       'anthony-bourdain', 'andrew-tate', 'britney-spears', 'brene-brown',
-      'darryl-anka', 'donald-trump', 'eckhart-tolle', 'elon-musk',
-      'joe-rogan', 'kanye-west', 'kill-tony-574', 'malala-yousafzai',
-      'musk-trump', 'naomi-osaka', 'oprah-winfrey', 'prince-harry',
-      'sam-altman', 'simone-biles', 'steve-jobs', 'swift-braun',
-      'taylor-swift', 'trent-reznor', 'william-shatner', 'zendaya',
+      'carl-jung', 'darryl-anka', 'donald-trump', 'eckhart-tolle',
+      'elon-musk', 'joe-rogan', 'kanye-west', 'kill-tony-574',
+      'malala-yousafzai', 'musk-trump', 'naomi-osaka', 'oprah-winfrey',
+      'prince-harry', 'sam-altman', 'sigmund-freud', 'simone-biles',
+      'steve-jobs', 'swift-braun', 'taylor-swift', 'trent-reznor',
+      'william-shatner', 'zendaya',
     ].map((slug) => ({
       url: `${base}/maps/public/${slug}`,
       lastModified: now,

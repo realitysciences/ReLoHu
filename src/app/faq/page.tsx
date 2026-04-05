@@ -87,7 +87,7 @@ const faqGroups = [
     items: [
       {
         q: 'Can\'t I just type my answers into an AI and get the same result?',
-        a: 'The output might look superficially similar. But the data quality would be categorically different. Human beings do not disclose in a vacuum the way they disclose in dialogue. The presence of someone who is genuinely listening activates a different mode of self-expression. You go deeper, stay longer with difficult material, and arrive at formulations you would not have reached alone. AI output is only as good as its input. ReLoHu creates the conditions for deep input.',
+        a: 'You could open any AI right now and ask it to map your interior. What you would get is generic output. The differentiator is not the AI itself — it is the lens the AI runs through: a specific vocabulary, a precise set of map types, and interpretive frameworks built over a decade. ReLoHu uses AI the way a surgeon uses a scalpel. The tool does not do the surgery. The lens does. Beyond that, the data quality would be different too: human beings disclose in dialogue differently than they disclose alone. The witness changes what you say. But even with identical input, generic AI has no Terrain Map framework to run it through.',
       },
       {
         q: 'What does a human witness actually change?',

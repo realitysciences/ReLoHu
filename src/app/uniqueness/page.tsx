@@ -239,7 +239,7 @@ export default function UniquenessPage() {
               {
                 icon: Bot,
                 question: 'Can\'t I just use an AI?',
-                answer: 'Most people don\'t know how to externalize their interior into language, don\'t know what questions to ask once the data is out, and don\'t have the frameworks to run against it. AI output is only as good as its input. ReLoHu creates conditions for the kind of input most people have never produced.',
+                answer: 'You could. The differentiator is the lens — a specific vocabulary, a precise set of map types, and interpretive frameworks built over a decade. ReLoHu uses AI the way a surgeon uses a scalpel. The tool does not do the surgery. The lens does. Generic AI has no Terrain Map framework. What it produces is generic.',
               },
               {
                 icon: Mic,
@@ -318,10 +318,10 @@ export default function UniquenessPage() {
             <div className="relative">
               <p className="text-xs font-mono tracking-widest text-teal-400 uppercase mb-6">The Principle</p>
               <p className="text-xl md:text-2xl font-light text-white leading-relaxed mb-6">
-                ReLoHu is not a technology product. It is a human process, one that uses technology to do something that has never been possible before: produce a complete psychological map from a single session.
+                ReLoHu uses AI the way a surgeon uses a scalpel. The tool does not do the surgery. What does the surgery is the lens: the Terrain Map vocabulary, the map types, the interpretive frameworks developed over a decade. That lens is what separates a specific psychological portrait from generic output.
               </p>
               <p className="text-slate-400 leading-relaxed mb-4">
-                The human witness is irreplaceable. The depth of the conversation cannot be automated. But what that conversation produces, when run through Transcengine™, ReLoHu's proprietary AI analysis system, is something that would have taken a skilled practitioner a year of careful observation to assemble. That is what 2026 makes possible.
+                The human witness is irreplaceable. The depth of the conversation cannot be automated. But what that conversation produces, when run through Transcengine™ — ReLoHu's proprietary AI methodology — is something that would have taken a skilled practitioner a year of careful observation to assemble. That is what 2026 makes possible.
               </p>
               <p className="text-slate-400 leading-relaxed mb-4">
                 There is also a subtler thing the intake does. Being told accurate things about yourself by a therapist, a partner, or anyone else who cares about you can still feel like confrontation. The accuracy doesn't always land. That is not a truth-delivery problem. It is a consent problem. People have to agree to update their map of themselves — and that agreement cannot be forced by information alone. The intake creates conditions where that agreement happens naturally: where you are not being confronted with accuracy, but are actively choosing to be seen. That is why it works differently.

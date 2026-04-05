@@ -127,6 +127,55 @@ const figures = [
     hook: 'One of the best-documented cases of someone who achieved at the highest level from a very young age and came out structurally intact. The question is not how she succeeded but what the architecture beneath the ascent actually looks like.',
     tags: ['The scaffold', 'Controlled ascent', 'The capsule', 'Craft as anchor'],
   },
+  {
+    slug: 'andrew-tate',
+    name: 'Andrew Tate',
+    field: 'Kickboxer, media personality, founder of Hustlers University',
+    hook: 'One of the clearest cases of a wound architecture that got mistaken for a philosophy. The absent exceptional father, the hostile social environment, the body as proof: the entire structure is legible once you know where to look.',
+    tags: ['Absent father idealization', 'Body as proof', 'Control vector', 'Masculinity as wound response'],
+  },
+  {
+    slug: 'sam-altman',
+    name: 'Sam Altman',
+    field: 'CEO of OpenAI, former president of Y Combinator',
+    hook: 'The November 2023 firing and return is one of the most revealing terrain events in recent public life. A weekend of being removed from the thing you built, then reinstated with more authority than before, tells you something interviews cannot reach.',
+    tags: ['Power orientation', 'Texture of containment', 'The firing rupture', 'The return'],
+  },
+  {
+    slug: 'britney-spears',
+    name: 'Britney Spears',
+    field: 'Singer, performer, subject of one of the most documented conservatorships in public life',
+    hook: 'The wound of conditional worth, manufactured from adolescence. The conservatorship made legal what was already true in her architecture. One of the most legible cases of autonomy suppression and what thirteen years of it does to the interior.',
+    tags: ['Manufactured architecture', 'Conditional worth', 'Autonomy suppression', 'The act of naming'],
+  },
+  {
+    slug: 'william-shatner',
+    name: 'William Shatner',
+    field: 'Actor, author, went to space at age 90',
+    hook: 'Still performing at 90. The Kirk problem, the survival drive, the death of Nerine, and the moment on the Blue Origin capsule when he wept and could not explain why. That is the map.',
+    tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
+  },
+  {
+    slug: 'william-shatner',
+    name: 'William Shatner',
+    field: 'Actor, author, went to space at age 90',
+    hook: 'Still performing at 90. The Kirk problem, the survival drive, the death of Nerine, and the moment on the Blue Origin capsule when he wept and could not explain why. That is the map.',
+    tags: ['The Kirk problem', 'Survival drive', 'The relational record', 'Space at 90'],
+  },
+  {
+    slug: 'musk-trump',
+    name: 'Elon Musk + Donald Trump',
+    field: 'Relationship Map · Entrepreneur, CEO · 47th President of the United States',
+    hook: 'Two men whose entire architecture requires them to be the most important person in the room, trying to share a room. The terrain analysis is not about politics. It is about structural collision and why the outcome is not difficult to predict.',
+    tags: ['Relationship map', 'Two wound structures', 'Cannot share the center', 'Terrain prediction'],
+  },
+  {
+    slug: 'swift-braun',
+    name: 'Taylor Swift + Scooter Braun',
+    field: 'Relationship Map · Singer-songwriter · Music executive',
+    hook: 'The most public case in recent memory of a business transaction directly activating a wound structure the other party did not know was there. Taylor\'s Version is not a business decision. It is a terrain response.',
+    tags: ['Relationship map', 'Documentation wound', 'Acquisition as wound activation', "Taylor's Version as terrain act"],
+  },
 ]
 
 export default function PublicMapsIndexPage() {
